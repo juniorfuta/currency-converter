@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    border-bottom: solid 1px #111;
+    overflow: auto;
+    padding: 10px;
+}
+
+.image {
+    width: 100px;
+    height: 80px;
+    float: right;
+}
