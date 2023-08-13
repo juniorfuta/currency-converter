@@ -11,12 +11,16 @@
     gap: 16px;
 }
 
+#navbar h3 {
+    color: rgb(20, 20, 148);
+}
+
 
 .sidenav {
     position: fixed;
     left: 0;
     top: 0;
-    height: 80%;
+    height: 60%;
     width: 0;
     z-index: 1;
     background-color: rgb(183, 233, 232);
@@ -29,21 +33,18 @@
 
 #navbar span {
     font-size: 20px;
-    color: rgb(14, 14, 188);
+    color: rgb(20, 20, 148);
     display: flex;
     align-items: center;
 }
 
 .theme, .authors {
-    padding: 10px;
-    border: solid 1px rgb(185, 180, 180);
+    padding: 5px;
+    border: solid 1px rgb(119, 116, 116);
     border-radius: 10px;
-    margin: 10px;
+    margin: 15px;
 }
 
-.theme {
-    text-align: center;
-}
 
 a {
     text-decoration: none;
@@ -53,6 +54,13 @@ a {
     border: solid 1px #111;
     padding: 10px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 15px;
     background: none;
+    align-items: center;
+}
+
+.closebtn {
+        float: right;
+        text-decoration: none;
+        font-size: 20px;
 }
