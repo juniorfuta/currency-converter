@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+   
 }
 
 #navbar {
@@ -12,4 +13,11 @@
     width: 100px;
     height: 80px;
     float: right;
+}
+
+.sidenav {
+    overflow-x: hidden;
+    transition: 0.5s;
+    background: #eae1e1;
+    z-index: 1;
 }
