@@ -11,6 +11,7 @@
     gap: 16px;
 }
 
+
 .sidenav {
     position: fixed;
     left: 0;
@@ -27,14 +28,13 @@
 }
 
 #navbar span {
-    padding-top: 0;
     font-size: 20px;
     color: rgb(14, 14, 188);
     display: flex;
     align-items: center;
 }
 
-.authors {
+.theme, .authors {
     padding: 10px;
     border: solid 1px rgb(185, 180, 180);
     border-radius: 10px;
