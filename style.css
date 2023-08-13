@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-   
+
 }
 
 #navbar {
@@ -16,8 +16,10 @@
 }
 
 .sidenav {
+    width: 0;
+    z-index: 1;
+    background-color: #ebe3e3;
     overflow-x: hidden;
     transition: 0.5s;
-    background: #eae1e1;
-    z-index: 1;
+    padding-top: 60px;
 }
