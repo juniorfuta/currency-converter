@@ -4,49 +4,45 @@
 }
 
 #navbar {
-    border-bottom: solid 1px #111;
-    overflow: auto;
+    border: solid 1px #111;
+    border-radius: 10px;
     padding: 10px;
     display: flex;
-}
-
-.image {
-    width: 100px;
-    height: 80px;
-    float: right;
+    gap: 16px;
 }
 
 .sidenav {
     position: fixed;
-    left:0;
+    left: 0;
     top: 0;
     height: 80%;
     width: 0;
     z-index: 1;
-    background-color: #ebe3e3;
+    background-color: rgb(183, 233, 232);
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
     padding: 0;
-    
+
 }
 
 #navbar span {
     padding-top: 0;
     font-size: 20px;
     color: rgb(14, 14, 188);
+    display: flex;
+    align-items: center;
 }
 
-.theme, .authors {
+.authors {
     padding: 10px;
-    border:solid 1px rgb(185, 180, 180);
+    border: solid 1px rgb(185, 180, 180);
     border-radius: 10px;
     margin: 10px;
-    
 }
 
 .theme {
-    text-align: center; 
+    text-align: center;
 }
 
 a {
@@ -54,10 +50,9 @@ a {
 }
 
 .btn {
-    border:solid 1px #111;
+    border: solid 1px #111;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
     background: none;
-
 }
