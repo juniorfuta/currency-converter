@@ -66,6 +66,16 @@ a {
 }
 
 .container {
-    text-align: center;
-    color: rgb(20, 20, 148);
+    text-align: center; 
+    color: rgb(20, 20, 148); 
+    justify-content: center;   
+}
+
+.input-currency {
+    border: solid 1px #111;
+    display: flex;
+}
+
+.form1 {
+    display: block;
 }
