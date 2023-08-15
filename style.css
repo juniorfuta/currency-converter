@@ -73,7 +73,7 @@ a {
 
 .input-currency {
     border: solid 1px #111;
-    display: flex;
+    /* display: flex; */
 }
 
 .form1 {
@@ -82,4 +82,8 @@ a {
 .keybord {
     text-align: center;
     
+}
+
+.history{
+    text-align: center;
 }
