@@ -50,6 +50,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .btn {
     border: solid 1px #111;
     padding: 10px;
@@ -91,22 +95,45 @@ a {
 .footer1 {
     border-top: solid 1px #111;
     width: 100%;
+    padding-top: 20px;
+    color:  rgb(20, 20, 148); 
 }
 
 .footer2 {
+    padding-left: 450px;
+    padding-top: 10px;
+    display: flex;
     border-top: solid 1px #111;
+    margin: 15px;
+    gap: 100px;
+   
 }
 
 li {
     flex-direction: row;
-    gap: 16px;
-    align-content: space-between;   
+    text-align: center; 
 }
 
 .footer3 {
+    font-weight: 700;
     align-content: flex-end;
     text-align: center;
     border-top: solid 1px #111;
     border-right: solid 1px #111;
     border-left: solid 1px #111;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer3 a:hover {
+    color: blue;
+    text-decoration: underline;
 }
