@@ -87,3 +87,26 @@ a {
 .history{
     text-align: center;
 }
+
+.footer1 {
+    border-top: solid 1px #111;
+    width: 100%;
+}
+
+.footer2 {
+    border-top: solid 1px #111;
+}
+
+li {
+    flex-direction: row;
+    gap: 16px;
+    align-content: space-between;   
+}
+
+.footer3 {
+    align-content: flex-end;
+    text-align: center;
+    border-top: solid 1px #111;
+    border-right: solid 1px #111;
+    border-left: solid 1px #111;
+}
