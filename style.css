@@ -185,7 +185,7 @@ ul {
     padding: 20px;
     width: 700px;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-gap: 5px;
+    gap: 5px;
     border-bottom: none;
 }
 
@@ -196,4 +196,12 @@ ul {
 
 .btn0 {
     grid-column: 1/3;
+}
+
+#main {
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
 }
