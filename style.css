@@ -34,7 +34,7 @@
 
 #main {
     transition: margin-left .5s;
-    padding: 16px;       
+    padding: 16px;
 }
 
 #navbar span {
@@ -44,7 +44,8 @@
     align-items: center;
 }
 
-.theme, .authors {
+.theme,
+.authors {
     padding: 5px;
     border: solid 1px rgb(119, 116, 116);
     border-radius: 10px;
@@ -74,15 +75,15 @@ a:hover {
 }
 
 .closebtn {
-        float: right;
-        text-decoration: none;
-        font-size: 20px;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .container {
-    text-align: center; 
-    color: rgb(20, 20, 148); 
-          
+    text-align: center;
+    color: rgb(20, 20, 148);
+    margin-bottom: 10px;
 }
 
 .input-currency {
@@ -93,12 +94,16 @@ a:hover {
 .form1 {
     display: block;
 }
-.keybord {
+
+.keybord p {
+    width: 700px;
+    border: solid 1px #111;
     text-align: center;
-    
+    padding: 10px;
+    margin: 0;
 }
 
-.history{
+.history {
     text-align: center;
 }
 
@@ -106,7 +111,7 @@ a:hover {
     border-top: solid 1px #111;
     width: 100%;
     padding-top: 20px;
-    color:  rgb(20, 20, 148); 
+    color: rgb(20, 20, 148);
 }
 
 .footer2 {
@@ -116,12 +121,12 @@ a:hover {
     border-top: solid 1px #111;
     margin: 15px;
     gap: 100px;
-   
+
 }
 
 li {
     flex-direction: row;
-    text-align: center; 
+    text-align: center;
 }
 
 .footer3 {
@@ -150,7 +155,6 @@ ul {
 
 .history {
     border: solid 1px #111;
-    margin: 0 25% 0 25% ;
     width: 700px;
     display: flex;
     justify-content: center;
@@ -159,7 +163,33 @@ ul {
 }
 
 @media screen and (max-height: 600px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-    .history {display: none;}
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .history {
+        display: none;
+    }
+}
+
+#keys {
+    display: grid;
+    border: solid 1px black;
+    padding: 20px;
+    width: 700px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 5px;
+}
+
+.btn-clear,
+.btn-backspace {
+    grid-column: 4/6;
+}
+
+.btn0 {
+    grid-column: 1/3;
 }
