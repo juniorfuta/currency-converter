@@ -124,7 +124,6 @@ a:hover {
     border-top: solid 1px #111;
     margin: 15px;
     gap: 100px;
-
 }
 
 li {
@@ -180,10 +179,10 @@ ul {
 }
 
 #keys {
+    
     display: grid;
     border: solid 1px black;
     padding: 20px;
-    width: 700px;
     grid-template-columns: 20% 20% 20% 20% 20%;
     gap: 5px;
     border-bottom: none;
