@@ -102,8 +102,9 @@ a:hover {
     font-size: 20px;
     padding: 12px;
     border-radius: 5px;
-    background: none ; 
+    background: none; 
 }
+
 .subject, .inputs {
     width: 100%;
     padding: 3px;
@@ -213,12 +214,11 @@ ul {
 }
 
 #keys {
-
     display: grid;
     border: solid 1px black;
     padding: 20px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    gap: 5px;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    gap: 7px;
     border-bottom: none;
 }
 
@@ -237,6 +237,11 @@ ul {
     flex-direction: column;
     place-items: center;
     place-content: center;
+
+}
+
+#keys button {
+    width: 100%;
 
 }
 
