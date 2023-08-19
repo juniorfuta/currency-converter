@@ -87,14 +87,29 @@ a:hover {
 }
 
 .input-currency {
+    gap:10px;
     border: solid 1px #111;
     width: 700px;
     margin-bottom: 10px;
-    /* display: flex; */
+    display: flex; 
+    place-items: center;
+    place-content: center;
+}
+
+.btn-copy {
+    font-size: 20px;
+    padding: 12px;
+}
+.subject, .inputs {
+    width: 100%;
+    padding: 3px;
+    margin: 5px;
 }
 
 .form1 {
     display: block;
+    width: 80%;
+   
 }
 
 .keybord p {
@@ -179,7 +194,7 @@ ul {
 }
 
 #keys {
-    
+
     display: grid;
     border: solid 1px black;
     padding: 20px;
@@ -203,5 +218,5 @@ ul {
     flex-direction: column;
     place-items: center;
     place-content: center;
-    
+
 }
