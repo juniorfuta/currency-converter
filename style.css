@@ -346,6 +346,8 @@ color: #ffffff;
     display: flex;
     flex-direction: row;
     gap: 5px;
+    text-decoration: none;
+    color: rgb(24, 24, 119);
     
 }
 
