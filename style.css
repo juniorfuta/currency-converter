@@ -88,6 +88,7 @@ a:hover {
 
 .input-currency {
     gap:10px;
+    border-radius: 5px;
     border: solid 1px #111;
     width: 700px;
     margin-bottom: 10px;
@@ -109,10 +110,11 @@ a:hover {
 .form1 {
     display: block;
     width: 80%;
-   
+    margin: 3px;
 }
 
 .keybord p {
+    border-radius: 5px 5px 0 0;
     width: 700px;
     border: solid 1px #111;
     text-align: center;
@@ -171,6 +173,7 @@ ul {
 }
 
 .history {
+    border-radius: 0 0 5px 5px;
     border: solid 1px #111;
     width: 700px;
     display: flex;
