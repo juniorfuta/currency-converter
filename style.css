@@ -282,6 +282,7 @@ ul {
 
 .contacts {
    text-align: center; 
+   margin-top: 60px;
 }
 
 
@@ -339,6 +340,17 @@ color: #ffffff;
     grid-template-columns: 19% 19% 19% 19%;
     place-items: center;
     place-content: center;
+    
+}
+
+.profils-divises a {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.profils-divises span {
+    margin-top: 20px;
 }
 
 .divises h4 {
