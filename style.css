@@ -63,11 +63,11 @@ img {
     margin-top: 25px;
 }
 
-a {
+.footer2 a {
     text-decoration: none;
 }
 
-a:hover {
+.footer2 a:hover {
     text-decoration: underline;
 }
 
@@ -273,10 +273,10 @@ ul {
 .footer {
     border-radius: 7px 7px 0 0;
     width: 100vw;
-    background: rgb(41, 130, 189); 
+    background: rgb(41, 130, 189);
     margin-left: -10px;
     margin-bottom: -10px;
-    border-top:  1px solid #111;
+    /* border-top:  1px solid #111; */
     color: #ffffff;
 }
 
@@ -292,4 +292,8 @@ ul {
     margin-right: 35px;
     font-size: 20px;
     color: #ffffff;
+}
+
+.contacts a {
+color: #ffffff;
 }
