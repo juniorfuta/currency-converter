@@ -297,3 +297,50 @@ ul {
 .contacts a {
 color: #ffffff;
 }
+
+.flag-image  {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.flag-image-jp {
+    width: 32px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.flag-image-au {
+    width: 30px;
+    height: 40px;
+    border-radius: 500px;
+}
+
+.flag-image-eu {
+    width: 40px;
+    height: 30px;
+    border-radius: 500px;
+}
+
+.flag-image-in {
+    width: 35px;
+    height: 30px;
+    border-radius: 500px;
+}
+
+.flag-image-cn {
+    width: 35px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.profils-divises {
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19%;
+    place-items: center;
+    place-content: center;
+}
+
+.divises h4 {
+    text-align: center;
+}
