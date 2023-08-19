@@ -110,6 +110,19 @@ a:hover {
     margin: 5px;
 }
 
+.subject {
+    border: none;
+}
+
+.inputs {
+    border: solid 1px #111;
+    border-radius: 5px;
+}
+
+.inputs:hover {
+    border: solid 2px #111;
+    border-radius: 5px;
+}
 .form1 {
     display: block;
     width: 80%;
