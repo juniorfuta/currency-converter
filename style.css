@@ -18,25 +18,22 @@ img {
     gap: 7px;
 }
 
- h3 {
+h3 {
     color: rgb(41, 130, 189);
 }
 
 
 .sidenav {
     position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 0;
+    height: 71%;
     z-index: 1;
-    /* background-color: rgb(62, 61, 61); */
+    width: 0;
+    background-color:  rgb(41, 130, 189);
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
     padding: 0;
-    color: black;
-
+    color: white
 }
 
 #main {
@@ -54,9 +51,14 @@ img {
 .theme,
 .authors {
     padding: 5px;
-    border: solid 1px rgb(119, 116, 116);
+    border: solid 2px white;
     border-radius: 10px;
     margin: 20px;
+}
+
+.sidenav h3 {
+    color: #ffffff;
+    text-align: center;
 }
 
 .theme {
