@@ -8,7 +8,7 @@ img {
     height: 25px;
     display: flex;
     margin-top: 15px;
-} 
+}
 
 #navbar {
     border: solid 1px #111;
@@ -28,7 +28,7 @@ h3 {
     height: 71%;
     z-index: 1;
     width: 0;
-    background-color:  rgb(41, 130, 189);
+    background-color: rgb(41, 130, 189);
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
@@ -83,15 +83,15 @@ a {
 }
 
 .btns {
- display: flex;
- justify-content: center;
- gap: 17px;
- margin-bottom: 5px;
- margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 5px;
+    margin: 20px;
 }
 
 .btn {
-    border: solid 2px  rgb(24, 24, 119);
+    border: solid 2px rgb(24, 24, 119);
     padding: 10px;
     border-radius: 10px;
     background: none;
@@ -99,8 +99,8 @@ a {
 }
 
 .btn:hover {
-     border: solid 2px  white;
-     color: white;
+    border: solid 2px white;
+    color: white;
 }
 
 .closebtn {
@@ -112,7 +112,7 @@ a {
 }
 
 .closebtn i {
-    color: #ffffff;  
+    color: #ffffff;
 }
 
 .container {
@@ -303,8 +303,8 @@ ul {
 }
 
 .contacts {
-   text-align: center; 
-   margin-top: 60px;
+    text-align: center;
+    margin-top: 60px;
 }
 
 
@@ -318,7 +318,7 @@ ul {
 }
 
 .contacts a {
-color: rgb(56, 55, 55)
+    color: rgb(56, 55, 55)
 }
 
 .contacts a:hover {
@@ -326,7 +326,7 @@ color: rgb(56, 55, 55)
 }
 
 
-.flag-image  {
+.flag-image {
     width: 30px;
     height: 30px;
     border-radius: 10px;
@@ -375,7 +375,7 @@ color: rgb(56, 55, 55)
     gap: 5px;
     text-decoration: none;
     color: rgb(24, 24, 119);
-    
+
 }
 
 .profils-divises span {
@@ -387,5 +387,5 @@ color: rgb(56, 55, 55)
 }
 
 .profils-divises a:hover {
-        text-decoration: underline;
+    text-decoration: underline;
 }
