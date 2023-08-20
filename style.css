@@ -57,12 +57,14 @@ h3 {
 }
 
 .sidenav h3 {
+    margin-top: 2px;
     color: #ffffff;
     text-align: center;
 }
 
 .theme {
     margin-top: 25px;
+    text-align: center;
 }
 
 a {
@@ -74,13 +76,24 @@ a {
     text-decoration: underline;
 }
 
+.btns {
+ display: flex;
+ justify-content: center;
+ gap: 17px;
+ margin-bottom: 5px;
+}
+
 .btn {
-    border: solid 1px #ffffff;
+    border: solid 2px  rgb(24, 24, 119);
     padding: 10px;
     border-radius: 10px;
     background: none;
-    align-items: center;
-    color: white;
+    color: rgb(24, 24, 119);
+}
+
+.btn:hover {
+     border: solid 2px  white;
+     color: white;
 }
 
 .closebtn {
