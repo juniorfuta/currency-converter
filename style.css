@@ -78,16 +78,21 @@ a {
     border: solid 1px #ffffff;
     padding: 10px;
     border-radius: 10px;
-    margin: 15px;
     background: none;
     align-items: center;
     color: white;
 }
 
 .closebtn {
-    float: right;
+    place-items: center;
     text-decoration: none;
     font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+.closebtn i {
+    color: #ffffff;  
 }
 
 .container {
