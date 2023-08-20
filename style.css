@@ -260,20 +260,6 @@ ul {
     text-align: center;
 }
 
-@media screen and (max-height: 600px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-
-    .history {
-        display: none;
-    }
-}
-
 #keys {
     display: grid;
     border: solid 1px black;
