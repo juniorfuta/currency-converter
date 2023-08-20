@@ -50,6 +50,7 @@ h3 {
 
 .theme,
 .authors {
+    position: relative;
     padding: 5px;
     border: solid 2px white;
     border-radius: 10px;
@@ -57,9 +58,14 @@ h3 {
 }
 
 .sidenav h3 {
+    position: absolute;
+    top: -15px;
+    left: 15px;
     margin-top: 2px;
     color: #ffffff;
     text-align: center;
+    background-color: none;
+    z-index: 1;
 }
 
 .theme {
@@ -81,6 +87,7 @@ a {
  justify-content: center;
  gap: 17px;
  margin-bottom: 5px;
+ margin: 20px;
 }
 
 .btn {
