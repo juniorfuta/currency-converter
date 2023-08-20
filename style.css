@@ -174,7 +174,8 @@ a {
 }
 
 .subject:hover {
-    box-shadow: 0 0 0 1px rgba(52, 152, 219, 0.7);
+    border: none;
+    box-shadow: 0 0 0 0.5px rgba(52, 152, 219, 0.7);
 }
 
 .inputs {
