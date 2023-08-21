@@ -9,20 +9,26 @@ img {
 }
 
 #logo {
+    padding-left: 135px;
     display: flex;
-    gap: 12px;
+    gap: 4px;
 }
 
 #navbar {
     display: grid;
     border: solid 1px #111;
     border-radius: 10px;
-    grid-template-columns: 42% 42% 42%;
-   /* 
-    padding: 10px;
-    display: flex;
-    gap: 7px;
-    */
+    grid-template-columns: 33% 33% 33%;
+}
+
+#menu {
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+#language {
+    padding-top: 20px;
+    padding-left: 370px;
 }
 
 h3 {
