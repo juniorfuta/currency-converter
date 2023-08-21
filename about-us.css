@@ -25,6 +25,7 @@ h1 {
 } 
 
 #content p{
+    text-indent: 5%;
     text-align: justify;
     color: #665e5e;
 }
