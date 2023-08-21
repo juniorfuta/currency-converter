@@ -31,6 +31,14 @@ img {
     padding-left: 370px;
 }
 
+#language select {
+    border-radius: 5px;
+}
+
+#language i {
+    color: rgb(41, 130, 189);
+}
+
 h3 {
     color: rgb(41, 130, 189);
 }
