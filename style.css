@@ -24,7 +24,7 @@ h3 {
 
 
 .sidenav {
-    position: fixed;
+    position: absolute;
     height: 71%;
     z-index: 1;
     width: 0;
