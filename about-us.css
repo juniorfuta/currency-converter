@@ -26,7 +26,14 @@ h1 {
     margin: 0 25% 0 25%;
 } 
 
-p{
+#content p{
     text-align: justify;
     color: #665e5e;
+}
+
+footer p {
+    margin-top: 40px;
+    font-weight: bold;
+    color:  rgb(41, 130, 189);
+    text-align: center
 }
