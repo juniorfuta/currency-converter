@@ -19,3 +19,10 @@ h1 {
     text-align: center;
     color:  rgb(41, 130, 189);
 }
+
+footer p {
+    margin-top: 40px;
+    font-weight: bold;
+    color:  rgb(41, 130, 189);
+    text-align: center
+}
