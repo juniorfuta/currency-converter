@@ -52,24 +52,31 @@ h3 {
 .authors {
     position: relative;
     padding: 5px;
-    border: solid 2px white;
+    border: solid 1px rgb(29, 33, 139);
     border-radius: 10px;
     margin: 20px;
 }
 
 .sidenav h3 {
-    position: absolute;
-    top: -15px;
     left: 15px;
-    margin-top: 2px;
-    color: #ffffff;
+    margin: 10px;
+    color: #13145e;
     text-align: center;
     background-color: none;
     z-index: 1;
 }
 
+.authors {
+   height: 50%;
+}
+
+.authors p {
+   text-align: center;
+   color: #13145e;
+ }
+
 .theme {
-    margin-top: 25px;
+    margin: 40px 20px;
     text-align: center;
 }
 
@@ -113,7 +120,7 @@ a {
 }
 
 .closebtn i {
-    color: #ffffff;
+    color:#13145e;
 }
 
 .container {
