@@ -26,11 +26,6 @@ function copied2() {
   text.innerHTML = "COPIED";
 }
 
-document.getElementById(textInput).input = function () {
-  var x = document.getElementById("textInput").value;
-  document.getElementById("output").innerHTML = x;
-}
-
 function validateInput() {
   // Get the value of the input field
   let x = document.getElementById("input1").value
