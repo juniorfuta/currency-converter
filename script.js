@@ -26,13 +26,21 @@ function copied2() {
   text.innerHTML = "COPIED";
 }
 
+
 function validateInput() {
   // Get the value of the input field
   let x = document.getElementById("input1").value
   //test input
   let warnigText = document.getElementById("output1");
   if (isNaN(x)) {
-    warnigText.innerHTML = "invalid format";
+    warnigText.innerHTML = "Invalid format";
   }
 }
 
+const b =document.getElementById('myBtn');
+    
+b.addEventListener('click', myFunction);
+
+function myFunction() {
+    alert('Hello World!');
+}
