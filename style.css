@@ -167,6 +167,10 @@ a {
     box-shadow: 0 0 0 0.5px rgba(52, 152, 219, 0.7); 
 }
 
+#output1 {
+    color: red;
+}
+
 .btn-copy {
     border: #111 1px solid;
     font-size: 20px;
