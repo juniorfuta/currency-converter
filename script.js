@@ -12,13 +12,11 @@ function closeNav() {
 
 const numbInput = document.getElementById('input1');
 
-const btnInput1 = document.getElementById('btn1');
+let num;
 
-btnInput1.addEventListener('click', inputNum);
+function inputNum(num) {
 
-function inputNum() {
-
-  const numbDesired = 1;
+  const numbDesired = num;
 
   numbInput.value += numbDesired;
 }
