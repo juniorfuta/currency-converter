@@ -26,10 +26,19 @@ function copied2() {
   text.innerHTML = "COPIED";
 }
 
-let textInput = document.getElementById ('numberInput');
-let textOut= document.getElementById ('textOut');
+document.getElementById(textInput).input= function (){
+  var x = document.getElementById("textInput").value;
+  document.getElementById("output").innerHTML = x;
+}
 
-textInput.addEventListener ('input', function(){
-    textOut.textContent= 'you tiped:' + textInput.value;
-  })
+//fonction test
+
+function writeTest () {
+  document.getElementById("output").innerHTML = 'test writting';
+}
+
+function deleteTest () {
+  document.getElementById("output").innerHTML = '';
+}
+
 
