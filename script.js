@@ -13,7 +13,6 @@ function closeNav() {
 let text;
 
 function writeInput(text) {
-
   const numbInput = document.getElementById('input1');
   const currentValue = numbInput.value;
   const newValue = currentValue + text;
@@ -21,10 +20,9 @@ function writeInput(text) {
 }
 
 // Code of the C button 
-function cleanInput()
-{
+function cleanInput() {
   const numbInput = document.getElementById('input1');
-  numbInput.value="";
+  numbInput.value = "";
 
 }
 //functions for the button copy
@@ -46,6 +44,10 @@ function copied2() {
   text.innerHTML = "COPIED";
 }
 
+//input number validation
+valueInput=document.getElementById('input1');
+
+valueInput.addEventListener('input', validateInput);
 
 function validateInput() {
   // Get the value of the input field
@@ -54,6 +56,10 @@ function validateInput() {
   let warnigText = document.getElementById("output1");
   if (isNaN(x)) {
     warnigText.innerHTML = "Invalid format";
+  }
+  else
+  {
+    warnigText.innerHTML = "";
   }
 }
 
