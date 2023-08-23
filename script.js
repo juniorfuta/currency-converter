@@ -8,18 +8,18 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
-  //Testing inputs focus 
-  const inp = document.querySelectorAll('input[type="text"]');
+//Testing inputs focus 
+const inp = document.querySelectorAll('input[type="text"]');
 
-  inp.forEach(input => {
-    input.addEventListener('focus', function (event) {
-      if (event.target === input1) {
-        
-      } else if (event.target === input2) {
-        
-      }
-    });
+inp.forEach(input => {
+  input.addEventListener('focus', function (event) {
+    if (event.target === input1) {
+
+    } else if (event.target === input2) {
+
+    }
   });
+});
 
 // Intoducing numbers with button
 
