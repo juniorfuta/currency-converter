@@ -45,7 +45,7 @@ function copied2() {
 }
 
 //input number validation
-valueInput=document.getElementById('input1');
+valueInput = document.getElementById('input1');
 
 valueInput.addEventListener('input', validateInput);
 
@@ -57,8 +57,7 @@ function validateInput() {
   if (isNaN(x)) {
     warnigText.innerHTML = "Invalid format";
   }
-  else
-  {
+  else {
     warnigText.innerHTML = "";
   }
 }
