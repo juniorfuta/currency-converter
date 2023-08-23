@@ -10,15 +10,14 @@ function closeNav() {
 
 // Intoducing numbers with button
 
-const numbInput = document.getElementById('input1');
+let text;
 
-let num;
+function writeInput(text) {
 
-function inputNum(num) {
-
-  const numbDesired = num;
-
-  numbInput.value += numbDesired;
+  const numbInput = document.getElementById('input1');
+  const currentValue = numbInput.value;
+  const newValue = currentValue + text;
+  numbInput.value = newValue;
 }
 
 //functions for the button copy
@@ -51,10 +50,3 @@ function validateInput() {
   }
 }
 
-const b = document.getElementById('myBtn');
-
-b.addEventListener('click', myFunction);
-
-function myFunction() {
-  alert('Hello World!');
-}
