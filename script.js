@@ -19,6 +19,21 @@ function writeInput(text) {
   numbInput.value = newValue;
 }
 
+//Testing inputs focus 
+const inp = document.querySelectorAll('input[type="text"]');
+
+inp.forEach(input => {
+  input.addEventListener('focus', function (event) {
+    if (event.target === input1) {
+      console.log('Input 1 is focused.');
+      // You can perform specific actions for input 1 here
+    } else if (event.target === input2) {
+      console.log('Input 2 is focused.');
+      // You can perform specific actions for input 2 here
+    }
+  });
+});
+
 // Code of the C button 
 function cleanInput() {
   const numbInput = document.getElementById('input1');
@@ -49,6 +64,12 @@ valueInput = document.getElementById('input1');
 
 valueInput.addEventListener('input', validateInput);
 
+// valueInput.addEventListener('focus', alertFunction);
+
+//  function alertFunction(){
+//   console.log('Input 1 is focused.');
+// }
+
 function validateInput() {
   // Get the value of the input field
   let x = document.getElementById("input1").value
@@ -61,4 +82,3 @@ function validateInput() {
     warnigText.innerHTML = "";
   }
 }
-
