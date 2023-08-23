@@ -26,3 +26,9 @@ footer p {
     color:  rgb(41, 130, 189);
     text-align: center
 }
+
+p{
+    text-indent: 15%;
+    text-align: justify;
+    color: #665e5e;
+}
