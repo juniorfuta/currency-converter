@@ -20,6 +20,13 @@ function writeInput(text) {
   numbInput.value = newValue;
 }
 
+// Code of the C button 
+function cleanInput()
+{
+  const numbInput = document.getElementById('input1');
+  numbInput.value="";
+
+}
 //functions for the button copy
 function copied1() {
   document.getElementById("btn1").style.color = "green";
