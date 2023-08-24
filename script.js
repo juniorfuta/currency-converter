@@ -19,7 +19,7 @@ inp.forEach(input => {
 
     }
   });
-});
+}); 
 
 // Intoducing numbers with button
 
