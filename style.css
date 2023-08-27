@@ -451,20 +451,28 @@ ul {
     color: rgb(24, 24, 119);
 }
 
-@media (max-width: 480px) {
-    .main {
-        color: red;
-        background-color: red;
+@media (width <= 480px) {
+    
+
+    #navbar {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    } 
+
+    #main {
         display: flex;
         place-content: center;
         place-items: center;
     }
-    .sidenav{
+
+    .sidenav {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
         position: absolute;
         height: 71%;
     }
 
     .footer {
-        color: red;
+        width: auto;
     }
 }
