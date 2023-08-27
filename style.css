@@ -463,4 +463,8 @@ ul {
         position: absolute;
         height: 71%;
     }
+
+    .footer {
+        color: red;
+    }
 }
