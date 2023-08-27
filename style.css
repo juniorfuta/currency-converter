@@ -452,11 +452,11 @@ ul {
 }
 
 @media screen and (max-width: 800px) {
-    .footer {
-        width: auto;
-    }
+  
     .main {
-        width: 100%;
+        display: flex;
+        place-content: center;
+        place-items: center;
     }
     .sidenav{
         position: absolute;
