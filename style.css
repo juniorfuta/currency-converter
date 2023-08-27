@@ -454,7 +454,7 @@ ul {
 @media screen and (max-width: 800px) {
 
     .main {
-        background-attachment: red;
+        background-color: red;
         display: flex;
         place-content: center;
         place-items: center;
