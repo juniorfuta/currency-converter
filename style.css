@@ -453,6 +453,7 @@ ul {
 
 @media (max-width: 480px) {
     .main {
+        color: red;
         background-color: red;
         display: flex;
         place-content: center;
