@@ -45,7 +45,7 @@ function copied1() {
   document.getElementById("btn1").style.border = " solid 2px green";
   let icon = document.getElementById("i1")
   icon.style.color = "green";
-  let text = document.getElementById("btn1").value;
+  let text = document.getElementById("btn1");
   text.innerHTML = "COPIED";
 }
 
@@ -54,8 +54,8 @@ function copied2() {
   document.getElementById("btn2").style.border = "solid 2px green";
   let icon = document.getElementById("i2")
   icon.style.color = "green";
-  let text1 = document.getElementById("btn2");
-  text1.innerHTML = "COPIED";
+  let text = document.getElementById("btn2");
+  text.innerHTML = "COPIED";
 }
 
 //input number validation1
