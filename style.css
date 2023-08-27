@@ -451,8 +451,7 @@ ul {
     color: rgb(24, 24, 119);
 }
 
-@media screen and (max-width: 800px) {
-
+@media (max-width: 480px) {
     .main {
         background-color: red;
         display: flex;
@@ -463,4 +462,3 @@ ul {
         position: absolute;
         height: 71%;
     }
-}
