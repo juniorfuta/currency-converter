@@ -35,6 +35,55 @@
     border-radius: 5px;
 }
 
+.sidenav{
+    position: absolute;
+    height: 71%;
+    z-index: 1;
+    width: 0;
+    background-color: rgb(41, 130, 189);
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 0;
+    color: white
+}
+
+.theme,
+.authors {
+    position: relative;
+    padding: 5px;
+    border: solid 1px rgb(29, 33, 139);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.sidenav h3 {
+    left: 15px;
+    margin: 10px;
+    color: #13145e;
+    text-align: center;
+    background-color: none;
+    z-index: 1;
+}
+
+.authors {
+   height: 50%;
+}
+
+.authors p {
+   text-align: center;
+   color: #13145e;
+ }
+
+.theme {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+#main{
+        width: 100vw;
+}
+
 .profils-divises img{
     width: 25px;
     height: 25px;
