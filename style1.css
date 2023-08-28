@@ -4,12 +4,56 @@
 }
 
 #navbar {
-    background-color: brown;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
+    border: solid 1px #111;
+    border-radius: 10px;
+    color: rgb(41, 130, 189);
+    flex-direction: row;
 }
- 
+
 #logo {
     display: flex;
+    gap: 4px;
 }
+
+#logo img{
+    margin-top: 13px;
+}
+
+#menu-btn {
+    margin: 17px 0 0 15px
+}
+
+#language {
+    margin: 17px 15px 0 0;
+    color: rgb(41, 130, 189);
+}
+
+#language select{
+    border-radius: 5px;
+}
+
+.profils-divises img{
+    width: 25px;
+    height: 25px;
+}
+
+@media (width <= 480px) {
+
+    #menu-btn {
+        margin: 27px 0 0 10px
+    }
+
+    #language {
+        margin: 27px 10px 0 0;
+    }
+
+    #logo{
+        padding-right: 10px;
+        width: 40%;
+    }
+
+}
+
