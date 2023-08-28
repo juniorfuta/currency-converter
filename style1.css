@@ -84,10 +84,25 @@
         width: 100vw;
 }
 
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: brown;
+    justify-content: center;
+}
+
+.input-currency {
+    background-color: chartreuse;
+    display: flex;
+}
+
 .profils-divises img{
     width: 25px;
     height: 25px;
 }
+
 
 @media (width <= 480px) {
 
