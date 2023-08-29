@@ -109,6 +109,8 @@
 .footer {
     background: rgb(41, 130, 189);
     width: 100vw;
+    color: #dad5d5;
+    padding-top: 10px;
 }
 
 .divises h4{
