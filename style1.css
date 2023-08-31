@@ -130,6 +130,16 @@ a{
     gap: 10px;
 }
 
+#contacts-container{
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+}
+
+
+
 @media (width <= 480px) {
 
     #menu-btn {
