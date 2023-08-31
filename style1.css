@@ -123,8 +123,10 @@ a{
 }
 
 .profils-divises {
+    margin: 0 20px 0 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 25% 25% 25%;
+    place-content: center;
     gap: 10px;
 }
 
@@ -143,5 +145,8 @@ a{
         width: 30%;
     }
 
+    .profils-divises{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
-
