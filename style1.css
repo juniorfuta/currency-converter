@@ -139,7 +139,7 @@ a{
 }
 
 .contacts ul {
-    background-color: darkorchid; 
+    /* background-color: darkorchid;  */
     list-style-type: none;
     display: flex;
     gap: 20px;
