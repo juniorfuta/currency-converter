@@ -95,7 +95,6 @@ a {
     flex-direction: column;
     place-items: center;
     background-color: brown;
-    border: solid 1px #111;
 }
 
 .input-currency {
