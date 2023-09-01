@@ -110,7 +110,7 @@ a {
 }
 
 .profils-divises span {
-    padding-top:14px;
+    padding-top: 14px;
     /* background-color: deeppink; */
     place-content: center;
 }
@@ -134,10 +134,15 @@ a {
     gap: 10px;
 }
 
-.profils-divises a{
- display: flex;
- background-color: cornsilk; 
- margin-left: 100px;
+.profils-divises a {
+    gap: 5px;
+    display: flex;
+    /* background-color: cornsilk; */
+    margin-left: 100px;
+}
+
+.profils-divises a:hover { 
+    text-decoration: underline;
 }
 
 #contacts-container {
@@ -152,7 +157,7 @@ a {
     /* background-color: darkorchid; */
     list-style-type: none;
     display: flex;
-    gap: 20px; 
+    gap: 20px;
 }
 
 .contacts a {
@@ -172,7 +177,7 @@ a {
 }
 
 .footer2 a:hover {
-    text-decoration: underline;  
+    text-decoration: underline;
 }
 
 @media (width <=480px) {
@@ -193,8 +198,9 @@ a {
     .profils-divises {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .profils-divises a {
+        font-size: 12px;
         margin: 0;
     }
 
