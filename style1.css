@@ -106,9 +106,7 @@ a {
 }
 
 .profils-divises img {
-    width: 30px;
-    height: 30px;
-    /* background-color: cyan; */
+    background-color: cyan;
 }
 
 .footer {
