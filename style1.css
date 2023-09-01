@@ -139,7 +139,7 @@ a {
 }
 
 .contacts ul {
-    background-color: darkorchid;  
+    background-color: darkorchid;
     list-style-type: none;
     display: flex;
     gap: 20px;
@@ -148,7 +148,10 @@ a {
 }
 
 .footer2 {
-    
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    background-color: #13145e;
 }
 
 @media (width <=480px) {
