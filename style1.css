@@ -154,6 +154,10 @@ a {
     transition: box-shadow 0.1s ease;
 }
 
+.contacts a:hover {
+    color: #e7e3e3;
+}
+
 .footer2 {
     display: flex;
     gap: 20px;
