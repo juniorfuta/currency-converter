@@ -106,7 +106,13 @@ a {
 }
 
 .profils-divises img {
-    /* background-color: cyan; */
+    /* background-color: cyan;  */
+}
+
+.profils-divises span {
+    padding-top:14px;
+    /* background-color: deeppink; */
+    place-content: center;
 }
 
 .footer {
@@ -129,7 +135,8 @@ a {
 }
 
 .profils-divises a{
- /* background-color: cornsilk; */
+ display: flex;
+ background-color: cornsilk; 
  margin-left: 100px;
 }
 
