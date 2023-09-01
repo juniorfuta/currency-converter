@@ -106,7 +106,7 @@ a {
 }
 
 .profils-divises img {
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 
 .footer {
@@ -123,13 +123,14 @@ a {
 .profils-divises {
     margin: 0 20px 0 20px;
     display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 30% 30% 30%;
     place-content: center;
     gap: 10px;
 }
 
 .profils-divises a{
- background-color: cornsilk;
+ /* background-color: cornsilk; */
+ margin-left: 100px;
 }
 
 #contacts-container {
@@ -184,6 +185,10 @@ a {
 
     .profils-divises {
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .profils-divises a {
+        margin: 0;
     }
 
 }
