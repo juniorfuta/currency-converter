@@ -108,7 +108,7 @@ a {
 .profils-divises img {
     width: 30px;
     height: 30px;
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 
 .footer {
@@ -131,7 +131,7 @@ a {
 }
 
 #contacts-container {
-    background-color: coral;
+    /* background-color: coral; */
     display: flex;
     flex-direction: column;
     place-content: center;
@@ -139,7 +139,7 @@ a {
 }
 
 .contacts ul {
-    background-color: darkorchid;
+    /* background-color: darkorchid; */
     list-style-type: none;
     display: flex;
     gap: 20px;
@@ -149,7 +149,7 @@ a {
     display: flex;
     gap: 20px;
     list-style-type: none;
-    background-color: #13145e;
+    /* background-color: #13145e; */
 }
 
 @media (width <=480px) {
