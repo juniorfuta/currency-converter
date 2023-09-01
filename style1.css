@@ -143,8 +143,6 @@ a {
     list-style-type: none;
     display: flex;
     gap: 20px;
-    margin-right: 10px;
-    justify-content: space-around;
 }
 
 .footer2 {
