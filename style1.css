@@ -97,8 +97,6 @@ a {
 }
 
 .input-currency {
-    justify-content: space-between;
-    place-content: center;
     width: 60%;
     height: 60PX;
     background-color: chartreuse;
