@@ -107,14 +107,21 @@ a {
     gap: 5px;
 }
 
-.form1 {
+.form1 {            
     width: 90%;
+    margin: 5px;
     /* background-color: gold; */
 }
 
 .subject, .inputs {
     width: 100%;
     height: 50%;
+    border-radius: 8px;
+}
+
+.subject {
+    border: none;
+    margin-bottom: 0.5ch;
 }
 
 #btn1, #btn2 {
