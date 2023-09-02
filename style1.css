@@ -99,6 +99,7 @@ a {
 .input-currency {
     place-content: center;
     width: 60%;
+    height: 60PX;
     background-color: chartreuse;
     display: flex;
 }
@@ -125,7 +126,7 @@ a {
 #keys button {
     width: 100%;
     background: none;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #000000;
     border-radius: 5px;
     transition: box-shadow 0.1s ease;
