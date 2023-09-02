@@ -97,11 +97,26 @@ a {
 }
 
 .input-currency {
+    justify-content: space-between;
     place-content: center;
     width: 60%;
     height: 60PX;
     background-color: chartreuse;
     display: flex;
+}
+
+.form1 {
+    width: 90%;
+    background-color: gold;
+}
+
+.subject, .inputs {
+    width: 100%;
+    height: 50%;
+}
+
+#btn1, #btn2 {
+    width: 20%;
 }
 
 #keybord {
