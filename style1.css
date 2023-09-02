@@ -132,7 +132,6 @@ a {
     gap: 5px;
     display: flex;
     /* background-color: cornsilk; */
-    margin-left: 100px;
 }
 
 .profils-divises a:hover { 
@@ -165,7 +164,7 @@ a {
 }
 
 .footer2 {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     display: flex;
     gap: 80px;
     list-style-type: none;
