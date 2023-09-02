@@ -123,6 +123,11 @@ a {
     transition: box-shadow 0.1s ease;
 }
 
+#keys button:hover {
+    border: none;
+    box-shadow: 0 0 0 1.5px rgba(52, 152, 219, 0.7);
+}
+
 .btn-clear,
 .btn-backspace {
     grid-column: 4/6;
