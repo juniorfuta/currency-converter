@@ -103,6 +103,15 @@ a {
 
 }
 
+#keybord {
+    text-align: center;
+    width: 60%;
+    border: solid 1px #111;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 #keys {
     border: solid 1px #111;
     padding: 4px;
@@ -111,8 +120,6 @@ a {
     width: 60%;
     gap: 5px;
     grid-template-columns: repeat(5, 1fr);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 #keys button {
@@ -144,8 +151,8 @@ a {
     width: 60%;
     margin-bottom: 40px;
     border-top: none;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .profils-divises span {
@@ -248,11 +255,9 @@ a {
         gap: 20px;
     }
 
-    #keys {
-        width: 90%;
-    }
-
-    #history {
-        width: 90%;
+    #keys,
+    #history,
+    #keybord {
+        width: 91%;
     }
 }
