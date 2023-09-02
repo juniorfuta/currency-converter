@@ -97,10 +97,10 @@ a {
 }
 
 .input-currency {
-    height: 90px;
+    place-content: center;
+    width: 60%;
     background-color: chartreuse;
     display: flex;
-
 }
 
 #keybord {
@@ -257,7 +257,8 @@ a {
 
     #keys,
     #history,
-    #keybord {
+    #keybord,
+    .input-currency {
         width: 91%;
     }
 }
