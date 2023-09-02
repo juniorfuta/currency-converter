@@ -97,15 +97,18 @@ a {
 }
 
 .input-currency {
-    width: 60%;
-    height: 60PX;
-    background-color: chartreuse;
+    width: 50%;
+    height:70px;
+    /* background-color: chartreuse; */
     display: flex;
+    border: solid 1px #111;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .form1 {
     width: 90%;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .subject, .inputs {
@@ -119,7 +122,7 @@ a {
 
 #keybord {
     text-align: center;
-    width: 60%;
+    width: 50%;
     border: solid 1px #111;
     border-bottom: none;
     border-top-left-radius: 10px;
@@ -131,7 +134,7 @@ a {
     padding: 4px;
     /* background-color: aqua; */
     display: grid;
-    width: 60%;
+    width: 50%;
     gap: 5px;
     grid-template-columns: repeat(5, 1fr);
 }
@@ -162,7 +165,7 @@ a {
 #history {
     text-align: center;
     border: 1px solid #111;
-    width: 60%;
+    width: 50%;
     margin-bottom: 40px;
     border-top: none;
     border-bottom-left-radius: 10px;
