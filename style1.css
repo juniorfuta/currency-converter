@@ -113,6 +113,11 @@ a {
     /* background-color: gold; */
 }
 
+#output1,
+#output2 {
+    color: red;
+}
+
 .subject, .inputs {
     width: 100%;
     height: 50%;
