@@ -98,7 +98,7 @@ a {
 
 .input-currency {
     width: 50%;
-    height:70px;
+    height: 70px;
     /* background-color: chartreuse; */
     display: flex;
     border: solid 1px #111;
@@ -107,7 +107,7 @@ a {
     gap: 5px;
 }
 
-.form1 {            
+.form1 {
     width: 90%;
     margin: 5px;
     /* background-color: gold; */
@@ -118,7 +118,8 @@ a {
     color: red;
 }
 
-.subject, .inputs {
+.subject,
+.inputs {
     width: 100%;
     height: 50%;
     border-radius: 8px;
@@ -129,12 +130,15 @@ a {
     margin-bottom: 0.5ch;
 }
 
-#btn1, #btn2 {
+#btn1,
+#btn2 {
     width: 20%;
-    border: solid 2px rgb(41, 130, 189);;
+    border: solid 2px rgb(41, 130, 189);
+    ;
     border-radius: 10px;
     background: none;
-    color: rgb(41, 130, 189);;
+    color: rgb(41, 130, 189);
+    ;
     font-weight: 600;
     font-size: 16px;
 }
