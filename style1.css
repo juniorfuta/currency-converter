@@ -26,6 +26,10 @@ a {
     margin-top: 13px;
 }
 
+#canadian-flag {
+    border-radius: 15px;
+}
+
 #menu-btn {
     margin: 17px 0 0 15px
 }
