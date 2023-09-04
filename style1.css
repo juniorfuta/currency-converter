@@ -3,8 +3,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
+.container h2{
+    /* font-size: 90%; */
+    font-size:20px; 
 }
 
 #navbar {
@@ -306,6 +307,11 @@ a {
 
     #btn1,
     #btn2 {
-        font-size: 50%;
+        font-size: 60%;
     }
+
+    .container h2{
+        font-size: 90%;
+    }
+
 }
