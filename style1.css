@@ -138,13 +138,11 @@ a {
 #btn2 {
     width: 20%;
     border: solid 2px rgb(41, 130, 189);
-    ;
     border-radius: 10px;
     background: none;
     color: rgb(41, 130, 189);
-    ;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 80%;
 }
 
 #keybord {
@@ -304,5 +302,10 @@ a {
     #keybord,
     .input-currency {
         width: 91%;
+    }
+
+    #btn1,
+    #btn2 {
+        font-size: 50%;
     }
 }
