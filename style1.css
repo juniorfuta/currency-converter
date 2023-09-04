@@ -24,7 +24,9 @@
 }
 
 #logo img {
-    margin-top: 13px;
+    margin-top: 15px;
+    width: 27px;
+    height: 27px;
 }
 
 #canadian-flag {
@@ -314,4 +316,8 @@
         font-size: 90%;
     }
 
+    #logo img{
+        width: 20px;
+        height: 20px;
+    }
 }
