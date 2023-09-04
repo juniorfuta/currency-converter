@@ -320,4 +320,13 @@
         width: 20px;
         height: 20px;
     }
+
+    #language select {
+        /* background-color: chocolate; */
+        font-size: 10px;
+    }
+
+    #language i {
+        font-size: 12px;
+    }
 }
