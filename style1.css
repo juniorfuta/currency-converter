@@ -11,7 +11,7 @@
 #navbar {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     border: solid 1px #111;
     border-radius: 10px;
     color: rgb(41, 130, 189);
@@ -21,6 +21,10 @@
 #logo {
     display: flex;
     gap: 4px;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: chocolate; */
+    margin-left: 130px;
 }
 
 #logo img {
@@ -207,7 +211,7 @@
 }
 
 .footer {
-    background: rgb(41, 130, 189);
+    /* background: rgb(41, 130, 189); */
     width: 100vw;
     color: #c2bcbc;
     padding-top: 10px;
@@ -286,6 +290,7 @@
         padding-right: 10px;
         width: 30%;
         gap: 1px;
+        margin-left: 80px;
     }
 
     .profils-divises {
