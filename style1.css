@@ -47,7 +47,7 @@
 }
 
 #language select {
-    border-radius: 5px;
+    border: none;
 }
 
 .sidenav {
@@ -211,7 +211,7 @@
 }
 
 .footer {
-    /* background: rgb(41, 130, 189); */
+    background: rgb(41, 130, 189); 
     width: 100vw;
     color: #c2bcbc;
     padding-top: 10px;
