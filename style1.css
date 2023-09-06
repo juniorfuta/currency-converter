@@ -338,6 +338,10 @@
         font-size: 9px;   
     }
 
+    .dropdown-content a {
+        font-size: 7px;
+    }
+
     #logo {
         padding-right: 10px;
         width: 30%;
