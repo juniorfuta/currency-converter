@@ -328,7 +328,12 @@
     }
 
     #language {
-        margin: 20px 10px 0 0;
+        margin: 18px 10px 0 0;
+    }
+
+    .dropbtn {   
+        padding: 7px;
+        font-size: 9px;   
     }
 
     #logo {
