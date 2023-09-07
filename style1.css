@@ -435,4 +435,9 @@
         font-size: 12px;
     }
 
+    .sidenav {
+        height: 55%;
+        width: 10%;
+    }
+
 }
