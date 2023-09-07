@@ -165,6 +165,10 @@
     gap: 5px;
 }
 
+.input-currency:hover {
+    border: solid 2px rgb(41, 130, 189);
+}
+
 .form1 {
     width: 90%;
     margin: 5px;
