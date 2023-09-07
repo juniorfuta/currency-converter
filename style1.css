@@ -89,8 +89,8 @@
     font-size: 13px;
 }
 
-.dropdown a:hover {
-    background-color: #ddd;
+.dropdown-content a:hover {
+    text-decoration: underline;
 }
 
 .show {
