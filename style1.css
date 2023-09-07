@@ -110,6 +110,36 @@
     color: white
 }
 
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 5px;
+    margin: 20px;
+}
+
+.btn {
+    border: solid 2px rgb(24, 24, 119);
+    padding: 10px;
+    border-radius: 10px;
+    background: none;
+    color: rgb(24, 24, 119);
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border: solid 2px white;
+    color: white;
+}
+
+.closebtn {
+    place-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
 .theme,
 .authors {
     position: relative;
@@ -122,7 +152,7 @@
 .sidenav h3 {
     left: 15px;
     margin: 10px;
-    color: #13145e;
+    color: #c2bcbc;
     text-align: center;
     background-color: none;
     z-index: 1;
