@@ -280,6 +280,7 @@
     gap: 5px;
     display: flex;
     /* background-color: cornsilk; */
+    text-decoration: none;
 }
 
 .profils-divises a:hover {
@@ -319,7 +320,11 @@
     /* background-color: #e8e8d7;  */
 }
 
-.footer2 a:hover {
+.footer2 a, .footer3 a {
+    text-decoration: none;
+}
+
+.footer2 a:hover, .footer3 a:hover {
     text-decoration: underline;
 }
 
