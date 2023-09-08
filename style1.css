@@ -99,7 +99,7 @@
 
 .sidenav {
     position: absolute;
-    height: 71%;
+    height: 70%;
     z-index: 1;
     width: 0;
     background-color: rgb(41, 130, 189);
@@ -331,7 +331,7 @@
 
 .contacts ul {
     /* background-color: darkorchid;  */
-    list-style-type: none;
+    list-style-type: none;  
     display: flex;
     gap: 12px;
 }
@@ -436,7 +436,16 @@
     }
 
     .sidenav {
-        height: 55%;
+        font-size: 14px;
+        height: 50%;
     }
 
+    .authors {
+        height: 40%;
+        background-color: brown;
+    }
+    
+    .theme {
+        background-color: crimson;
+    }
 }
