@@ -3,14 +3,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
+.container h2 {
+    /* font-size: 90%; */
+    font-size: 20px;
 }
 
 #navbar {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     border: solid 1px #111;
     border-radius: 10px;
     color: rgb(41, 130, 189);
@@ -20,32 +21,109 @@ a {
 #logo {
     display: flex;
     gap: 4px;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: chocolate; */
+    margin-left: 130px;
 }
 
 #logo img {
-    margin-top: 13px;
+    margin-top: 15px;
+    width: 27px;
+    height: 27px;
 }
 
 #canadian-flag {
     border-radius: 15px;
 }
 
-#menu-btn {
-    margin: 17px 0 0 15px
+#container {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:#3498DB;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
 }
 
 #language {
-    margin: 17px 15px 0 0;
+    margin: 10px 15px 0 0;
     color: rgb(41, 130, 189);
 }
 
 #language select {
-    border-radius: 5px;
+    border: none;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3498DB;
+    min-width: 7px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 7px 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+.show {
+    display: block;
 }
 
 .sidenav {
     position: absolute;
-    height: 71%;
+    height: 70%;
     z-index: 1;
     width: 0;
     background-color: rgb(41, 130, 189);
@@ -54,6 +132,36 @@ a {
     border-radius: 10px;
     padding: 0;
     color: white
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 5px;
+    margin: 20px;
+}
+
+.btn {
+    border: solid 2px rgb(24, 24, 119);
+    padding: 10px;
+    border-radius: 10px;
+    background: none;
+    color: rgb(24, 24, 119);
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border: solid 2px white;
+    color: white;
+}
+
+.closebtn {
+    place-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
 }
 
 .theme,
@@ -68,7 +176,7 @@ a {
 .sidenav h3 {
     left: 15px;
     margin: 10px;
-    color: #13145e;
+    color: #c2bcbc;
     text-align: center;
     background-color: none;
     z-index: 1;
@@ -111,6 +219,10 @@ a {
     gap: 5px;
 }
 
+.input-currency:hover {
+    border: solid 2px rgb(41, 130, 189);
+}
+
 .form1 {
     width: 90%;
     margin: 5px;
@@ -138,13 +250,11 @@ a {
 #btn2 {
     width: 20%;
     border: solid 2px rgb(41, 130, 189);
-    ;
     border-radius: 10px;
     background: none;
     color: rgb(41, 130, 189);
-    ;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 80%;
 }
 
 #keybord {
@@ -228,6 +338,7 @@ a {
     gap: 5px;
     display: flex;
     /* background-color: cornsilk; */
+    text-decoration: none;
 }
 
 .profils-divises a:hover {
@@ -267,23 +378,40 @@ a {
     /* background-color: #e8e8d7;  */
 }
 
-.footer2 a:hover {
+.footer2 a,
+.footer3 a {
+    text-decoration: none;
+}
+
+.footer2 a:hover,
+.footer3 a:hover {
     text-decoration: underline;
 }
 
 @media (width <=480px) {
 
     #menu-btn {
-        margin: 27px 0 0 10px
+        margin: 18px 0 0 10px
     }
 
     #language {
-        margin: 27px 10px 0 0;
+        margin: 18px 10px 0 0;
+    }
+
+    .dropbtn {
+        padding: 7px;
+        font-size: 9px;
+    }
+
+    .dropdown-content a {
+        font-size: 8.5px;
     }
 
     #logo {
         padding-right: 10px;
         width: 30%;
+        gap: 1px;
+        margin-left: 80px;
     }
 
     .profils-divises {
@@ -304,5 +432,41 @@ a {
     #keybord,
     .input-currency {
         width: 91%;
+    }
+
+    #btn1,
+    #btn2 {
+        font-size: 60%;
+    }
+
+    .container h2,
+    #keybord,
+    h3 {
+        font-size: 90%;
+    }
+
+    #logo img {
+        margin-top: 10px;
+        /* background-color: gold; */
+        width: 20px;
+        height: 20px;
+    }
+
+    #language select {
+        /* background-color: chocolate; */
+        font-size: 10px;
+    }
+
+    #language i {
+        font-size: 12px;
+    }
+
+    .authors {
+        height: 40%;
+        background-color: brown;
+    }
+
+    .theme {
+        background-color: crimson;
     }
 }

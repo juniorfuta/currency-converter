@@ -1,12 +1,34 @@
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
 }
+
+function changeIcon(x) {
+  x.classList.toggle("change");
+}
+
+//I'm working here in the sidevnav
+
+document.getElementById("container").addEventListener("click", changeIcon(x) );
+
+
+
+/* document.getElementById("container").addEventListener("click", function() {
+  clickCount++;
+  if (clickCount === 1) {
+      if (clickCount === 1) {
+        // Handle single click action here
+        openNav();
+      } else if (clickCount === 2) {
+        // Handle double click action here
+        closeNav();
+      }
+      clickCount = 0;
+  }
+}); */
 
 //Testing inputs focus 
 const inp = document.querySelectorAll('input[type="text"]');
@@ -100,3 +122,24 @@ function validateInput2() {
 //  function alertFunction(){
 //   console.log('Input 1 is focused.');
 // }
+
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
