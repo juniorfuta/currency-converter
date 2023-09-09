@@ -6,6 +6,10 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
+function changeIcon(x) {
+  x.classList.toggle("change");
+}
+
 //Testing inputs focus 
 const inp = document.querySelectorAll('input[type="text"]');
 
