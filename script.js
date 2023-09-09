@@ -10,6 +10,26 @@ function changeIcon(x) {
   x.classList.toggle("change");
 }
 
+//I'm working here in the sidevnav
+
+document.getElementById("container").addEventListener("click", changeIcon(x) );
+
+
+
+/* document.getElementById("container").addEventListener("click", function() {
+  clickCount++;
+  if (clickCount === 1) {
+      if (clickCount === 1) {
+        // Handle single click action here
+        openNav();
+      } else if (clickCount === 2) {
+        // Handle double click action here
+        closeNav();
+      }
+      clickCount = 0;
+  }
+}); */
+
 //Testing inputs focus 
 const inp = document.querySelectorAll('input[type="text"]');
 
