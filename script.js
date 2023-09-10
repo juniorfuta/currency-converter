@@ -12,7 +12,7 @@ function changeIcon(x) {
 
 //I'm working here in the sidevnav
 
-document.getElementById("container").addEventListener("click", changeIcon(x) );
+document.getElementById("container").addEventListener("click", changeIcon(x));
 
 
 
