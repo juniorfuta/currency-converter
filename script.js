@@ -15,7 +15,6 @@ function changeIcon(x) {
 document.getElementById("container").addEventListener("click", changeIcon(x));
 
 
-
 /* document.getElementById("container").addEventListener("click", function() {
   clickCount++;
   if (clickCount === 1) {
@@ -87,7 +86,7 @@ valueInput1.addEventListener('input', validateInput1);
 
 function validateInput1() {
   // Get the value of the input field
-  let x = document.getElementById("input1").value
+  let x = document.getElementById("input1").value;
   //test input
   let warnigText = document.getElementById("output1");
   if (isNaN(x)) {
@@ -117,7 +116,7 @@ function validateInput2() {
   }
 }
 
-// valueInput.addEventListener('focus', alertFunction);
+//valueInput.addEventListener('focus', alertFunction);
 
 //  function alertFunction(){
 //   console.log('Input 1 is focused.');
