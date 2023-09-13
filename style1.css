@@ -470,4 +470,9 @@
     .theme {
         background-color: crimson;
     }
+
+    #container {
+        margin: 8px 15px;
+        background-color: coral;
+    }
 }
