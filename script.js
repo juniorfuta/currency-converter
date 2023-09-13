@@ -142,3 +142,15 @@ window.onclick = function(event) {
     }
   }
 }
+
+//Functions to convert
+var requestURL = 'https://api.exchangerate.host/convert?from=USD&to=EUR'; 
+var request = new XMLHttpRequest(); 
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+  var response = request.response;
+  console.log(response);
+}
