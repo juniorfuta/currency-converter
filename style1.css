@@ -474,4 +474,9 @@
     #container {
         margin: 8px 15px;
     }
+
+    .bar {
+        height: 3.5px;
+        width: 25px;
+    }
 }
