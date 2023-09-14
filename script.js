@@ -10,9 +10,12 @@ function changeIcon(x) {
   x.classList.toggle("change");
 }
 
-//I'm working here in the sidevnav
+//I'm working here in the sidevnav 14/09/2023
 
-document.getElementById("container").addEventListener("click", changeIcon(x));
+function testAlert () {
+  alert('Click Sindenav icon')
+}
+document.getElementById("container").addEventListener("click", testAler());
 
 
 /* document.getElementById("container").addEventListener("click", function() {
