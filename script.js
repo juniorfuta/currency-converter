@@ -1,3 +1,11 @@
+/*
+By: Palanca Technologies Softwares 
+CEO: Júnior Futa
+a.k.a: JFuta 21
+Email: juniorfuta94@gmail.com
+Instagram: @juniorfuta
+*/
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
@@ -157,3 +165,11 @@ request.onload = function() {
   var response = request.response;
   console.log(response);
 }
+
+/*
+By: Palanca Technologies Softwares 
+CEO: Júnior Futa
+a.k.a: JFuta 21
+Email: juniorfuta94@gmail.com
+Instagram: @juniorfuta
+*/
