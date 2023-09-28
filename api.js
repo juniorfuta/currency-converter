@@ -19,12 +19,23 @@ request.onload = function() {
   console.log(data);
 }
 
-// Methode fetch
+//Methode fetch
 const data = await (await fetch ('https://api.exchangerate.host/latest')). json();
 console.log(data);
 */
+/*
 const API_URL= "https://api.exchangerate.host/"
 const API_CURRENCIES_RATES= "latest"
 const currenciesJSON= fetch (API_URL + API_CURRENCIES_RATES)
 const currenciesObject = currenciesJSON.json()
 console.log(currenciesObject)
+*/
+async function api() {
+    const requestURL =
+      "https://api.exchangerate.host/latest";
+    const request = new Request(requestURL);
+  
+    const response = await fetch(request);
+    const s = await response.json();
+}
+
