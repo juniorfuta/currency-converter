@@ -167,7 +167,7 @@ request.onload = function() {
 }
 
 /*
-By: Palanca Technologies Softwares 
+By: PalancaTechnologies Softwares 
 CEO: Júnior Futa
 a.k.a: JFuta 21
 Email: juniorfuta94@gmail.com
