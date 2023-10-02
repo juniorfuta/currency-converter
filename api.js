@@ -7,6 +7,7 @@ Instagram: @juniorfuta
 */
 
 /*
+
 var requestURL = 'https://api.exchangerate.host/latest'; 
 var request = new XMLHttpRequest(); 
 request.open('GET', requestURL);
