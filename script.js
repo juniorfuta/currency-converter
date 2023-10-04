@@ -26,7 +26,7 @@ function testAlert () {
 document.getElementById("container").addEventListener("click", testAler());
 
 
-/* document.getElementById("container").addEventListener("click", function() {
+/* document.getElementById("container").addEventListener("click", function(){
   clickCount++;
   if (clickCount === 1) {
       if (clickCount === 1) {
@@ -127,7 +127,7 @@ function validateInput2() {
   }
 }
 
-//valueInput.addEventListener('focus', alertFunction);
+/*valueInput.addEventListener('focus', alertFunction); */
 
 //  function alertFunction(){
 //   console.log('Input 1 is focused.');
