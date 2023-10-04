@@ -6,7 +6,6 @@ E-mail: juniorfuta94@gmail.com
 Instagram: @juniorfuta
 */
 
-/*
 
 var requestURL = 'https://api.exchangerate.host/latest'; 
 var request = new XMLHttpRequest(); 
@@ -24,13 +23,13 @@ request.onload = function() {
 const data = await (await fetch ('https://api.exchangerate.host/latest')). json();
 console.log(data);
 */
-/*
+
 const API_URL= "https://api.exchangerate.host/"
 const API_CURRENCIES_RATES= "latest"
 const currenciesJSON= fetch (API_URL + API_CURRENCIES_RATES)
 const currenciesObject = currenciesJSON.json()
 console.log(currenciesObject)
-*/
+
 async function api() {
     const requestURL =
       "https://api.exchangerate.host/latest";
