@@ -11,6 +11,11 @@ Instagram: @juniorfuta
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+   background-color: red;  
+   padding: 0px !important; 
+}
+
 .container h2 {
     /* font-size: 90%; */
     font-size: 20px;
@@ -49,7 +54,6 @@ Instagram: @juniorfuta
     display: inline-block;
     cursor: pointer;
     margin: 10px 20px;
-    /* background-color: crimson; */
 }
 
 .bar1,
@@ -58,7 +62,7 @@ Instagram: @juniorfuta
     width: 30px;
     height: 5px;
     background-color:#3498DB;
-    margin: 6px 0;
+    margin: 6px 0px;
     transition: 0.4s;
 }
 
@@ -67,7 +71,7 @@ Instagram: @juniorfuta
 }
 
 .change .bar2 {
-    opacity: 0;
+    opacity: 0px;
 }
 
 .change .bar3 {
@@ -75,7 +79,7 @@ Instagram: @juniorfuta
 }
 
 #language {
-    margin: 10px 15px 0 0;
+    margin: 10px 15px 0 0px;
     color: rgb(41, 130, 189);
 }
 
@@ -134,12 +138,12 @@ Instagram: @juniorfuta
     position: absolute;
     height: 70%;
     z-index: 1;
-    width: 0;
+    width: 0px;
     background-color: rgb(41, 130, 189);
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
-    padding: 0;
+    padding: 0px;
     color: white
 }
 
@@ -207,6 +211,7 @@ Instagram: @juniorfuta
 
 #main {
     width: 100vw;
+    background-color: greenyellow;
 }
 
 .container {
@@ -250,6 +255,14 @@ Instagram: @juniorfuta
     border-radius: 8px;
 }
 
+.subject:hover {
+    border: 1px solid rgb(41, 130, 189);
+}
+
+.inputs:hover {
+    border: 2px solid rgb(41, 130, 189);
+}
+
 .subject {
     border: none;
     margin-bottom: 0.5ch;
@@ -262,7 +275,7 @@ Instagram: @juniorfuta
     border-radius: 10px;
     background: none;
     color: rgb(41, 130, 189);
-    font-weight: 600;
+    font-weight: 600px;
     font-size: 80%;
 }
 
@@ -326,7 +339,7 @@ Instagram: @juniorfuta
 
 .footer {
     background: rgb(41, 130, 189);
-    width: 100vw;
+    /* width: 100vw; */
     color: #c2bcbc;
     padding-top: 10px;
 }
@@ -380,7 +393,7 @@ Instagram: @juniorfuta
 }
 
 .footer2 {
-    margin: 20px 0 20px 0;
+    margin: 20px 0 20px 0px;
     display: flex;
     gap: 80px;
     list-style-type: none;
@@ -404,7 +417,7 @@ Instagram: @juniorfuta
     }
 
     #language {
-        margin: 18px 10px 0 0;
+        margin: 18px 10px 0 0px;
     }
 
     .dropbtn {
@@ -429,7 +442,7 @@ Instagram: @juniorfuta
 
     .profils-divises a {
         font-size: 12px;
-        margin: 0;
+        margin: 0px;
     }
 
     .footer2 {
