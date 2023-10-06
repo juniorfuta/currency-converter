@@ -26,10 +26,16 @@ Instagram: @juniorfuta
     flex-direction: row;
     justify-content: center;
     margin-left: 130px;
+    padding-bottom: 0px;
+    padding-top: 16px;
+
+}
+
+.logo h3{
+    background-color: aquamarine;
 }
 
 #logo img {
-    margin-top: 15px;
     width: 27px;
     height: 27px;
 }
