@@ -352,6 +352,7 @@ Instagram: @juniorfuta
 .contacts ul {
     list-style-type: none;
     display: flex;
+    place-content: center;
     gap: 12px;
 }
 
