@@ -349,6 +349,10 @@ Instagram: @juniorfuta
     place-items: center;
 }
 
+.contacts {
+    padding: 32px;
+}
+
 .contacts ul {
     list-style-type: none;
     display: flex;
@@ -359,7 +363,6 @@ Instagram: @juniorfuta
 .contacts h4 {
     text-align: center;
 }
-
 
 .contacts a {
     color: rgb(56, 55, 55);
