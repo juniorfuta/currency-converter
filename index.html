@@ -8,178 +8,216 @@ Instagram: @juniorfuta
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
     <script src="https://kit.fontawesome.com/2e879e7309.js" crossorigin="anonymous"></script>
     <title>Currency Converter</title>
-</head>
+  </head>
 
-<body>
-    <header id="navbar">
-        <div id="container" onclick="changeIcon(this)">
-            <div class=" bar bar1"></div>
-            <div class=" bar bar2"></div>
-            <div class=" bar bar3"></div>
-        </div>
-        <div id="logo">
-            <img src="symbol.png" alt="symbol">
-            <h3> PalancaTec Currency</h3>
-        </div>
+  <body>
+    <div id="navbar">
+      <div id="container" onclick="changeIcon(this)">
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+        <div class="bar bar3"></div>
+      </div>
+      <div id="logo">
+        <img src="symbol.png" alt="symbol" />
+        <h3>PalancaTec Currency</h3>
+      </div>
 
-        <div id="language">
-            <i class="fas fa-globe"></i>
-            <button onclick="myFunction()" class="dropbtn">Language</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#home">English</a>
-                <a href="#about">French</a>
-                <a href="#contact">Portuguese</a>
-            </div>
+      <div id="language">
+        <i class="fas fa-globe"></i>
+        <button onclick="myFunction()" class="dropbtn">Language</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#home">English</a>
+          <a href="#about">French</a>
+          <a href="#contact">Portuguese</a>
         </div>
+      </div>
+    </div>
 
-    </header>
     <div id="mySidenav" class="sidenav">
-        <div class="theme">
-            <h3>Theme</h3>
-            <div class="btns">
-                <button class="btn">Dark</button>
-                <button class="btn">Light</button>
-            </div>
+      <div class="theme">
+        <h3>Theme</h3>
+        <div class="btns">
+          <button class="btn">Dark</button>
+          <button class="btn">Light</button>
         </div>
-        <div class="authors">
-            <h3>About Converter</h3>
-            <p>
-                PalancaTec's currency converter allows you to check the latest
-                average bid/ask exchange rates and convert all major world currencies.
-                PalancaTec Rates are compiled exchange rates from major market data sources
-            </p>
-        </div>
-        <div class="closebtn">
-            <a href="javascript:void(0)" onclick="closeNav()"><i class="fa fa-window-close-o"></i></a>
-        </div>
+      </div>
+      <div class="authors">
+        <h3>About Converter</h3>
+        <p>
+          PalancaTec's currency converter allows you to check the latest average bid/ask exchange rates and convert all
+          major world currencies. PalancaTec Rates are compiled exchange rates from major market data sources
+        </p>
+      </div>
+      <div class="closebtn">
+        <a href="javascript:void(0)" onclick="closeNav()"><i class="fa fa-window-close-o"></i></a>
+      </div>
     </div>
+
     <div id="main">
-        <div id="mySidenav" class="container">
-            <h2>Currency Converter</h2>
-            <div class="input-currency">
-                <form class="form1" action="/action_page.php">
-                    <select name="subject" class="subject">
-                        <option value="">Select your currency</option>
-                    </select><br>
-                    <input type="text" id="input1" class="inputs" name="number">
-                </form>
-                <button id="btn1" class="btn-copy" onclick="copied1()">COPY<i id="i1"
-                        class="fa-solid fa-copy"></i></button>
-            </div>
-            <p id="output1"></p>
-            <div class="input-currency">
-                <form class="form1" action="/action_page.php">
-                    <select name="subject" class="subject">
-                        <option value="">Select your currency</option>
-                    </select><br>
-                    <input type="text" id="input2" class="inputs" name="number">
-                </form>
-                <button class="btn-copy" id="btn2" onclick="copied2()">COPY<i id="i2"
-                        class="fa-solid fa-copy"></i></button>
-            </div>
-            <p id="output2"></p>
-
-            <div id="keybord">
-                <p><i class="fas fa-keyboard"></i><b> Keybord</b></p>
-            </div>
-            <div id="keys">
-                <button class="btn7" onclick="writeInput(7)">7</button>
-                <button class="btn8" onclick="writeInput(8)">8</button>
-                <button class="btn9" onclick="writeInput(9)">9</button>
-                <button class="btn-clear" onclick="cleanInput()">C</button>
-                <button class="btn4" onclick="writeInput(4)">4</button>
-                <button class="btn5" onclick="writeInput(5)">5</button>
-                <button class="btn6" onclick="writeInput(6)">6</button>
-                <button class="btn-backspace" onclick=""><i class="fas fa-backspace"></i></button>
-                <button class="btn1" onclick="writeInput(1)">1</button>
-                <button class="btn2" onclick="writeInput(2)">2</button>
-                <button class="btn3" onclick="writeInput(3)">3</button>
-                <button class="btn-less" onclick="">-</button>
-                <button class="btn-divide" onclick="">/</button>
-                <button class="btn0">0</button>
-                <button class="btn-comma" onclick="">.</button>
-                <button class="btn-plus" onclick="">+</button>
-                <button class="btn-times" onclick="">*</button>
-            </div>
-
-            <div id="history">
-                <div>
-                    <h3> <i class="fas fa-history"></i> History</h3>
-                </div>
-                <div id="history-container">
-                </div>
-            </div>
+      <div id="mySidenav" class="container">
+        <h2>Currency Converter</h2>
+        <div class="input-currency">
+          <form class="form1" action="/action_page.php">
+            <select name="subject" class="subject">
+              <option value="">Select your currency</option></select
+            ><br />
+            <input type="text" id="input1" class="inputs" name="number" />
+          </form>
+          <button id="btn1" class="btn-copy" onclick="copied1()">COPY<i id="i1" class="fa-solid fa-copy"></i></button>
         </div>
+        <p id="output1"></p>
+        <div class="input-currency">
+          <form class="form1" action="/action_page.php">
+            <select name="subject" class="subject">
+              <option value="">Select your currency</option></select
+            ><br />
+            <input type="text" id="input2" class="inputs" name="number" />
+          </form>
+          <button class="btn-copy" id="btn2" onclick="copied2()">COPY<i id="i2" class="fa-solid fa-copy"></i></button>
+        </div>
+        <p id="output2"></p>
+
+        <div id="keybord">
+          <p><i class="fas fa-keyboard"></i><b> Keybord</b></p>
+        </div>
+        <div id="keys">
+          <button class="btn7" onclick="writeInput(7)">7</button>
+          <button class="btn8" onclick="writeInput(8)">8</button>
+          <button class="btn9" onclick="writeInput(9)">9</button>
+          <button class="btn-clear" onclick="cleanInput()">C</button>
+          <button class="btn4" onclick="writeInput(4)">4</button>
+          <button class="btn5" onclick="writeInput(5)">5</button>
+          <button class="btn6" onclick="writeInput(6)">6</button>
+          <button class="btn-backspace" onclick=""><i class="fas fa-backspace"></i></button>
+          <button class="btn1" onclick="writeInput(1)">1</button>
+          <button class="btn2" onclick="writeInput(2)">2</button>
+          <button class="btn3" onclick="writeInput(3)">3</button>
+          <button class="btn-less" onclick="">-</button>
+          <button class="btn-divide" onclick="">/</button>
+          <button class="btn0">0</button>
+          <button class="btn-comma" onclick="">.</button>
+          <button class="btn-plus" onclick="">+</button>
+          <button class="btn-times" onclick="">*</button>
+        </div>
+
+        <div id="history">
+          <div>
+            <h3><i class="fas fa-history"></i> History</h3>
+          </div>
+          <div id="history-container"></div>
+        </div>
+      </div>
     </div>
-    <footer class="footer">
-        <div class="divises">
-            <h4>Profils Divises</h4>
-            <div class="profils-divises">
-                <a href="https://en.wikipedia.org/wiki/United_States_dollar" target="_blank"><img
-                        src="united-states.png" alt="united states flag" width="35px"
-                        height="35px"><span>US-Dollar</span></a>
-                <a href="https://en.wikipedia.org/wiki/Australian_dollar" target="_blank"><img src="australia.png"
-                        alt="Australian flag" width="35px" height="35px"><span>AUD-Australian Dollar</span></a>
-                <a href="https://en.wikipedia.org/wiki/Canadian_dollar" target="_blank"><img src="pngwing.com (1).png"
-                        alt="Canadian Flag" width="37px" height="37px" id="canadian-flag"><span>CAD-Canadian
-                        Dollar</span></a>
-                <a href="https://en.wikipedia.org/wiki/Bulgarian_lev" target="_blank"><img src="bulgaria.png"
-                        alt="Bulgarian Flag" width="35px" height="35px"><span>BGN-Bulgarian Lev</span></a>
-                <a href="https://en.wikipedia.org/wiki/Euro" target="_blank"><img src="european-union (1).png"
-                        alt="EU Flag" width="35px" height="35px"><span>EUR-Euro</span></a>
-                <a href="https://en.wikipedia.org/wiki/Indian_rupee" target="_blank"><img src="india.png"
-                        alt="Indian Flag" width="35px" height="35px"><span>INR-Indian Rupee</span></a>
-                <a href="https://en.wikipedia.org/wiki/Japanese_yen" target="_blank"><img src="japan.png"
-                        alt="Japan Flag" width="35px" height="35px"><span>JPY- Japanese Yen</span></a>
-                <a href="https://en.wikipedia.org/wiki/New_Zealand_dollar" target="_blank"><img src="new-zealand.png"
-                        alt="New Zealand Flag" width="35px" height="35px"><span>NZD-New Zealand Dollar</span></a>
-                <a href="https://en.wikipedia.org/wiki/Russian_ruble" target="_blank"><img src="russia.png"
-                        alt="Russia Flag" width="35px" height="35px"><span>RUB-Russian Ruble</span></a>
-                <a href="https://en.wikipedia.org/wiki/South_African_rand" target="_blank"><img src="south-africa.png"
-                        alt="South Africa Flag" width="35px" height="35px"><span>ZAR-South African Rand</span></a>
-                <a href="https://en.wikipedia.org/wiki/Swiss_franc" target="_blank"><img src="switzerland.png"
-                        alt="Switzerland Flag" width="35px" height="35px"><span>CHF- Swiss Franc</span></a>
-                <a href="https://en.wikipedia.org/wiki/Pound_sterling" target="_blank"><img src="united-kingdom.png"
-                        alt="UK Flag" width="35px" height="35px"><span>GBP-British Pound</span></a></a>
-            </div>
-        </div>
 
-        <div id="contacts-container">
-            <div class="contacts">
-                <h4>Contacts for Partnerships</h4>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/j%C3%BAnior-futa-a41804254/?originalSubdomain=fr"
-                            target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://www.instagram.com/junior.futa/" target="_blank"><i
-                                class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="https://m.facebook.com/profile.php/?id=100033389622257" target="_blank"><i
-                                class="fa-brands fa-facebook"></i></a></i></li>
-                    <li><a href="https://twitter.com/JuniorFuta?t=s3wXm4LAaL-J4iG1LWRxnA&s=08" target="_blank">
-                            <i class="fa-brands fa-x-twitter"></i></a></i></li>
-                    <li><a href="https://github.com/juniorfuta" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer2">
-                <li id="year">@2023</i></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="policy.html">Policy</a></li>
-                <li><a href="_terms.html">Terms</a></li>
-            </div>
-            <p class="footer4">Copyright<i class="far fa-copyright"></i>PalancaTec</p>
-            <p class="footer3">Made with&#x1F497 by <a href="#">Júnior Futa</a></p>
+    <footer class="footer">
+      <div class="divises">
+        <h4>Profils Divises</h4>
+
+        <div class="profils-divises">
+          <a href="https://en.wikipedia.org/wiki/United_States_dollar" target="_blank"
+            ><img src="united-states.png" alt="united states flag" width="35px" height="35px" /><span
+              >US-Dollar</span
+            ></a
+          >
+          <a href="https://en.wikipedia.org/wiki/Australian_dollar" target="_blank"
+            ><img src="australia.png" alt="Australian flag" width="35px" height="35px" /><span
+              >AUD-Australian Dollar</span
+            ></a
+          >
+          <a href="https://en.wikipedia.org/wiki/Canadian_dollar" target="_blank"
+            ><img src="pngwing.com (1).png" alt="Canadian Flag" width="37px" height="37px" id="canadian-flag" /><span
+              >CAD-Canadian Dollar</span
+            ></a
+          >
+          <a href="https://en.wikipedia.org/wiki/Bulgarian_lev" target="_blank">
+            <img src="bulgaria.png" alt="Bulgarian Flag" width="35px" height="35px" />
+            <span>BGN-Bulgarian Lev</span>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Euro" target="_blank">
+            <img src="european-union (1).png" alt="EU Flag" width="35px" height="35px" />
+            <span>EUR-Euro</span>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Indian_rupee" target="_blank">
+            <img src="india.png" alt="Indian Flag" width="35px" height="35px" />
+            <span>INR-Indian Rupee</span>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Japanese_yen" target="_blank">
+            <img src="japan.png" alt="Japan Flag" width="35px" height="35px" />
+            <span>JPY- Japanese Yen</span>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/New_Zealand_dollar" target="_blank">
+            <img src="new-zealand.png" alt="New Zealand Flag" width="35px" height="35px" />
+            <span>NZD-New Zealand Dollar</span>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Russian_ruble" target="_blank">
+            <img src="russia.png" alt="Russia Flag" width="35px" height="35px" />
+            <span>RUB-Russian Ruble</span>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/South_African_rand" target="_blank">
+            <img src="south-africa.png" alt="South Africa Flag" width="35px" height="35px" />
+            <span>ZAR-South African Rand</span>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Swiss_franc" target="_blank">
+            <img src="switzerland.png" alt="Switzerland Flag" width="35px" height="35px" />
+            <span>CHF- Swiss Franc</span>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Pound_sterling" target="_blank">
+            <img src="united-kingdom.png" alt="UK Flag" width="35px" height="35px" />
+            <span>GBP-British Pound</span>
+          </a>
         </div>
+      </div>
+
+      <div class="contacts">
+        <h4>Contacts for Partnerships</h4>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/j%C3%BAnior-futa-a41804254/?originalSubdomain=fr" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/junior.futa/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://m.facebook.com/profile.php/?id=100033389622257" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          
+          <li>
+            <a href="https://twitter.com/JuniorFuta?t=s3wXm4LAaL-J4iG1LWRxnA&s=08" target="_blank">
+              <i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/juniorfuta" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="contacts-container">
+        <div class="footer2">
+          <li id="year">@2023</li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="policy.html">Policy</a></li>
+          <li><a href="_terms.html">Terms</a></li>
+        </div>
+        <p class="footer4">Copyright<i class="far fa-copyright"></i>PalancaTec</p>
+        <p class="footer3">Made with &#x1F497; by <a href="#">Júnior Futa</a></p>
+      </div>
     </footer>
+
     <!-- <script src="script.js" defer></script> -->
     <script src="api.js" defer></script>
-</body>
+  </body>
 </html>
 
 <!--
