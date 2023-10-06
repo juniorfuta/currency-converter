@@ -241,6 +241,10 @@ Instagram: @juniorfuta
     border-radius: 8px;
 }
 
+.subject:hover, .inputs:hover {
+    border: 2px solid rgb(41, 130, 189);
+}
+
 .subject {
     border: none;
     margin-bottom: 0.5ch;
