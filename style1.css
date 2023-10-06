@@ -1,3 +1,4 @@
+
 /*
 By: PalancaTechnologies Softwares 
 CEO: Júnior Futa
@@ -9,11 +10,6 @@ Instagram: @juniorfuta
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-   background-color: red;  
-   padding: 0px !important; 
 }
 
 .container h2 {
@@ -54,6 +50,7 @@ body {
     display: inline-block;
     cursor: pointer;
     margin: 10px 20px;
+    /* background-color: crimson; */
 }
 
 .bar1,
@@ -71,7 +68,7 @@ body {
 }
 
 .change .bar2 {
-    opacity: 0px;
+    opacity: 0;
 }
 
 .change .bar3 {
@@ -79,7 +76,7 @@ body {
 }
 
 #language {
-    margin: 10px 15px 0 0px;
+    margin: 10px 15px 0 0;
     color: rgb(41, 130, 189);
 }
 
@@ -138,12 +135,12 @@ body {
     position: absolute;
     height: 70%;
     z-index: 1;
-    width: 0px;
+    width: 0;
     background-color: rgb(41, 130, 189);
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
-    padding: 0px;
+    padding: 0;
     color: white
 }
 
@@ -211,7 +208,7 @@ body {
 
 #main {
     width: 100vw;
-    background-color: greenyellow;
+    background-color: #51abb5;
 }
 
 .container {
@@ -255,14 +252,6 @@ body {
     border-radius: 8px;
 }
 
-.subject:hover {
-    border: 1px solid rgb(41, 130, 189);
-}
-
-.inputs:hover {
-    border: 2px solid rgb(41, 130, 189);
-}
-
 .subject {
     border: none;
     margin-bottom: 0.5ch;
@@ -275,7 +264,7 @@ body {
     border-radius: 10px;
     background: none;
     color: rgb(41, 130, 189);
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 80%;
 }
 
@@ -339,7 +328,7 @@ body {
 
 .footer {
     background: rgb(41, 130, 189);
-    /* width: 100vw; */
+    width: 100vw;
     color: #c2bcbc;
     padding-top: 10px;
 }
@@ -349,7 +338,8 @@ body {
 }
 
 .profils-divises {
-    margin: 0 20px 0 20px;
+    margin: 0px 10px;
+    background-color: #58bd9b;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     place-content: center;
@@ -393,7 +383,7 @@ body {
 }
 
 .footer2 {
-    margin: 20px 0 20px 0px;
+    margin: 20px 0 20px 0;
     display: flex;
     gap: 80px;
     list-style-type: none;
@@ -417,7 +407,7 @@ body {
     }
 
     #language {
-        margin: 18px 10px 0 0px;
+        margin: 18px 10px 0 0;
     }
 
     .dropbtn {
@@ -442,7 +432,7 @@ body {
 
     .profils-divises a {
         font-size: 12px;
-        margin: 0px;
+        margin: 0;
     }
 
     .footer2 {
