@@ -1,3 +1,4 @@
+
 /*
 By: PalancaTechnologies Softwares 
 CEO: Júnior Futa
@@ -6,25 +7,13 @@ Email: juniorfuta94@gmail.com
 Instagram: @juniorfuta
 */
 
-* {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-   background-color: red;  
-   padding: 0px !important; 
-}
-
 .container h2 {
-    /* font-size: 90%; */
     font-size: 20px;
 }
 
 #navbar {
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
     border: solid 1px #111;
     border-radius: 10px;
     color: rgb(41, 130, 189);
@@ -36,12 +25,17 @@ body {
     gap: 4px;
     flex-direction: row;
     justify-content: center;
-    /* background-color: chocolate; */
     margin-left: 130px;
+    padding-bottom: 0px;
+    padding-top: 16px;
+    padding-right: 85px;
+}
+
+h3 {
+    padding-top: 4px;
 }
 
 #logo img {
-    margin-top: 15px;
     width: 27px;
     height: 27px;
 }
@@ -59,8 +53,8 @@ body {
 .bar1,
 .bar2,
 .bar3 {
-    width: 30px;
-    height: 5px;
+    width: 27px;
+    height: 4px;
     background-color:#3498DB;
     margin: 6px 0px;
     transition: 0.4s;
@@ -71,7 +65,7 @@ body {
 }
 
 .change .bar2 {
-    opacity: 0px;
+    opacity: 0;
 }
 
 .change .bar3 {
@@ -79,7 +73,7 @@ body {
 }
 
 #language {
-    margin: 10px 15px 0 0px;
+    margin: 10px 15px 0 0;
     color: rgb(41, 130, 189);
 }
 
@@ -90,7 +84,7 @@ body {
 .dropbtn {
     background-color: #3498DB;
     color: white;
-    padding: 10px;
+    padding: 7px;
     font-size: 12px;
     border: none;
     cursor: pointer;
@@ -138,12 +132,12 @@ body {
     position: absolute;
     height: 70%;
     z-index: 1;
-    width: 0px;
+    width: 0;
     background-color: rgb(41, 130, 189);
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
-    padding: 0px;
+    padding: 0;
     color: white
 }
 
@@ -211,21 +205,20 @@ body {
 
 #main {
     width: 100vw;
-    background-color: greenyellow;
 }
 
 .container {
     color: rgb(41, 130, 189);
     width: 100%;
-    display: flex;
+    display: grid;
     flex-direction: column;
     place-items: center;
+    gap: 20px;
 }
 
 .input-currency {
     width: 50%;
     height: 70px;
-    /* background-color: chartreuse; */
     display: flex;
     border: solid 1px #111;
     border-radius: 10px;
@@ -240,7 +233,6 @@ body {
 .form1 {
     width: 90%;
     margin: 5px;
-    /* background-color: gold; */
 }
 
 #output1,
@@ -255,11 +247,7 @@ body {
     border-radius: 8px;
 }
 
-.subject:hover {
-    border: 1px solid rgb(41, 130, 189);
-}
-
-.inputs:hover {
+.subject:hover, .inputs:hover {
     border: 2px solid rgb(41, 130, 189);
 }
 
@@ -275,7 +263,7 @@ body {
     border-radius: 10px;
     background: none;
     color: rgb(41, 130, 189);
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 80%;
 }
 
@@ -291,7 +279,6 @@ body {
 #keys {
     border: solid 1px #111;
     padding: 4px;
-    /* background-color: aqua; */
     display: grid;
     width: 50%;
     gap: 5px;
@@ -333,23 +320,23 @@ body {
 
 .profils-divises span {
     padding-top: 14px;
-    /* background-color: deeppink; */
     place-content: center;
 }
 
 .footer {
     background: rgb(41, 130, 189);
-    /* width: 100vw; */
+    width: 100vw;
     color: #c2bcbc;
     padding-top: 10px;
 }
 
 .divises h4 {
     text-align: center;
+    padding: 12px 0px;
 }
 
 .profils-divises {
-    margin: 0 20px 0 20px;
+    margin: 0px 10px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     place-content: center;
@@ -359,7 +346,6 @@ body {
 .profils-divises a {
     gap: 5px;
     display: flex;
-    /* background-color: cornsilk; */
     text-decoration: none;
 }
 
@@ -368,20 +354,28 @@ body {
 }
 
 #contacts-container {
-    /* background-color: coral; */
     display: flex;
     flex-direction: column;
     place-content: center;
     place-items: center;
 }
 
+.contacts {
+    padding: 32px;
+    padding-bottom: 12px;
+}
+
 .contacts ul {
-    /* background-color: darkorchid;  */
     list-style-type: none;
     display: flex;
+    place-content: center;
     gap: 12px;
 }
 
+.contacts h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 .contacts a {
     color: rgb(56, 55, 55);
@@ -393,11 +387,10 @@ body {
 }
 
 .footer2 {
-    margin: 20px 0 20px 0px;
+    margin: 20px 0 20px 0;
     display: flex;
     gap: 80px;
     list-style-type: none;
-    /* background-color: #e8e8d7;  */
 }
 
 .footer2 a,
@@ -410,6 +403,10 @@ body {
     text-decoration: underline;
 }
 
+.footer4 {
+    padding: 12px 0px;
+}
+
 @media (width <=480px) {
 
     #menu-btn {
@@ -417,7 +414,7 @@ body {
     }
 
     #language {
-        margin: 18px 10px 0 0px;
+        margin: 18px 10px 0 0;
     }
 
     .dropbtn {
@@ -442,7 +439,7 @@ body {
 
     .profils-divises a {
         font-size: 12px;
-        margin: 0px;
+        margin: 0;
     }
 
     .footer2 {
@@ -469,13 +466,12 @@ body {
 
     #logo img {
         margin-top: 10px;
-        /* background-color: gold; */
         width: 20px;
         height: 20px;
     }
 
     #language select {
-        /* background-color: chocolate; */
+        
         font-size: 10px;
     }
 
