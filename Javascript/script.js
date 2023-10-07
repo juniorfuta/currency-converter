@@ -213,7 +213,7 @@ function testTranslate(language) {
 /*
 By: PalancaTechnologies Softwares 
 CEO: Júnior Futa
-a.k.a: JFuta 21
+a.k.a: JFuta21
 Email: juniorfuta94@gmail.com
 Instagram: @juniorfuta
 */
