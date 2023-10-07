@@ -166,6 +166,8 @@ request.onload = function() {
   console.log(response);
 }
 
+//Functions to Transilate
+
 /*
 By: PalancaTechnologies Softwares 
 CEO: Júnior Futa
