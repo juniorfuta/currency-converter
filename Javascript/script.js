@@ -193,16 +193,17 @@ function translateTo(language) {
 //Function test
 
 function testTranslate(language){
-  let textToTranslate;
-  textToTranslate=document.getElementById("heading");
 
-  if (language="pt"){
-    textToTranslate.innerHTML="Conversor de Moedas";
-  }
+  let textToTranslate;
   
-  if (language="fr"){
-    textToTranslate.innerHTML="Convertisseur de Devises";
-  }
+  textToTranslate=document.getElementById("heading");
+  
+    if (language="pt"){
+      textToTranslate.innerHTML="Conversor de Moedas";
+    }
+    else if (language="fr"){
+      textToTranslate.innerHTML="Convertisseur de Devises";
+    }
 
 }
 
