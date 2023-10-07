@@ -192,8 +192,18 @@ function translateTo(language) {
 
 //Function test
 
-function testLink (){
-  console.log('This link function with click');
+function testTranslate(language){
+  let textToTranslate;
+  textToTranslate=document.getElementById("heading");
+
+  if (language="pt"){
+    textToTranslate.innerHTML="Conversor de Moedas";
+  }
+  
+  if (language="fr"){
+    textToTranslate.innerHTML="Convertisseur de Devises";
+  }
+
 }
 
 /*
