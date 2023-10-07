@@ -171,11 +171,11 @@ request.onload = function() {
 function translateTo(language) {
   const translations = {
       'en': {
-          'heading': 'Hello World',
+          'heading': 'Currency Converter',
           'paragraph': 'This is a sample paragraph.'
       },
-      'es': {
-          'heading': 'Hola Mundo',
+      'pt': {
+          'heading': 'Conversor de Moedas',
           'paragraph': 'Este es un párrafo de ejemplo.'
       }
   };
