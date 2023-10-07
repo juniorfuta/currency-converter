@@ -168,6 +168,34 @@ request.onload = function() {
 
 //Functions to Transilate
 
+function translateTo(language) {
+  const translations = {
+      'en': {
+          'heading': 'Hello World',
+          'paragraph': 'This is a sample paragraph.'
+      },
+      'es': {
+          'heading': 'Hola Mundo',
+          'paragraph': 'Este es un párrafo de ejemplo.'
+      }
+  };
+
+  const elementsToTranslate = document.querySelectorAll('[id^="heading"], [id^="paragraph"]');
+
+  elementsToTranslate.forEach(element => {
+      const id = element.id;
+      if (translations[language][id]) {
+          element.textContent = translations[language][id];
+      }
+  });
+}
+
+//Function test
+
+function testLink (){
+  console.log('This link function with click');
+}
+
 /*
 By: PalancaTechnologies Softwares 
 CEO: Júnior Futa
