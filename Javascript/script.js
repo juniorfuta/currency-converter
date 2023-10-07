@@ -205,7 +205,7 @@ function testTranslate(language) {
     textToTranslate.innerHTML = "Convertisseur de Devises";
   }
   else {
-    textToTranslate.innerHTML;
+    textToTranslate.innerHTML="Currency Converter";
   }
 
 }
