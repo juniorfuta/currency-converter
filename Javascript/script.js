@@ -20,7 +20,7 @@ function changeIcon(x) {
 
 //I'm working here in the sidevnav 14/09/2023
 
-function testAlert () {
+function testAlert() {
   alert('Click Sindenav icon')
 }
 document.getElementById("container").addEventListener("click", testAler());
@@ -51,7 +51,7 @@ inp.forEach(input => {
 
     }
   });
-}); 
+});
 
 // Intoducing numbers with button
 
@@ -141,7 +141,7 @@ function myFunction() {
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
@@ -155,21 +155,65 @@ window.onclick = function(event) {
 }
 
 //Functions to convert
-var requestURL = 'https://api.exchangerate.host/convert?from=USD&to=EUR'; 
-var request = new XMLHttpRequest(); 
+var requestURL = 'https://api.exchangerate.host/convert?from=USD&to=EUR';
+var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 
-request.onload = function() {
+request.onload = function () {
   var response = request.response;
   console.log(response);
+}
+
+//Functions to Transilate
+
+function translateTo(language) {
+  const translations = {
+    'en': {
+      'heading': 'Currency Converter',
+      'paragraph': 'This is a sample paragraph.'
+    },
+    'pt': {
+      'heading': 'Conversor de Moedas',
+      'paragraph': 'Este es un párrafo de ejemplo.'
+    }
+  };
+
+  const elementsToTranslate = document.querySelectorAll('[id^="heading"], [id^="paragraph"]');
+
+  elementsToTranslate.forEach(element => {
+    const id = element.id;
+    if (translations[language][id]) {
+      element.textContent = translations[language][id];
+    }
+  });
+}
+
+//Function test
+
+function testTranslate(language) {
+
+  let textToTranslate;
+
+  textToTranslate = document.getElementById("heading");
+
+  if (language = "pt") {
+    textToTranslate.innerHTML = "Conversor de Moedas";
+  }
+  else if (language = "fr") {
+    textToTranslate.innerHTML = "Convertisseur de Devises";
+  }
+  else {
+    textToTranslate.innerHTML="Currency Converter";
+  }
+
 }
 
 /*
 By: PalancaTechnologies Softwares 
 CEO: Júnior Futa
-a.k.a: JFuta 21
+a.k.a: JFuta21
 Email: juniorfuta94@gmail.com
 Instagram: @juniorfuta
 */
