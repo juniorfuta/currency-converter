@@ -5,6 +5,43 @@ Email: juniorfuta94@gmail.com
 Instagram: @juniorfuta
 */
 
+//input number validation1
+valueInput1 = document.getElementById('input1');
+
+valueInput1.addEventListener('input', validateInput1);
+
+function validateInput1() {
+  // Get the value of the input field
+  let x = document.getElementById("input1").value;
+  //test input
+  let warnigText = document.getElementById("output1");
+
+  if (isNaN(x)) {
+    warnigText.innerHTML = "Invalid format";
+  }
+  else {
+    warnigText.innerHTML = "";
+  }
+}
+
+//input number validation2
+valueInput2 = document.getElementById('input2');
+
+valueInput2.addEventListener('input', validateInput2);
+
+function validateInput2() {
+  // Get the value of the input field
+  let x = document.getElementById("input2").value
+  //test input
+  let warnigText = document.getElementById("output2");
+  if (isNaN(x)) {
+    warnigText.innerHTML = "Invalid format";
+  }
+  else {
+    warnigText.innerHTML = "";
+  }
+}
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
@@ -89,48 +126,14 @@ function copied2() {
   text.innerHTML = "COPIED";
 }
 
-//input number validation1
-valueInput1 = document.getElementById('input1');
 
-valueInput1.addEventListener('input', validateInput1);
-
-function validateInput1() {
-  // Get the value of the input field
-  let x = document.getElementById("input1").value;
-  //test input
-  let warnigText = document.getElementById("output1");
-  if (isNaN(x)) {
-    warnigText.innerHTML = "Invalid format";
-  }
-  else {
-    warnigText.innerHTML = "";
-  }
-}
-
-//input number validation2
-
-valueInput2 = document.getElementById('input2');
-
-valueInput2.addEventListener('input', validateInput2);
-
-function validateInput2() {
-  // Get the value of the input field
-  let x = document.getElementById("input2").value
-  //test input
-  let warnigText = document.getElementById("output2");
-  if (isNaN(x)) {
-    warnigText.innerHTML = "Invalid format";
-  }
-  else {
-    warnigText.innerHTML = "";
-  }
-}
 
 /*valueInput.addEventListener('focus', alertFunction); */
 
 //  function alertFunction(){
 //   console.log('Input 1 is focused.');
 // }
+
 
 
 //When the user clicks on the button, 
@@ -199,7 +202,7 @@ function testTranslate(language) {
 
   if (language === "pt") {
     textToTranslate.innerHTML = "Conversor de Moedas";
-    
+
   }
   else if (language === "fr") {
     textToTranslate.innerHTML = "Convertisseur de Devises";
