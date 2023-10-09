@@ -225,7 +225,6 @@ function copyTextToClipboard(inputId) {
       try {
           // Copier le texte sélectionné dans le presse-papiers
           document.execCommand('copy');
-          console.log('Texte copié avec succès!');
       } catch (err) {
           console.error('Impossible de copier le texte: ', err);
       }
