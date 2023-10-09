@@ -209,6 +209,33 @@ function testTranslate(language) {
 
 }
 
+
+
+//fonction pour copier un texte
+
+function copyTextToClipboard(inputId) {
+  // Récupérer l'élément d'entrée en fonction de son ID
+  var inputElement = document.getElementById(inputId);
+  
+  // Vérifier si l'élément d'entrée existe
+  if (inputElement) {
+      // Sélectionner le texte dans l'élément d'entrée
+      inputElement.select();
+      
+      try {
+          // Copier le texte sélectionné dans le presse-papiers
+          document.execCommand('copy');
+          console.log('Texte copié avec succès!');
+      } catch (err) {
+          console.error('Impossible de copier le texte: ', err);
+      }
+  } else {
+      console.error('L\'élément d\'entrée avec l\'ID ' + inputId + ' n\'existe pas.');
+  }
+}
+
+
+
 /*
 By: PalancaTechnologies Softwares 
 CEO: Júnior Futa (JFuta21)
