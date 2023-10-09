@@ -197,10 +197,10 @@ function testTranslate(language) {
 
   textToTranslate = document.getElementById("heading");
 
-  if (language = "pt") {
+  if (language === "pt") {
     textToTranslate.innerHTML = "Conversor de Moedas";
   }
-  else if (language = "fr") {
+  else if (language === "fr") {
     textToTranslate.innerHTML = "Convertisseur de Devises";
   }
   else {
@@ -208,8 +208,6 @@ function testTranslate(language) {
   }
 
 }
-
-
 
 //fonction pour copier un texte
 
@@ -233,7 +231,6 @@ function copyTextToClipboard(inputId) {
       console.error('L\'élément d\'entrée avec l\'ID ' + inputId + ' n\'existe pas.');
   }
 }
-
 
 
 /*
