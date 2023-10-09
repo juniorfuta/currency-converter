@@ -221,7 +221,7 @@ function copyTextToClipboard(inputId) {
   if (inputElement) {
       // Sélectionner le texte dans l'élément d'entrée
       inputElement.select();
-      
+       
       try {
           // Copier le texte sélectionné dans le presse-papiers
           document.execCommand('copy');
