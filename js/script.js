@@ -17,7 +17,7 @@ function validateInput1() {
   let warnigText = document.getElementById("output1");
 
   if (isNaN(x)) {
-    warnigText.innerHTML = "Invalid format";
+    warnigText.innerHTML = "Invalid format. Please enter a number";
   }
   else {
     warnigText.innerHTML = "";
@@ -35,7 +35,7 @@ function validateInput2() {
   //test input
   let warnigText = document.getElementById("output2");
   if (isNaN(x)) {
-    warnigText.innerHTML = "Invalid format";
+    warnigText.innerHTML = "Invalid format. Please enter a number";
   }
   else {
     warnigText.innerHTML = "";
