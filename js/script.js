@@ -199,6 +199,7 @@ function testTranslate(language) {
 
   if (language === "pt") {
     textToTranslate.innerHTML = "Conversor de Moedas";
+    
   }
   else if (language === "fr") {
     textToTranslate.innerHTML = "Convertisseur de Devises";
