@@ -221,12 +221,13 @@ function copyTextToClipboard(inputId) {
   if (inputElement) {
       // Sélectionner le texte dans l'élément d'entrée
       inputElement.select();
-       
+
       try {
           // Copier le texte sélectionné dans le presse-papiers
           document.execCommand('copy');
       } catch (err) {
-          console.error('Impossible de copier le texte: ', err);
+          console.error('Impossible de copier le texte:', err);
+
       }
   } else {
       console.error('L\'élément d\'entrée avec l\'ID ' + inputId + ' n\'existe pas.');
