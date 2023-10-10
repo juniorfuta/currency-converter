@@ -58,35 +58,35 @@ function changeIcon(x) {
 
 //function to count the clicks and open the sidenav
 
-let clickCounter=0;
+let clickCounter = 0;
 
 let button = document.getElementById("container");
 
 button.addEventListener("click", function () {
 
-  clickCounter++; 
+  clickCounter++;
 
-  if (clickCounter===1) {
+  if (clickCounter === 1) {
 
     openNav();
     changeIcon(this);
 
   }
-  else if (clickCounter===2){
-    
+  else if (clickCounter === 2) {
+
     closeNav();
     changeIcon(this);
-  
-    clickCounter=0;
+
+    clickCounter = 0;
   }
-}); 
+});
 
 
 //I'm working here in the sidevnav 14/09/2023
 
 function testAlert() {
-    alert('Click Sindenav icon')
-  }
+  alert('Click Sindenav icon')
+}
 document.getElementById("container").addEventListener("click", testAler());
 
 
