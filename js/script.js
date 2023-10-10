@@ -43,11 +43,15 @@ function validateInput2() {
 }
 
 function openNav() {
+
   document.getElementById("mySidenav").style.width = "250px";
+
 }
 
 function closeNav() {
+
   document.getElementById("mySidenav").style.width = "0";
+  
 }
 
 // function that change the icon of sidenav
@@ -55,7 +59,7 @@ function closeNav() {
 function changeIcon(x) {
 
   x.classList.toggle("change");
-  
+
 }
 
 //function to count the clicks and open the sidenav
