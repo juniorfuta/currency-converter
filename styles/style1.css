@@ -19,6 +19,8 @@ Instagram: @juniorfuta
     color: rgb(41, 130, 189);
     flex-direction: row;
     margin-top: 4px;
+    margin-right: 1px;
+    margin-left: 1px;
 }
 
 #logo {
@@ -57,8 +59,8 @@ h3 {
     width: 27px;
     height: 4px;
     background-color:#3498DB;
-    margin: 6px 0px;
-    transition: 0.4s;
+    margin: 7px 0px;
+    transition: 0.3s;
 }
 
 .change .bar1 {
@@ -130,17 +132,18 @@ h3 {
 }
 
 .sidenav {
-    margin-top: 70px;
+    margin-top: 77px;
     position: absolute;
     height: 65%;
     z-index: 1;
     width: 0;
-    background-color: rgb(41, 130, 189);
+    background: #c2bcbc;
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
     padding: 0;
-    color: white
+    color: white;
+    margin-left: 1px;
 }
 
 .btns {
@@ -152,11 +155,11 @@ h3 {
 }
 
 .btn {
-    border: solid 2px rgb(24, 24, 119);
+    border: solid 2px rgb(0, 0, 0);
     padding: 10px;
     border-radius: 10px;
     background: none;
-    color: rgb(24, 24, 119);
+    color: rgb(0, 0, 0);
 }
 
 .btn:hover {
@@ -177,7 +180,7 @@ h3 {
 .authors {
     position: relative;
     padding: 5px;
-    border: solid 1px rgb(29, 33, 139);
+    border: solid 1px rgb(0, 0, 0);
     border-radius: 10px;
     margin: 20px;
 }
@@ -185,7 +188,7 @@ h3 {
 .sidenav h3 {
     left: 15px;
     margin: 10px;
-    color: #c2bcbc;
+    color: #196fa8;
     text-align: center;
     background-color: none;
     z-index: 1;
@@ -197,7 +200,7 @@ h3 {
 
 .authors p {
     text-align: center;
-    color: #13145e;
+    color: #000000;
 }
 
 .theme {
@@ -277,6 +280,7 @@ h3 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 
 #keys {
     border: solid 1px #111;
