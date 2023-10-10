@@ -125,23 +125,13 @@ function copied2() {
   text.innerHTML = "COPIED";
 }
 
+//function to open the dropdown of languages 
 
-
-/*valueInput.addEventListener('focus', alertFunction); */
-
-//  function alertFunction(){
-//   console.log('Input 1 is focused.');
-// }
-
-
-
-//When the user clicks on the button, 
-//toggle between hiding and showing the dropdown content 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
+// function to close the dropdown of language if the user clicks outside of it
 window.onclick = function (event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -155,7 +145,7 @@ window.onclick = function (event) {
   }
 }
 
-//Functions to convert
+//Function test use api
 var requestURL = 'https://api.exchangerate.host/convert?from=USD&to=EUR';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -191,7 +181,7 @@ function translateTo(language) {
   });
 }
 
-//Function test
+//Function test to translate change language
 
 function testTranslate(language) {
 
