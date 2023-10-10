@@ -78,7 +78,6 @@ button.addEventListener("click", function () {
 
     openNav();
     changeIcon(this);
-
   }
   else if (clickCounter === 2) {
 
