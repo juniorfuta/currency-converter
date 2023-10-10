@@ -19,12 +19,10 @@ function validateInput1() {
   if (isNaN(x)) {
 
     warnigText.innerHTML = "Invalid format. Please enter a number";
-
   }
   else {
 
     warnigText.innerHTML = "";
-
   }
 }
 
@@ -46,7 +44,7 @@ function validateInput2() {
   else {
 
     warnigText.innerHTML = "";
-    
+
   }
 }
 
