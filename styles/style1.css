@@ -155,11 +155,11 @@ h3 {
 }
 
 .btn {
-    border: solid 2px rgb(24, 24, 119);
+    border: solid 2px rgb(0, 0, 0);
     padding: 10px;
     border-radius: 10px;
     background: none;
-    color: rgb(24, 24, 119);
+    color: rgb(0, 0, 0);
 }
 
 .btn:hover {
@@ -180,7 +180,7 @@ h3 {
 .authors {
     position: relative;
     padding: 5px;
-    border: solid 1px rgb(29, 33, 139);
+    border: solid 1px rgb(0, 0, 0);
     border-radius: 10px;
     margin: 20px;
 }
@@ -200,7 +200,7 @@ h3 {
 
 .authors p {
     text-align: center;
-    color: #13145e;
+    color: #000000;
 }
 
 .theme {
