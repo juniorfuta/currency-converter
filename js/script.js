@@ -50,6 +50,10 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
+function changeIcon(x) {
+  x.classList.toggle("change");
+}
+
 let clickCounter=0;
 let button = document.getElementById("container");
 button.addEventListener("click", function () {
@@ -59,11 +63,13 @@ button.addEventListener("click", function () {
   if (clickCounter===1) {
 
     openNav();
+    changeIcon(this);
 
   }
   else if (clickCounter===2){
     
     closeNav();
+    changeIcon(this);
   
     clickCounter=0;
   }
