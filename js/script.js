@@ -39,12 +39,10 @@ function validateInput2() {
   if (isNaN(x)) {
 
     warnigText.innerHTML = "Invalid format. Please enter a number";
-
   }
   else {
 
     warnigText.innerHTML = "";
-
   }
 }
 
