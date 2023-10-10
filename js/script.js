@@ -145,18 +145,6 @@ window.onclick = function (event) {
   }
 }
 
-//Function test use api
-var requestURL = 'https://api.exchangerate.host/convert?from=USD&to=EUR';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-
-request.onload = function () {
-  var response = request.response;
-  console.log(response);
-}
-
 //Functions to Transilate
 
 function translateTo(language) {
