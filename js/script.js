@@ -53,7 +53,9 @@ function closeNav() {
 // function that change the icon of sidenav
 
 function changeIcon(x) {
+
   x.classList.toggle("change");
+  
 }
 
 //function to count the clicks and open the sidenav
