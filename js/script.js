@@ -88,18 +88,6 @@ button.addEventListener("click", function () {
   }
 });
 
-//Testing inputs focus 
-const inp = document.querySelectorAll('input[type="text"]');
-
-inp.forEach(input => {
-  input.addEventListener('focus', function (event) {
-    if (event.target === input1) {
-
-    } else if (event.target === input2) {
-
-    }
-  });
-});
 
 // Intoducing numbers with button
 
@@ -112,14 +100,13 @@ function writeInput(text) {
   numbInput.value = newValue;
 }
 
-
 // Code of the C button 
 function cleanInput() {
   const numbInput = document.getElementById('input1');
   numbInput.value = "";
 }
 
-//functions for the button copy
+//functions for the buttons copy
 function copied1() {
   document.getElementById("btn1").style.color = "green";
   document.getElementById("btn1").style.border = " solid 2px green";
@@ -225,7 +212,7 @@ function testTranslate(language) {
 
 }
 
-//fonction pour copier un texte
+//function to copy a text
 
 function copyTextToClipboard(inputId) {
   // Récupérer l'élément d'entrée en fonction de son ID
