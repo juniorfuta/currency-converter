@@ -50,15 +50,28 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-function changeIcon(x) {
-  x.classList.toggle("change");
-}
+let clickCounter=0;
+let button = document.getElementById("container");
+button.addEventListener("click", function () {
+
+  clickCounter++; 
+
+  if (clickCounter===1) {
+    alert("Button clicked");
+    // Your double-click event handling code here
+  }
+  else if (clickCounter===2){
+    alert("Button double-clicked!")
+    clickCounter=0;
+  }
+}); 
+
 
 //I'm working here in the sidevnav 14/09/2023
 
 function testAlert() {
-  alert('Click Sindenav icon')
-}
+    alert('Click Sindenav icon')
+  }
 document.getElementById("container").addEventListener("click", testAler());
 
 
@@ -208,7 +221,7 @@ function testTranslate(language) {
     textToTranslate.innerHTML = "Convertisseur de Devises";
   }
   else {
-    textToTranslate.innerHTML="Currency Converter";
+    textToTranslate.innerHTML = "Currency Converter";
   }
 
 }
@@ -218,21 +231,21 @@ function testTranslate(language) {
 function copyTextToClipboard(inputId) {
   // Récupérer l'élément d'entrée en fonction de son ID
   var inputElement = document.getElementById(inputId);
-  
+
   // Vérifier si l'élément d'entrée existe
   if (inputElement) {
-      // Sélectionner le texte dans l'élément d'entrée
-      inputElement.select();
+    // Sélectionner le texte dans l'élément d'entrée
+    inputElement.select();
 
-      try {
-          // Copier le texte sélectionné dans le presse-papiers
-          document.execCommand('copy');
-      } catch (err) {
-          console.error('Impossible de copier le texte:', err);
+    try {
+      // Copier le texte sélectionné dans le presse-papiers
+      document.execCommand('copy');
+    } catch (err) {
+      console.error('Impossible de copier le texte:', err);
 
-      }
+    }
   } else {
-      console.error('L\'élément d\'entrée avec l\'ID ' + inputId + ' n\'existe pas.');
+    console.error('L\'élément d\'entrée avec l\'ID ' + inputId + ' n\'existe pas.');
   }
 }
 
