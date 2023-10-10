@@ -57,11 +57,14 @@ button.addEventListener("click", function () {
   clickCounter++; 
 
   if (clickCounter===1) {
-    alert("Button clicked");
-    // Your double-click event handling code here
+
+    openNav();
+
   }
   else if (clickCounter===2){
-    alert("Button double-clicked!")
+    
+    closeNav();
+  
     clickCounter=0;
   }
 }); 
