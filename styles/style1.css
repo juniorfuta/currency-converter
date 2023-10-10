@@ -132,7 +132,7 @@ h3 {
 .sidenav {
     margin-top: 70px;
     position: absolute;
-    height: 70%;
+    height: 65%;
     z-index: 1;
     width: 0;
     background-color: rgb(41, 130, 189);
