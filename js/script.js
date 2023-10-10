@@ -50,6 +50,8 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
+// function that change the icon of sidenav
+
 function changeIcon(x) {
   x.classList.toggle("change");
 }
