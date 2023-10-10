@@ -17,10 +17,14 @@ function validateInput1() {
   let warnigText = document.getElementById("output1");
 
   if (isNaN(x)) {
+
     warnigText.innerHTML = "Invalid format. Please enter a number";
+
   }
   else {
+
     warnigText.innerHTML = "";
+
   }
 }
 
@@ -35,10 +39,14 @@ function validateInput2() {
   //test input
   let warnigText = document.getElementById("output2");
   if (isNaN(x)) {
+
     warnigText.innerHTML = "Invalid format. Please enter a number";
+
   }
   else {
+
     warnigText.innerHTML = "";
+    
   }
 }
 
@@ -51,7 +59,7 @@ function openNav() {
 function closeNav() {
 
   document.getElementById("mySidenav").style.width = "0";
-  
+
 }
 
 // function that change the icon of sidenav
