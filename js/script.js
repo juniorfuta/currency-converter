@@ -89,14 +89,6 @@ button.addEventListener("click", function () {
 });
 
 
-//I'm working here in the sidevnav 14/09/2023
-
-function testAlert() {
-  alert('Click Sindenav icon')
-}
-document.getElementById("container").addEventListener("click", testAler());
-
-
 /* document.getElementById("container").addEventListener("click", function(){
   clickCount++;
   if (clickCount === 1) {
