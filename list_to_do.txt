@@ -1,0 +1,11 @@
+Things to do:
+
+# Add Tanslation:
+
+-Sidenav
+-Home page
+-About us
+-Policy
+-Terms
+
+# Click outside button Copy
