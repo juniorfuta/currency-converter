@@ -18,3 +18,5 @@ Things to do:
 -Explore API
 -Add currencies
 -Add Conversion
+
+# modify the keyboard
