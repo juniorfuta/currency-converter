@@ -155,16 +155,18 @@ function testTranslate(language) {
 
   let buttonCopy1Translate;
   let buttonCopy2Translate;
+ //let iconButtonCopy;
 
   headingTranslate = document.getElementById("heading");
 
   buttonCopy1Translate=document.getElementById("btn1");
   buttonCopy2Translate=document.getElementById("btn2");
+  //iconButtonCopy=document.getElementById("i2");
 
   if (language === "pt") {
     headingTranslate.innerHTML = "Conversor de Moedas";
     buttonCopy1Translate.innerHTML ="COPIAR" 
-    buttonCopy2Translate.innerHTML ="COPIAR" 
+    buttonCopy2Translate.innerHTML ="COPIAR"
 
   }
   else if (language === "fr") {
