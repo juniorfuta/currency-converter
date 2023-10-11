@@ -20,3 +20,5 @@ Things to do:
 -Add Conversion
 
 # modify the keyboard : Status: Not Started
+
+#Add Themes
