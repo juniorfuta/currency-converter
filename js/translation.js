@@ -7,6 +7,8 @@ function testTranslate(language) {
     let buttonCopy2Translate;
     let keybordTranslation;
     let historyTranslate;
+    let footerTranslate;
+    let dolarUsaTranslate;
        //let iconButtonCopy;
   
     headingTranslate = document.getElementById("heading");
@@ -14,7 +16,9 @@ function testTranslate(language) {
     buttonCopy1Translate=document.getElementById("btn1");
     buttonCopy2Translate=document.getElementById("btn2");
     keybordTranslation=document.getElementById("keybordHeading");
-    historyTranslate=document.getElementById("historyHeading");
+    historyTranslate=document.getElementById("historyHeading"); 
+    footerTranslate=document.getElementById("footerHeading"); 
+    dolarUsaTranslate=document.getElementById("dolarUsa"); 
     //iconButtonCopy=document.getElementById("i2");
   
     if (language === "pt") {
@@ -23,6 +27,8 @@ function testTranslate(language) {
       buttonCopy2Translate.innerHTML ="COPIAR"
       keybordHeading.innerHTML ="Teclado"
       historyTranslate.innerHTML ="Histórico"
+      footerTranslate.innerHTML ="Perfis de Divísas"
+      dolarUsaTranslate.innerHTML ="US-Dolar Americano"
   
   
     }
@@ -32,6 +38,8 @@ function testTranslate(language) {
       buttonCopy2Translate.innerHTML ="COPIER"
       keybordHeading.innerHTML ="Clavier" 
       historyTranslate.innerHTML ="Historique"
+      footerTranslate.innerHTML ="Profils de Devises"
+      dolarUsaTranslate.innerHTML ="US-Dolar American"
     }
     else {
       headingTranslate.innerHTML = "Currency Converter";
@@ -39,6 +47,8 @@ function testTranslate(language) {
       buttonCopy2Translate.innerHTML ="COPY" 
       keybordHeading.innerHTML ="Keybord"
       historyTranslate.innerHTML ="History"
+      footerHeading.innerHTML ="Profils Divises"
+      dolarUsaTranslate.innerHTML ="US-USA Dollar"
     }
   
   }
