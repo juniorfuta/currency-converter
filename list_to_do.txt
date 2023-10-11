@@ -12,3 +12,9 @@ Things to do:
 
 -button 1
 -button 2
+
+# Add API:
+
+-Explore API
+-Add currencies
+-Add Conversion
