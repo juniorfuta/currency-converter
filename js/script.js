@@ -145,45 +145,25 @@ window.onclick = function (event) {
   }
 }
 
-//Functions to Transilate
-
-function translateTo(language) {
-  const translations = {
-    'en': {
-      'heading': 'Currency Converter',
-    },
-    'pt': {
-      'heading': 'Conversor de Moedas'
-    }
-  };
-
-  const elementsToTranslate = document.querySelectorAll('[id^="heading"], [id^="paragraph"]');
-
-  elementsToTranslate.forEach(element => {
-    const id = element.id;
-    if (translations[language][id]) {
-      element.textContent = translations[language][id];
-    }
-  });
-}
+//Functions to Translate
 
 //Function test to translate change language
 
 function testTranslate(language) {
 
-  let textToTranslate;
+  let headingTranslate;
 
-  textToTranslate = document.getElementById("heading");
+  headingTranslate = document.getElementById("heading");
 
   if (language === "pt") {
-    textToTranslate.innerHTML = "Conversor de Moedas";
+    headingTranslate.innerHTML = "Conversor de Moedas";
 
   }
   else if (language === "fr") {
-    textToTranslate.innerHTML = "Convertisseur de Devises";
+    headingTranslate.innerHTML = "Convertisseur de Devises";
   }
   else {
-    textToTranslate.innerHTML = "Currency Converter";
+    headingTranslate.innerHTML = "Currency Converter";
   }
 
 }
