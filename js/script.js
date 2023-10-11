@@ -145,47 +145,37 @@ window.onclick = function (event) {
   }
 }
 
-//Functions to Transilate
-
-function translateTo(language) {
-  const translations = {
-    'en': {
-      'heading': 'Currency Converter',
-      'paragraph': 'This is a sample paragraph.'
-    },
-    'pt': {
-      'heading': 'Conversor de Moedas',
-      'paragraph': 'Este es un párrafo de ejemplo.'
-    }
-  };
-
-  const elementsToTranslate = document.querySelectorAll('[id^="heading"], [id^="paragraph"]');
-
-  elementsToTranslate.forEach(element => {
-    const id = element.id;
-    if (translations[language][id]) {
-      element.textContent = translations[language][id];
-    }
-  });
-}
+//Functions to Translate
 
 //Function test to translate change language
 
 function testTranslate(language) {
 
-  let textToTranslate;
+  let headingTranslate;
 
-  textToTranslate = document.getElementById("heading");
+  let buttonCopy1Translate;
+  let buttonCopy2Translate;
+
+  headingTranslate = document.getElementById("heading");
+
+  buttonCopy1Translate=document.getElementById("btn1");
+  buttonCopy2Translate=document.getElementById("btn2");
 
   if (language === "pt") {
-    textToTranslate.innerHTML = "Conversor de Moedas";
+    headingTranslate.innerHTML = "Conversor de Moedas";
+    buttonCopy1Translate.innerHTML ="COPIAR" 
+    buttonCopy2Translate.innerHTML ="COPIAR" 
 
   }
   else if (language === "fr") {
-    textToTranslate.innerHTML = "Convertisseur de Devises";
+    headingTranslate.innerHTML = "Convertisseur de Devises";
+    buttonCopy1Translate.innerHTML ="COPIER" 
+    buttonCopy2Translate.innerHTML ="COPIER" 
   }
   else {
-    textToTranslate.innerHTML = "Currency Converter";
+    headingTranslate.innerHTML = "Currency Converter";
+    buttonCopy1Translate.innerHTML ="COPY" 
+    buttonCopy2Translate.innerHTML ="COPY" 
   }
 
 }
