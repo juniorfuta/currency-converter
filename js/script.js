@@ -151,11 +151,9 @@ function translateTo(language) {
   const translations = {
     'en': {
       'heading': 'Currency Converter',
-      'paragraph': 'This is a sample paragraph.'
     },
     'pt': {
-      'heading': 'Conversor de Moedas',
-      'paragraph': 'Este es un párrafo de ejemplo.'
+      'heading': 'Conversor de Moedas'
     }
   };
 
