@@ -1,6 +1,6 @@
 Things to do:
 
-# Add Tanslation:
+# Add Tanslation: Status: On going
 
 -Sidenav
 -Home page
@@ -8,15 +8,15 @@ Things to do:
 -Policy
 -Terms
 
-# Click outside button Copy
+# Click outside button Copy : Status: Not Started
 
 -button 1
 -button 2
 
-# Add API:
+# Add API: : Status: Not Started
 
 -Explore API
 -Add currencies
 -Add Conversion
 
-# modify the keyboard
+# modify the keyboard : Status: Not Started
