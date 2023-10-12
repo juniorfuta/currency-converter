@@ -1,6 +1,24 @@
+Annotations 
+  #RELEASE 
+  #TODO, #NOTE, #SCHEDULE, #ENHANCEMENT, #FIXME, #HOTFIX,
+  #DEBUG, #BUG, #REVIEW, #TEST, #SEE, #DOING, #STEP, #OK,
+  #DONE, #SOLVED, #CHECK, #WIP, #WARNING, #UPDATE
+  #ISSUES
+  #PRIORITY_1, #PRIORITY_2, #PRIORITY_3, #PRIORITY_4
+
+
+
+  #PRIORITY_1
+
+  #PRIORITY_2
+
+  #PRIORITY_3
+
+  #PRIORITY_4
+
 Things to do:
 
-# Add Tanslation: Status: On going
+# Add Tanslation: Status: On going 
 
 -Sidenav
 -Home page
