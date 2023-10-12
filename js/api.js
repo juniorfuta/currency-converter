@@ -22,7 +22,7 @@ request.onload = function() {
 //Methode fetch
 const data = await (await fetch ('https://api.exchangerate.host/latest')). json();
 console.log(data);
-*/
+
 
 const API_URL= "https://api.exchangerate.host/"
 const API_CURRENCIES_RATES= "latest"
