@@ -146,6 +146,7 @@ window.onclick = function (event) {
 }
 
 
+
 //function to copy a text
 
 function copyTextToClipboard(inputId) {
