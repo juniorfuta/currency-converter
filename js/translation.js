@@ -76,5 +76,6 @@ function testTranslate(language) {
     newzealandDollarTranslate.innerHTML="NZD-New Zealand Dollar"
     russianDollarTranslate.innerHTML="RUB-Russian Ruble"
     southAfricanRandTranslate.innerHTML="ZAR-South African Rand"
+    swissFrancTranalate.innerHTML="CHF-Swiss Franc"
   }
 }
