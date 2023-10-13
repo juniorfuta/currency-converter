@@ -16,6 +16,8 @@ function testTranslate(language) {
   let indianRupeTranslate = document.getElementById("indian rupee");
   let japaneseYenTranslate = document.getElementById("japanese yen");
   let newzealandDollarTranslate=document.getElementById("zealand dollar");
+  let russianDollarTranslate=document.getElementById("russian ruble");
+
 
 
   //iconButtonCopy=document.getElementById("i2");
@@ -34,6 +36,7 @@ function testTranslate(language) {
     indianRupeTranslate.innerHTML = "INR-Rupia Indiana"
     japaneseYenTranslate.innerHTML= "JPY-Yen Japonês"
     newzealandDollarTranslate.innerHTML="NZD-Dólar da Nova Zelândia"
+    russianDollarTranslate.innerHTML="RUB-Rublo Russo"
 
   }
   else if (language === "fr") {
