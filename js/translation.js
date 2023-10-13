@@ -19,6 +19,7 @@ function testTranslate(language) {
   let russianDollarTranslate=document.getElementById("russian ruble");
   let southAfricanRandTranslate=document.getElementById("south african rand");
   let swissFrancTranalate=document.getElementById("swiss franc");
+  let britishPoundTranslate=document.getElementById("british pound");
 
   //iconButtonCopy=document.getElementById("i2");
 
@@ -39,6 +40,7 @@ function testTranslate(language) {
     russianDollarTranslate.innerHTML="RUB-Rublo Russo"
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sul-Africano"
     swissFrancTranalate.innerHTML="CHF-Franco Suíço"
+    britishPoundTranslate.innerHTML="GBP-British Pound"
 
   }
   else if (language === "fr") {
@@ -77,5 +79,6 @@ function testTranslate(language) {
     russianDollarTranslate.innerHTML="RUB-Russian Ruble"
     southAfricanRandTranslate.innerHTML="ZAR-South African Rand"
     swissFrancTranalate.innerHTML="CHF-Swiss Franc"
+    britishPoundTranslate.innerHTML="GBP-British Pound"
   }
 }
