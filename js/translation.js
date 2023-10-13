@@ -46,6 +46,7 @@ function testTranslate(language) {
     canadianDollarTranslate.innerHTML = "CAD-Dolar Canadian"
     bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgarian"
     indianRupeTranslate.innerHTML = "INR-Rupie Indienne"
+    japaneseYenTranslate.innerHTML= "JPY-Yen Japonais"
 
   }
   else {
