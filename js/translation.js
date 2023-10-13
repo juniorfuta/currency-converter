@@ -5,7 +5,7 @@ function testTranslate(language) {
   
 
 
-    let keybordTranslation;
+    
     let historyTranslate;
     let footerTranslate;
     let dolarUsaTranslate;
@@ -20,7 +20,7 @@ function testTranslate(language) {
   
     let buttonCopy1Translate=document.getElementById("btn1");
     let buttonCopy2Translate=document.getElementById("btn2");
-    keybordTranslation=document.getElementById("keybordHeading");
+    let keybordTranslation=document.getElementById("keybordHeading");
     historyTranslate=document.getElementById("historyHeading"); 
     footerTranslate=document.getElementById("footerHeading"); 
     dolarUsaTranslate=document.getElementById("dolarUsa"); 
