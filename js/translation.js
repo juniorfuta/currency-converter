@@ -38,6 +38,7 @@ function testTranslate(language) {
     newzealandDollarTranslate.innerHTML="NZD-Dólar da Nova Zelândia"
     russianDollarTranslate.innerHTML="RUB-Rublo Russo"
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sul-Africano"
+    swissFrancTranalate.innerHTML="Franco Suíço"
 
   }
   else if (language === "fr") {
