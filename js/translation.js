@@ -11,6 +11,7 @@ function testTranslate(language) {
     let dolarUsaTranslate;
     let australianDollarTranslate;
     let canadianDollarTranslate;
+    let bulagrianLevTranslate;
        //let iconButtonCopy;
   
     headingTranslate = document.getElementById("heading");
@@ -23,6 +24,7 @@ function testTranslate(language) {
     dolarUsaTranslate=document.getElementById("dolarUsa"); 
     australianDollarTranslate=document.getElementById("australian dollar");
     canadianDollarTranslate=document.getElementById("canadian dollar");
+    bulagrianLevTranslate=document.getElementById("bulgarian lev");
 
     //iconButtonCopy=document.getElementById("i2");
   
@@ -36,6 +38,7 @@ function testTranslate(language) {
       dolarUsaTranslate.innerHTML ="US-Dolar Americano"
       australianDollarTranslate.innerHTML="AUD-Dolar Australiano"
       canadianDollarTranslate.innerHTML="CAD-Dolar Canadiano"
+      bulagrianLevTranslate.innerHTML="BGN=Lev Bulgariano"
     }
     else if (language === "fr") {
       headingTranslate.innerHTML = "Convertisseur de Devises";
@@ -47,6 +50,8 @@ function testTranslate(language) {
       dolarUsaTranslate.innerHTML ="US-Dolar American"
       australianDollarTranslate.innerHTML="AUD-Dolar Australian"
       canadianDollarTranslate.innerHTML="CAD-Dolar Canadian"
+      bulagrianLevTranslate.innerHTML="BGN=Lev Bulgarian"
+
     }
     else {
       headingTranslate.innerHTML = "Currency Converter";
@@ -58,6 +63,7 @@ function testTranslate(language) {
       dolarUsaTranslate.innerHTML ="US-USA Dollar"
       australianDollarTranslate.innerHTML="AUD-Australain Dollar"
       canadianDollarTranslate.innerHTML="CAD-Canadian Dollar"
+      bulagrianLevTranslate.innerHTML="BGN-Bulgarian Lev"
     }
 
   }
