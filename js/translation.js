@@ -23,7 +23,7 @@ function testTranslate(language) {
     let keybordTranslation=document.getElementById("keybordHeading");
     let historyTranslate=document.getElementById("historyHeading"); 
     let footerTranslate=document.getElementById("footerHeading"); 
-    dolarUsaTranslate=document.getElementById("dolarUsa"); 
+    let dolarUsaTranslate=document.getElementById("dolarUsa"); 
     australianDollarTranslate=document.getElementById("australian dollar");
     canadianDollarTranslate=document.getElementById("canadian dollar");
     bulagrianLevTranslate=document.getElementById("bulgarian lev");
