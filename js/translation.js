@@ -9,6 +9,8 @@ function testTranslate(language) {
     let historyTranslate;
     let footerTranslate;
     let dolarUsaTranslate;
+    let australianDollarTranslate;
+    let canadianDollarTranslate;
        //let iconButtonCopy;
   
     headingTranslate = document.getElementById("heading");
@@ -19,6 +21,9 @@ function testTranslate(language) {
     historyTranslate=document.getElementById("historyHeading"); 
     footerTranslate=document.getElementById("footerHeading"); 
     dolarUsaTranslate=document.getElementById("dolarUsa"); 
+    australianDollarTranslate=document.getElementById("australian dollar");
+    canadianDollarTranslate=document.getElementById("canadian dollar");
+
     //iconButtonCopy=document.getElementById("i2");
   
     if (language === "pt") {
@@ -29,8 +34,8 @@ function testTranslate(language) {
       historyTranslate.innerHTML ="Histórico"
       footerTranslate.innerHTML ="Perfis de Divísas"
       dolarUsaTranslate.innerHTML ="US-Dolar Americano"
-  
-  
+      australianDollarTranslate.innerHTML="AUD-Dolar Australiano"
+      canadianDollarTranslate.innerHTML="CAD-Dolar Canadiano"
     }
     else if (language === "fr") {
       headingTranslate.innerHTML = "Convertisseur de Devises";
@@ -40,6 +45,8 @@ function testTranslate(language) {
       historyTranslate.innerHTML ="Historique"
       footerTranslate.innerHTML ="Profils de Devises"
       dolarUsaTranslate.innerHTML ="US-Dolar American"
+      australianDollarTranslate.innerHTML="AUD-Dolar Australian"
+      canadianDollarTranslate.innerHTML="CAD-Dolar Canadian"
     }
     else {
       headingTranslate.innerHTML = "Currency Converter";
@@ -49,6 +56,8 @@ function testTranslate(language) {
       historyTranslate.innerHTML ="History"
       footerHeading.innerHTML ="Profils Divises"
       dolarUsaTranslate.innerHTML ="US-USA Dollar"
+      australianDollarTranslate.innerHTML="AUD-Australain Dollar"
+      canadianDollarTranslate.innerHTML="CAD-Canadian Dollar"
     }
 
   }
