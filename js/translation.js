@@ -24,6 +24,8 @@ function testTranslate(language) {
   let aboutUsTranslate = document.getElementById("about us");
   let policyTranslate = document.getElementById("policy");
   let termsTranslate= document.getElementById("terms");
+  let madeTranslate= document.getElementById("footer3");
+
 
 
   //iconButtonCopy=document.getElementById("i2");
@@ -50,6 +52,7 @@ function testTranslate(language) {
     aboutUsTranslate.innerHTML = "Acerca de Nós"
     policyTranslate.innerHTML="Política"
     termsTranslate.innerHTML="Termos"
+    madeTranslate.innerHTML="Feito com &#x1F497; por Júnior Futa (JFuta21)"
 
   }
   else if (language === "fr") {
@@ -75,6 +78,7 @@ function testTranslate(language) {
     aboutUsTranslate.innerHTML = "À Propos De Nous"
     policyTranslate.innerHTML="Politique"
     termsTranslate.innerHTML="Termes"
+    madeTranslate.innerHTML="Fait avec &#x1F497; pour Júnior Futa (JFuta21)"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
