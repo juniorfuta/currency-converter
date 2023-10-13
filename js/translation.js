@@ -18,6 +18,7 @@ function testTranslate(language) {
   let newzealandDollarTranslate=document.getElementById("zealand dollar");
   let russianDollarTranslate=document.getElementById("russian ruble");
   let southAfricanRandTranslate=document.getElementById("south african rand");
+  let swissFrancTranalate=document.getElementById("swiss franc");
 
   //iconButtonCopy=document.getElementById("i2");
 
