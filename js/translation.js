@@ -68,6 +68,7 @@ function testTranslate(language) {
     swissFrancTranalate.innerHTML="CHF-Franc Suisse"
     britishPoundTranslate.innerHTML="GBP-Livre Sterling"
     contactsTranslate.innerHTML="Contacts Pour Les partenariats"
+    aboutUsTranslate.innerHTML="À Propos De Nous"  
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
