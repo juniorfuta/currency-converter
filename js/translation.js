@@ -23,6 +23,7 @@ function testTranslate(language) {
   let contactsTranslate = document.getElementById("contacts");
   let aboutUsTranslate = document.getElementById("about us");
   let policyTranslate = document.getElementById("policy");
+  let termsTranslate= document.getElementById("terms");
 
 
   //iconButtonCopy=document.getElementById("i2");
@@ -48,6 +49,7 @@ function testTranslate(language) {
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "Acerca de Nós"
     policyTranslate.innerHTML="Política"
+    termsTranslate.innerHTML="Termos"
 
   }
   else if (language === "fr") {
