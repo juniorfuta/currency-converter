@@ -6,7 +6,7 @@ function testTranslate(language) {
 
 
     
-    let historyTranslate;
+   
     let footerTranslate;
     let dolarUsaTranslate;
     let australianDollarTranslate;
@@ -22,7 +22,7 @@ function testTranslate(language) {
     let buttonCopy2Translate=document.getElementById("btn2");
     let keybordTranslation=document.getElementById("keybordHeading");
     let historyTranslate=document.getElementById("historyHeading"); 
-    footerTranslate=document.getElementById("footerHeading"); 
+    let footerTranslate=document.getElementById("footerHeading"); 
     dolarUsaTranslate=document.getElementById("dolarUsa"); 
     australianDollarTranslate=document.getElementById("australian dollar");
     canadianDollarTranslate=document.getElementById("canadian dollar");
