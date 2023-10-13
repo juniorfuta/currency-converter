@@ -14,6 +14,8 @@ function testTranslate(language) {
   let canadianDollarTranslate = document.getElementById("canadian dollar");
   let bulagrianLevTranslate = document.getElementById("bulgarian lev");
   let indianRupeTranslate = document.getElementById("indian rupee");
+  let japaneseYenTranslate = document.getElementById("japanese yen");
+
 
   //iconButtonCopy=document.getElementById("i2");
 
@@ -29,6 +31,7 @@ function testTranslate(language) {
     canadianDollarTranslate.innerHTML = "CAD-Dolar Canadiano"
     bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgariano"
     indianRupeTranslate.innerHTML = "INR-Rupia Indiana"
+    japaneseYenTranslate.innerHTML= "JPY-Yen Japonês"
 
   }
   else if (language === "fr") {
