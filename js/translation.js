@@ -61,6 +61,7 @@ function testTranslate(language) {
     russianDollarTranslate.innerHTML="RUB-Rouble Russe"
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sud-Africain"
     swissFrancTranalate.innerHTML="CHF-Franc Suisse"
+    britishPoundTranslate.innerHTML="GBP-Livre Sterling"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
