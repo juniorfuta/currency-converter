@@ -69,6 +69,6 @@ function testTranslate(language) {
     indianRupeTranslate.innerHTML = "INR-Indian Rupee"
     japaneseYenTranslate.innerHTML= "JPY-Japanese Yen"
     newzealandDollarTranslate.innerHTML="NZD-New Zealand Dollar"
-
+    russianDollarTranslate.innerHTML="RUB-Russian Ruble"
   }
 }
