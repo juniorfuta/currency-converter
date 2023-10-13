@@ -58,7 +58,7 @@ function testTranslate(language) {
     newzealandDollarTranslate.innerHTML="NZD-Dollar Néo-Zélandais"
     russianDollarTranslate.innerHTML="RUB-Rouble Russe"
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sud-Africain"
-    swissFrancTranalate.innerHTML="Franco Suíço"
+    swissFrancTranalate.innerHTML="CHF-Franc Suisse"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
