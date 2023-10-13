@@ -27,7 +27,7 @@ function testTranslate(language) {
     keybordTranslation.innerHTML = "Teclado"
     historyTranslate.innerHTML = "Histórico"
     footerTranslate.innerHTML = "Perfis de Divísas"
-    dolarUsaTranslate.innerHTML = "US-Dolar Americano"
+    dolarUsaTranslate.innerHTML = "US-Dólar Americano"
     australianDollarTranslate.innerHTML = "AUD-Dólar Australiano"
     canadianDollarTranslate.innerHTML = "CAD-Dólar Canadiano"
     bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgariano"
