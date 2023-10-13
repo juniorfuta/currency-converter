@@ -15,8 +15,6 @@ function testTranslate(language) {
   let bulagrianLevTranslate = document.getElementById("bulgarian lev");
   let indianRupeTranslate = document.getElementById("indian rupee");
 
-
-
   //iconButtonCopy=document.getElementById("i2");
 
   if (language === "pt") {
