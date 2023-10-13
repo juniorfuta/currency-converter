@@ -18,7 +18,7 @@ Annotations
 
 Things to do:
 
-# Add Tanslation: Status: On going 
+ #TODO: Add Tanslation 
 
 -Sidenav
 -Home page
@@ -26,17 +26,17 @@ Things to do:
 -Policy
 -Terms
 
-# Click outside button Copy : Status: Not Started
+ #TODO: Click outside button Copy 
 
 -button 1
 -button 2
 
-# Add API: : Status: Not Started
+ #TODO: Add API
 
 -Explore API
 -Add currencies
 -Add Conversion
 
-# modify the keyboard : Status: Not Started
+ #TODO: modify the keyboard
 
-#Add Themes
+ #TODO:Add Themes
