@@ -12,6 +12,8 @@ function testTranslate(language) {
     let australianDollarTranslate;
     let canadianDollarTranslate;
     let bulagrianLevTranslate;
+    
+
        //let iconButtonCopy;
   
     headingTranslate = document.getElementById("heading");
@@ -25,6 +27,7 @@ function testTranslate(language) {
     australianDollarTranslate=document.getElementById("australian dollar");
     canadianDollarTranslate=document.getElementById("canadian dollar");
     bulagrianLevTranslate=document.getElementById("bulgarian lev");
+    let indianRupeTranslate=document.getElementById("indian rupee");
 
     //iconButtonCopy=document.getElementById("i2");
   
@@ -39,6 +42,8 @@ function testTranslate(language) {
       australianDollarTranslate.innerHTML="AUD-Dolar Australiano"
       canadianDollarTranslate.innerHTML="CAD-Dolar Canadiano"
       bulagrianLevTranslate.innerHTML="BGN=Lev Bulgariano"
+      indianRupeTranslate.innerHTML="INR-Rupia Indiana"
+
     }
     else if (language === "fr") {
       headingTranslate.innerHTML = "Convertisseur de Devises";
@@ -51,6 +56,7 @@ function testTranslate(language) {
       australianDollarTranslate.innerHTML="AUD-Dolar Australian"
       canadianDollarTranslate.innerHTML="CAD-Dolar Canadian"
       bulagrianLevTranslate.innerHTML="BGN=Lev Bulgarian"
+      indianRupeTranslate.innerHTML="INR-Rupie Indienne"
 
     }
     else {
@@ -64,6 +70,7 @@ function testTranslate(language) {
       australianDollarTranslate.innerHTML="AUD-Australain Dollar"
       canadianDollarTranslate.innerHTML="CAD-Canadian Dollar"
       bulagrianLevTranslate.innerHTML="BGN-Bulgarian Lev"
+      indianRupeTranslate.innerHTML="INR-Indian Rupee"
     }
 
   }
