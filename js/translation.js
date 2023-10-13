@@ -74,6 +74,7 @@ function testTranslate(language) {
     contactsTranslate.innerHTML = "Contacts Pour Les partenariats"
     aboutUsTranslate.innerHTML = "À Propos De Nous"
     policyTranslate.innerHTML="Politique"
+    termsTranslate.innerHTML="Termes"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
@@ -96,5 +97,6 @@ function testTranslate(language) {
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "About Us"
     policyTranslate.innerHTML="Policy"
+    termsTranslate.innerHTML="Terms"
   }
 }
