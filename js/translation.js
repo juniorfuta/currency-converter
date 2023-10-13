@@ -3,7 +3,7 @@ function testTranslate(language) {
 
   
   
-    let buttonCopy1Translate;
+
     let buttonCopy2Translate;
     let keybordTranslation;
     let historyTranslate;
@@ -18,7 +18,7 @@ function testTranslate(language) {
   
     let headingTranslate = document.getElementById("heading");
   
-    buttonCopy1Translate=document.getElementById("btn1");
+    let buttonCopy1Translate=document.getElementById("btn1");
     buttonCopy2Translate=document.getElementById("btn2");
     keybordTranslation=document.getElementById("keybordHeading");
     historyTranslate=document.getElementById("historyHeading"); 
