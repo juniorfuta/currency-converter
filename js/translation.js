@@ -72,5 +72,6 @@ function testTranslate(language) {
     japaneseYenTranslate.innerHTML= "JPY-Japanese Yen"
     newzealandDollarTranslate.innerHTML="NZD-New Zealand Dollar"
     russianDollarTranslate.innerHTML="RUB-Russian Ruble"
+    southAfricanRandTranslate.innerHTML="ZAR-South African Rand"
   }
 }
