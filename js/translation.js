@@ -20,6 +20,8 @@ function testTranslate(language) {
   let southAfricanRandTranslate=document.getElementById("south african rand");
   let swissFrancTranalate=document.getElementById("swiss franc");
   let britishPoundTranslate=document.getElementById("british pound");
+  let contactsTranslate=document.getElementById("contacts");
+
 
   //iconButtonCopy=document.getElementById("i2");
 
@@ -41,6 +43,7 @@ function testTranslate(language) {
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sul-Africano"
     swissFrancTranalate.innerHTML="CHF-Franco Suíço"
     britishPoundTranslate.innerHTML="GBP-Libra britânica"
+    contactsTranslate.innerHTML=""
 
   }
   else if (language === "fr") {
