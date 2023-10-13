@@ -47,7 +47,7 @@ function testTranslate(language) {
     britishPoundTranslate.innerHTML = "GBP-Libra britânica"
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "Acerca de Nós"
-    policyTranslate.innerHTML="Policy"
+    policyTranslate.innerHTML="Política"
 
   }
   else if (language === "fr") {
