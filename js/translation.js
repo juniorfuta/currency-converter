@@ -38,7 +38,7 @@ function testTranslate(language) {
     newzealandDollarTranslate.innerHTML="NZD-Dólar da Nova Zelândia"
     russianDollarTranslate.innerHTML="RUB-Rublo Russo"
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sul-Africano"
-    swissFrancTranalate.innerHTML="Franco Suíço"
+    swissFrancTranalate.innerHTML="CHF-Franco Suíço"
 
   }
   else if (language === "fr") {
@@ -58,6 +58,7 @@ function testTranslate(language) {
     newzealandDollarTranslate.innerHTML="NZD-Dollar Néo-Zélandais"
     russianDollarTranslate.innerHTML="RUB-Rouble Russe"
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sud-Africain"
+    swissFrancTranalate.innerHTML="Franco Suíço"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
