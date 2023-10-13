@@ -23,6 +23,7 @@ function testTranslate(language) {
   let contactsTranslate = document.getElementById("contacts");
   let aboutUsTranslate = document.getElementById("about us");
   let policyTranslate = document.getElementById("policy");
+  let termsTranslate= document.getElementById("terms");
 
 
   //iconButtonCopy=document.getElementById("i2");
@@ -48,6 +49,7 @@ function testTranslate(language) {
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "Acerca de Nós"
     policyTranslate.innerHTML="Política"
+    termsTranslate.innerHTML="Termos"
 
   }
   else if (language === "fr") {
@@ -72,6 +74,7 @@ function testTranslate(language) {
     contactsTranslate.innerHTML = "Contacts Pour Les partenariats"
     aboutUsTranslate.innerHTML = "À Propos De Nous"
     policyTranslate.innerHTML="Politique"
+    termsTranslate.innerHTML="Termes"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
@@ -94,5 +97,6 @@ function testTranslate(language) {
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "About Us"
     policyTranslate.innerHTML="Policy"
+    termsTranslate.innerHTML="Terms"
   }
 }
