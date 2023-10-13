@@ -71,6 +71,7 @@ function testTranslate(language) {
     britishPoundTranslate.innerHTML = "GBP-Livre Sterling"
     contactsTranslate.innerHTML = "Contacts Pour Les partenariats"
     aboutUsTranslate.innerHTML = "À Propos De Nous"
+    policyTranslate.innerHTML="Politique"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
