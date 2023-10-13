@@ -61,5 +61,6 @@ function testTranslate(language) {
     canadianDollarTranslate.innerHTML = "CAD-Canadian Dollar"
     bulagrianLevTranslate.innerHTML = "BGN-Bulgarian Lev"
     indianRupeTranslate.innerHTML = "INR-Indian Rupee"
+    japaneseYenTranslate.innerHTML= "JPY-Japanese Yen"
   }
 }
