@@ -22,6 +22,7 @@ function testTranslate(language) {
   let britishPoundTranslate = document.getElementById("british pound");
   let contactsTranslate = document.getElementById("contacts");
   let aboutUsTranslate = document.getElementById("about us");
+  let policyTranslate = document.getElementById("policy");
 
 
   //iconButtonCopy=document.getElementById("i2");
@@ -46,6 +47,7 @@ function testTranslate(language) {
     britishPoundTranslate.innerHTML = "GBP-Libra britânica"
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "Acerca de Nós"
+    policyTranslate.innerHTML="Policy"
 
   }
   else if (language === "fr") {
@@ -90,5 +92,6 @@ function testTranslate(language) {
     britishPoundTranslate.innerHTML = "GBP-British Pound"
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "About Us"
+    policyTranslate.innerHTML="Policy"
   }
 }
