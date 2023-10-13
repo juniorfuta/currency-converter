@@ -36,7 +36,7 @@ function testTranslate(language) {
     japaneseYenTranslate.innerHTML= "JPY-Yen Japonês"
     newzealandDollarTranslate.innerHTML="NZD-Dólar da Nova Zelândia"
     russianDollarTranslate.innerHTML="RUB-Rublo Russo"
-    southAfricanRandTranslate.innerHTML
+    southAfricanRandTranslate.innerHTML="ZAR-Rand Sul-Africano"
 
   }
   else if (language === "fr") {
