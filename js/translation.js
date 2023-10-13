@@ -55,7 +55,7 @@ function testTranslate(language) {
     japaneseYenTranslate.innerHTML= "JPY-Yen Japonais"
     newzealandDollarTranslate.innerHTML="NZD-Dollar Néo-Zélandais"
     russianDollarTranslate.innerHTML="RUB-Rouble Russe"
-
+    southAfricanRandTranslate.innerHTML="ZAR-Rand Sud-Africain"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
