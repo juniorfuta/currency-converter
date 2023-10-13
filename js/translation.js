@@ -43,7 +43,7 @@ function testTranslate(language) {
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sul-Africano"
     swissFrancTranalate.innerHTML="CHF-Franco Suíço"
     britishPoundTranslate.innerHTML="GBP-Libra britânica"
-    contactsTranslate.innerHTML=""
+    contactsTranslate.innerHTML="Contactos para Parcerias"
 
   }
   else if (language === "fr") {
