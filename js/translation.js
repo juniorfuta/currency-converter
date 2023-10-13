@@ -21,7 +21,7 @@ function testTranslate(language) {
     let buttonCopy1Translate=document.getElementById("btn1");
     let buttonCopy2Translate=document.getElementById("btn2");
     let keybordTranslation=document.getElementById("keybordHeading");
-    historyTranslate=document.getElementById("historyHeading"); 
+    let historyTranslate=document.getElementById("historyHeading"); 
     footerTranslate=document.getElementById("footerHeading"); 
     dolarUsaTranslate=document.getElementById("dolarUsa"); 
     australianDollarTranslate=document.getElementById("australian dollar");
