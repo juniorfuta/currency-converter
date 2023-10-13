@@ -1,7 +1,7 @@
 
 function testTranslate(language) {
 
-    let headingTranslate;
+  
   
     let buttonCopy1Translate;
     let buttonCopy2Translate;
@@ -16,7 +16,7 @@ function testTranslate(language) {
 
        //let iconButtonCopy;
   
-    headingTranslate = document.getElementById("heading");
+    let headingTranslate = document.getElementById("heading");
   
     buttonCopy1Translate=document.getElementById("btn1");
     buttonCopy2Translate=document.getElementById("btn2");
