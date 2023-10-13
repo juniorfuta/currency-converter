@@ -49,7 +49,7 @@ function testTranslate(language) {
     bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgarian"
     indianRupeTranslate.innerHTML = "INR-Rupie Indienne"
     japaneseYenTranslate.innerHTML= "JPY-Yen Japonais"
-    newzealandDollarTranslate.innerHTML="Dólar da Nova Zelândia"
+    newzealandDollarTranslate.innerHTML="NZD-Dollar Néo-Zélandais"
 
   }
   else {
