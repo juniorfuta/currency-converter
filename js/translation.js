@@ -21,6 +21,7 @@ function testTranslate(language) {
   let swissFrancTranalate=document.getElementById("swiss franc");
   let britishPoundTranslate=document.getElementById("british pound");
   let contactsTranslate=document.getElementById("contacts");
+  let aboutUsTranslate=document.getElementById("about us");
 
 
   //iconButtonCopy=document.getElementById("i2");
@@ -44,6 +45,7 @@ function testTranslate(language) {
     swissFrancTranalate.innerHTML="CHF-Franco Suíço"
     britishPoundTranslate.innerHTML="GBP-Libra britânica"
     contactsTranslate.innerHTML="Contactos para Parcerias"
+    aboutUsTranslate.innerHTML="Acerca de Nós"
 
   }
   else if (language === "fr") {
