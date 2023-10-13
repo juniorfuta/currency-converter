@@ -14,7 +14,7 @@ function testTranslate(language) {
   let canadianDollarTranslate = document.getElementById("canadian dollar");
   let bulagrianLevTranslate = document.getElementById("bulgarian lev");
   let indianRupeTranslate = document.getElementById("indian rupee");
-  let indianRupeTranslate = document.getElementById("indian rupee");
+
 
 
   //iconButtonCopy=document.getElementById("i2");
