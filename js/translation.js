@@ -18,8 +18,6 @@ function testTranslate(language) {
   let newzealandDollarTranslate=document.getElementById("zealand dollar");
   let russianDollarTranslate=document.getElementById("russian ruble");
 
-
-
   //iconButtonCopy=document.getElementById("i2");
 
   if (language === "pt") {
@@ -40,6 +38,7 @@ function testTranslate(language) {
 
   }
   else if (language === "fr") {
+
     headingTranslate.innerHTML = "Convertisseur de Devises";
     buttonCopy1Translate.innerHTML = "COPIER"
     buttonCopy2Translate.innerHTML = "COPIER"
