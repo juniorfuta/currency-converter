@@ -40,7 +40,7 @@ function testTranslate(language) {
     russianDollarTranslate.innerHTML="RUB-Rublo Russo"
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sul-Africano"
     swissFrancTranalate.innerHTML="CHF-Franco Suíço"
-    britishPoundTranslate.innerHTML="GBP-British Pound"
+    britishPoundTranslate.innerHTML="GBP-Libra britânica"
 
   }
   else if (language === "fr") {
