@@ -1,19 +1,6 @@
 
-function testTranslate(language) {
-
-  
-  
-
-
+function testTranslate(language) 
     
-   
-    let footerTranslate;
-    let dolarUsaTranslate;
-    let australianDollarTranslate;
-    let canadianDollarTranslate;
-    let bulagrianLevTranslate;
-    
-
        //let iconButtonCopy;
   
     let headingTranslate = document.getElementById("heading");
@@ -25,7 +12,7 @@ function testTranslate(language) {
     let footerTranslate=document.getElementById("footerHeading"); 
     let dolarUsaTranslate=document.getElementById("dolarUsa"); 
     let australianDollarTranslate=document.getElementById("australian dollar");
-    canadianDollarTranslate=document.getElementById("canadian dollar");
+    let canadianDollarTranslate=document.getElementById("canadian dollar");
     bulagrianLevTranslate=document.getElementById("bulgarian lev");
     let indianRupeTranslate=document.getElementById("indian rupee");
 
