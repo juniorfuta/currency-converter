@@ -84,5 +84,6 @@ function testTranslate(language) {
     southAfricanRandTranslate.innerHTML="ZAR-South African Rand"
     swissFrancTranalate.innerHTML="CHF-Swiss Franc"
     britishPoundTranslate.innerHTML="GBP-British Pound"
+    contactsTranslate.innerHTML="Contactos para Parcerias"
   }
 }
