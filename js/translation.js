@@ -1,5 +1,5 @@
 
-function testTranslate(language) 
+function testTranslate(language) {
     
        //let iconButtonCopy;
   
@@ -59,5 +59,4 @@ function testTranslate(language)
       bulagrianLevTranslate.innerHTML="BGN-Bulgarian Lev"
       indianRupeTranslate.innerHTML="INR-Indian Rupee"
     }
-
   }
