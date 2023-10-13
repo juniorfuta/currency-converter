@@ -65,6 +65,7 @@ function testTranslate(language) {
     southAfricanRandTranslate.innerHTML="ZAR-Rand Sud-Africain"
     swissFrancTranalate.innerHTML="CHF-Franc Suisse"
     britishPoundTranslate.innerHTML="GBP-Livre Sterling"
+    contactsTranslate.innerHTML="Contacts Pour Les partenariats"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
