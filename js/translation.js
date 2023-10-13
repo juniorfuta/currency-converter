@@ -28,7 +28,7 @@ function testTranslate(language) {
     historyTranslate.innerHTML = "Histórico"
     footerTranslate.innerHTML = "Perfis de Divísas"
     dolarUsaTranslate.innerHTML = "US-Dolar Americano"
-    australianDollarTranslate.innerHTML = "AUD-Dolar Australiano"
+    australianDollarTranslate.innerHTML = "AUD-Dólar Australiano"
     canadianDollarTranslate.innerHTML = "CAD-Dólar Canadiano"
     bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgariano"
     indianRupeTranslate.innerHTML = "INR-Rupia Indiana"
