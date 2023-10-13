@@ -65,5 +65,7 @@ function testTranslate(language) {
     bulagrianLevTranslate.innerHTML = "BGN-Bulgarian Lev"
     indianRupeTranslate.innerHTML = "INR-Indian Rupee"
     japaneseYenTranslate.innerHTML= "JPY-Japanese Yen"
+    newzealandDollarTranslate.innerHTML="NZD-New Zealand Dollar"
+
   }
 }
