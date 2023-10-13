@@ -21,7 +21,7 @@ Things to do:
  #TODO: Add Tanslation 
 
 -Sidenav
--Home page
+-Home page #DONE
 -About us
 -Policy
 -Terms
