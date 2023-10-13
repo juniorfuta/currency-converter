@@ -50,5 +50,5 @@ function testTranslate(language) {
       footerHeading.innerHTML ="Profils Divises"
       dolarUsaTranslate.innerHTML ="US-USA Dollar"
     }
-  
+
   }
