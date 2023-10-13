@@ -29,7 +29,7 @@ function testTranslate(language) {
     footerTranslate.innerHTML = "Perfis de Divísas"
     dolarUsaTranslate.innerHTML = "US-Dolar Americano"
     australianDollarTranslate.innerHTML = "AUD-Dolar Australiano"
-    canadianDollarTranslate.innerHTML = "CAD-Dolar Canadiano"
+    canadianDollarTranslate.innerHTML = "CAD-Dólar Canadiano"
     bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgariano"
     indianRupeTranslate.innerHTML = "INR-Rupia Indiana"
     japaneseYenTranslate.innerHTML= "JPY-Yen Japonês"
