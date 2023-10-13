@@ -15,10 +15,15 @@ function testTranslate(language) {
   let bulagrianLevTranslate = document.getElementById("bulgarian lev");
   let indianRupeTranslate = document.getElementById("indian rupee");
   let japaneseYenTranslate = document.getElementById("japanese yen");
-  let newzealandDollarTranslate=document.getElementById("zealand dollar");
-  let russianDollarTranslate=document.getElementById("russian ruble");
-  let southAfricanRandTranslate=document.getElementById("south african rand");
-  let swissFrancTranalate=document.getElementById("swiss franc");
+  let newzealandDollarTranslate = document.getElementById("zealand dollar");
+  let russianDollarTranslate = document.getElementById("russian ruble");
+  let southAfricanRandTranslate = document.getElementById("south african rand");
+  let swissFrancTranalate = document.getElementById("swiss franc");
+  let britishPoundTranslate = document.getElementById("british pound");
+  let contactsTranslate = document.getElementById("contacts");
+  let aboutUsTranslate = document.getElementById("about us");
+  let policyTranslate = document.getElementById("policy");
+
 
   //iconButtonCopy=document.getElementById("i2");
 
@@ -34,11 +39,15 @@ function testTranslate(language) {
     canadianDollarTranslate.innerHTML = "CAD-Dólar Canadiano"
     bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgariano"
     indianRupeTranslate.innerHTML = "INR-Rupia Indiana"
-    japaneseYenTranslate.innerHTML= "JPY-Yen Japonês"
-    newzealandDollarTranslate.innerHTML="NZD-Dólar da Nova Zelândia"
-    russianDollarTranslate.innerHTML="RUB-Rublo Russo"
-    southAfricanRandTranslate.innerHTML="ZAR-Rand Sul-Africano"
-    swissFrancTranalate.innerHTML="CHF-Franco Suíço"
+    japaneseYenTranslate.innerHTML = "JPY-Yen Japonês"
+    newzealandDollarTranslate.innerHTML = "NZD-Dólar da Nova Zelândia"
+    russianDollarTranslate.innerHTML = "RUB-Rublo Russo"
+    southAfricanRandTranslate.innerHTML = "ZAR-Rand Sul-Africano"
+    swissFrancTranalate.innerHTML = "CHF-Franco Suíço"
+    britishPoundTranslate.innerHTML = "GBP-Libra britânica"
+    contactsTranslate.innerHTML = "Contactos para Parcerias"
+    aboutUsTranslate.innerHTML = "Acerca de Nós"
+    policyTranslate.innerHTML="Política"
 
   }
   else if (language === "fr") {
@@ -54,11 +63,15 @@ function testTranslate(language) {
     canadianDollarTranslate.innerHTML = "CAD-Dolar Canadian"
     bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgarian"
     indianRupeTranslate.innerHTML = "INR-Rupie Indienne"
-    japaneseYenTranslate.innerHTML= "JPY-Yen Japonais"
-    newzealandDollarTranslate.innerHTML="NZD-Dollar Néo-Zélandais"
-    russianDollarTranslate.innerHTML="RUB-Rouble Russe"
-    southAfricanRandTranslate.innerHTML="ZAR-Rand Sud-Africain"
-    swissFrancTranalate.innerHTML="CHF-Franc Suisse"
+    japaneseYenTranslate.innerHTML = "JPY-Yen Japonais"
+    newzealandDollarTranslate.innerHTML = "NZD-Dollar Néo-Zélandais"
+    russianDollarTranslate.innerHTML = "RUB-Rouble Russe"
+    southAfricanRandTranslate.innerHTML = "ZAR-Rand Sud-Africain"
+    swissFrancTranalate.innerHTML = "CHF-Franc Suisse"
+    britishPoundTranslate.innerHTML = "GBP-Livre Sterling"
+    contactsTranslate.innerHTML = "Contacts Pour Les partenariats"
+    aboutUsTranslate.innerHTML = "À Propos De Nous"
+    policyTranslate.innerHTML="Politique"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
@@ -72,9 +85,14 @@ function testTranslate(language) {
     canadianDollarTranslate.innerHTML = "CAD-Canadian Dollar"
     bulagrianLevTranslate.innerHTML = "BGN-Bulgarian Lev"
     indianRupeTranslate.innerHTML = "INR-Indian Rupee"
-    japaneseYenTranslate.innerHTML= "JPY-Japanese Yen"
-    newzealandDollarTranslate.innerHTML="NZD-New Zealand Dollar"
-    russianDollarTranslate.innerHTML="RUB-Russian Ruble"
-    southAfricanRandTranslate.innerHTML="ZAR-South African Rand"
+    japaneseYenTranslate.innerHTML = "JPY-Japanese Yen"
+    newzealandDollarTranslate.innerHTML = "NZD-New Zealand Dollar"
+    russianDollarTranslate.innerHTML = "RUB-Russian Ruble"
+    southAfricanRandTranslate.innerHTML = "ZAR-South African Rand"
+    swissFrancTranalate.innerHTML = "CHF-Swiss Franc"
+    britishPoundTranslate.innerHTML = "GBP-British Pound"
+    contactsTranslate.innerHTML = "Contactos para Parcerias"
+    aboutUsTranslate.innerHTML = "About Us"
+    policyTranslate.innerHTML="Policy"
   }
 }
