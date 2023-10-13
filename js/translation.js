@@ -13,7 +13,7 @@ function testTranslate(language)
     let dolarUsaTranslate=document.getElementById("dolarUsa"); 
     let australianDollarTranslate=document.getElementById("australian dollar");
     let canadianDollarTranslate=document.getElementById("canadian dollar");
-    bulagrianLevTranslate=document.getElementById("bulgarian lev");
+    let bulagrianLevTranslate=document.getElementById("bulgarian lev");
     let indianRupeTranslate=document.getElementById("indian rupee");
 
     //iconButtonCopy=document.getElementById("i2");
