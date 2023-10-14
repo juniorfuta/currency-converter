@@ -87,6 +87,7 @@ function testTranslate(language) {
     termsTranslate.innerHTML="Termes"
     madeTranslate.innerHTML="Fait avec &#x1F497; pour Júnior Futa (JFuta21)"
     themeTranslate.innerHTML="Thème"
+    darkTranslate.innerHTML="Noire"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
