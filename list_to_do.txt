@@ -20,7 +20,7 @@ Things to do:
 
  #TODO: Add Tanslation 
 
--Sidenav
+-Sidenav  #DONE #OK
 -Home page #BUG #DOING
 -About us
 -Policy
