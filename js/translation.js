@@ -29,6 +29,7 @@ function testTranslate(language) {
   //Translation Sidenav
 
   let themeTranslate= document.getElementById("theme");
+  let darkTranslate= document.getElementById("dark theme");
 
 
 
@@ -58,6 +59,7 @@ function testTranslate(language) {
     termsTranslate.innerHTML="Termos"
     madeTranslate.innerHTML="Feito com &#x1F497; por Júnior Futa (JFuta21)"
     themeTranslate.innerHTML="Tema"
+    darkTranslate.innerHTML="Escuro"
 
   }
   else if (language === "fr") {
