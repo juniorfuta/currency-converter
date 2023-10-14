@@ -93,6 +93,7 @@ function testTranslate(language) {
     themeTranslate.innerHTML="Thème"
     darkTranslate.innerHTML="Noire"
     lightTranslate.innerHTML="Claire"
+    aboutTranslate.innerHTML="Apropos du Convertisseur"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
