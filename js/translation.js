@@ -26,6 +26,10 @@ function testTranslate(language) {
   let termsTranslate= document.getElementById("terms");
   let madeTranslate= document.getElementById("footer3");
 
+  //Translation Sidenav
+
+  let themeTranslate= document.getElementById("theme");
+
 
 
   //iconButtonCopy=document.getElementById("i2");
@@ -53,6 +57,7 @@ function testTranslate(language) {
     policyTranslate.innerHTML="Política"
     termsTranslate.innerHTML="Termos"
     madeTranslate.innerHTML="Feito com &#x1F497; por Júnior Futa (JFuta21)"
+    themeTranslate.innerHTML="Tema"
 
   }
   else if (language === "fr") {
