@@ -31,6 +31,7 @@ function testTranslate(language) {
   let themeTranslate= document.getElementById("theme");
   let darkTranslate= document.getElementById("dark theme");
   let lightTranslate= document.getElementById("light theme");
+  let aboutTranslate= document.getElementById("aboutHeading");
 
 
 
@@ -62,6 +63,7 @@ function testTranslate(language) {
     themeTranslate.innerHTML="Tema"
     darkTranslate.innerHTML="Escuro"
     lightTranslate.innerHTML="Claro"
+    aboutTranslate.innerHTML="Acerca do Conversor"
 
   }
   else if (language === "fr") {
