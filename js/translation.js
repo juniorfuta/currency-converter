@@ -30,6 +30,7 @@ function testTranslate(language) {
 
   let themeTranslate= document.getElementById("theme");
   let darkTranslate= document.getElementById("dark theme");
+  let lightTranslate= document.getElementById("light theme");
 
 
 
@@ -60,6 +61,7 @@ function testTranslate(language) {
     madeTranslate.innerHTML="Feito com &#x1F497; por Júnior Futa (JFuta21)"
     themeTranslate.innerHTML="Tema"
     darkTranslate.innerHTML="Escuro"
+    lightTranslate.innerHTML="Claro"
 
   }
   else if (language === "fr") {
