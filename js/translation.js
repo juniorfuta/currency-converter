@@ -97,6 +97,7 @@ function testTranslate(language) {
     darkTranslate.innerHTML="Noire"
     lightTranslate.innerHTML="Claire"
     aboutTranslate.innerHTML="Apropos du Convertisseur"
+    aboutcontainerTranslate.innerHTML="Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
