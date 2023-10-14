@@ -84,6 +84,7 @@ function testTranslate(language) {
     policyTranslate.innerHTML="Politique"
     termsTranslate.innerHTML="Termes"
     madeTranslate.innerHTML="Fait avec &#x1F497; pour Júnior Futa (JFuta21)"
+    themeTranslate.innerHTML="Thème"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
