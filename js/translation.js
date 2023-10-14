@@ -121,5 +121,6 @@ function testTranslate(language) {
     themeTranslate.innerHTML="Theme"
     darkTranslate.innerHTML="Dark"
     lightTranslate.innerHTML="Light"
+    aboutTranslate.innerHTML="About Converter"
   }
 }
