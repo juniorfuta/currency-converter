@@ -21,8 +21,8 @@ Things to do:
  #TODO: Add Tanslation 
 
 -Sidenav  #DONE #OK
--Home page #BUG #DOING
--About us
+-Home page #BUG #CHECK
+-About us #DOING #BUG
 -Policy
 -Terms
 
