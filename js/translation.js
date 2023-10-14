@@ -117,5 +117,6 @@ function testTranslate(language) {
     madeTranslate.innerHTML="Made with &#x1F497; by Júnior Futa (JFuta21)"
     themeTranslate.innerHTML="Theme"
     darkTranslate.innerHTML="Dark"
+    lightTranslate.innerHTML="Light"
   }
 }
