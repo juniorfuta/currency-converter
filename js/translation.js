@@ -26,6 +26,15 @@ function testTranslate(language) {
   let termsTranslate= document.getElementById("terms");
   let madeTranslate= document.getElementById("footer3");
 
+  //Translation Sidenav
+
+  let themeTranslate= document.getElementById("theme");
+  let darkTranslate= document.getElementById("dark theme");
+  let lightTranslate= document.getElementById("light theme");
+  let aboutTranslate= document.getElementById("aboutHeading");
+  let aboutcontainerTranslate= document.getElementById("aboutcontainer");
+  
+
 
 
   //iconButtonCopy=document.getElementById("i2");
@@ -53,6 +62,11 @@ function testTranslate(language) {
     policyTranslate.innerHTML="Política"
     termsTranslate.innerHTML="Termos"
     madeTranslate.innerHTML="Feito com &#x1F497; por Júnior Futa (JFuta21)"
+    themeTranslate.innerHTML="Tema"
+    darkTranslate.innerHTML="Escuro"
+    lightTranslate.innerHTML="Claro"
+    aboutTranslate.innerHTML="Acerca do Conversor"
+    aboutcontainerTranslate.innerHTML="O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
 
   }
   else if (language === "fr") {
@@ -79,6 +93,11 @@ function testTranslate(language) {
     policyTranslate.innerHTML="Politique"
     termsTranslate.innerHTML="Termes"
     madeTranslate.innerHTML="Fait avec &#x1F497; pour Júnior Futa (JFuta21)"
+    themeTranslate.innerHTML="Thème"
+    darkTranslate.innerHTML="Noire"
+    lightTranslate.innerHTML="Claire"
+    aboutTranslate.innerHTML="À Propos du Convertisseur"
+    aboutcontainerTranslate.innerHTML="Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
@@ -103,5 +122,10 @@ function testTranslate(language) {
     policyTranslate.innerHTML="Policy"
     termsTranslate.innerHTML="Terms"
     madeTranslate.innerHTML="Made with &#x1F497; by Júnior Futa (JFuta21)"
+    themeTranslate.innerHTML="Theme"
+    darkTranslate.innerHTML="Dark"
+    lightTranslate.innerHTML="Light"
+    aboutTranslate.innerHTML="About Converter"
+    aboutcontainerTranslate.innerHTML="PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
   }
 }
