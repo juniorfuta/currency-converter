@@ -35,9 +35,6 @@ function Translate(language) {
   let aboutcontainerTranslate= document.getElementById("aboutcontainer");
   let aboutUsPageTranslate= document.getElementById("aboutUsHeading");
   
-
-
-
   //iconButtonCopy=document.getElementById("i2");
 
   if (language === "pt") {
