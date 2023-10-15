@@ -1,5 +1,5 @@
 
-function testTranslate(language) {
+function Translate(language) {
 
   //let iconButtonCopy;
 
@@ -35,9 +35,6 @@ function testTranslate(language) {
   let aboutcontainerTranslate= document.getElementById("aboutcontainer");
   let aboutUsPageTranslate= document.getElementById("aboutUsHeading");
   
-
-
-
   //iconButtonCopy=document.getElementById("i2");
 
   if (language === "pt") {
@@ -99,6 +96,7 @@ function testTranslate(language) {
     lightTranslate.innerHTML="Claire"
     aboutTranslate.innerHTML="À Propos du Convertisseur"
     aboutcontainerTranslate.innerHTML="Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
+    aboutUsPageTranslate.innerHTML = "À Propos De Nous"
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
@@ -128,5 +126,6 @@ function testTranslate(language) {
     lightTranslate.innerHTML="Light"
     aboutTranslate.innerHTML="About Converter"
     aboutcontainerTranslate.innerHTML="PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
+    aboutUsPageTranslate.innerHTML = "About Us"
   }
 }
