@@ -1,5 +1,5 @@
 
-function testTranslate(language) {
+function Translate(language) {
 
   //let iconButtonCopy;
 
