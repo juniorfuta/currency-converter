@@ -26,6 +26,7 @@ function validateInput1() {
   }
 }
 
+
 //input number validation2
 valueInput2 = document.getElementById('input2');
 
