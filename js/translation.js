@@ -23,18 +23,18 @@ function Translate(language) {
   let contactsTranslate = document.getElementById("contacts");
   let aboutUsTranslate = document.getElementById("about us");
   let policyTranslate = document.getElementById("policy");
-  let termsTranslate= document.getElementById("terms");
-  let madeTranslate= document.getElementById("footer3");
+  let termsTranslate = document.getElementById("terms");
+  let madeTranslate = document.getElementById("footer3");
 
   //Translation Sidenav
 
-  let themeTranslate= document.getElementById("theme");
-  let darkTranslate= document.getElementById("dark theme");
-  let lightTranslate= document.getElementById("light theme");
-  let aboutTranslate= document.getElementById("aboutHeading");
-  let aboutcontainerTranslate= document.getElementById("aboutcontainer");
-  let aboutUsPageTranslate= document.getElementById("aboutUsHeading");
-  
+  let themeTranslate = document.getElementById("theme");
+  let darkTranslate = document.getElementById("dark theme");
+  let lightTranslate = document.getElementById("light theme");
+  let aboutTranslate = document.getElementById("aboutHeading");
+  let aboutcontainerTranslate = document.getElementById("aboutcontainer");
+  let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
+
   //iconButtonCopy=document.getElementById("i2");
 
   if (language === "pt") {
@@ -57,14 +57,14 @@ function Translate(language) {
     britishPoundTranslate.innerHTML = "GBP-Libra britânica"
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "Acerca de Nós"
-    policyTranslate.innerHTML="Política"
-    termsTranslate.innerHTML="Termos"
-    madeTranslate.innerHTML="Feito com &#x1F497; por Júnior Futa (JFuta21)"
-    themeTranslate.innerHTML="Tema"
-    darkTranslate.innerHTML="Escuro"
-    lightTranslate.innerHTML="Claro"
-    aboutTranslate.innerHTML="Acerca do Conversor"
-    aboutcontainerTranslate.innerHTML="O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
+    policyTranslate.innerHTML = "Política"
+    termsTranslate.innerHTML = "Termos"
+    madeTranslate.innerHTML = "Feito com &#x1F497; por Júnior Futa (JFuta21)"
+    themeTranslate.innerHTML = "Tema"
+    darkTranslate.innerHTML = "Escuro"
+    lightTranslate.innerHTML = "Claro"
+    aboutTranslate.innerHTML = "Acerca do Conversor"
+    aboutcontainerTranslate.innerHTML = "O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
     aboutUsPageTranslate.innerHTML = "Acerca de Nós"
   }
   else if (language === "fr") {
@@ -88,14 +88,14 @@ function Translate(language) {
     britishPoundTranslate.innerHTML = "GBP-Livre Sterling"
     contactsTranslate.innerHTML = "Contacts Pour Les partenariats"
     aboutUsTranslate.innerHTML = "À Propos De Nous"
-    policyTranslate.innerHTML="Politique"
-    termsTranslate.innerHTML="Termes"
-    madeTranslate.innerHTML="Fait avec &#x1F497; pour Júnior Futa (JFuta21)"
-    themeTranslate.innerHTML="Thème"
-    darkTranslate.innerHTML="Noire"
-    lightTranslate.innerHTML="Claire"
-    aboutTranslate.innerHTML="À Propos du Convertisseur"
-    aboutcontainerTranslate.innerHTML="Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
+    policyTranslate.innerHTML = "Politique"
+    termsTranslate.innerHTML = "Termes"
+    madeTranslate.innerHTML = "Fait avec &#x1F497; pour Júnior Futa (JFuta21)"
+    themeTranslate.innerHTML = "Thème"
+    darkTranslate.innerHTML = "Noire"
+    lightTranslate.innerHTML = "Claire"
+    aboutTranslate.innerHTML = "À Propos du Convertisseur"
+    aboutcontainerTranslate.innerHTML = "Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
     aboutUsPageTranslate.innerHTML = "À Propos De Nous"
   }
   else {
@@ -118,14 +118,42 @@ function Translate(language) {
     britishPoundTranslate.innerHTML = "GBP-British Pound"
     contactsTranslate.innerHTML = "Contactos para Parcerias"
     aboutUsTranslate.innerHTML = "About Us"
-    policyTranslate.innerHTML="Policy"
-    termsTranslate.innerHTML="Terms"
-    madeTranslate.innerHTML="Made with &#x1F497; by Júnior Futa (JFuta21)"
-    themeTranslate.innerHTML="Theme"
-    darkTranslate.innerHTML="Dark"
-    lightTranslate.innerHTML="Light"
-    aboutTranslate.innerHTML="About Converter"
-    aboutcontainerTranslate.innerHTML="PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
+    policyTranslate.innerHTML = "Policy"
+    termsTranslate.innerHTML = "Terms"
+    madeTranslate.innerHTML = "Made with &#x1F497; by Júnior Futa (JFuta21)"
+    themeTranslate.innerHTML = "Theme"
+    darkTranslate.innerHTML = "Dark"
+    lightTranslate.innerHTML = "Light"
+    aboutTranslate.innerHTML = "About Converter"
+    aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
     aboutUsPageTranslate.innerHTML = "About Us"
   }
 }
+
+function AboutUsTranslate(language) {
+
+
+  let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
+  let aboutUsContentTranslate = document.getElementById("content");
+
+  //iconButtonCopy=document.getElementById("i2");
+
+  if (language === "pt") {
+    aboutUsPageTranslate.innerHTML = "Acerca de Nós"
+    aboutUsContentTranslate.innerHTML ="PalancaTech é uma Startup Tecnológica de Desenvolvimento e Inovação em Angola envolvida no desenvolvimento tecnológico de Angola especialmente da província de Malanje fundada por Estudantes de Engenharia Elétrica e Informática Industrial e Web Developers <strong> Júnior Futa e João Paulino </strong> em 2023 França."
+  }
+
+  else if (language === "fr") {
+
+    aboutUsPageTranslate.innerHTML = "À Propos De Nous"
+    aboutUsContentTranslate.innerHTML = "PalancaTech est une Startup Technologique de développement  et d'innovation en Angola engagé dans le développement technologique de l'Angola en particulier dans la province de Malanje fondée par des étudiants en Génie Electrique et Informatique Industrielle et développeurs Web <strong> Júnior Futa et João Paulino </strong> en 2023 France."
+  }
+
+  else {
+
+    aboutUsPageTranslate.innerHTML = "About us"
+    aboutUsContentTranslate.innerHTML = "PalancaTech is a Technological Development and Innovation Startup in Angola Engaged in the technological development of Angola especially in the province of Malanje founded by Students of Electrical Engineering and Industrial Informatics and Web Developers <strong>Júnior Futa and João Paulino </strong> in 2023 France."
+  }
+}
+
+

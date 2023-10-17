@@ -5,6 +5,30 @@ Email: juniorfuta94@gmail.com
 Instagram: @juniorfuta
 */
 
+//function to open the dropdown of languages 
+
+function myFunction() {
+
+  document.getElementById("myDropdown").classList.toggle("show");
+  
+}
+
+
+// function to close the dropdown of language if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
 //input number validation1
 valueInput1 = document.getElementById('input1');
 
@@ -25,6 +49,8 @@ function validateInput1() {
     warnigText.innerHTML = "";
   }
 }
+
+
 
 //input number validation2
 valueInput2 = document.getElementById('input2');
@@ -124,29 +150,6 @@ function copied2() {
   let text = document.getElementById("btn2");
   text.innerHTML = "COPIED";
 }
-
-//function to open the dropdown of languages 
-
-function myFunction() {
-
-  document.getElementById("myDropdown").classList.toggle("show");
-  
-}
-
-// function to close the dropdown of language if the user clicks outside of it
-window.onclick = function (event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
 
 
 //function to copy a text
