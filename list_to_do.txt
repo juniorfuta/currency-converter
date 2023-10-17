@@ -17,7 +17,6 @@ Annotations
   #PRIORITY_4
 
 Things to do:
-
  #TODO: Add Tanslation 
 
 -Sidenav  #DONE #OK
