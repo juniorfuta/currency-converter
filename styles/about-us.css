@@ -12,7 +12,7 @@ Instagram: @juniorfuta  */
     flex-direction: row;
     color: rgb(41, 130, 189);
     border-bottom: solid 1px rgb(86, 83, 83);
-    margin: none;
+    padding: 12px 0px;
     place-content: center;
     gap: 4px;
     background-color: red;
@@ -26,8 +26,10 @@ Instagram: @juniorfuta  */
     justify-content: center;
     margin-left: 130px;
     padding-bottom: 0px;
-    padding-top: 16px;
-    padding-right: 85px;
+}
+
+.logo h3{
+    margin-top: 5px;
 }
 
 
