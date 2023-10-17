@@ -140,13 +140,13 @@ function AboutUsTranslate(language) {
 
   if (language === "pt") {
     aboutUsPageTranslate.innerHTML = "Acerca de Nós"
-    aboutUsPageTranslate.innerHTML = "Acerca de Nós"
+    aboutUsContentTranslate.innerHTML ="PalancaTech é uma Empresa de Desenvolvimento Tecnológico e Inovação em Angola Envolvidos no desenvolvimento tecnológico de Angola especialmente na província de Malanje fundada por Estudantes de Engenharia Elétrica e Informática Industrial e Web Developers <strong> Júnior Futa e João Paulino </strong> em 2023 França."
   }
 
   else if (language === "fr") {
 
     aboutUsPageTranslate.innerHTML = "À Propos De Nous"
-    aboutUsContentTranslate.innerHTML = "PalancaTech est une entreprise de développement technologique et d'innovation en Angola engagé dans le développement technologique de l'Angola en particulier dans la province de Malanje fondée par des étudiants en génie électrique et informatique industrielle et développeurs Web <strong> Júnior Futa et João Paulino </strong> en 2023 France."
+    aboutUsContentTranslate.innerHTML = "PalancaTech est une entreprise de développement technologique et d'innovation en Angola engagé dans le développement technologique de l'Angola en particulier dans la province de Malanje fondée par des étudiants en Génie Electrique et Informatique Industrielle et développeurs Web <strong> Júnior Futa et João Paulino </strong> en 2023 France."
   }
 
   else {
