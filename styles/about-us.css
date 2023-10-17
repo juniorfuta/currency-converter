@@ -12,15 +12,19 @@ img {
 }
 
 .head {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: left center right;
+    
     color: rgb(41, 130, 189);
     border-bottom: solid 1px rgb(86, 83, 83);
     margin: none;
     /* place-content: center; */
     gap: 4px;
     background-color: red;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    
 }
 
 .logo {
