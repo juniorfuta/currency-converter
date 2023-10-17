@@ -36,13 +36,17 @@ Instagram: @juniorfuta  */
     margin-right: 12px;
 }
 
+section{
+    margin-top: 15px;
+}
+
 h1 {
     text-align: center;
     color: rgb(41, 130, 189);
 }
 
 #content {
-    margin: 0 25% 0 25%;
+    margin: 0% 25% 0% 25%;
 }
 
 #content p {
