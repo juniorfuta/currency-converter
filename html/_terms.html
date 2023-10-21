@@ -5,31 +5,57 @@ Instagram: @juniorfuta -->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2e879e7309.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/menu_translate.css">
     <link rel="stylesheet" href="/styles/_terms.css">
     <title>Terms</title>
 </head>
+
 <body>
     <header class="head">
-        <img src="/publics/symbol.png" alt="symbol" width="30" height="30">
-        <h3> PalancaTech Currency</h3>
+
+        <div>
+        </div>
+
+        <div class="logo">
+            <img src="/publics/symbol.png" alt="symbol" width="30" height="30">
+            <h3> PalancaTech Currency</h3>
+        </div>
+
+        <div id="language">
+            <i class="fas fa-globe"></i>
+            <button onclick="myFunction()" class="dropbtn">Language</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a onclick="termsTranslate('en')">English</a>
+                <a onclick="termsTranslate('fr')">French</a>
+                <a onclick="termsTranslate('pt')">Portuguese</a>
+            </div>
+        </div>
+
     </header>
+
     <section>
-        <p><b>1.Personal and non-commercial use:</b> this website is non-profit and for personal use.</p>
-        <p><b>2.Accuracy of exchange rates: </b>the exchange rates displayed are only indicative
-             but with guaranteed accuracy.</p>
-        <p> <b>3.Intellectual property:</b> all intellectual property rights related to the tool
-            (including software, design and contents) remain our property.</p>  
-        <p><b>4.Service Interruptions:</b>   Service may be interrupted for maintenance or other reasons
-            , and we will not be liable for any disruptions.</p>  
+        <h1 id="termsHeading">Terms of Use</h1>
+        <p id="p1"><b>1.Personal and non-commercial use:</b> this website is non-profit and for personal use.</p>
+        <p id="p2"><b>2.Accuracy of exchange rates: </b>the exchange rates displayed are only indicative
+            but with guaranteed accuracy.</p>
+        <p id="p3"> <b>3.Intellectual property:</b> all intellectual property rights related to the tool
+            (including software, design and contents) remain our property.</p>
+        <p id="p4"><b>4.Service Interruptions:</b> Service may be interrupted for maintenance or other reasons
+            , and we will not be liable for any disruptions.</p>
     </section>
     <footer>
         <p>JFPalancaTech <i class="far fa-copyright"></i>2023</p>
     </footer>
+    <script src="/js/script.js" defer></script>
+    <script src="/js/translation.js" defer></script>
 </body>
+
 </html>
 <!-- By: PalancaTechnologies Softwares 
 CEO: Júnior Futa (JFuta21)

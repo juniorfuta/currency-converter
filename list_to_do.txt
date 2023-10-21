@@ -7,7 +7,6 @@ Annotations
   #PRIORITY_1, #PRIORITY_2, #PRIORITY_3, #PRIORITY_4
 
 
-
   #PRIORITY_1
 
   #PRIORITY_2
@@ -17,13 +16,13 @@ Annotations
   #PRIORITY_4
 
 Things to do:
- #TODO: Add Tanslation 
+ #TODO: Add Tanslation #DOING
 
 -Sidenav  #DONE #OK
 -Home page #BUG #CHECK
 -About us #DOING #BUG #SOLVED #DONE
--Policy 
--Terms 
+-Policy #SOLVED #DONE
+-Terms #DOING #SOLVED #DONE
 
  #TODO: Click outside button Copy 
 
