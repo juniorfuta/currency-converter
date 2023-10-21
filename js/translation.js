@@ -160,6 +160,7 @@ function PolicyTranslate(language) {
 
   let policyHeadingTranslate = document.getElementById("policyHeading");
   let cookiesContentTranslate = document.getElementById("cookiesPolicyContent");
+  let concentHeadingTranslate = document.getElementById("concentHeading");
 
   //iconButtonCopy=document.getElementById("i2");
 
@@ -175,8 +176,8 @@ function PolicyTranslate(language) {
   }
 
   else {
-
-    aboutUsPageTranslate.innerHTML = "About us"
+    policyHeadingTranslate.innerHTML = "Privacy Policies"
+    concentHeadingTranslate.innerHTML = ""
     aboutUsContentTranslate.innerHTML = "PalancaTech is a Technological Development and Innovation Startup in Angola Engaged in the technological development of Angola especially in the province of Malanje founded by Students of Electrical Engineering and Industrial Informatics and Web Developers <strong>Júnior Futa and João Paulino </strong> in 2023 France."
   }
 }
