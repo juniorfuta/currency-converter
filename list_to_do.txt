@@ -22,7 +22,7 @@ Things to do:
 -Home page #BUG #CHECK
 -About us #DOING #BUG #SOLVED #DONE
 -Policy #SOLVED #DONE
--Terms #DOING
+-Terms #DOING #SOLVED #DONE
 
  #TODO: Click outside button Copy 
 
