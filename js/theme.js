@@ -12,10 +12,9 @@ function setLightTheme() {
   localStorage.setItem("data-theme", "light")
 }
 
-function retrieveTheme{
-  cont currentTheme= localStorage.getItem("data-theme")
+function retrieveTheme() {
+  const currentTheme= localStorage.getItem("data-theme")
 
-  if (cucurrentTheme==="dark"){
-
-  }
+  if (currentTheme==="dark") setDarkTheme();
+     
 }
