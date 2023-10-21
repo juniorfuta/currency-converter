@@ -211,7 +211,7 @@ function termsTranslate(language){
     p1Translate.innerHTML = "<b>1.Utilisation personnelle et non commerciale:</b> ce site Web est à but non lucratif et destiné à un usage personnel."
     p2Translate.innerHTML = "<b>2.Précision des taux de change: </b>les taux de change affichés ne sont qu'indicatifs mais avec une précision garantie."
     p3Translate.innerHTML = "<b>3.Propriété intellectuelle:</b> tous les droits de propriété intellectuelle liés à l'outil (y compris les logiciels, la conception et le contenu) restent notre propriété."
-    p4Translate.innerHTML = "<b>3.Propriété intellectuelle:</b> tous les droits de propriété intellectuelle liés à l'outil (y compris les logiciels, la conception et le contenu) restent notre propriété."
+    p4Translate.innerHTML = "<b>4.Interruptions de service:</b> Le service peut être interrompu pour des raisons de maintenance ou pour d'autres raisons, et nous ne serons pas responsables de toute interruption."
   }
 
   else {
