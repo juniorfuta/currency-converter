@@ -188,4 +188,30 @@ function PolicyTranslate(language) {
 }
 
 
+function termsTranslate(language){
+
+  let termsHeadingTranslate = document.getElementById("termsHeading");
+
+  //iconButtonCopy=document.getElementById("i2");
+
+  if (language === "pt") {
+    termsHeadingTranslate.innerHTML = "Termos de Uso"
+  }
+
+  else if (language === "fr") {
+    policyHeadingTranslate.innerHTML = "Politiques de Confidentialité"
+    cookiesContentTranslate.innerHTML = "Sur notre site Web, nous ne collectons aucune donnée personnelle, juste des idées sur ce que vous recherchez."
+    concentHeadingTranslate.innerHTML = "2.Consentement"
+    concentContentTranslate.innerHTML = "En utilisant notre site Web, vous acceptez notre politique de confidentialité."
+  }
+
+  else {
+    policyHeadingTranslate.innerHTML = "Privacy Policies"
+    cookiesContentTranslate.innerHTML = "In our website we don't collect  any  personnal data just ideias of what you search."
+    concentHeadingTranslate.innerHTML = "2.Consent"
+    concentContentTranslate.innerHTML = "Using our website you are you are agreeing to our privacy policy."
+  }
+}
+
+
 
