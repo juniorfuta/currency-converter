@@ -7,9 +7,6 @@ Instagram: @juniorfuta  */
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-    margin-top: 15px;
-}
 
 .head {
     display: flex;
@@ -35,6 +32,13 @@ img {
     margin-top: 5px;
 }
 
+#language {
+    margin-right: 12px;
+}
+
+section{
+    margin-top: 15px;
+}
 
 h1 {
     text-align: center;
