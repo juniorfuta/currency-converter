@@ -181,12 +181,12 @@ function toggleTheme() {
   currentValue==="light" ? body.setAttribute ("data-theme", "dark"): body.setAttribute ("data-theme", "light")
 }
 
-function darkTheme () {
+function darkTheme() {
   const body=document.body
   body.setAttribute ("data-theme", "dark")
 }
 
-function lightTheme () {
+function lightTheme() {
   const body=document.body
   body.setAttribute ("data-theme", "light")
 }
