@@ -11,13 +11,15 @@ img {
     margin-top: 15px;
 }
 
-header {
+.head {
     display: flex;
+    flex-direction: row;
     color: rgb(41, 130, 189);
     border-bottom: solid 1px rgb(86, 83, 83);
-    margin: none;
+    padding: 12px 0px;
     place-content: center;
     gap: 4px;
+    justify-content: space-between;
 }
 
 h1 {
