@@ -22,7 +22,7 @@ Things to do:
 -Sidenav  #DONE #OK
 -Home page #BUG #CHECK
 -About us #DOING #BUG #SOLVED #DONE
--Policy 
+-Policy #SOLVED #DONE
 -Terms 
 
  #TODO: Click outside button Copy 
