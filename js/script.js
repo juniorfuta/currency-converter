@@ -129,7 +129,7 @@ function cleanInput() {
   numbInput.value = "";
 }
 
-//functions for the buttons copy
+//functions for the buttons copy when clicked
 function copied1() {
   document.getElementById("btn1").style.color = "green";
   document.getElementById("btn1").style.border = " solid 2px green";
