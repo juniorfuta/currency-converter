@@ -206,5 +206,6 @@ function termsTranslate(language){
 
   else {
     termsHeadingTranslate.innerHTML = "Terms de Use"
+    p1Translate.innerHTML = "<b>1.Personal and non-commercial use:</b> this website is non-profit and for personal use."
   }
 }
