@@ -15,14 +15,13 @@ Instagram: @juniorfuta
 #navbar {
     display: flex;
     justify-content: space-between;
-    border: solid 1px #111;
+    border: solid 1px var(--) ;
     border-radius: 10px;
-    color: rgb(41, 130, 189);
+    color: var(--navbarColor);
     flex-direction: row;
     margin-top: 4px;
     margin-right: 1px;
     margin-left: 1px;
-    background-color: var(--color);
 }
 
 #logo {
