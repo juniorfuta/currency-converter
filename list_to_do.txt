@@ -23,6 +23,7 @@ Things to do:
 -About us #DOING #BUG #SOLVED #DONE
 -Policy #SOLVED #DONE
 -Terms #DOING #SOLVED #DONE
+-Add a localStorage for the language
 
  #TODO: Click outside button Copy 
 
