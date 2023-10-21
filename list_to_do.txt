@@ -22,8 +22,8 @@ Things to do:
 -Sidenav  #DONE #OK
 -Home page #BUG #CHECK
 -About us #DOING #BUG #SOLVED #DONE
--Policy
--Terms
+-Policy 
+-Terms 
 
  #TODO: Click outside button Copy 
 
