@@ -1,6 +1,6 @@
 //Change background color 
 
-function darkTheme() {
+function setDarkTheme() {
   const body=document.body
   body.setAttribute ("data-theme", "dark")
   localStorage.setItem("data-theme", "dark")
@@ -16,6 +16,6 @@ function retrieveTheme{
   cont currentTheme= localStorage.getItem("data-theme")
 
   if (cucurrentTheme==="dark"){
-    
+
   }
 }
