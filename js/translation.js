@@ -201,7 +201,7 @@ function termsTranslate(language){
     termsHeadingTranslate.innerHTML = "Termos de Uso"
     p1Translate.innerHTML = "<b>1.Uso pessoal e não comercial:</b> este site não tem fins lucrativos e é para uso pessoal."
     p2Translate.innerHTML = "<b>2.Precisão das taxas de câmbio: </b>as taxas de câmbio exibidas são apenas indicativas mas com precisão garantida."
-    p3Translate.innerHTML = "<b>2.Precisão das taxas de câmbio: </b>as taxas de câmbio exibidas são apenas indicativas mas com precisão garantida."
+    p3Translate.innerHTML = "<b>3.Propriedade intelectual:</b> todos os direitos de propriedade intelectual relacionados à ferramenta (incluindo software, design e conteúdo) permanecem nossa propriedade."
   }
 
   else if (language === "fr") {
