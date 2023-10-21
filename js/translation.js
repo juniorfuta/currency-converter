@@ -191,11 +191,13 @@ function PolicyTranslate(language) {
 function termsTranslate(language){
 
   let termsHeadingTranslate = document.getElementById("termsHeading");
+  let p1Translate = document.getElementById("p1");
 
   //iconButtonCopy=document.getElementById("i2");
 
   if (language === "pt") {
     termsHeadingTranslate.innerHTML = "Termos de Uso"
+    p1Translate.innerHTML = "<b>1.Uso pessoal e não comercial:</b> este site não tem fins lucrativos e é para uso pessoal."
   }
 
   else if (language === "fr") {
@@ -206,6 +208,3 @@ function termsTranslate(language){
     termsHeadingTranslate.innerHTML = "Terms de Use"
   }
 }
-
-
-
