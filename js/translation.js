@@ -172,11 +172,13 @@ function PolicyTranslate(language) {
   else if (language === "fr") {
     policyHeadingTranslate.innerHTML = "Politiques de Confidentialité"
     cookiesContentTranslate.innerHTML = "Sur notre site Web, nous ne collectons aucune donnée personnelle, juste des idées sur ce que vous recherchez."
+    concentHeadingTranslate.innerHTML = "2.Consentement"
   }
 
   else {
     policyHeadingTranslate.innerHTML = "Privacy Policies"
     cookiesContentTranslate.innerHTML = "In our website we don't collect  any  personnal data just ideias of what you search."
+    concentHeadingTranslate.innerHTML = "2.Concent"
   }
 }
 
