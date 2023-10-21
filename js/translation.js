@@ -160,24 +160,30 @@ function PolicyTranslate(language) {
 
   let policyHeadingTranslate = document.getElementById("policyHeading");
   let cookiesContentTranslate = document.getElementById("cookiesPolicyContent");
+  let concentHeadingTranslate = document.getElementById("concentHeading");
+  let concentContentTranslate = document.getElementById("consentPolicyContent");
 
   //iconButtonCopy=document.getElementById("i2");
 
   if (language === "pt") {
     policyHeadingTranslate.innerHTML = "Políticas de Privacidade"
     cookiesContentTranslate.innerHTML = "No nosso website não recolhemos quaisquer dados pessoais apenas ideias do que procura."
+    concentHeadingTranslate.innerHTML = "2.Consentimento"
+    concentContentTranslate.innerHTML = "Ao usar nosso site você concorda com nossa política de privacidade."
   }
 
   else if (language === "fr") {
-
-    aboutUsPageTranslate.innerHTML = "À Propos De Nous"
-    aboutUsContentTranslate.innerHTML = "PalancaTech est une Startup Technologique de développement  et d'innovation en Angola engagé dans le développement technologique de l'Angola en particulier dans la province de Malanje fondée par des étudiants en Génie Electrique et Informatique Industrielle et développeurs Web <strong> Júnior Futa et João Paulino </strong> en 2023 France."
+    policyHeadingTranslate.innerHTML = "Politiques de Confidentialité"
+    cookiesContentTranslate.innerHTML = "Sur notre site Web, nous ne collectons aucune donnée personnelle, juste des idées sur ce que vous recherchez."
+    concentHeadingTranslate.innerHTML = "2.Consentement"
+    concentContentTranslate.innerHTML = "En utilisant notre site Web, vous acceptez notre politique de confidentialité."
   }
 
   else {
-
-    aboutUsPageTranslate.innerHTML = "About us"
-    aboutUsContentTranslate.innerHTML = "PalancaTech is a Technological Development and Innovation Startup in Angola Engaged in the technological development of Angola especially in the province of Malanje founded by Students of Electrical Engineering and Industrial Informatics and Web Developers <strong>Júnior Futa and João Paulino </strong> in 2023 France."
+    policyHeadingTranslate.innerHTML = "Privacy Policies"
+    cookiesContentTranslate.innerHTML = "In our website we don't collect  any  personnal data just ideias of what you search."
+    concentHeadingTranslate.innerHTML = "2.Consent"
+    concentContentTranslate.innerHTML = "Using our website you are you are agreeing to our privacy policy."
   }
 }
 
