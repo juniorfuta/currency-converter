@@ -181,6 +181,15 @@ function toggleTheme() {
   currentValue==="light" ? body.setAttribute ("data-theme", "dark"): body.setAttribute ("data-theme", "light")
 }
 
+function darkTheme() {
+  const body=document.body
+  body.setAttribute ("data-theme", "dark")
+}
+
+function lightTheme() {
+  const body=document.body
+  body.setAttribute ("data-theme", "light")
+}
 
 /*
 By: PalancaTechnologies Softwares 
