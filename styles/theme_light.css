@@ -1,5 +1,6 @@
 
 [data-theme='light'] {
+  --color: green; 
   --navbarColor: rgb(41, 130, 189);
   --navbarBorderColor: #111 
 }
