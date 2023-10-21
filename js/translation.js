@@ -202,6 +202,7 @@ function termsTranslate(language){
 
   else if (language === "fr") {
     termsHeadingTranslate.innerHTML = "Conditions d'Utilisation"
+    p1Translate.innerHTML = "<b>1.Utilisation personnelle et non commerciale:</b> ce site Web est à but non lucratif et destiné à un usage personnel."
   }
 
   else {
