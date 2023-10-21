@@ -28,7 +28,6 @@ window.onclick = function (event) {
   }
 }
 
-
 //input number validation1
 valueInput1 = document.getElementById('input1');
 
@@ -49,8 +48,6 @@ function validateInput1() {
     warnigText.innerHTML = "";
   }
 }
-
-
 
 //input number validation2
 valueInput2 = document.getElementById('input2');
@@ -132,7 +129,7 @@ function cleanInput() {
   numbInput.value = "";
 }
 
-//functions for the buttons copy
+//functions for the buttons copy when clicked
 function copied1() {
   document.getElementById("btn1").style.color = "green";
   document.getElementById("btn1").style.border = " solid 2px green";
@@ -173,6 +170,15 @@ function copyTextToClipboard(inputId) {
   } else {
     console.error('L\'élément d\'entrée avec l\'ID ' + inputId + ' n\'existe pas.');
   }
+}
+
+//Change background color 
+
+function toggleTheme() {
+  const body=document.body
+  const currentValue= body.getAttribute ("data-theme")
+
+  currentValue==="light" ? body.setAttribute ("data-theme", "dark"): body.setAttribute ("data-theme", "light")
 }
 
 

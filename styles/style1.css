@@ -7,6 +7,7 @@ Email: juniorfuta94@gmail.com
 Instagram: @juniorfuta
 */
 
+
 .container h2 {
     font-size: 20px;
 }
@@ -21,6 +22,7 @@ Instagram: @juniorfuta
     margin-top: 4px;
     margin-right: 1px;
     margin-left: 1px;
+    background-color: var(--color);
 }
 
 #logo {
