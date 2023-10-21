@@ -203,7 +203,7 @@ function termsTranslate(language){
     p1Translate.innerHTML = "<b>1.Uso pessoal e não comercial:</b> este site não tem fins lucrativos e é para uso pessoal."
     p2Translate.innerHTML = "<b>2.Precisão das taxas de câmbio: </b>as taxas de câmbio exibidas são apenas indicativas mas com precisão garantida."
     p3Translate.innerHTML = "<b>3.Propriedade intelectual:</b> todos os direitos de propriedade intelectual relacionados à ferramenta (incluindo software, design e conteúdo) permanecem nossa propriedade."
-    p4Translate.innerHTML = "<b>3.Propriedade intelectual:</b> todos os direitos de propriedade intelectual relacionados à ferramenta (incluindo software, design e conteúdo) permanecem nossa propriedade."
+    p4Translate.innerHTML = "<b>4.Interrupções de serviço:</b> O serviço pode ser interrompido para manutenção ou outros motivos, e não seremos responsáveis ​​por quaisquer interrupções."
   }
 
   else if (language === "fr") {
