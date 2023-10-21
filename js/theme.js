@@ -11,3 +11,11 @@ function lightTheme() {
   body.setAttribute ("data-theme", "light")
   localStorage.setItem("data-theme", "light")
 }
+
+function retrieveTheme{
+  cont currentTheme= localStorage.getItem("data-theme")
+
+  if (cucurrentTheme==="dark"){
+    
+  }
+}
