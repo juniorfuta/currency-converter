@@ -174,13 +174,6 @@ function copyTextToClipboard(inputId) {
 
 //Change background color 
 
-function toggleTheme() {
-  const body=document.body
-  const currentValue= body.getAttribute ("data-theme")
-
-  currentValue==="light" ? body.setAttribute ("data-theme", "dark"): body.setAttribute ("data-theme", "light")
-}
-
 function darkTheme() {
   const body=document.body
   body.setAttribute ("data-theme", "dark")
