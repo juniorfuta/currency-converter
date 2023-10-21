@@ -28,7 +28,6 @@ window.onclick = function (event) {
   }
 }
 
-
 //input number validation1
 valueInput1 = document.getElementById('input1');
 
