@@ -22,6 +22,8 @@ Instagram: @juniorfuta
 </head>
 
 <body data-theme="light">
+    <script src="/js/theme.js"></script>
+
     <div id="navbar">
         <div id="container">
             <div class="bar bar1"></div>
@@ -48,8 +50,8 @@ Instagram: @juniorfuta
         <div class="theme">
             <h3 id="theme">Theme</h3>
             <div class="btns">
-                <button id="dark theme" onclick="darkTheme()" class="btn">Dark</button>
-                <button id="light theme" onclick="lightTheme()" class="btn">Light</button>
+                <button id="dark theme" onclick="setDarkTheme()" class="btn">Dark</button>
+                <button id="light theme" onclick="setLightTheme()" class="btn">Light</button>
             </div>
         </div>
         <div class="authors">
@@ -115,7 +117,7 @@ Instagram: @juniorfuta
 
             <div id="history">
                 <div>
-                    <h3 id="historyHeading" ><i class="fas fa-history"></i> History</h3>
+                    <h3 id="historyHeading"><i class="fas fa-history"></i> History</h3>
                 </div>
                 <div id="history-container"></div>
             </div>
@@ -128,11 +130,11 @@ Instagram: @juniorfuta
 
             <div class="profils-divises">
                 <a href="https://en.wikipedia.org/wiki/United_States_dollar" target="_blank"><img
-                        src="/publics/united-states.png" alt="united states flag" width="35px"
-                        height="35px" /><span id="dolarUsa">USA-USA Dollar</span></a>
+                        src="/publics/united-states.png" alt="united states flag" width="35px" height="35px" /><span
+                        id="dolarUsa">USA-USA Dollar</span></a>
                 <a href="https://en.wikipedia.org/wiki/Australian_dollar" target="_blank"><img
-                        src="/publics/australia.png" alt="Australian flag" width="35px"
-                        height="35px" /><span id="australian dollar">AUD-Australian Dollar</span></a>
+                        src="/publics/australia.png" alt="Australian flag" width="35px" height="35px" /><span
+                        id="australian dollar">AUD-Australian Dollar</span></a>
                 <a href="https://en.wikipedia.org/wiki/Canadian_dollar" target="_blank"><img
                         src="/publics/pngwing.com (1).png" alt="Canadian Flag" width="37px" height="37px"
                         id="canadian-flag" /><span id="canadian dollar">CAD-Canadian
@@ -218,8 +220,7 @@ Instagram: @juniorfuta
     <!-- <script src="script.js" defer></script> -->
     <script src="/js/api.js" defer></script>
     <script src="/js/script.js" defer></script>
-    <script src="/js/translation.js"defer></script>
-    <script src="/js/theme.js"defer></script>
+    <script src="/js/translation.js" defer></script>
 </body>
 
 </html>
