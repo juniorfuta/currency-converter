@@ -179,7 +179,7 @@ function PolicyTranslate(language) {
   else {
     policyHeadingTranslate.innerHTML = "Privacy Policies"
     cookiesContentTranslate.innerHTML = "In our website we don't collect  any  personnal data just ideias of what you search."
-    concentHeadingTranslate.innerHTML = "2.Concent"
+    concentHeadingTranslate.innerHTML = "2.Consent"
   }
 }
 
