@@ -6,7 +6,7 @@ function setDarkTheme() {
   localStorage.setItem("data-theme", "dark")
 }
 
-function lightTheme() {
+function SetlightTheme() {
   const body=document.body
   body.setAttribute ("data-theme", "light")
   localStorage.setItem("data-theme", "light")
