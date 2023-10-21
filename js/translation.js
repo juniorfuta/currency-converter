@@ -193,7 +193,7 @@ function termsTranslate(language){
   let termsHeadingTranslate = document.getElementById("termsHeading");
   let p1Translate = document.getElementById("p1");
   let p2Translate = document.getElementById("p2");
-  let p3Translate = document.getElementById("p2");
+  let p3Translate = document.getElementById("p3");
 
   //iconButtonCopy=document.getElementById("i2");
 
