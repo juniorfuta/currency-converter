@@ -16,7 +16,7 @@ Annotations
   #PRIORITY_4
 
 Things to do:
- #TODO: Add Tanslation 
+ #TODO: Add Tanslation #DOING
 
 -Sidenav  #DONE #OK
 -Home page #BUG #CHECK
