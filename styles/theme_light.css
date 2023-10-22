@@ -1,6 +1,15 @@
 
 [data-theme='light'] {
-  --color: green; 
+  --bodyColor: rgb(239, 234, 234);
   --navbarColor: rgb(41, 130, 189);
-  --navbarBorderColor: #111 
+  --navbarBorderColor: rgb(41, 130, 189);
+  --inputBorderColor: black; 
+  --inputsBackgroundColor:rgb(239, 234, 234);
+  --subjectBorderColor: none;
+  --subjectColor: rgb(41, 130, 189);
+  --keybordBorderColor: black;
+  --keysBoerderColor: black;
+  --buttonBorderColor: black;
+  --historyBorderColor: black;
+  --keysButtonColor: black; 
 }

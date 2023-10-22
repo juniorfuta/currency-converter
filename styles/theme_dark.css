@@ -1,3 +1,14 @@
 [data-theme='dark'] {
-  --color: red;
+--bodyColor: rgb(52, 45, 45);
+--navbarColor: rgb(41, 130, 189);
+--navbarBorderColor: rgb(239, 234, 234);
+--inputBorderColor: rgb(239, 234, 234);
+--inputsBackgroundColor:rgb(52, 45, 45);
+--subjectBorderColor: rgb(239, 234, 234);
+--subjectColor: rgb(41, 130, 189);
+--keybordBorderColor: rgb(239, 234, 234);
+--keysBoerderColor: rgb(239, 234, 234);
+--buttonBorderColor: rgb(239, 234, 234);
+--historyBorderColor: rgb(239, 234, 234);
+--keysButtonColor: rgb(239, 234, 234); 
 }
