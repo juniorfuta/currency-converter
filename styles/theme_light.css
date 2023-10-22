@@ -1,9 +1,9 @@
 
 [data-theme='light'] {
-  --bodyColor: rgb(245, 242, 242);
+  --bodyColor: rgb(239, 234, 234);
   --navbarColor: rgb(41, 130, 189);
   --navbarBorderColor: rgb(41, 130, 189);
   --inputBorderColor: black; 
-  --inputsBackgroundColor:rgb(245, 242, 242);
+  --inputsBackgroundColor:rgb(239, 234, 234);
   --subjectColor: none;
 }
