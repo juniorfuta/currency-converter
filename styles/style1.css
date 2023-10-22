@@ -217,7 +217,7 @@ h3 {
 }
 
 .subject {
-    border: var(--subjectColor);
+    border: var(--subjectBorderColor);
     margin-bottom: 0.5ch;
 }
 
