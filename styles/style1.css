@@ -219,6 +219,7 @@ h3 {
 .subject {
     border: var(--subjectBorderColor);
     margin-bottom: 0.5ch;
+    color: var(--subjectColor);
 }
 
 #btn1,
