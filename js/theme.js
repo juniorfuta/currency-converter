@@ -14,6 +14,7 @@ function setLightTheme() {
   localStorage.setItem("data-theme", "light")
 }
 
+// Function to keep the localstarage value when the page is refrashed 
 function retrieveTheme() {
   const currentTheme= localStorage.getItem("data-theme")
 
