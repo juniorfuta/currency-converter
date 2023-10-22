@@ -236,7 +236,8 @@ h3 {
 #keybord {
     text-align: center;
     width: 50%;
-    border: solid 1px #111;
+    border: solid 1px;
+    border-color: var(--keybordBorderColor);
     border-bottom: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -244,7 +245,8 @@ h3 {
 
 
 #keys {
-    border: solid 1px #111;
+    border: solid 1px;
+    border-color: var(--keysBoerderColor) ;
     padding: 4px;
     display: grid;
     width: 50%;
