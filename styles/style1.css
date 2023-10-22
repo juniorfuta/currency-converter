@@ -209,6 +209,7 @@ h3 {
     width: 100%;
     height: 50%;
     border-radius: 8px;
+    background-color: var(--inputsBackgroundColor);
 }
 
 .subject:hover, .inputs:hover {
