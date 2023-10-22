@@ -7,5 +7,6 @@
   --inputsBackgroundColor:rgb(239, 234, 234);
   --subjectBorderColor: none;
   --subjectColor: rgb(41, 130, 189);
-  
+  --keybordBorderColor: black;
+  --keysBoerderColor: rgb(239, 234, 234);
 }
