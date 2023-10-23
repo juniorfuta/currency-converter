@@ -368,6 +368,7 @@ h3 {
 .footer2 a,
 .footer3 a {
     text-decoration: none;
+    color: var(--contactsLinksColor1);
 }
 
 .footer2 a:hover,
