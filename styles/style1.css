@@ -295,7 +295,7 @@ h3 {
 }
 
 .footer {
-    background: rgb(41, 130, 189);
+    background: var(--footerBackgroundColor);
     width: 100vw;
     color: #c2bcbc;
     padding-top: 10px;
