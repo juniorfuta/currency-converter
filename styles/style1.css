@@ -318,6 +318,7 @@ h3 {
     gap: 5px;
     display: flex;
     text-decoration: none;
+    color: var(--linksCountriesColor);
 }
 
 .profils-divises a:hover {
