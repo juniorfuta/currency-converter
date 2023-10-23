@@ -16,7 +16,7 @@ Annotations
   #PRIORITY_4
 
 Things to do:
- #TODO: Add Tanslation #DOING
+ #TODO: Add Tanslation#CHECK 
 
 -Sidenav  #DONE #OK
 -Home page #BUG #CHECK
@@ -38,6 +38,6 @@ Things to do:
 
  #TODO: modify the keyboard
 
- #TODO:Add Themes #DOING
+ #TODO:Add Themes #DOING 23/10/2023
 
  #TODO:Add mobile version

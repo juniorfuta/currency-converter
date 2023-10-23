@@ -12,4 +12,11 @@
   --buttonBorderColor: black;
   --historyBorderColor: black;
   --keysButtonColor: black; 
+  --footerBackgroundColor: rgb(41, 130, 189);
+  --linksCountriesColor: rgb(2, 2, 126);
+  --contactsLinksColor: rgb(56, 55, 55);
+  --contactsLinksColor1:rgb(2, 2, 126);
+  --sidenavBackgroundColor:#c2bcbc;
+  --authorsColor: #000000;
+  --themeAuthorsBorder: rgb(0, 0, 0);
 }
