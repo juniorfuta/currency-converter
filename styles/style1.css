@@ -137,7 +137,8 @@ h3 {
 .authors {
     position: relative;
     padding: 5px;
-    border: solid 1px rgb(0, 0, 0);
+    border: solid 1px ;
+    border-color: var(--themeAuthorsBorder) ;
     border-radius: 10px;
     margin: 20px;
 }
