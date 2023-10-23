@@ -95,7 +95,7 @@ h3 {
     height: 65%;
     z-index: 1;
     width: 0;
-    background: #c2bcbc;
+    background: var(--sidenavBackgroundColor); 
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
