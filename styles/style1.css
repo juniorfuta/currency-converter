@@ -116,7 +116,7 @@ h3 {
     padding: 10px;
     border-radius: 10px;
     background: none;
-    color: rgb(0, 0, 0);
+    color: var(--buttonSindenavHover);
 }
 
 .btn:hover {
