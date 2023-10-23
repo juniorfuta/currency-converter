@@ -350,7 +350,7 @@ h3 {
 }
 
 .contacts a {
-    color: rgb(56, 55, 55);
+    color: var(--contactsLinksColor);
     transition: box-shadow 0.1s ease;
 }
 
