@@ -112,11 +112,12 @@ h3 {
 }
 
 .btn {
-    border: solid 2px rgb(0, 0, 0);
+    border: solid 2px;
+    border-color: var(--buttonSidenavBorder);
     padding: 10px;
     border-radius: 10px;
     background: none;
-    color: rgb(0, 0, 0);
+    color: var(--buttonSindenavHover);
 }
 
 .btn:hover {
@@ -454,11 +455,6 @@ h3 {
 
     .authors {
         height: 40%;
-        background-color: brown;
-    }
-
-    .theme {
-        background-color: crimson;
     }
 
     #container {
