@@ -1,4 +1,5 @@
-resetLocalStorage()
+//resetLocalStorage()
+
 resetLanguge();
 
 function resetLocalStorage() {
@@ -6,7 +7,7 @@ function resetLocalStorage() {
 }
 
 function resetLanguge(){
-  
+
   let value= localStorage.getItem('locale')
 
   if (value==='pt'){
