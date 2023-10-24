@@ -141,6 +141,12 @@ function copied1() {
   if (value==='pt'){
     document.getElementById("btn1").innerHTML = "COPIADO";
   }
+  else if (value==='fr') {
+    document.getElementById("btn1").innerHTML = "COPIÉ";
+  }
+  else{
+    document.getElementById("btn1").innerHTML = "COPIED";
+  }
 }
 
 function copied2() {
