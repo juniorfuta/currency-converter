@@ -105,7 +105,8 @@ function Translate(language) {
     if (aboutUsPageTranslate) {
       aboutUsPageTranslate.innerHTML = "À Propos De Nous"
     }
-   
+
+    localStorage.setItem("locale", "fr") 
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
