@@ -141,6 +141,74 @@ function translateFrench() {
 
 }
 
+function translateEnglish() {
+
+  let headingTranslate = document.getElementById("heading");
+  let buttonCopy1Translate = document.getElementById("btn1");
+  let buttonCopy2Translate = document.getElementById("btn2");
+  let keybordTranslation = document.getElementById("keybordHeading");
+  let historyTranslate = document.getElementById("historyHeading");
+  let footerTranslate = document.getElementById("footerHeading");
+  let dolarUsaTranslate = document.getElementById("dolarUsa");
+  let australianDollarTranslate = document.getElementById("australian dollar");
+  let canadianDollarTranslate = document.getElementById("canadian dollar");
+  let bulagrianLevTranslate = document.getElementById("bulgarian lev");
+  let indianRupeTranslate = document.getElementById("indian rupee");
+  let japaneseYenTranslate = document.getElementById("japanese yen");
+  let newzealandDollarTranslate = document.getElementById("zealand dollar");
+  let russianDollarTranslate = document.getElementById("russian ruble");
+  let southAfricanRandTranslate = document.getElementById("south african rand");
+  let swissFrancTranalate = document.getElementById("swiss franc");
+  let britishPoundTranslate = document.getElementById("british pound");
+  let contactsTranslate = document.getElementById("contacts");
+  let aboutUsTranslate = document.getElementById("about us");
+  let policyTranslate = document.getElementById("policy");
+  let termsTranslate = document.getElementById("terms");
+  let madeTranslate = document.getElementById("footer3");
+
+  //Translation Sidenav
+
+  let themeTranslate = document.getElementById("theme");
+  let darkTranslate = document.getElementById("dark theme");
+  let lightTranslate = document.getElementById("light theme");
+  let aboutTranslate = document.getElementById("aboutHeading");
+  let aboutcontainerTranslate = document.getElementById("aboutcontainer");
+  let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
+
+  headingTranslate.innerHTML = "Currency Converter";
+  buttonCopy1Translate.innerHTML = "COPY"
+  buttonCopy2Translate.innerHTML = "COPY"
+  keybordTranslation.innerHTML = "Keybord"
+  historyTranslate.innerHTML = "History"
+  footerHeading.innerHTML = "Profils Divises"
+  dolarUsaTranslate.innerHTML = "US-USA Dollar"
+  australianDollarTranslate.innerHTML = "AUD-Australain Dollar"
+  canadianDollarTranslate.innerHTML = "CAD-Canadian Dollar"
+  bulagrianLevTranslate.innerHTML = "BGN-Bulgarian Lev"
+  indianRupeTranslate.innerHTML = "INR-Indian Rupee"
+  japaneseYenTranslate.innerHTML = "JPY-Japanese Yen"
+  newzealandDollarTranslate.innerHTML = "NZD-New Zealand Dollar"
+  russianDollarTranslate.innerHTML = "RUB-Russian Ruble"
+  southAfricanRandTranslate.innerHTML = "ZAR-South African Rand"
+  swissFrancTranalate.innerHTML = "CHF-Swiss Franc"
+  britishPoundTranslate.innerHTML = "GBP-British Pound"
+  contactsTranslate.innerHTML = "Contactos para Parcerias"
+  aboutUsTranslate.innerHTML = "About Us"
+  policyTranslate.innerHTML = "Policy"
+  termsTranslate.innerHTML = "Terms"
+  madeTranslate.innerHTML = "Made with &#x1F497; by Júnior Futa (JFuta21)"
+  themeTranslate.innerHTML = "Theme"
+  darkTranslate.innerHTML = "Dark"
+  lightTranslate.innerHTML = "Light"
+  aboutTranslate.innerHTML = "About Converter"
+  aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
+
+  if (aboutUsPageTranslate) {
+    aboutUsPageTranslate.innerHTML = "About Us"
+  }
+
+}
+
 function Translate(language) {
 
   if (language === "pt") {
@@ -156,40 +224,10 @@ function Translate(language) {
     localStorage.setItem("locale", "fr")
   }
   else {
-    headingTranslate.innerHTML = "Currency Converter";
-    buttonCopy1Translate.innerHTML = "COPY"
-    buttonCopy2Translate.innerHTML = "COPY"
-    keybordTranslation.innerHTML = "Keybord"
-    historyTranslate.innerHTML = "History"
-    footerHeading.innerHTML = "Profils Divises"
-    dolarUsaTranslate.innerHTML = "US-USA Dollar"
-    australianDollarTranslate.innerHTML = "AUD-Australain Dollar"
-    canadianDollarTranslate.innerHTML = "CAD-Canadian Dollar"
-    bulagrianLevTranslate.innerHTML = "BGN-Bulgarian Lev"
-    indianRupeTranslate.innerHTML = "INR-Indian Rupee"
-    japaneseYenTranslate.innerHTML = "JPY-Japanese Yen"
-    newzealandDollarTranslate.innerHTML = "NZD-New Zealand Dollar"
-    russianDollarTranslate.innerHTML = "RUB-Russian Ruble"
-    southAfricanRandTranslate.innerHTML = "ZAR-South African Rand"
-    swissFrancTranalate.innerHTML = "CHF-Swiss Franc"
-    britishPoundTranslate.innerHTML = "GBP-British Pound"
-    contactsTranslate.innerHTML = "Contactos para Parcerias"
-    aboutUsTranslate.innerHTML = "About Us"
-    policyTranslate.innerHTML = "Policy"
-    termsTranslate.innerHTML = "Terms"
-    madeTranslate.innerHTML = "Made with &#x1F497; by Júnior Futa (JFuta21)"
-    themeTranslate.innerHTML = "Theme"
-    darkTranslate.innerHTML = "Dark"
-    lightTranslate.innerHTML = "Light"
-    aboutTranslate.innerHTML = "About Converter"
-    aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
 
-    if (aboutUsPageTranslate) {
-      aboutUsPageTranslate.innerHTML = "About Us"
-    }
+    translateEnglish()
 
     localStorage.setItem("locale", "en")
-
   }
 }
 
