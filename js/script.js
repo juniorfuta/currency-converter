@@ -155,8 +155,17 @@ function copied2() {
 
   document.getElementById("btn2").style.border = "solid 2px green"
 
-  document.getElementById("btn2").innerHTML = "COPIED"
+  let value = localStorage.getItem("locale");
 
+  if (value==='pt'){
+    document.getElementById("btn2").innerHTML = "COPIADO";
+  }
+  else if (value==='fr') {
+    document.getElementById("btn1").innerHTML = "COPIÉ";
+  }
+  else{
+    document.getElementById("btn1").innerHTML = "COPIED";
+  }
 }
 
 
