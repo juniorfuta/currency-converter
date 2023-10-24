@@ -154,7 +154,7 @@ h3 {
 }
 
 .authors {
-    height: 59%;
+    height: auto;
 }
 
 .authors p {
