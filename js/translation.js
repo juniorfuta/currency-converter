@@ -180,7 +180,7 @@ function translateEnglish() {
   buttonCopy2Translate.innerHTML = "COPY"
   keybordTranslation.innerHTML = "Keybord"
   historyTranslate.innerHTML = "History"
-  footerHeading.innerHTML = "Profils Divises"
+  footerTranslate.innerHTML = "Profils Divises"
   dolarUsaTranslate.innerHTML = "US-USA Dollar"
   australianDollarTranslate.innerHTML = "AUD-Australain Dollar"
   canadianDollarTranslate.innerHTML = "CAD-Canadian Dollar"
