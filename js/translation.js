@@ -73,7 +73,7 @@ function translatePortuguese() {
 
 }
 
-function translateFranch() {
+function translateFrench() {
 
   let headingTranslate = document.getElementById("heading");
   let buttonCopy1Translate = document.getElementById("btn1");
@@ -150,8 +150,8 @@ function Translate(language) {
     localStorage.setItem("locale", "pt")
   }
   else if (language === "fr") {
-    
-    translateFranch()
+
+    translateFrench()
 
     localStorage.setItem("locale", "fr")
   }
