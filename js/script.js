@@ -10,7 +10,7 @@ Instagram: @juniorfuta
 function myFunction() {
 
   document.getElementById("myDropdown").classList.toggle("show");
-  
+
 }
 
 
@@ -129,8 +129,9 @@ function cleanInput() {
   numbInput.value = "";
 }
 
-function takeLanguageValue(value){
-  return value
+function takeLanguageValue(value) {
+  languageValue=value 
+  localStorage.setItem("language", "languageValue")
 }
 
 //functions for the buttons copy when clicked
