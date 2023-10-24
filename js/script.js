@@ -129,6 +129,10 @@ function cleanInput() {
   numbInput.value = "";
 }
 
+function takeLanguageValue(value){
+  return value
+}
+
 //functions for the buttons copy when clicked
 function copied1() {
   document.getElementById("btn1").style.color = "green";
@@ -136,6 +140,7 @@ function copied1() {
   let icon = document.getElementById("i1")
   icon.style.color = "green";
   let text = document.getElementById("btn1");
+
   text.innerHTML = "COPIED";
 }
 
