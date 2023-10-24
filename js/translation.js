@@ -73,6 +73,74 @@ function translatePortuguese() {
 
 }
 
+function translateFranch() {
+
+  let headingTranslate = document.getElementById("heading");
+  let buttonCopy1Translate = document.getElementById("btn1");
+  let buttonCopy2Translate = document.getElementById("btn2");
+  let keybordTranslation = document.getElementById("keybordHeading");
+  let historyTranslate = document.getElementById("historyHeading");
+  let footerTranslate = document.getElementById("footerHeading");
+  let dolarUsaTranslate = document.getElementById("dolarUsa");
+  let australianDollarTranslate = document.getElementById("australian dollar");
+  let canadianDollarTranslate = document.getElementById("canadian dollar");
+  let bulagrianLevTranslate = document.getElementById("bulgarian lev");
+  let indianRupeTranslate = document.getElementById("indian rupee");
+  let japaneseYenTranslate = document.getElementById("japanese yen");
+  let newzealandDollarTranslate = document.getElementById("zealand dollar");
+  let russianDollarTranslate = document.getElementById("russian ruble");
+  let southAfricanRandTranslate = document.getElementById("south african rand");
+  let swissFrancTranalate = document.getElementById("swiss franc");
+  let britishPoundTranslate = document.getElementById("british pound");
+  let contactsTranslate = document.getElementById("contacts");
+  let aboutUsTranslate = document.getElementById("about us");
+  let policyTranslate = document.getElementById("policy");
+  let termsTranslate = document.getElementById("terms");
+  let madeTranslate = document.getElementById("footer3");
+
+  //Translation Sidenav
+
+  let themeTranslate = document.getElementById("theme");
+  let darkTranslate = document.getElementById("dark theme");
+  let lightTranslate = document.getElementById("light theme");
+  let aboutTranslate = document.getElementById("aboutHeading");
+  let aboutcontainerTranslate = document.getElementById("aboutcontainer");
+  let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
+
+  headingTranslate.innerHTML = "Convertisseur de Devises";
+  buttonCopy1Translate.innerHTML = "COPIER"
+  buttonCopy2Translate.innerHTML = "COPIER"
+  keybordTranslation.innerHTML = "Clavier"
+  historyTranslate.innerHTML = "Historique"
+  footerTranslate.innerHTML = "Profils de Devises"
+  dolarUsaTranslate.innerHTML = "US-Dolar American"
+  australianDollarTranslate.innerHTML = "AUD-Dolar Australian"
+  canadianDollarTranslate.innerHTML = "CAD-Dolar Canadian"
+  bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgarian"
+  indianRupeTranslate.innerHTML = "INR-Rupie Indienne"
+  japaneseYenTranslate.innerHTML = "JPY-Yen Japonais"
+  newzealandDollarTranslate.innerHTML = "NZD-Dollar Néo-Zélandais"
+  russianDollarTranslate.innerHTML = "RUB-Rouble Russe"
+  southAfricanRandTranslate.innerHTML = "ZAR-Rand Sud-Africain"
+  swissFrancTranalate.innerHTML = "CHF-Franc Suisse"
+  britishPoundTranslate.innerHTML = "GBP-Livre Sterling"
+  contactsTranslate.innerHTML = "Contacts Pour Les partenariats"
+  aboutUsTranslate.innerHTML = "À Propos De Nous"
+  policyTranslate.innerHTML = "Politique"
+  termsTranslate.innerHTML = "Termes"
+  madeTranslate.innerHTML = "Fait avec &#x1F497; pour Júnior Futa (JFuta21)"
+  themeTranslate.innerHTML = "Thème"
+  darkTranslate.innerHTML = "Noire"
+  lightTranslate.innerHTML = "Claire"
+  aboutTranslate.innerHTML = "À Propos du Convertisseur"
+  aboutcontainerTranslate.innerHTML = "Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
+
+  if (aboutUsPageTranslate) {
+    aboutUsPageTranslate.innerHTML = "À Propos De Nous"
+  }
+
+}
+
 function Translate(language) {
 
   if (language === "pt") {
@@ -82,38 +150,8 @@ function Translate(language) {
     localStorage.setItem("locale", "pt")
   }
   else if (language === "fr") {
-
-    headingTranslate.innerHTML = "Convertisseur de Devises";
-    buttonCopy1Translate.innerHTML = "COPIER"
-    buttonCopy2Translate.innerHTML = "COPIER"
-    keybordTranslation.innerHTML = "Clavier"
-    historyTranslate.innerHTML = "Historique"
-    footerTranslate.innerHTML = "Profils de Devises"
-    dolarUsaTranslate.innerHTML = "US-Dolar American"
-    australianDollarTranslate.innerHTML = "AUD-Dolar Australian"
-    canadianDollarTranslate.innerHTML = "CAD-Dolar Canadian"
-    bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgarian"
-    indianRupeTranslate.innerHTML = "INR-Rupie Indienne"
-    japaneseYenTranslate.innerHTML = "JPY-Yen Japonais"
-    newzealandDollarTranslate.innerHTML = "NZD-Dollar Néo-Zélandais"
-    russianDollarTranslate.innerHTML = "RUB-Rouble Russe"
-    southAfricanRandTranslate.innerHTML = "ZAR-Rand Sud-Africain"
-    swissFrancTranalate.innerHTML = "CHF-Franc Suisse"
-    britishPoundTranslate.innerHTML = "GBP-Livre Sterling"
-    contactsTranslate.innerHTML = "Contacts Pour Les partenariats"
-    aboutUsTranslate.innerHTML = "À Propos De Nous"
-    policyTranslate.innerHTML = "Politique"
-    termsTranslate.innerHTML = "Termes"
-    madeTranslate.innerHTML = "Fait avec &#x1F497; pour Júnior Futa (JFuta21)"
-    themeTranslate.innerHTML = "Thème"
-    darkTranslate.innerHTML = "Noire"
-    lightTranslate.innerHTML = "Claire"
-    aboutTranslate.innerHTML = "À Propos du Convertisseur"
-    aboutcontainerTranslate.innerHTML = "Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
-
-    if (aboutUsPageTranslate) {
-      aboutUsPageTranslate.innerHTML = "À Propos De Nous"
-    }
+    
+    translateFranch()
 
     localStorage.setItem("locale", "fr")
   }
