@@ -1,14 +1,24 @@
 resetLocalStorage()
+resetLanguge();
 
 function resetLocalStorage() {
   localStorage.setItem("locale", "en")
 }
 
 function resetLanguge(){
+  
   let value= localStorage.getItem('locale')
 
   if (value==='pt'){
+
     translatePortuguese()
+  }
+  else if (value==='fr'){
+
+    translateFrench()
+  }
+  else{
+    translateEnglish()
   }
 }
 
