@@ -1,3 +1,9 @@
+resetLocalStorage ()
+
+function resetLocalStorage ()
+{
+  localStorage.setItem("locale", "en") 
+}
 
 function Translate(language) {
 
