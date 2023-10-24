@@ -65,7 +65,12 @@ function Translate(language) {
     lightTranslate.innerHTML = "Claro"
     aboutTranslate.innerHTML = "Acerca do Conversor"
     aboutcontainerTranslate.innerHTML = "O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
-    aboutUsPageTranslate.innerHTML = "Acerca de Nós"
+  
+    if (aboutUsPageTranslate) {
+      aboutUsPageTranslate.innerHTML = "Acerca de Nós"
+    }
+    
+   localStorage.setItem("locale", "pt") 
   }
   else if (language === "fr") {
 
@@ -96,7 +101,11 @@ function Translate(language) {
     lightTranslate.innerHTML = "Claire"
     aboutTranslate.innerHTML = "À Propos du Convertisseur"
     aboutcontainerTranslate.innerHTML = "Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
-    aboutUsPageTranslate.innerHTML = "À Propos De Nous"
+
+    if (aboutUsPageTranslate) {
+      aboutUsPageTranslate.innerHTML = "À Propos De Nous"
+    }
+   
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
