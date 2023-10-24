@@ -129,9 +129,10 @@ function cleanInput() {
   numbInput.value = "";
 }
 
-function takeLanguageValue(value) {
-  languageValue=value 
-  localStorage.setItem("language", "languageValue")
+function takeLanguageValue() {
+  alert('value');
+ /* const languageValue = value
+  localStorage.setItem("language", "languageValue") */
 }
 
 //functions for the buttons copy when clicked
