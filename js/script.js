@@ -164,7 +164,7 @@ function copied2() {
     document.getElementById("btn2").innerHTML = "COPIÉ";
   }
   else{
-    document.getElementById("btn1").innerHTML = "COPIED";
+    document.getElementById("btn2").innerHTML = "COPIED";
   }
 }
 
