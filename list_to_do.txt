@@ -25,7 +25,7 @@ Things to do:
 -Terms #DOING #SOLVED #DONE
 -Add a localStorage for the language
 
- #TODO: Click outside button Copy 
+ #TODO: Click outside button Copy #DOING 24/10/2023
 
 -button 1
 -button 2
