@@ -136,7 +136,13 @@ function Translate(language) {
     lightTranslate.innerHTML = "Light"
     aboutTranslate.innerHTML = "About Converter"
     aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
-    aboutUsPageTranslate.innerHTML = "About Us"
+
+    if (aboutUsPageTranslate) {
+      aboutUsPageTranslate.innerHTML = "About Us"
+    }
+
+    localStorage.setItem("locale", "en") 
+
   }
 }
 
