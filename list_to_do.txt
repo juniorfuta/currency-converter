@@ -23,7 +23,8 @@ Things to do:
 -About us #DOING #BUG #SOLVED #DONE
 -Policy #SOLVED #DONE
 -Terms #DOING #SOLVED #DONE
--Add a localStorage for the language
+
+-Add a localStorage for the language #DOING #CHECK  24/10/2023
 
  #TODO: Click button Copy 
 
@@ -42,4 +43,4 @@ Things to do:
 
  #TODO:Add mobile version
 
- #TODO: Translate button when clicked #DOING 24/10/2023
+ #TODO: Translate button when clicked #DOING #CHECK  24/10/2023
