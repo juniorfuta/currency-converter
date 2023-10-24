@@ -131,15 +131,15 @@ function cleanInput() {
 
 //functions for the buttons copy when clicked
 function copied1() {
-  document.getElementById("btn1").style.color = "green";
-  document.getElementById("btn1").style.border = " solid 2px green";
+
+  document.getElementById("btn1").style.color = "green"
+
+  document.getElementById("btn1").style.border = " solid 2px green"
   
-  let value = localStorage.getItem('locole');
+  let value = localStorage.getItem("locale");
 
-  console.log (value);
-
-  if (locale==='pt'){
-    text.innerHTML = "COPIED";
+  if (value==='pt'){
+    document.getElementById("btn1").innerHTML = "COPIADO";
   }
 }
 
