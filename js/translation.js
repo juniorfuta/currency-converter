@@ -4,6 +4,14 @@ function resetLocalStorage() {
   localStorage.setItem("locale", "en")
 }
 
+function resetLanguge(){
+  let value= localStorage.getItem('locale')
+
+  if (value==='pt'){
+    translatePortuguese()
+  }
+}
+
 function translatePortuguese() {
 
   let headingTranslate = document.getElementById("heading");
