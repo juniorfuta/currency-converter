@@ -1,13 +1,10 @@
-resetLocalStorage ()
+resetLocalStorage()
 
-function resetLocalStorage ()
-{
-  localStorage.setItem("locale", "en") 
+function resetLocalStorage() {
+  localStorage.setItem("locale", "en")
 }
 
-function Translate(language) {
-
-  //let iconButtonCopy;
+function translatePortuguese() {
 
   let headingTranslate = document.getElementById("heading");
   let buttonCopy1Translate = document.getElementById("btn1");
@@ -41,42 +38,48 @@ function Translate(language) {
   let aboutcontainerTranslate = document.getElementById("aboutcontainer");
   let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
 
-  //iconButtonCopy=document.getElementById("i2");
+
+  headingTranslate.innerHTML = "Conversor de Moedas";
+  buttonCopy1Translate.innerHTML = "COPIAR"
+  buttonCopy2Translate.innerHTML = "COPIAR"
+  keybordTranslation.innerHTML = "Teclado"
+  historyTranslate.innerHTML = "Histórico"
+  footerTranslate.innerHTML = "Perfis de Divísas"
+  dolarUsaTranslate.innerHTML = "US-Dólar Americano"
+  australianDollarTranslate.innerHTML = "AUD-Dólar Australiano"
+  canadianDollarTranslate.innerHTML = "CAD-Dólar Canadiano"
+  bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgariano"
+  indianRupeTranslate.innerHTML = "INR-Rupia Indiana"
+  japaneseYenTranslate.innerHTML = "JPY-Yen Japonês"
+  newzealandDollarTranslate.innerHTML = "NZD-Dólar da Nova Zelândia"
+  russianDollarTranslate.innerHTML = "RUB-Rublo Russo"
+  southAfricanRandTranslate.innerHTML = "ZAR-Rand Sul-Africano"
+  swissFrancTranalate.innerHTML = "CHF-Franco Suíço"
+  britishPoundTranslate.innerHTML = "GBP-Libra britânica"
+  contactsTranslate.innerHTML = "Contactos para Parcerias"
+  aboutUsTranslate.innerHTML = "Acerca de Nós"
+  policyTranslate.innerHTML = "Política"
+  termsTranslate.innerHTML = "Termos"
+  madeTranslate.innerHTML = "Feito com &#x1F497; por Júnior Futa (JFuta21)"
+  themeTranslate.innerHTML = "Tema"
+  darkTranslate.innerHTML = "Escuro"
+  lightTranslate.innerHTML = "Claro"
+  aboutTranslate.innerHTML = "Acerca do Conversor"
+  aboutcontainerTranslate.innerHTML = "O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
+
+  if (aboutUsPageTranslate) {
+    aboutUsPageTranslate.innerHTML = "Acerca de Nós"
+  }
+
+}
+
+function Translate(language) {
 
   if (language === "pt") {
-    headingTranslate.innerHTML = "Conversor de Moedas";
-    buttonCopy1Translate.innerHTML = "COPIAR"
-    buttonCopy2Translate.innerHTML = "COPIAR"
-    keybordTranslation.innerHTML = "Teclado"
-    historyTranslate.innerHTML = "Histórico"
-    footerTranslate.innerHTML = "Perfis de Divísas"
-    dolarUsaTranslate.innerHTML = "US-Dólar Americano"
-    australianDollarTranslate.innerHTML = "AUD-Dólar Australiano"
-    canadianDollarTranslate.innerHTML = "CAD-Dólar Canadiano"
-    bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgariano"
-    indianRupeTranslate.innerHTML = "INR-Rupia Indiana"
-    japaneseYenTranslate.innerHTML = "JPY-Yen Japonês"
-    newzealandDollarTranslate.innerHTML = "NZD-Dólar da Nova Zelândia"
-    russianDollarTranslate.innerHTML = "RUB-Rublo Russo"
-    southAfricanRandTranslate.innerHTML = "ZAR-Rand Sul-Africano"
-    swissFrancTranalate.innerHTML = "CHF-Franco Suíço"
-    britishPoundTranslate.innerHTML = "GBP-Libra britânica"
-    contactsTranslate.innerHTML = "Contactos para Parcerias"
-    aboutUsTranslate.innerHTML = "Acerca de Nós"
-    policyTranslate.innerHTML = "Política"
-    termsTranslate.innerHTML = "Termos"
-    madeTranslate.innerHTML = "Feito com &#x1F497; por Júnior Futa (JFuta21)"
-    themeTranslate.innerHTML = "Tema"
-    darkTranslate.innerHTML = "Escuro"
-    lightTranslate.innerHTML = "Claro"
-    aboutTranslate.innerHTML = "Acerca do Conversor"
-    aboutcontainerTranslate.innerHTML = "O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
-  
-    if (aboutUsPageTranslate) {
-      aboutUsPageTranslate.innerHTML = "Acerca de Nós"
-    }
-    
-   localStorage.setItem("locale", "pt") 
+
+    translatePortuguese()
+
+    localStorage.setItem("locale", "pt")
   }
   else if (language === "fr") {
 
@@ -112,7 +115,7 @@ function Translate(language) {
       aboutUsPageTranslate.innerHTML = "À Propos De Nous"
     }
 
-    localStorage.setItem("locale", "fr") 
+    localStorage.setItem("locale", "fr")
   }
   else {
     headingTranslate.innerHTML = "Currency Converter";
@@ -147,7 +150,7 @@ function Translate(language) {
       aboutUsPageTranslate.innerHTML = "About Us"
     }
 
-    localStorage.setItem("locale", "en") 
+    localStorage.setItem("locale", "en")
 
   }
 }
@@ -158,13 +161,13 @@ function AboutUsTranslate(language) {
   let aboutUsContentTranslate = document.getElementById("content");
 
   //iconButtonCopy=document.getElementById("i2");
- 
+
 
   if (language === "pt") {
     aboutUsPageTranslate.innerHTML = "Acerca de Nós"
-    aboutUsContentTranslate.innerHTML ="PalancaTech é uma Startup Tecnológica de Desenvolvimento e Inovação em Angola envolvida no desenvolvimento tecnológico de Angola especialmente da província de Malanje fundada por Estudantes de Engenharia Elétrica e Informática Industrial e Web Developers <strong> Júnior Futa e João Paulino </strong> em 2023 França."
+    aboutUsContentTranslate.innerHTML = "PalancaTech é uma Startup Tecnológica de Desenvolvimento e Inovação em Angola envolvida no desenvolvimento tecnológico de Angola especialmente da província de Malanje fundada por Estudantes de Engenharia Elétrica e Informática Industrial e Web Developers <strong> Júnior Futa e João Paulino </strong> em 2023 França."
   }
- 
+
   else if (language === "fr") {
 
     aboutUsPageTranslate.innerHTML = "À Propos De Nous"
@@ -210,7 +213,7 @@ function PolicyTranslate(language) {
 }
 
 
-function termsTranslate(language){
+function termsTranslate(language) {
 
   let termsHeadingTranslate = document.getElementById("termsHeading");
   let p1Translate = document.getElementById("p1");
