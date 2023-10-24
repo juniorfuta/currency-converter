@@ -92,7 +92,7 @@ h3 {
 .sidenav {
     margin-top: 77px;
     position: absolute;
-    height: 65%;
+    height: auto;
     z-index: 1;
     width: 0;
     background: var(--sidenavBackgroundColor); 
@@ -154,7 +154,7 @@ h3 {
 }
 
 .authors {
-    height: 59%;
+    height: auto;
 }
 
 .authors p {
