@@ -140,7 +140,6 @@ function copied1() {
   let icon = document.getElementById("i1")
   icon.style.color = "green";
   let text = document.getElementById("btn1");
-
   text.innerHTML = "COPIED";
 }
 
