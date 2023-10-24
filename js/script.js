@@ -161,7 +161,7 @@ function copied2() {
     document.getElementById("btn2").innerHTML = "COPIADO";
   }
   else if (value==='fr') {
-    document.getElementById("btn1").innerHTML = "COPIÉ";
+    document.getElementById("btn2").innerHTML = "COPIÉ";
   }
   else{
     document.getElementById("btn1").innerHTML = "COPIED";
