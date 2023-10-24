@@ -145,10 +145,12 @@ function copied1() {
 
 function copied2() {
   
-  document.getElementById("btn2").style.color = "green";
-  document.getElementById("btn2").style.border = "solid 2px green";
+  document.getElementById("btn2").style.color = "green"
 
-  text.innerHTML = "COPIED";
+  document.getElementById("btn2").style.border = "solid 2px green"
+
+  document.getElementById("btn2").innerHTML = "COPIED"
+
 }
 
 
