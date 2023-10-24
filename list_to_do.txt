@@ -25,7 +25,7 @@ Things to do:
 -Terms #DOING #SOLVED #DONE
 -Add a localStorage for the language
 
- #TODO: Click button Copy #DOING 24/10/2023
+ #TODO: Click button Copy 
 
 -button 1
 -button 2
@@ -41,3 +41,5 @@ Things to do:
  #TODO:Add Themes #DOING #SOLVED #DONE  23/10/2023
 
  #TODO:Add mobile version
+
+ #TODO: Translate button when clicked #DOING 24/10/2023
