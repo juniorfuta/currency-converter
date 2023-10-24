@@ -133,13 +133,10 @@ function cleanInput() {
 function copied1() {
   document.getElementById("btn1").style.color = "green";
   document.getElementById("btn1").style.border = " solid 2px green";
-  let icon = document.getElementById("i1")
-  icon.style.color = "green";
-  let text = document.getElementById("btn1")
+  
+  let value = localStorage.getItem('locole');
 
-  let locale= localStorage.getItem('locole');
-
-  console.log (locale);
+  console.log (value);
 
   if (locale==='pt'){
     text.innerHTML = "COPIED";
@@ -147,11 +144,10 @@ function copied1() {
 }
 
 function copied2() {
+  
   document.getElementById("btn2").style.color = "green";
   document.getElementById("btn2").style.border = "solid 2px green";
-  let icon = document.getElementById("i2")
-  icon.style.color = "green";
-  let text = document.getElementById("btn2");
+
   text.innerHTML = "COPIED";
 }
 
