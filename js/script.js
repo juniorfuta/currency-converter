@@ -129,20 +129,21 @@ function cleanInput() {
   numbInput.value = "";
 }
 
-function takeLanguageValue() {
-  alert('value');
- /* const languageValue = value
-  localStorage.setItem("language", "languageValue") */
-}
-
 //functions for the buttons copy when clicked
 function copied1() {
   document.getElementById("btn1").style.color = "green";
   document.getElementById("btn1").style.border = " solid 2px green";
   let icon = document.getElementById("i1")
   icon.style.color = "green";
-  let text = document.getElementById("btn1");
-  text.innerHTML = "COPIED";
+  let text = document.getElementById("btn1")
+
+  let locale= localStorage.getItem('locole');
+
+  console.log (locale);
+
+  if (locale==='pt'){
+    text.innerHTML = "COPIED";
+  }
 }
 
 function copied2() {
