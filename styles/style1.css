@@ -284,15 +284,11 @@ h3 {
     text-align: center;
 }
 
-#history {
+#historyHeading {
+    grid-column: 1/6;
     text-align: center;
     border: 1px solid;
     border-color: var(--historyBorderColor);
-    width: 50%;
-    margin-bottom: 40px;
-    /* border-top: none; */
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .profils-divises span {
