@@ -135,37 +135,43 @@ function copied1() {
   document.getElementById("btn1").style.color = "green"
 
   document.getElementById("btn1").style.border = " solid 2px green"
-  
+
   let value = localStorage.getItem("locale");
 
-  if (value==='pt'){
+  if (value === 'pt') {
     document.getElementById("btn1").innerHTML = "COPIADO";
   }
-  else if (value==='fr') {
+  else if (value === 'fr') {
     document.getElementById("btn1").innerHTML = "COPIÉ";
   }
-  else{
+  else {
     document.getElementById("btn1").innerHTML = "COPIED";
   }
 }
 
 function copied2() {
-  
+
   document.getElementById("btn2").style.color = "green"
 
   document.getElementById("btn2").style.border = "solid 2px green"
 
   let value = localStorage.getItem("locale");
 
-  if (value==='pt'){
+  if (value === 'pt') {
     document.getElementById("btn2").innerHTML = "COPIADO";
   }
-  else if (value==='fr') {
+  else if (value === 'fr') {
     document.getElementById("btn2").innerHTML = "COPIÉ";
   }
-  else{
+  else {
     document.getElementById("btn2").innerHTML = "COPIED";
   }
+}
+
+//function for the button copy when clicked out 
+
+function changeButtonCopy() {
+
 }
 
 
