@@ -170,19 +170,8 @@ function copied2() {
 
 //function for the button copy when clicked out 
 
-function clickOut() {
+function changeButtonCopy() {
 
-  // Sélectionnez le bouton
-  var bouton = document.getElementById("btn1");
-
-  // Ajoutez un gestionnaire d'événements au document
-  document.addEventListener("click", function (event) {
-    // Vérifiez si l'élément cliqué n'est pas le bouton
-    if (event.target !== bouton) {
-      // Code à exécuter lorsque l'utilisateur clique en dehors du bouton
-      alert("Vous avez cliqué en dehors du bouton!");
-    }
-  })
 }
 
 
