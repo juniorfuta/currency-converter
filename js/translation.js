@@ -47,6 +47,7 @@ function translatePortuguese() {
   let policyTranslate = document.getElementById("policy");
   let termsTranslate = document.getElementById("terms");
   let madeTranslate = document.getElementById("footer3");
+  let selectTranslate = document.getElementById("footer3");
 
   //Translation Sidenav
 
