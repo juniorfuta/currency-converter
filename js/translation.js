@@ -188,6 +188,8 @@ function translateEnglish() {
   let policyTranslate = document.getElementById("policy");
   let termsTranslate = document.getElementById("terms");
   let madeTranslate = document.getElementById("footer3");
+  let selectTranslate = document.getElementById("select1");
+  let select1Translate = document.getElementById("select2");
 
   //Translation Sidenav
 
@@ -224,6 +226,8 @@ function translateEnglish() {
   darkTranslate.innerHTML = "Dark"
   lightTranslate.innerHTML = "Light"
   aboutTranslate.innerHTML = "About Converter"
+  selectTranslate.innerHTML="Select your currency"
+  select1Translate.innerHTML="Select your currency"
   aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
 
   if (aboutUsPageTranslate) {
