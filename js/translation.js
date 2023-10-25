@@ -119,6 +119,7 @@ function translateFrench() {
   let termsTranslate = document.getElementById("terms");
   let madeTranslate = document.getElementById("footer3");
   let selectTranslate = document.getElementById("select1");
+  let select1Translate = document.getElementById("select2");
 
   //Translation Sidenav
 
@@ -156,6 +157,7 @@ function translateFrench() {
   lightTranslate.innerHTML = "Claire"
   aboutTranslate.innerHTML = "À Propos du Convertisseur"
   selectTranslate.innerHTML="Veuillez Selectioner la Divise"
+  select1Translate.innerHTML="Veuillez Selectioner la Divise"
   aboutcontainerTranslate.innerHTML = "Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
 
   if (aboutUsPageTranslate) {
