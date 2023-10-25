@@ -81,7 +81,7 @@ function translatePortuguese() {
   aboutUsTranslate.innerHTML = "Acerca de Nós"
   policyTranslate.innerHTML = "Política"
   termsTranslate.innerHTML = "Termos"
-  madeTranslate.innerHTML = "Feito com &#x1F497; por Júnior Futa (JFuta21)"
+  madeTranslate.innerHTML = "Feito por Júnior Futa (JFuta21)"
   themeTranslate.innerHTML = "Tema"
   darkTranslate.innerHTML = "Escuro"
   lightTranslate.innerHTML = "Claro"
