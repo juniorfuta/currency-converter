@@ -47,7 +47,7 @@ function translatePortuguese() {
   let policyTranslate = document.getElementById("policy");
   let termsTranslate = document.getElementById("terms");
   let madeTranslate = document.getElementById("footer3");
-  let selectTranslate = document.getElementById("footer3");
+  let selectTranslate = document.getElementById("select1");
 
   //Translation Sidenav
 
@@ -85,6 +85,7 @@ function translatePortuguese() {
   darkTranslate.innerHTML = "Escuro"
   lightTranslate.innerHTML = "Claro"
   aboutTranslate.innerHTML = "Acerca do Conversor"
+  selectTranslate.innerHTML="Selecione a Moeda"
   aboutcontainerTranslate.innerHTML = "O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
 
   if (aboutUsPageTranslate) {
