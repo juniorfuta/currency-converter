@@ -47,6 +47,8 @@ function translatePortuguese() {
   let policyTranslate = document.getElementById("policy");
   let termsTranslate = document.getElementById("terms");
   let madeTranslate = document.getElementById("footer3");
+  let selectTranslate = document.getElementById("select1");
+  let select1Translate = document.getElementById("select2");
 
   //Translation Sidenav
 
@@ -84,6 +86,8 @@ function translatePortuguese() {
   darkTranslate.innerHTML = "Escuro"
   lightTranslate.innerHTML = "Claro"
   aboutTranslate.innerHTML = "Acerca do Conversor"
+  selectTranslate.innerHTML="Selecione a Moeda"
+  select1Translate.innerHTML="Selecione a Moeda"
   aboutcontainerTranslate.innerHTML = "O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
 
   if (aboutUsPageTranslate) {
@@ -116,6 +120,8 @@ function translateFrench() {
   let policyTranslate = document.getElementById("policy");
   let termsTranslate = document.getElementById("terms");
   let madeTranslate = document.getElementById("footer3");
+  let selectTranslate = document.getElementById("select1");
+  let select1Translate = document.getElementById("select2");
 
   //Translation Sidenav
 
@@ -152,6 +158,8 @@ function translateFrench() {
   darkTranslate.innerHTML = "Noire"
   lightTranslate.innerHTML = "Claire"
   aboutTranslate.innerHTML = "À Propos du Convertisseur"
+  selectTranslate.innerHTML="Veuillez Selectioner la Divise"
+  select1Translate.innerHTML="Veuillez Selectioner la Divise"
   aboutcontainerTranslate.innerHTML = "Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
 
   if (aboutUsPageTranslate) {
@@ -184,6 +192,8 @@ function translateEnglish() {
   let policyTranslate = document.getElementById("policy");
   let termsTranslate = document.getElementById("terms");
   let madeTranslate = document.getElementById("footer3");
+  let selectTranslate = document.getElementById("select1");
+  let select1Translate = document.getElementById("select2");
 
   //Translation Sidenav
 
@@ -220,6 +230,8 @@ function translateEnglish() {
   darkTranslate.innerHTML = "Dark"
   lightTranslate.innerHTML = "Light"
   aboutTranslate.innerHTML = "About Converter"
+  selectTranslate.innerHTML="Select your currency"
+  select1Translate.innerHTML="Select your currency"
   aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
 
   if (aboutUsPageTranslate) {

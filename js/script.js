@@ -198,6 +198,13 @@ function copyTextToClipboard(inputId) {
   }
 }
 
+//Function delete
+
+function deleteLastElement () {
+  let currentValue= document.getElementById('input1').value;
+  console.log(currentValue);
+}
+
 /*
 By: PalancaTechnologies Softwares 
 CEO: Júnior Futa (JFuta21)
