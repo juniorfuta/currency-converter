@@ -12,14 +12,15 @@ const API_RATES = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest
 
 const API_CURRENCIES = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
 
-function currenciesRates() {
+function currenciesRates(){
 
+fetch(API_RATES)
 
-  fetch(API_RATES)
-    .then(response =>
-      response.json())
-    .then(data =>
-      console.log(data))
+  .then(response =>
+    response.json())
+
+  .then(data =>
+    console.log(data))
 
 
 }
