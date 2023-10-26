@@ -8,16 +8,18 @@ Instagram: @juniorfuta
 
 //Integrating API
 
-currenciesRates()
-
 function currenciesRates(){
  fetch('https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json')
  .then(response =>
   response.json())
  .then(data =>{
-  return data;
+  console.log(data)
  })
 }
+
+let c=currenciesRates()
+
+console.log(c)
 
 /*
 fetch ('https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json')
