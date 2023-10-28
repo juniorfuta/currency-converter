@@ -14,8 +14,6 @@ const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api
 
 const currencyList = document.getElementsByClassName("subject")
 
-document.getElementById('st').innerHTML= '<option id="" value="">Testing Communication</option>'
-
 function currenciesRates() {
 
   fetch(API_RATES_URL)
@@ -38,12 +36,12 @@ async function currenciesNames() {
   // Array with all currencies ISO codes 
   const currenciesISOcodes= Object.getOwnPropertyNames(currenciesNameObject)
 
-  //Array with all
+  //Array with all currencies names
 
   const currenciesnames= Object.values(currenciesNameObject)
 
 
-  for (let i=0; i<=3; i++){
+  for (let i=0; i<=537; i++){
 
   document.getElementById('st').innerHTML += '<option id="" value="">'+ currenciesnames[i] +'</option>'
 
