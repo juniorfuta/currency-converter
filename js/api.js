@@ -33,11 +33,12 @@ async function currenciesNames() {
 
   const currenciesNameObject= await currencisJSON.json()
 
-  const currenciesNameListOdject= Object.getOwnPropertyDescriptors(currenciesNameObject)
+  // Array with all currencies ISO codes 
+  const currenciesISOcodes= Object.getOwnPropertyNames(currenciesNameObject)
+
+  const currenciesnames= Object.values(currenciesNameObject)
 
   
-
-  console.log(currencyISOcode)
 }
 
 currenciesRates()
