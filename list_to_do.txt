@@ -41,6 +41,8 @@ Things to do:
 
  #TODO:Add Themes #DOING #SOLVED #DONE  23/10/2023
 
+ -put a them to the Policy
+
  #TODO:Add mobile version
 
  #TODO: Translate button when clicked #DOING #CHECK  24/10/2023
