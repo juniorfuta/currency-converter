@@ -36,8 +36,9 @@ async function currenciesNames() {
   // Array with all currencies ISO codes 
   const currenciesISOcodes= Object.getOwnPropertyNames(currenciesNameObject)
 
-  const currenciesnames= Object.values(currenciesNameObject)
+  //Array with all
 
+  const currenciesnames= Object.values(currenciesNameObject)
   
 }
 
