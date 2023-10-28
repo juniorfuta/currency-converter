@@ -16,6 +16,8 @@ const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api
 
 let  currencyList1 = document.getElementById('select--1')
 
+let  currencyList2 = document.getElementById('select--2')
+
 // Function to treate the name currencies 
 
 async function currenciesNames() {
@@ -33,14 +35,17 @@ async function currenciesNames() {
 
   currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
 
+  currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
+
   for (let i = 0; i < 537; i++) {
 
     currencyList1.innerHTML += '<option id="" value="">' + currenciesnames[i] + '</option>'
 
+    currencyList2.innerHTML += '<option id="" value="">' + currenciesnames[i] + '</option>'
+
   }
 }
 
-currenciesRates()
 currenciesNames()
 
 
