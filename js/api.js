@@ -12,9 +12,9 @@ const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/la
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
 
-let  currencyList1 = document.getElementById('select--1')
+let currencyList1 = document.getElementById('select--1')
 
-let  currencyList2 = document.getElementById('select--2')
+let currencyList2 = document.getElementById('select--2')
 
 // Function to treate the name currencies 
 
@@ -31,20 +31,53 @@ async function currenciesNames() {
 
   const currenciesnames = Object.values(currenciesNameObject)
 
-  currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
+  currencyList1.innerHTML = '<option id="select1" value="tttt">Select your currency</option>'
 
   currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
 
   for (let i = 0; i < 537; i++) {
 
-    currencyList1.innerHTML += '<option id="' + currenciesISOcodes[i] + '">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
+    currencyList1.innerHTML += '<option id="' + currenciesISOcodes[i] +
+      '"' + ' value="' + currenciesISOcodes[i] + '">' + currenciesnames[i] +
+      ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
-    currencyList2.innerHTML += '<option id="' + currenciesISOcodes[i] + '">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
+    currencyList2.innerHTML += '<option id="' + currenciesISOcodes[i] +
+      '"' + ' value="' + currenciesISOcodes[i] + '">' + currenciesnames[i] +
+      ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
   }
 }
 
 currenciesNames()
+
+async function convertion() {
+
+  //Recovering currencies Rates
+
+  const currencisJSON = await fetch(API_RATES_URL)
+
+  const currenciesRatesObject = await currencisJSON.json()
+
+  //Recovering user's choice
+
+  let userchoice_one = document.getElementById('select--1')
+
+
+  function recoverInput1 (){
+    
+    const userchoiceValue = userchoice_one.value
+
+    const ratesCurrencies = currenciesRatesObject.eur
+
+    let rate_input1 = ratesCurrencies[userchoiceValue]
+
+    console.log(rate_input1);
+  } 
+
+  userchoice_one.addEventListener("change", recoverInput1)
+}
+
+convertion()
 
 
 
