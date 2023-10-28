@@ -41,7 +41,7 @@ async function currenciesNames() {
 
     currencyList1.innerHTML += '<option id="" value="">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
-    currencyList2.innerHTML += '<option id="" value="">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i] + ')' + '</option>'
+    currencyList2.innerHTML += '<option id="" value="">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
   }
 }
