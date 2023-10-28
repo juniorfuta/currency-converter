@@ -42,6 +42,7 @@ Things to do:
  #TODO:Add Themes #DOING #SOLVED #DONE  23/10/2023
 
  -put a them to the Policy
+ -put a them to the Terms
 
  #TODO:Add mobile version
 
