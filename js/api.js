@@ -20,7 +20,20 @@ fetch(API_RATES_URL)
     response.json())
 
   .then(data =>
-    console.log(data))
-
-
+    console.log(data.eur))
 }
+
+function currenciesNames(){
+
+  fetch(API_CURRENCIES_URL)
+  
+    .then(response =>
+      response.json())
+  
+    .then(data =>
+      console.log(data))
+  }
+
+currenciesRates()
+currenciesNames()
+
