@@ -72,9 +72,7 @@ async function convertion() {
 
     console.log(rate_input1);
   })
-
 }
-
 
 convertion()
 
