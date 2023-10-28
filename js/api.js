@@ -33,7 +33,7 @@ function currenciesNames() {
       response.json())
 
     .then(data =>
-      console.log(data))
+      console.log(Object.getOwnPropertyNames(data)))
 }
 
 currenciesRates()
