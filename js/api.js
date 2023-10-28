@@ -12,6 +12,8 @@ const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/la
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
 
+const currencyList = document.getElementsByClassName("subject")
+
 function currenciesRates() {
 
   fetch(API_RATES_URL)
@@ -31,7 +33,7 @@ function currenciesNames() {
       response.json())
 
     .then(data =>
-      document.getElementById('ts').innerHTML=data.aoa)
+      console.log(data))
 }
 
 currenciesRates()
