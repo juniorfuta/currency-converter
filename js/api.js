@@ -31,7 +31,7 @@ async function currenciesNames() {
 
   const currenciesnames = Object.values(currenciesNameObject)
 
-  currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
+  currencyList1.innerHTML = '<option id="select1" value="tttt">Select your currency</option>'
 
   currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
 
@@ -60,7 +60,18 @@ async function convertion() {
 
   //Recovering user's choice
 
-  console.log(currenciesRatesObject.eur);
+  let userchoice_one= document.getElementById('select--1')
+
+  userchoice_one.addEventListener("change", function (){
+
+     let t= userchoice_one.value
+    
+     console.log(t)
+
+  }
+  )
+
+  
 }
 
 convertion()
