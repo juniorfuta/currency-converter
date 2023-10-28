@@ -66,7 +66,11 @@ async function convertion() {
 
     const userchoiceValue = userchoice_one.value
 
-     const ratesCurrencies= currenciesRatesObject.eur
+    const ratesCurrencies= currenciesRatesObject.eur
+
+    let t = ratesCurrencies[userchoiceValue]
+
+    console.log(t);
 
   })
 
