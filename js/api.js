@@ -39,7 +39,7 @@ async function currenciesNames() {
 
   for (let i = 0; i < 537; i++) {
 
-    currencyList1.innerHTML += '<option id="" value="">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i] + ')' + '</option>'
+    currencyList1.innerHTML += '<option id="" value="">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
     currencyList2.innerHTML += '<option id="" value="">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i] + ')' + '</option>'
 
