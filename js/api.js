@@ -8,6 +8,8 @@ Instagram: @juniorfuta
 
 //Integrating API
 
+
+
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
@@ -29,25 +31,28 @@ function currenciesRates() {
 
 async function currenciesNames() {
 
-  const currencisJSON= await fetch(API_CURRENCIES_URL)
+  const currencisJSON = await fetch(API_CURRENCIES_URL)
 
-  const currenciesNameObject= await currencisJSON.json()
+  const currenciesNameObject = await currencisJSON.json()
 
   // Array with all currencies ISO codes 
-  const currenciesISOcodes= Object.getOwnPropertyNames(currenciesNameObject)
+  const currenciesISOcodes = Object.getOwnPropertyNames(currenciesNameObject)
 
   //Array with all currencies names
 
-  const currenciesnames= Object.values(currenciesNameObject)
+  const currenciesnames = Object.values(currenciesNameObject)
 
+  document.getElementById('st').innerHTML= '<option id="select1" value="">Select your currency</option>'
 
-  for (let i=0; i<=537; i++){
+  for (let i = 0; i <= 537; i++) {
 
-  document.getElementById('st').innerHTML += '<option id="" value="">'+ currenciesnames[i] +'</option>'
+    document.getElementById('st').innerHTML += '<option id="" value="">' + currenciesnames[i] + '</option>'
 
   }
 }
 
 currenciesRates()
 currenciesNames()
+
+
 
