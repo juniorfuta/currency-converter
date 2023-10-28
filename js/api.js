@@ -12,27 +12,27 @@ const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/la
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
 
-function currenciesRates(){
+function currenciesRates() {
 
-fetch(API_RATES_URL)
+  fetch(API_RATES_URL)
 
-  .then(response =>
-    response.json())
-
-  .then(data =>
-    console.log(data.eur))
-}
-
-function currenciesNames(){
-
-  fetch(API_CURRENCIES_URL)
-  
     .then(response =>
       response.json())
-  
+
     .then(data =>
-      console.log(data))
-  }
+      console.log(data.eur.brl))
+}
+
+function currenciesNames() {
+
+  fetch(API_CURRENCIES_URL)
+
+    .then(response =>
+      response.json())
+
+    .then(data =>
+      document.getElementById('ts').innerHTML=data.aoa)
+}
 
 currenciesRates()
 currenciesNames()
