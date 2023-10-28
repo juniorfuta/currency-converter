@@ -58,19 +58,21 @@ async function convertion() {
 
   const currenciesRatesObject = await currencisJSON.json()
 
+ 
+
   //Recovering user's choice
 
   let userchoice_one= document.getElementById('select--1')
 
   userchoice_one.addEventListener("change", function (){
 
-     let t= userchoice_one.value
-    
-     console.log(t)
+     const t = userchoice_one.value
 
   }
-  ) 
+  )
+
 }
+
 
 convertion()
 
