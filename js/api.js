@@ -16,17 +16,6 @@ const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api
 
 let  currencyList1 = document.getElementById('select--1')
 
-function currenciesRates() {
-
-  fetch(API_RATES_URL)
-
-    .then(response =>
-      response.json())
-
-    .then(data =>
-      console.log(data.eur.brl))
-}
-
 // Function to treate the name currencies 
 
 async function currenciesNames() {
