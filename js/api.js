@@ -62,8 +62,9 @@ async function convertion() {
 
   let userchoice_one = document.getElementById('select--1')
 
-  userchoice_one.addEventListener("change", function () {
 
+  function recoverInput1 (){
+    
     const userchoiceValue = userchoice_one.value
 
     const ratesCurrencies = currenciesRatesObject.eur
@@ -71,7 +72,9 @@ async function convertion() {
     let rate_input1 = ratesCurrencies[userchoiceValue]
 
     console.log(rate_input1);
-  })
+  } 
+
+  userchoice_one.addEventListener("change", recoverInput1)
 }
 
 convertion()
