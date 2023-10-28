@@ -34,7 +34,7 @@ Things to do:
  #TODO: Add API
 
 -Explore API #DOING 28/10/2023
--Add currencies
+-Add currencies #SOLVED #DONE 28/10/2023
 -Add Conversion
 
  #TODO: modify the keyboard
