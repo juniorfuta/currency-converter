@@ -35,9 +35,9 @@ async function currenciesNames() {
 
   const currenciesNameListOdject= Object.getOwnPropertyDescriptors(currenciesNameObject)
 
-  cont 
+  
 
-  console.log(currenciesNameList)
+  console.log(currencyISOcode)
 }
 
 currenciesRates()
