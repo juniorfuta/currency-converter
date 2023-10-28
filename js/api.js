@@ -25,13 +25,17 @@ function currenciesRates() {
       console.log(data.eur.brl))
 }
 
+// Function to treate the name currencies 
+
 async function currenciesNames() {
 
   const currencisJSON= await fetch(API_CURRENCIES_URL)
 
   const currenciesNameObject= await currencisJSON.json()
 
-  console.log(currenciesNameObject)
+  const currenciesNameList= Object.getOwnPropertyNames(currenciesNameObject)
+
+  console.log(currenciesNameList)
 }
 
 currenciesRates()
