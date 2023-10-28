@@ -46,5 +46,8 @@ async function currenciesNames() {
 
 currenciesNames()
 
+async function convertion 
+
+
 
 
