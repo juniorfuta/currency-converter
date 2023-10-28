@@ -14,7 +14,7 @@ const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api
 
 function currenciesRates(){
 
-fetch(API_RATES)
+fetch(API_RATES_URL)
 
   .then(response =>
     response.json())
