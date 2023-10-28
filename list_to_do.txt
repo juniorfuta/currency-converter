@@ -39,8 +39,9 @@ Things to do:
 
  #TODO: modify the keyboard
 
- #TODO:Add Themes #DOING #SOLVED #DONE  23/10/2023
+ #TODO:Add Themes 
 
+-Theme Home Page #DOING #SOLVED #DONE  23/10/2023
  -put a them to the Policy
  -put a them to the Terms
  -put a them to the About Us 
