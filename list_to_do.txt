@@ -31,9 +31,9 @@ Things to do:
 -button 1
 -button 2
 
- #TODO: Add API#DOING 26/10/2023
+ #TODO: Add API
 
--Explore API 
+-Explore API #DOING 28/10/2023
 -Add currencies
 -Add Conversion
 
