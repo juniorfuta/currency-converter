@@ -14,8 +14,7 @@ const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/la
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
 
-const currencyList = document.getElementsByClassName("subject")
-
+let  currencyList1 = document.getElementById('select--1')
 
 function currenciesRates() {
 
@@ -43,13 +42,11 @@ async function currenciesNames() {
 
   const currenciesnames = Object.values(currenciesNameObject)
 
-  let setCurrency1 =document.getElementById('st')
-
-  setCurrency1.innerHTML = '<option id="select1" value="">Select your currency</option>'
+  currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
 
   for (let i = 0; i < 537; i++) {
 
-    setCurrency1.innerHTML += '<option id="" value="">' + currenciesnames[i] + '</option>'
+    currencyList1.innerHTML += '<option id="" value="">' + currenciesnames[i] + '</option>'
 
   }
 }
