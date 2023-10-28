@@ -31,15 +31,20 @@ Things to do:
 -button 1
 -button 2
 
- #TODO: Add API#DOING 26/10/2023
+ #TODO: Add API
 
--Explore API 
+-Explore API #DOING 28/10/2023
 -Add currencies
 -Add Conversion
 
  #TODO: modify the keyboard
 
- #TODO:Add Themes #DOING #SOLVED #DONE  23/10/2023
+ #TODO:Add Themes 
+
+-Theme Home Page #DOING #SOLVED #DONE  23/10/2023
+ -put a them to the Policy
+ -put a them to the Terms
+ -put a them to the About Us 
 
  #TODO:Add mobile version
 
