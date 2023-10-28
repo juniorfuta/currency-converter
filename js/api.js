@@ -8,8 +8,6 @@ Instagram: @juniorfuta
 
 //Integrating API
 
-
-
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
@@ -39,9 +37,9 @@ async function currenciesNames() {
 
   for (let i = 0; i < 537; i++) {
 
-    currencyList1.innerHTML += '<option id="" value="">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
+    currencyList1.innerHTML += '<option id="' + currenciesISOcodes[i] + '">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
-    currencyList2.innerHTML += '<option id="" value="">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
+    currencyList2.innerHTML += '<option id="' + currenciesISOcodes[i] + '">' + currenciesnames[i]+ ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
   }
 }
