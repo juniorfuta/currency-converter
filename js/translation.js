@@ -359,3 +359,8 @@ function termsTranslate(language) {
     p4Translate.innerHTML = "<b>4.Service Interruptions:</b> Service may be interrupted for maintenance or other reasons, and we will not be liable for any disruptions."
   }
 }
+
+/*!
+ * Copyright © 2023  PalacancaTechnologies as represented by Júnior FUTA
+ * All Rights Reserved.
+ */
