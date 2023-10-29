@@ -64,13 +64,13 @@ async function convertion() {
 
   let userchoice_two = document.getElementById('select--2')
 
-  let input1Value= document.getElementById('input1')
+  let input1Value = document.getElementById('input1')
 
-  let input2Value= document.getElementById('input2')
+  let input2Value = document.getElementById('input2')
 
   const ratesCurrencies = currenciesRatesObject.eur
 
-  function recoverInput1 (){
+  function recoverInput1() {
 
     const userchoiceValue1 = userchoice_one.value
 
@@ -80,18 +80,18 @@ async function convertion() {
 
     let rate_input2 = ratesCurrencies[userchoiceValue2]
 
-    input1Value.addEventListener('input', function (){
+    input1Value.addEventListener('input', function () {
 
-      input2Value.value= input1Value.value*rate_input2 
-       
-    })
-
-    input2Value.addEventListener('input', function() {
-
-      input1Value.value= input2Value.value*rate_input1
+      input2Value.value = input1Value.value * rate_input2
 
     })
-  } 
+
+    input2Value.addEventListener('input', function () {
+
+      input1Value.value = input2Value.value * rate_input1
+
+    })
+  }
 
   userchoice_one.addEventListener("change", recoverInput1)
   userchoice_two.addEventListener("change", recoverInput1)
