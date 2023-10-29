@@ -66,13 +66,13 @@ async function convertion() {
 
   let input2Value= document.getElementById('input2')
 
-  let ratesCurrencies = currenciesRatesObject.eur
+  const ratesCurrencies = currenciesRatesObject.eur
 
   function recoverInput1 (){
 
-    let userchoiceValue1 = userchoice_one.value
+    const userchoiceValue1 = userchoice_one.value
 
-    let userchoiceValue2 = userchoice_one.value
+    const userchoiceValue2 = userchoice_one.value
 
     let rate_input1 = ratesCurrencies[userchoiceValue1]
 
