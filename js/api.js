@@ -82,9 +82,14 @@ async function convertion() {
 
     input1Value.addEventListener('input', function (){
 
-      input2Value.value= rate_input2 
+      input2Value.value= input1Value.value*rate_input2 
+       
+    })
 
-      input1Value.value= rate_input1 
+    input2Value.addEventListener('input', function() {
+
+      input1Value.value= input2Value.value*rate_input1
+
     })
   } 
 
