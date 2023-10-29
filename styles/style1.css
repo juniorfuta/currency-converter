@@ -208,6 +208,7 @@ h3 {
     height: 50%;
     border-radius: 8px;
     background-color: var(--inputsBackgroundColor);
+    color: var(--colorInputs)
 }
 
 .subject:hover, .inputs:hover {
