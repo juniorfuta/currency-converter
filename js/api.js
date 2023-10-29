@@ -80,9 +80,12 @@ async function convertion() {
 
     let rate_input2 = ratesCurrencies[userchoiceValue2]
 
-    input2Value.value= rate_input2 
+    input1Value.addEventListener('input', function (){
 
-    input1Value.value= rate_input1 
+      input2Value.value= rate_input2 
+
+      input1Value.value= rate_input1 
+    })
   } 
 
   userchoice_one.addEventListener("change", recoverInput1)
