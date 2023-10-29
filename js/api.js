@@ -86,6 +86,7 @@ async function convertion() {
   } 
 
   userchoice_one.addEventListener("change", recoverInput1)
+  userchoice_two.addEventListener("change", recoverInput1)
 }
 
 convertion()
