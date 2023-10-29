@@ -1,10 +1,7 @@
-/*
-By: PalancaTechnologies Softwares 
-CEO: Júnior Futa
-a.k.a: JFuta21
-E-mail: juniorfuta94@gmail.com
-Instagram: @juniorfuta
-*/
+/*!
+ * Copyright © 2023  PalacancaTechnologies as represented by  Júnior FUTA
+ * All Rights Reserved.
+ */
 
 //Integrating API
 
