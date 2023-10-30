@@ -89,8 +89,6 @@ async function convertion() {
 
       input2Value.value = (rate_input2*(input1Value.value))/rate_input1
 
-      wait()
-
     })
 
     input2Value.addEventListener('input', function () {
