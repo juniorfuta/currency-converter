@@ -94,8 +94,6 @@ async function convertion() {
     input2Value.addEventListener('input', function () {
 
       input1Value.value = (rate_input1*(input2Value.value))/rate_input2
-    
-      history.innerHTML = "<p>history</p>"
 
     })
   }
