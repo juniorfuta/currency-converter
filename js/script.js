@@ -112,13 +112,13 @@ button.addEventListener("click", function () {
 
 // Intoducing numbers with button
 
-let text;
+let value
 
-function writeInput(text) {
-  let numbInput = document.getElementById('input1');
-  const currentValue = numbInput.value;
-  const newValue = currentValue + text;
-  numbInput.value = newValue;
+function writeInput(value) {
+  let input = document.getElementById('input1');
+  const currentValue = input.value;
+  const newValue = currentValue + value;
+  input.value = newValue;
 }
 
 // Code of the C button 
@@ -198,8 +198,8 @@ function copyTextToClipboard(inputId) {
 
 //Function delete
 
-function deleteLastElement () {
-  let currentValue= document.getElementById('input1').value;
+function deleteLastElement() {
+  let currentValue = document.getElementById('input1').value;
   console.log(currentValue);
 }
 
