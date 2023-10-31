@@ -66,7 +66,7 @@ async function convertion() {
   let input2Value = document.getElementById('input2')
 
   let history = document.getElementById('historyContent')
-  
+
   const ratesCurrencies = currenciesRatesObject.eur
 
   function recoverInput1() {
@@ -88,8 +88,9 @@ async function convertion() {
     let rate_input1 = ratesCurrencies[userchoiceValue1]
 
     let rate_input2 = ratesCurrencies[userchoiceValue2]
+    
 
-    function h () {
+    function input1ConversionHandler () {
 
       input2Value.value = (rate_input2 * input1Value.value) / rate_input1
 
@@ -97,15 +98,15 @@ async function convertion() {
 
     }
 
-    input1Value.addEventListener('input', h)
-
-    input2Value.addEventListener('input', function () {
+    function input2ConversionHandler () {
 
       input1Value.value = (rate_input1 * (input2Value.value)) / rate_input2
 
       setTimeout(hystoryIndirect, 5000)
+    }
 
-    })
+    input2Value.addEventListener('input', input2ConversionHandler)
+    input1Value.addEventListener('input', input1ConversionHandler)
   }
 
   userchoice_one.addEventListener("change", recoverInput1)
