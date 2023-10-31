@@ -83,7 +83,7 @@ async function convertion() {
       history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
     }
 
-    
+
     const userchoiceValue1 = userchoice_one.value
 
     const userchoiceValue2 = userchoice_two.value
@@ -113,7 +113,7 @@ async function convertion() {
   }
 
   userchoice_one.addEventListener("change", recoverInput1)
-  userchoice_two.addEventListener("change", recoverInput1)
+  //userchoice_two.addEventListener("change", recoverInput1)
 }
 
 convertion()
