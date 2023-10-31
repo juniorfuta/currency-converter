@@ -67,11 +67,17 @@ async function convertion() {
 
   const ratesCurrencies = currenciesRatesObject.eur
 
-  function hystory() {
+  function hystoryDirect() {
 
     let history =document.getElementById('historyContent')
 
     history.innerHTML += "<p>"+input1Value.value+"="+input2Value.value+"</p>"
+}
+  function hystoryIndirect() {
+
+    let history =document.getElementById('historyContent')
+
+    history.innerHTML += "<p>"+input2Value.value+"="+input1Value.value+"</p>"
 }
 
   function recoverInput1() {
@@ -86,15 +92,17 @@ async function convertion() {
 
     input1Value.addEventListener('input', function () {
 
-      input2Value.value = (rate_input2*(input1Value.value))/rate_input1
+      input2Value.value = (rate_input2*input1Value.value)/rate_input1
 
-         setTimeout(hystory, 5000)
+         setTimeout(hystoryDirect, 5000)
 
     })
 
     input2Value.addEventListener('input', function () {
 
       input1Value.value = (rate_input1*(input2Value.value))/rate_input2
+
+      setTimeout(hystoryIndirect, 5000)
 
     })
   }
