@@ -71,16 +71,19 @@ async function convertion() {
 
   function recoverInput1() {
 
+
     function hystoryDirect() {
 
       history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
     }
   
+
     function hystoryIndirect() {
 
       history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
     }
 
+    
     const userchoiceValue1 = userchoice_one.value
 
     const userchoiceValue2 = userchoice_two.value
@@ -88,7 +91,7 @@ async function convertion() {
     let rate_input1 = ratesCurrencies[userchoiceValue1]
 
     let rate_input2 = ratesCurrencies[userchoiceValue2]
-    
+
 
     function input1ConversionHandler () {
 
