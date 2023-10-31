@@ -387,27 +387,8 @@ h3 {
 
 @media (width <=480px) {
 
-    /* #menu-btn {
-        margin: 18px 0 0 10px
-    } */
-
-    /* #language {
-        margin: 18px 10px 0 0;
-    } */
-
-    /* .dropbtn {
-        padding: 7px;
-        font-size: 9px;
-    } */
-
-    /* .dropdown-content a {
-        font-size: 8.5px;
-    } */
-
     #logo {
-        padding-right: 10px;
-        width: 30%;
-        gap: 1px;
+        width: 20%; 
         margin-left: 80px;
     }
 
@@ -431,17 +412,6 @@ h3 {
         width: 91%;
     }
 
-    /* #btn1,
-    #btn2 {
-        font-size: 60%;
-    } */
-
-    /* .container h2,
-    #keybord,
-    h3 {
-        font-size: 90%;
-    } */
-
     #logo img {
         margin-top: 10px;
         width: 20px;
@@ -456,19 +426,6 @@ h3 {
     #language i {
         font-size: 12px;
     }
-
-    /* .authors {
-        height: 40%;
-    } */
-
-    /* #container {
-        margin: 8px 15px;
-    } */
-
-    /* .bar {
-        height: 3.5px;
-        width: 25px;
-    } */
 }
 
 /*!
