@@ -45,12 +45,6 @@ async function currenciesNames() {
   }
 }
 
-function wait() {
-  setTimeout(function() {
-    history.innerHTML += "<p>"+input1Value.value+"="+input2Value.value+"</p>"
-  }, 10000); // 30000 milliseconds = 30 seconds
-}
-
 currenciesNames()
 
 async function convertion() {
@@ -71,9 +65,14 @@ async function convertion() {
 
   let input2Value = document.getElementById('input2')
 
-  let history =document.getElementById('historyContent')
-
   const ratesCurrencies = currenciesRatesObject.eur
+
+  function hystory() {
+
+    let history =document.getElementById('historyContent')
+
+    history.innerHTML += "<p>"+input1Value.value+"="+input2Value.value+"</p>"
+}
 
   function recoverInput1() {
 
@@ -88,6 +87,8 @@ async function convertion() {
     input1Value.addEventListener('input', function () {
 
       input2Value.value = (rate_input2*(input1Value.value))/rate_input1
+
+         setTimeout(hystory, 5000)
 
     })
 
