@@ -72,13 +72,13 @@ async function convertion() {
     let history =document.getElementById('historyContent')
 
     history.innerHTML += "<p>"+input1Value.value+"="+input2Value.value+"</p>"
-}
+ }
   function hystoryIndirect() {
 
     let history =document.getElementById('historyContent')
 
     history.innerHTML += "<p>"+input2Value.value+"="+input1Value.value+"</p>"
-}
+ }
 
   function recoverInput1() {
 
