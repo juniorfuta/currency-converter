@@ -65,22 +65,19 @@ async function convertion() {
 
   let input2Value = document.getElementById('input2')
 
+  let history = document.getElementById('historyContent')
+  
   const ratesCurrencies = currenciesRatesObject.eur
 
   function recoverInput1() {
 
     function hystoryDirect() {
 
-      let history = document.getElementById('historyContent')
-  
-      history.innerHTML = "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
+      history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
     }
   
     function hystoryIndirect() {
-  
-      let history = document.getElementById('historyContent')
 
-      history.innerHTML =""
       history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
     }
 
