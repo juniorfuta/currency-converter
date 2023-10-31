@@ -389,8 +389,7 @@ h3 {
 
     #logo {
         background-color: red;
-        width: 30%;
-        gap: 1px;
+        width: 20%; 
         margin-left: 80px;
     }
 
