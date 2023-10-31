@@ -387,22 +387,22 @@ h3 {
 
 @media (width <=480px) {
 
-    #menu-btn {
+    /* #menu-btn {
         margin: 18px 0 0 10px
-    }
+    } */
 
-    #language {
+    /* #language {
         margin: 18px 10px 0 0;
-    }
+    } */
 
-    .dropbtn {
+    /* .dropbtn {
         padding: 7px;
         font-size: 9px;
-    }
+    } */
 
-    .dropdown-content a {
+    /* .dropdown-content a {
         font-size: 8.5px;
-    }
+    } */
 
     #logo {
         padding-right: 10px;
@@ -431,16 +431,16 @@ h3 {
         width: 91%;
     }
 
-    #btn1,
+    /* #btn1,
     #btn2 {
         font-size: 60%;
-    }
+    } */
 
-    .container h2,
+    /* .container h2,
     #keybord,
     h3 {
         font-size: 90%;
-    }
+    } */
 
     #logo img {
         margin-top: 10px;
@@ -457,18 +457,18 @@ h3 {
         font-size: 12px;
     }
 
-    .authors {
+    /* .authors {
         height: 40%;
-    }
+    } */
 
-    #container {
+    /* #container {
         margin: 8px 15px;
-    }
+    } */
 
-    .bar {
+    /* .bar {
         height: 3.5px;
         width: 25px;
-    }
+    } */
 }
 
 /*!

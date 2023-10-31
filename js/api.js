@@ -45,12 +45,6 @@ async function currenciesNames() {
   }
 }
 
-function wait() {
-  setTimeout(function() {
-    history.innerHTML += "<p>"+input1Value.value+"="+input2Value.value+"</p>"
-  }, 10000); // 30000 milliseconds = 30 seconds
-}
-
 currenciesNames()
 
 async function convertion() {
@@ -71,31 +65,49 @@ async function convertion() {
 
   let input2Value = document.getElementById('input2')
 
-  let history =document.getElementById('historyContent')
+  let history = document.getElementById('historyContent')
 
   const ratesCurrencies = currenciesRatesObject.eur
 
   function recoverInput1() {
-
+    
     const userchoiceValue1 = userchoice_one.value
 
     const userchoiceValue2 = userchoice_two.value
-
+  
     let rate_input1 = ratesCurrencies[userchoiceValue1]
-
+  
     let rate_input2 = ratesCurrencies[userchoiceValue2]
 
-    input1Value.addEventListener('input', function () {
 
-      input2Value.value = (rate_input2*(input1Value.value))/rate_input1
+    function hystoryDirect() {
 
-    })
+      history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
+    }
+  
 
-    input2Value.addEventListener('input', function () {
+    function hystoryIndirect() {
 
-      input1Value.value = (rate_input1*(input2Value.value))/rate_input2
+      history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
+    }
 
-    })
+    function input1ConversionHandler () {
+
+      input2Value.value = (rate_input2 * input1Value.value) / rate_input1
+
+      setTimeout( hystoryDirect, 5000)
+
+    }
+
+    function input2ConversionHandler () {
+
+      input1Value.value = (rate_input1 * (input2Value.value)) / rate_input2
+
+      setTimeout(hystoryIndirect, 5000)
+    }
+
+    input2Value.addEventListener('input', input2ConversionHandler)
+    input1Value.addEventListener('input', input1ConversionHandler)
   }
 
   userchoice_one.addEventListener("change", recoverInput1)
