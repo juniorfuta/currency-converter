@@ -70,6 +70,14 @@ async function convertion() {
   const ratesCurrencies = currenciesRatesObject.eur
 
   function recoverInput1() {
+    
+    const userchoiceValue1 = userchoice_one.value
+
+    const userchoiceValue2 = userchoice_two.value
+  
+    let rate_input1 = ratesCurrencies[userchoiceValue1]
+  
+    let rate_input2 = ratesCurrencies[userchoiceValue2]
 
 
     function hystoryDirect() {
@@ -82,16 +90,6 @@ async function convertion() {
 
       history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
     }
-
-
-    const userchoiceValue1 = userchoice_one.value
-
-    const userchoiceValue2 = userchoice_two.value
-
-    let rate_input1 = ratesCurrencies[userchoiceValue1]
-
-    let rate_input2 = ratesCurrencies[userchoiceValue2]
-
 
     function input1ConversionHandler () {
 
@@ -113,7 +111,7 @@ async function convertion() {
   }
 
   userchoice_one.addEventListener("change", recoverInput1)
-  //userchoice_two.addEventListener("change", recoverInput1)
+  userchoice_two.addEventListener("change", recoverInput1)
 }
 
 convertion()
