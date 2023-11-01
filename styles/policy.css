@@ -16,6 +16,7 @@
     place-content: center;
     gap: 4px;
     justify-content: space-between;
+    background-color: chocolate;
 }
 
 .logo {
@@ -25,6 +26,11 @@
     justify-content: center;
     margin-left: 130px;
     padding-bottom: 0px;
+    background-color: crimson;
+}
+
+#div {
+    background-color: darkkhaki;
 }
 
 .logo h3 {
@@ -78,6 +84,14 @@ footer p {
 }
 
 @media (width <=480px) {
+    
+    #language{
+        width: 50%;
+    }
+    
+    .logo h3 {
+        font-size: 17px;
+    }
 
     #content {
         width: 80%;
