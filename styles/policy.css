@@ -45,9 +45,22 @@ h1 {
     margin: 12px 0px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    place-content: center;
+    place-items: center;
+    align-items: center;
+}
+
 #content {
  background-color: red;
  /* margin: 0 5px 0 5px; */
+ place-content: center;
+ align-items: center;
+ text-align: center;
+ width: 40%;
 } 
 
 #content p{
