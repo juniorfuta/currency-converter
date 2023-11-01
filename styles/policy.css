@@ -82,6 +82,11 @@ footer p {
 }
 
 @media (width <=480px) {
+
+    #image{
+        width: 22px;
+        height: 22px;
+    }
     
     #language{
         width: 50%;
