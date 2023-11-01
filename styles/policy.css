@@ -93,13 +93,6 @@ footer p {
         width: 50%;
     }
 
-    .logo{
-        display: flex;
-        flex-direction: row;
-        background-color: red;
-        padding-top: 0px;
-        margin-top: 0px;
-    }
 
     .logo h3 {
         font-size: 17px;
