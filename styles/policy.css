@@ -26,7 +26,6 @@
     justify-content: center;
     margin-left: 130px;
     padding-bottom: 0px;
-    background-color: crimson;
 }
 
 #div {
@@ -88,7 +87,7 @@ footer p {
     #language{
         width: 50%;
     }
-    
+
     .logo h3 {
         font-size: 17px;
     }
