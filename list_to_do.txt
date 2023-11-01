@@ -51,6 +51,6 @@ Things to do:
  -put a them to the Terms
  -put a them to the About Us 
 
- #TODO:Add mobile version 
+ #TODO:Add mobile version #DOING 31/10/2023
 
  #TODO: Translate button when clicked #CHECK  24/10/2023
