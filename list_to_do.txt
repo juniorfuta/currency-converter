@@ -61,3 +61,5 @@ Things to do:
 
  #TODO: choose the input to insert the number with the keyboard 
 
+ #TODO: improve thr translation of "select your currency" 
+
