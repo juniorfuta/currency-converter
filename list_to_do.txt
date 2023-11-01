@@ -54,3 +54,8 @@ Things to do:
  #TODO:Add mobile version #DOING 31/10/2023
 
  #TODO: Translate button when clicked #CHECK  24/10/2023
+
+ #TODO: Improve the convertion behavior
+
+ #TODO: Improve keyboard
+
