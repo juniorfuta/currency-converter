@@ -31,7 +31,7 @@ Things to do:
 
 -Add a localStorage for the language #DOING #CHECK  24/10/2023
 
- #TODO: Click button Copy #DOING 25/10/2023
+ #TODO: Click button Copy #CHECK 25/10/2023
 
 -button 1
 -button 2
@@ -46,11 +46,11 @@ Things to do:
 
  #TODO:Add Themes 
 
--Theme Home Page #DOING #SOLVED #DONE  23/10/2023
+-Theme Home Page #SOLVED #DONE  23/10/2023
  -put a them to the Policy
  -put a them to the Terms
  -put a them to the About Us 
 
- #TODO:Add mobile version
+ #TODO:Add mobile version #DOING 31/10/2023
 
- #TODO: Translate button when clicked #DOING #CHECK  24/10/2023
+ #TODO: Translate button when clicked #CHECK  24/10/2023
