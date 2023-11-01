@@ -46,7 +46,7 @@ h1 {
 }
 
 #content {
-    margin: 0 25% 0 25%;
+    margin: 0 20% 0 20%;
 } 
 
 #content p{
@@ -65,3 +65,5 @@ footer p {
     color:  rgb(41, 130, 189);
     text-align: center
 }
+
+@media (width <=480px) {}
