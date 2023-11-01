@@ -49,8 +49,8 @@ section {
     display: flex;
     flex-direction: column;
     background-color: blue;
-    place-content: center;
-    place-items: center;
+    /* place-content: center; */
+    /* place-items: center; */
     align-items: center;
 }
 
