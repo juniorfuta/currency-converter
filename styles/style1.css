@@ -24,6 +24,11 @@ body{
     margin-left: 1px;
 }
 
+#logo i {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
 #logo {
     display: flex;
     gap: 4px;
