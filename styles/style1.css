@@ -45,6 +45,8 @@ h3 {
 }
 
 #logo img {
+ width: 20px;
+ height: 20px;
  margin-top: 4px;
 } 
 
@@ -395,6 +397,13 @@ h3 {
         width: 20%; 
         margin-left: 80px;
         padding-top: 5px;
+        font-size: 13px;
+        background-color: red;
+    }
+
+    #logo img {
+        width: 18px;
+        height: 18px;
     }
 
     .profils-divises {
