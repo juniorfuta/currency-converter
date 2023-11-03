@@ -395,16 +395,16 @@ h3 {
 @media (width <=480px) {
 
     #logo {
+        gap: 2px;
         width: 20%;
         margin-left: 80px;
         padding-top: 5px;
         font-size: 13px;
-        background-color: red;
     }
 
     #logo img {
-        width: 18px;
-        height: 18px;
+        background-color: red;
+        font-size: 20px;
     }
 
     .profils-divises {
