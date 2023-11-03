@@ -394,6 +394,14 @@ h3 {
 
 @media (width <=480px) {
 
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 24px;
+        height: 3px;
+        margin: 6px 0px;
+    }
+
     #logo {
         gap: 2px;
         width: 20%;
@@ -403,7 +411,9 @@ h3 {
     }
 
     #logo img {
-        background-color: red;
+        /* background-color: red; */
+        width: 2px;
+        height: 2px;
         font-size: 20px;
     }
 
