@@ -49,9 +49,8 @@ h3 {
 }
 
 #logo img {
-    width: 27px;
-    height: 27px;
-}
+ margin-top: 4px;
+} 
 
 #canadian-flag {
     border-radius: 15px;
