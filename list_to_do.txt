@@ -47,6 +47,7 @@ Things to do:
  #TODO:Add Themes 
 
 -Theme Home Page #SOLVED #DONE  23/10/2023
+
  -put a them to the Policy
  -put a them to the Terms
  -put a them to the About Us 
