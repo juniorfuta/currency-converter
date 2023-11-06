@@ -141,7 +141,7 @@ function copied2() {
   let value = localStorage.getItem("locale");
 
   if (value === 'pt') {
-    document.getElementById("btn2").innerHTML = "COPIADO";
+    document.getElementById("btn2").innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
   }
   else if (value === 'fr') {
     document.getElementById("btn2").innerHTML = "COPIÉ";
