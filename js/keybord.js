@@ -9,7 +9,7 @@ function writeInput(value) {
   
     const newValue = currentValue + value;
   
-    input1.value = newValue;²a
+    input1.value = newValue;
   })
 
 }
