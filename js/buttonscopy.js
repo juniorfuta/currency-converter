@@ -67,22 +67,22 @@ function buttonTwoClicked() {
 }
 
 
-function buttonTwoClicked() {
+function buttonTwoNotClicked() {
 
-  buttonCopyTwo.style.color = "green"
+  buttonCopyTwo.style.color = 'rgb(41, 130, 189)'
 
-  buttonCopyTwo.style.border = "solid 2px green"
+  buttonCopyTwo.style.border = ' solid 2px rgb(41, 130, 189)'
 
   let value = localStorage.getItem("locale");
 
   if (value === 'pt') {
-    buttonCopyTwo.innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
+    buttonCopyTwo.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
   }
   else if (value === 'fr') {
-    buttonCopyTwo.innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
+    buttonCopyTwo.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
   }
   else {
-    buttonCopyTwo.innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
+    buttonCopyTwo.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
   }
 }
 
