@@ -110,23 +110,6 @@ button.addEventListener("click", function () {
 });
 
 
-// Intoducing numbers with button
-
-let value
-
-function writeInput(value) {
-  let input = document.getElementById('input1');
-  const currentValue = input.value;
-  const newValue = currentValue + value;
-  input.value = newValue;
-}
-
-// Code of the C button 
-function cleanInput() {
-  const numbInput = document.getElementById('input1');
-  numbInput.value = "";
-}
-
 //functions for the buttons copy when clicked
 function copied1() {
 
