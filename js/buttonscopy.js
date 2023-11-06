@@ -38,3 +38,36 @@ function buttonTwoClicked () {
     document.getElementById("btn2").innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
   }
 }
+
+
+//function to copy a text
+
+function copyTextToClipboard(inputId) {
+  // Récupérer l'élément d'entrée en fonction de son ID
+  var inputElement = document.getElementById(inputId);
+
+  // Vérifier si l'élément d'entrée existe
+  if (inputElement) {
+    // Sélectionner le texte dans l'élément d'entrée
+    inputElement.select();
+
+    try {
+      // Copier le texte sélectionné dans le presse-papiers
+      document.execCommand('copy');
+    } catch (err) {
+      console.error('Impossible de copier le texte:', err);
+
+    }
+  } else {
+    console.error('L\'élément d\'entrée avec l\'ID ' + inputId + ' n\'existe pas.');
+  }
+}
+
+
+document.getElementById("btn1").addEventListener('click', function () {
+
+  buttonOneClicked()
+
+  copyTextToClipboard('input1')
+
+})
