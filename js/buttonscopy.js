@@ -1,22 +1,26 @@
-//functions for the buttons copy when clicked
+
+
+const buttonCopyOne= document.getElementById('btn1')
+
+const buttonCopyTwo= document.getElementById('btn2')
 
 
 function buttonOneClicked() {
 
-  document.getElementById("btn1").style.color = "green"
+  buttonCopyOne.style.color = "green"
 
-  document.getElementById("btn1").style.border = " solid 2px green"
+  buttonCopyOne.style.border = " solid 2px green"
 
   let value = localStorage.getItem("locale");
 
   if (value === 'pt') {
-    document.getElementById("btn1").innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
+    buttonCopyOne.innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
   }
   else if (value === 'fr') {
-    document.getElementById("btn1").innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
+    buttonCopyOne.innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
   }
   else {
-    document.getElementById("btn1").innerHTML ='COPIED <i class ="fa-solid fa-copy"></i>'
+    buttonCopyOne.innerHTML ='COPIED <i class ="fa-solid fa-copy"></i>'
   }
 }
 
@@ -58,8 +62,6 @@ function buttonTwoClicked () {
   }
 }
 
-
-//function to copy a text
 
 function copyTextToClipboard(inputId) {
   // Récupérer l'élément d'entrée en fonction de son ID
