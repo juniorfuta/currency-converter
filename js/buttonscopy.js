@@ -28,25 +28,23 @@ function buttonOneNotClicked(event) {
 
   if (event.target !== buttonCopyOne) {
 
-    buttonCopyOne.style.color = "green"
+    buttonCopyOne.style.color = 'rgb(41, 130, 189)'
 
-    buttonCopyOne.style.border = " solid 2px green"
+    buttonCopyOne.style.border = ' solid 2px rgb(41, 130, 189)'
 
     let value = localStorage.getItem("locale");
 
     if (value === 'pt') {
-      buttonCopyOne.innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
+      buttonCopyOne.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
     }
     else if (value === 'fr') {
-      buttonCopyOne.innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
+      buttonCopyOne.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
     }
     else {
-      buttonCopyOne.innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
+      buttonCopyOne.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
     }
 
   }
-
-
 }
 
 function buttonTwoClicked() {
@@ -99,4 +97,4 @@ buttonCopyOne.addEventListener('click', function () {
 
 })
 
-//document.body.addEventListener('click', function ())
+document.body.addEventListener('click', buttonOneNotClicked)
