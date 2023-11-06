@@ -210,7 +210,7 @@ function translateEnglish() {
   let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
 
   headingTranslate.innerHTML = "Currency Converter";
-  buttonCopy1Translate.innerHTML = "COPY"
+  buttonCopy1Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = "COPY"
   keybordTranslation.innerHTML = "Keybord"
   historyTranslate.innerHTML = "History"
