@@ -66,8 +66,8 @@ function translatePortuguese() {
 
 
   headingTranslate.innerHTML = "Conversor de Moedas";
-  buttonCopy1Translate.innerHTML = "COPIAR"
-  buttonCopy2Translate.innerHTML = "COPIAR"
+  buttonCopy1Translate.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
+  buttonCopy2Translate.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
   keybordTranslation.innerHTML = "Teclado"
   historyTranslate.innerHTML = "Histórico"
   footerTranslate.innerHTML = "Perfis de Divísas"
@@ -138,8 +138,8 @@ function translateFrench() {
   let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
 
   headingTranslate.innerHTML = "Convertisseur de Devises";
-  buttonCopy1Translate.innerHTML = "COPIER"
-  buttonCopy2Translate.innerHTML = "COPIER"
+  buttonCopy1Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
+  buttonCopy2Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
   keybordTranslation.innerHTML = "Clavier"
   historyTranslate.innerHTML = "Historique"
   footerTranslate.innerHTML = "Profils de Devises"
@@ -210,8 +210,8 @@ function translateEnglish() {
   let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
 
   headingTranslate.innerHTML = "Currency Converter";
-  buttonCopy1Translate.innerHTML = "COPY"
-  buttonCopy2Translate.innerHTML = "COPY"
+  buttonCopy1Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
+  buttonCopy2Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
   keybordTranslation.innerHTML = "Keybord"
   historyTranslate.innerHTML = "History"
   footerTranslate.innerHTML = "Profils Divises"
