@@ -31,7 +31,7 @@ Things to do:
 
 -Add a localStorage for the language #DOING #CHECK  24/10/2023
 
- #TODO: Click button Copy #CHECK 25/10/2023
+ #TODO: Click button Copy #CHECK  25/10/2023 #SOLVED 6/11/2023
 
 -button 1
 -button 2
