@@ -16,4 +16,3 @@ function cleanInput() {
 
   numbInput.value = "";
 }
-é
