@@ -13,6 +13,7 @@ function writeInput(value) {
 function cleanInput() {
 
   const numbInput = document.getElementById('input1');
-  
+
   numbInput.value = "";
 }
+é
