@@ -7,7 +7,6 @@ function writeInput(value) {
   input.value = newValue;
 }
 
-
 function cleanInput() {
   const numbInput = document.getElementById('input1');
   numbInput.value = "";
