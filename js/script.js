@@ -147,7 +147,7 @@ function copied2() {
     document.getElementById("btn2").innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
   }
   else {
-    document.getElementById("btn2").innerHTML = "COPIED";
+    document.getElementById("btn2").innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
   }
 }
 
