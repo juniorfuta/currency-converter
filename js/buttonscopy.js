@@ -67,6 +67,26 @@ function buttonTwoClicked() {
 }
 
 
+function buttonTwoClicked() {
+
+  buttonCopyTwo.style.color = "green"
+
+  buttonCopyTwo.style.border = "solid 2px green"
+
+  let value = localStorage.getItem("locale");
+
+  if (value === 'pt') {
+    buttonCopyTwo.innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
+  }
+  else if (value === 'fr') {
+    buttonCopyTwo.innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
+  }
+  else {
+    buttonCopyTwo.innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
+  }
+}
+
+
 function copyTextToClipboard(inputId) {
 
   var inputElement = document.getElementById(inputId);
@@ -89,7 +109,6 @@ function copyTextToClipboard(inputId) {
   }
 }
 
-
 buttonCopyOne.addEventListener('click', function () {
 
   buttonOneClicked()
@@ -97,5 +116,14 @@ buttonCopyOne.addEventListener('click', function () {
   copyTextToClipboard('input1')
 
 })
+
+buttonCopyTwo.addEventListener('click', function () {
+
+  buttonTwoClicked()
+
+  copyTextToClipboard('input2')
+
+})
+
 
 document.body.addEventListener('click', buttonOneNotClicked)
