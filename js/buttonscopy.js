@@ -1,8 +1,8 @@
 
 
-const buttonCopyOne= document.getElementById('btn1')
+const buttonCopyOne = document.getElementById('btn1')
 
-const buttonCopyTwo= document.getElementById('btn2')
+const buttonCopyTwo = document.getElementById('btn2')
 
 
 function buttonOneClicked() {
@@ -20,30 +20,36 @@ function buttonOneClicked() {
     buttonCopyOne.innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
   }
   else {
-    buttonCopyOne.innerHTML ='COPIED <i class ="fa-solid fa-copy"></i>'
+    buttonCopyOne.innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
   }
 }
 
-function buttonOneNotClicked() {
+function buttonOneNotClicked(event) {
 
-  buttonCopyOne.style.color = "green"
+  if (event.target !== buttonCopyOne) {
 
-  buttonCopyOne.style.border = " solid 2px green"
+    buttonCopyOne.style.color = "green"
 
-  let value = localStorage.getItem("locale");
+    buttonCopyOne.style.border = " solid 2px green"
 
-  if (value === 'pt') {
-    buttonCopyOne.innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
+    let value = localStorage.getItem("locale");
+
+    if (value === 'pt') {
+      buttonCopyOne.innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
+    }
+    else if (value === 'fr') {
+      buttonCopyOne.innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
+    }
+    else {
+      buttonCopyOne.innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
+    }
+
   }
-  else if (value === 'fr') {
-    buttonCopyOne.innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
-  }
-  else {
-    buttonCopyOne.innerHTML ='COPIED <i class ="fa-solid fa-copy"></i>'
-  }
+
+
 }
 
-function buttonTwoClicked () {
+function buttonTwoClicked() {
 
   document.getElementById("btn2").style.color = "green"
 
