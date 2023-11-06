@@ -138,7 +138,7 @@ function translateFrench() {
   let aboutUsPageTranslate = document.getElementById("aboutUsHeading");
 
   headingTranslate.innerHTML = "Convertisseur de Devises";
-  buttonCopy1Translate.innerHTML = "COPIER"
+  buttonCopy1Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = "COPIER"
   keybordTranslation.innerHTML = "Clavier"
   historyTranslate.innerHTML = "Historique"
