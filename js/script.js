@@ -111,6 +111,8 @@ button.addEventListener("click", function () {
 
 
 //functions for the buttons copy when clicked
+
+
 function copied1() {
 
   document.getElementById("btn1").style.color = "green"
@@ -120,7 +122,7 @@ function copied1() {
   let value = localStorage.getItem("locale");
 
   if (value === 'pt') {
-    document.getElementById("btn1").innerHTML = "COPIADO";
+    document.getElementById("btn1").innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
   }
   else if (value === 'fr') {
     document.getElementById("btn1").innerHTML = "COPIÉ";
