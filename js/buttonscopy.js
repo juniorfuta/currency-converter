@@ -85,7 +85,7 @@ function copyTextToClipboard(inputId) {
 }
 
 
-document.getElementById("btn1").addEventListener('click', function () {
+buttonCopyOne.addEventListener('click', function () {
 
   buttonOneClicked()
 
@@ -93,4 +93,4 @@ document.getElementById("btn1").addEventListener('click', function () {
 
 })
 
-document.body.addEventListener('click', function ())
+//document.body.addEventListener('click', function ())
