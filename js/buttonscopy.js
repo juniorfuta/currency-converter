@@ -67,22 +67,25 @@ function buttonTwoClicked() {
 }
 
 
-function buttonTwoNotClicked() {
+function buttonTwoNotClicked(event) {
 
-  buttonCopyTwo.style.color = 'rgb(41, 130, 189)'
+  if (event.target !== buttonCopyOne) {
 
-  buttonCopyTwo.style.border = ' solid 2px rgb(41, 130, 189)'
+    buttonCopyTwo.style.color = 'rgb(41, 130, 189)'
 
-  let value = localStorage.getItem("locale");
+    buttonCopyTwo.style.border = ' solid 2px rgb(41, 130, 189)'
 
-  if (value === 'pt') {
-    buttonCopyTwo.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
-  }
-  else if (value === 'fr') {
-    buttonCopyTwo.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
-  }
-  else {
-    buttonCopyTwo.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
+    let value = localStorage.getItem("locale");
+
+    if (value === 'pt') {
+      buttonCopyTwo.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
+    }
+    else if (value === 'fr') {
+      buttonCopyTwo.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
+    }
+    else {
+      buttonCopyTwo.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
+    }
   }
 }
 
@@ -126,4 +129,8 @@ buttonCopyTwo.addEventListener('click', function () {
 })
 
 
-document.body.addEventListener('click', buttonOneNotClicked)
+document.body.addEventListener('click', fuction() {
+
+
+
+})
