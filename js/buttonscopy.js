@@ -131,8 +131,8 @@ buttonCopyTwo.addEventListener('click', function () {
 
 document.body.addEventListener('click', function() {
 
-  buttonOneNotClicked()
+  buttonOneNotClicked(event)
 
-  buttonTwoNotClicked()
+  buttonTwoNotClicked(event)
 
 })
