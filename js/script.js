@@ -125,7 +125,7 @@ function copied1() {
     document.getElementById("btn1").innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
   }
   else if (value === 'fr') {
-    document.getElementById("btn1").innerHTML = "COPIÉ";
+    document.getElementById("btn1").innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
   }
   else {
     document.getElementById("btn1").innerHTML = "COPIED";
