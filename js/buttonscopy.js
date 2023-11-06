@@ -49,20 +49,20 @@ function buttonOneNotClicked(event) {
 
 function buttonTwoClicked() {
 
-  document.getElementById("btn2").style.color = "green"
+  buttonCopyTwo.style.color = "green"
 
-  document.getElementById("btn2").style.border = "solid 2px green"
+  buttonCopyTwo.style.border = "solid 2px green"
 
   let value = localStorage.getItem("locale");
 
   if (value === 'pt') {
-    document.getElementById("btn2").innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
+    buttonCopyTwo.innerHTML = 'COPIADO <i class ="fa-solid fa-copy"></i>'
   }
   else if (value === 'fr') {
-    document.getElementById("btn2").innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
+    buttonCopyTwo.innerHTML = 'COPIÉ <i class ="fa-solid fa-copy"></i>'
   }
   else {
-    document.getElementById("btn2").innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
+    buttonCopyTwo.innerHTML = 'COPIED <i class ="fa-solid fa-copy"></i>'
   }
 }
 
