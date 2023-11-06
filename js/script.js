@@ -112,6 +112,7 @@ button.addEventListener("click", function () {
 
 //functions for the buttons copy when clicked
 
+document.getElementById('btn1').addEventListener ('focus', copied1() )
 
 function copied1() {
 
