@@ -1,13 +1,17 @@
 
 function writeInput(value) {
 
-  let input = document.getElementById('input1');
+  input1.addEventListener('focus', function() {
 
-  const currentValue = input.value;
+    let input1 = document.getElementById('input1');
 
-  const newValue = currentValue + value;
+    const currentValue = input1.value;
+  
+    const newValue = currentValue + value;
+  
+    input1.value = newValue;²a
+  })
 
-  input.value = newValue;
 }
 
 function cleanInput() {
