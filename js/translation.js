@@ -139,7 +139,7 @@ function translateFrench() {
 
   headingTranslate.innerHTML = "Convertisseur de Devises";
   buttonCopy1Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
-  buttonCopy2Translate.innerHTML = "COPIER"
+  buttonCopy2Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
   keybordTranslation.innerHTML = "Clavier"
   historyTranslate.innerHTML = "Historique"
   footerTranslate.innerHTML = "Profils de Devises"
