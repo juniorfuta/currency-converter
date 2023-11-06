@@ -69,7 +69,7 @@ function buttonTwoClicked() {
 
 function buttonTwoNotClicked(event) {
 
-  if (event.target !== buttonCopyOne) {
+  if (event.target !== buttonCopyTwo) {
 
     buttonCopyTwo.style.color = 'rgb(41, 130, 189)'
 
