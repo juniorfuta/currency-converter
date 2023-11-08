@@ -36,11 +36,13 @@ function getInput() {
 
 function writeInput() {
 
-  input1.value = getInput()
+  const nameInput= getInput()
 
   const currentValue1 = input1.value;
 
   const newValue1 = currentValue1 + value;
+
+  input1.value
 }
 
 function cleanInput() {
