@@ -29,7 +29,7 @@ function getInput () {
 
   const currentSide = document.body.getAttribute('data-side')
 
-  currentValue === 'input2' ? 'input2':'input1'
+  currentSide === 'input2' ? 'input2':'input1'
 
   return currentSide
 }
