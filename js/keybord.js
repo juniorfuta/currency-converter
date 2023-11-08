@@ -39,7 +39,6 @@ function writeInput(value) {
   const newValue = currentValue + value;
 
   input2.value = newValue;
-
 }
 
 function cleanInput() {
