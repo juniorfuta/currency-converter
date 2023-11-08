@@ -10,7 +10,7 @@ let input2 = document.getElementById('input2')
 function inputOneHandler() {
 
   const body = document.body
-  
+
   body.setAttribute("data-side", "input1")
 }
 
@@ -25,21 +25,20 @@ input1.addEventListener('focus', inputOneHandler)
 
 input2.addEventListener('focus', inputTwoHandler)
 
-function getInput () {
+function getInput() {
 
   const currentSide = document.body.getAttribute('data-side')
 
-  currentSide === 'input2' ? 'input2':'input1'
+  currentSide === 'input2' ? 'input2' : 'input1'
 
   return currentSide
 }
 
 function writeInput() {
 
-  input1.value= getInput()
+  input1.value = getInput()
 
-  /*
-   const currentValue1 = input1.value;
+  const currentValue1 = input1.value;
 
   const newValue1 = currentValue1 + value;
 
@@ -50,8 +49,6 @@ function writeInput() {
   const newValue = currentValue + value;
 
   input2.value = newValue;
-  */
-
 }
 
 function cleanInput() {
