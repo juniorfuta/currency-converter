@@ -45,6 +45,7 @@ function writeInput(value) {
     const newValue = currentValue + value;
   
     input1.value = newValue
+    
   } else {
 
     const currentValue = input2.value;
