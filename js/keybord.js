@@ -25,6 +25,15 @@ input1.addEventListener('focus', inputOneHandler)
 
 input2.addEventListener('focus', inputTwoHandler)
 
+function getInput () {
+
+  const currentSide = document.body.getAttribute('data-side')
+
+  currentValue === 'input2' ? 'input2':'input1'
+
+  return currentSide
+}
+
 function writeInput(value) {
 
   const currentValue1 = input1.value;
@@ -32,7 +41,6 @@ function writeInput(value) {
   const newValue1 = currentValue1 + value;
 
   input1.value = newValue1;
-
 
   const currentValue = input2.value;
 
