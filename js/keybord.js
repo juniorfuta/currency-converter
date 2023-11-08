@@ -38,11 +38,19 @@ function writeInput(value) {
 
   const nameInput = getInput()
 
-  const currentValue = nameInput.value;
+  if (nameInput ==='input1'){
 
-  const newValue = currentValue + value;
+    const currentValue = input1.value;
 
-  nameInput.value = newValue
+    const newValue = currentValue + value;
+  
+    input2.value = newValue
+  } else {
+
+
+  }
+
+
 }
 
 function cleanInput() {
