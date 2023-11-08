@@ -19,9 +19,9 @@ function inputTwoHandler() {
   body.setAttribute ("data-side", "input2")  
 }
 
-input1.addEventListener('focus',inputOneHandler() )
+input1.addEventListener('focus' ,inputOneHandler())
 
-input1.addEventListener('focus',inputTwoHandler() )
+input2.addEventListener('focus' ,inputTwoHandler() )
 
 function writeInput(value) {
 
