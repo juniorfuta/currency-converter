@@ -10,12 +10,14 @@ let input2 = document.getElementById('input2')
 function inputOneHandler() {
 
   const body = document.body
+  
   body.setAttribute("data-side", "input1")
 }
 
 function inputTwoHandler() {
 
   const body = document.body
+
   body.setAttribute("data-side", "input2")
 }
 
