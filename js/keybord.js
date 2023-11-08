@@ -9,40 +9,35 @@ let input2 = document.getElementById('input2')
 
 function inputOneHandler() {
 
-  const body=document.body
-  body.setAttribute ("data-side", "input1")  
+  const body = document.body
+  body.setAttribute("data-side", "input1")
 }
 
 function inputTwoHandler() {
 
-  const body=document.body
-  body.setAttribute ("data-side", "input2")  
+  const body = document.body
+  body.setAttribute("data-side", "input2")
 }
 
-input1.addEventListener('focus' ,inputOneHandler())
+input1.addEventListener('focus', inputOneHandler())
 
-input2.addEventListener('focus' ,inputTwoHandler() )
+input2.addEventListener('focus', inputTwoHandler())
 
 function writeInput(value) {
 
-  var focusedInput = document.activeElement;
+  const currentValue1 = input1.value;
 
-  if (focusedInput.tagName === "INPUT" && focusedInput.id === 'input1') {
+  const newValue1 = currentValue1 + value;
 
-    const currentValue1 = input1.value;
+  input1.value = newValue1;
 
-    const newValue1 = currentValue1 + value;
 
-    input1.value = newValue1;
+  const currentValue = input2.value;
 
-  } else if (focusedInput.tagName === "INPUT" && focusedInput.id === 'input2') {
+  const newValue = currentValue + value;
 
-    const currentValue = input2.value;
+  input2.value = newValue;
 
-    const newValue = currentValue + value;
-
-    input2.value = newValue;
-  }
 }
 
 function cleanInput() {
