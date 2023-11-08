@@ -9,11 +9,11 @@ let input2 = document.getElementById('input2')
 
 function writeInput(value) {
 
-    const currentValue = input1.value;
+    const currentValue1 = input1.value;
   
-    const newValue = currentValue + value;
+    const newValue1 = currentValue1 + value;
   
-    input1.value = newValue;
+    input1.value = newValue1;
 
 
     const currentValue = input2.value;
