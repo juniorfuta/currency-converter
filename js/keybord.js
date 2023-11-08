@@ -34,15 +34,15 @@ function getInput() {
   return currentSide
 }
 
-function writeInput() {
+function writeInput(value) {
 
   const nameInput = getInput()
 
-  const currentValue1 = input1.value;
+  const currentValue = nameInput.value;
 
-  const newValue1 = currentValue1 + value;
+  const newValue = currentValue + value;
 
-  input1.value
+  nameInput.value = newValue
 }
 
 function cleanInput() {
