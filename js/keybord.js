@@ -36,7 +36,7 @@ function getInput() {
 
 function writeInput() {
 
-  const nameInput= getInput()
+  const nameInput = getInput()
 
   const currentValue1 = input1.value;
 
