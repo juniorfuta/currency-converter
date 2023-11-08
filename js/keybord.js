@@ -1,3 +1,8 @@
+/*
+ * Copyright © 2023  PalacancaTechnologies as represented by Júnior FUTA
+ * All Rights Reserved.
+*/
+
 let input1 = document.getElementById('input1');
 
 function writeInput(value) {
