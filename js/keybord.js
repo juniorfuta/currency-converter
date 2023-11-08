@@ -9,23 +9,24 @@ let input2 = document.getElementById('input2')
 
 function writeInput(value) {
 
-    var focusedInput = document.activeElement;
+  var focusedInput = document.activeElement;
 
-    if (focusedInput===input1){
+  if (focusedInput.tagName === "INPUT" && focusedInput.id === 'input1') {
 
-      const currentValue1 = input1.value;
-  
-      const newValue1 = currentValue1 + value;
-    
-      input1.value = newValue1;
+    const currentValue1 = input1.value;
 
-    } else if (focusedInput===input2) {
+    const newValue1 = currentValue1 + value;
+
+    input1.value = newValue1;
+
+  } else if (focusedInput.tagName === "INPUT" && focusedInput.id === 'input2') {
 
     const currentValue = input2.value;
-  
+
     const newValue = currentValue + value;
-  
-    input2.value = newValue; }
+
+    input2.value = newValue;
+  }
 }
 
 function cleanInput() {
