@@ -40,17 +40,17 @@ function writeInput(value) {
 
   if (nameInput ==='input1'){
 
-    const currentValue = input1.value;
+    const currentValue = input1.value
 
-    const newValue = currentValue + value;
+    const newValue = currentValue + value
   
     input1.value = newValue
-    
+
   } else {
 
-    const currentValue = input2.value;
+    const currentValue = input2.value
 
-    const newValue = currentValue + value;
+    const newValue = currentValue + value
   
     input2.value = newValue
   }
