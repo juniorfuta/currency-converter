@@ -5,20 +5,22 @@
 
 let input1 = document.getElementById('input1');
 
+let input2 = document.getElementById('input2');
+
 function writeInput(value) {
 
-  input1.addEventListener('focusin', function() {
+
 
     const currentValue = input1.value;
   
     const newValue = currentValue + value;
   
     input1.value = newValue;
-  })
+ 
 
   input2.addEventListener('focus', function() {
 
-    let input2 = document.getElementById('input2');
+   
 
     const currentValue = input2.value;
   
