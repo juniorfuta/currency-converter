@@ -7,6 +7,12 @@ let input1 = document.getElementById('input1')
 
 let input2 = document.getElementById('input2')
 
+function inputOneHandler() {
+
+  const body=document.body
+  body.setAttribute ("data-side", "input1")  
+}
+
 function writeInput(value) {
 
   var focusedInput = document.activeElement;
