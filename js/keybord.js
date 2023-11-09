@@ -88,8 +88,12 @@ function backSpace() {
 
     let number = parseInt(convertToArray.join(''), 10)
 
-    input1.value = number
-
+    if (typeof(number)===NaN)
+    {
+      input1.value = ''
+    } else {
+      input1.value = number
+    }
   } else {
 
     const currentValue = input2.value
