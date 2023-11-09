@@ -84,16 +84,12 @@ function backSpace() {
 
     let getTheLastTermIndex = getArraylength - 1
 
-    convertToArray[getTheLastTermIndex] = ''
+    convertToArray[getTheLastTermIndex] =''
 
     let number = parseInt(convertToArray.join(''), 10)
 
-    if (typeof(number)===NaN)
-    {
-      input1.value = ''
-    } else {
-      input1.value = number
-    }
+    input1.value = number
+
   } else {
 
     const currentValue = input2.value
