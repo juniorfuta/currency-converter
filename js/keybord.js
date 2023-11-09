@@ -66,10 +66,6 @@ function cleanInput() {
 
   } else {
 
-    const currentValue = input2.value
-
-    const newValue = currentValue + value
-  
     input2.value = newValue
   }
 }
