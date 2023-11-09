@@ -71,13 +71,13 @@ function cleanInput() {
 }
 
 function backSpace () {
-  
+
   const nameInput = getInput()
 
   if (nameInput ==='input1'){
-  
-    input1.value = ''
 
+    const currentValue = input1.value
+  
   } else {
 
     input2.value = ''
