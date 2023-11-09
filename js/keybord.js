@@ -77,9 +77,21 @@ function backSpace () {
   if (nameInput ==='input1'){
 
     const currentValue = input1.value
-  
+
+    let convertToArray = Array.from(String(currentValue), Number);
+
+    let getArraylength = convertToArray.length
+
+    let getTheLastTermIndex = getArraylength-1
+
+    convertToArray [getTheLastTermIndex]=''
+
+    let number = parseInt(convertToArray.join(''), 10)
+
+    input1.value = number
+
   } else {
 
-    input2.value = ''
+    
   }
 }
