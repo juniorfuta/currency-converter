@@ -69,3 +69,17 @@ function cleanInput() {
     input2.value = ''
   }
 }
+
+function backSpace () {
+  
+  const nameInput = getInput()
+
+  if (nameInput ==='input1'){
+  
+    input1.value = ''
+
+  } else {
+
+    input2.value = ''
+  }
+}
