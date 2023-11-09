@@ -62,10 +62,10 @@ function cleanInput() {
 
   if (nameInput ==='input1'){
   
-    input1.value = newValue
+    input1.value = ''
 
   } else {
 
-    input2.value = newValue
+    input2.value = ''
   }
 }
