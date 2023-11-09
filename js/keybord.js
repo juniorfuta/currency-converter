@@ -38,12 +38,12 @@ function writeInput(value) {
 
   const nameInput = getInput()
 
-  if (nameInput ==='input1'){
+  if (nameInput === 'input1') {
 
     const currentValue = input1.value
 
     const newValue = currentValue + value
-  
+
     input1.value = newValue
 
   } else {
@@ -51,7 +51,7 @@ function writeInput(value) {
     const currentValue = input2.value
 
     const newValue = currentValue + value
-  
+
     input2.value = newValue
   }
 }
@@ -60,8 +60,8 @@ function cleanInput() {
 
   const nameInput = getInput()
 
-  if (nameInput ==='input1'){
-  
+  if (nameInput === 'input1') {
+
     input1.value = ''
 
   } else {
@@ -70,11 +70,11 @@ function cleanInput() {
   }
 }
 
-function backSpace () {
+function backSpace() {
 
   const nameInput = getInput()
 
-  if (nameInput ==='input1'){
+  if (nameInput === 'input1') {
 
     const currentValue = input1.value
 
@@ -82,9 +82,9 @@ function backSpace () {
 
     let getArraylength = convertToArray.length
 
-    let getTheLastTermIndex = getArraylength-1
+    let getTheLastTermIndex = getArraylength - 1
 
-    convertToArray [getTheLastTermIndex]=''
+    convertToArray[getTheLastTermIndex] = ''
 
     let number = parseInt(convertToArray.join(''), 10)
 
@@ -92,6 +92,19 @@ function backSpace () {
 
   } else {
 
-    
+    const currentValue = input2.value
+
+    let convertToArray = Array.from(String(currentValue), Number);
+
+    let getArraylength = convertToArray.length
+
+    let getTheLastTermIndex = getArraylength - 1
+
+    convertToArray[getTheLastTermIndex] = ''
+
+    let number = parseInt(convertToArray.join(''), 10)
+
+    input2.value = number
+
   }
 }
