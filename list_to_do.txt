@@ -58,9 +58,9 @@ Things to do:
 
  #TODO: Improve the convertion behavior
 
- #TODO: Improve keyboard
+ #TODO: Improve keyboard  #DOING 09/10/2023
 
  #TODO: choose the input to insert the number with the keyboard 
 
- #TODO: improve thr translation of "select your currency" 
+ #TODO: improve the translation of "select your currency" 
 

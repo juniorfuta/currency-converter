@@ -38,12 +38,12 @@ function writeInput(value) {
 
   const nameInput = getInput()
 
-  if (nameInput ==='input1'){
+  if (nameInput === 'input1') {
 
     const currentValue = input1.value
 
     const newValue = currentValue + value
-  
+
     input1.value = newValue
 
   } else {
@@ -51,14 +51,60 @@ function writeInput(value) {
     const currentValue = input2.value
 
     const newValue = currentValue + value
-  
+
     input2.value = newValue
   }
 }
 
 function cleanInput() {
 
-  const numbInput = document.getElementById('input1');
+  const nameInput = getInput()
 
-  numbInput.value = "";
+  if (nameInput === 'input1') {
+
+    input1.value = ''
+
+  } else {
+
+    input2.value = ''
+  }
+}
+
+function backSpace() {
+
+  const nameInput = getInput()
+
+  if (nameInput === 'input1') {
+
+    const currentValue = input1.value
+
+    let convertToArray = Array.from(String(currentValue), Number);
+
+    let getArraylength = convertToArray.length
+
+    let getTheLastTermIndex = getArraylength - 1
+
+    convertToArray[getTheLastTermIndex] =''
+
+    let number = parseInt(convertToArray.join(''), 10)
+
+    input1.value = number
+
+  } else {
+
+    const currentValue = input2.value
+
+    let convertToArray = Array.from(String(currentValue), Number);
+
+    let getArraylength = convertToArray.length
+
+    let getTheLastTermIndex = getArraylength - 1
+
+    convertToArray[getTheLastTermIndex] = ''
+
+    let number = parseInt(convertToArray.join(''), 10)
+
+    input2.value = number
+
+  }
 }
