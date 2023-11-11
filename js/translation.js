@@ -248,6 +248,8 @@ function translateEnglish() {
   selectTranslate.innerHTML="Select your currency"
   select1Translate.innerHTML="Select your currency"
   aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
+  buttongenerate.innerHTML = "Generate History"
+  buttoncopyhistory.innerHTML = "Copy History"
 
   if (aboutUsPageTranslate) {
     aboutUsPageTranslate.innerHTML = "About Us"
