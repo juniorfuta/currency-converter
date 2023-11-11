@@ -100,8 +100,6 @@ async function convertion() {
     function input2ConversionHandler () {
 
       input1Value.value = (rate_input1 * (input2Value.value)) / rate_input2
-
-      //setTimeout(hystoryIndirect, 5000)
     }
 
     input2Value.addEventListener('input', input2ConversionHandler)
