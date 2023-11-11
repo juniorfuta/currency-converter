@@ -71,13 +71,12 @@ function cleanInput() {
 }
 
 function clearInput() {
-  
+
   getInputValue = getElementById('input1')
-  
+
   currentValue = getInputValue.value;
 
-  if (currentValue==='NaN')
-  {
+  if (currentValue === 'NaN') {
     getInputValue.value = ''
   }
 }
@@ -96,9 +95,9 @@ function backSpace() {
 
     let getTheLastTermIndex = getArraylength - 1
 
-    convertToArray[getTheLastTermIndex] =''
+    convertToArray[getTheLastTermIndex] = ''
 
-    let number = parseInt(convertToArray.join(''), 10)
+    number = convertToArray.join('') 
 
     input1.value = number
 
