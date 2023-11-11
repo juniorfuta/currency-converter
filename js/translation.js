@@ -68,7 +68,7 @@ function translatePortuguese() {
   headingTranslate.innerHTML = "Conversor de Moedas";
   buttonCopy1Translate.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
-  keybordTranslation.innerHTML = "Teclado"
+  keybordTranslation.innerHTML = " Teclado"
   historyTranslate.innerHTML = "Histórico"
   footerTranslate.innerHTML = "Perfis de Divísas"
   dolarUsaTranslate.innerHTML = "US-Dólar Americano"
