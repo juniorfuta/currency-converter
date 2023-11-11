@@ -213,7 +213,7 @@ function translateEnglish() {
   buttonCopy1Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
   keybordTranslation.innerHTML = " Keybord"
-  historyTranslate.innerHTML = "History"
+  historyTranslate.innerHTML = '<i class="fa-solid fa-clock-rotate-left"></i> History'
   footerTranslate.innerHTML = "Profils Divises"
   dolarUsaTranslate.innerHTML = "US-USA Dollar"
   australianDollarTranslate.innerHTML = "AUD-Australain Dollar"
