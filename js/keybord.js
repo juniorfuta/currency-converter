@@ -113,7 +113,7 @@ function backSpace() {
 
     convertToArray[getTheLastTermIndex] = ''
 
-    let number = parseInt(convertToArray.join(''), 10)
+    let number = convertToArray.join('')
 
     input2.value = number
 
