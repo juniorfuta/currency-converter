@@ -79,12 +79,6 @@ async function convertion() {
   
     let rate_input2 = ratesCurrencies[userchoiceValue2]
 
-
-    function hystoryDirect() {
-
-      history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
-    }
-
     function input1ConversionHandler () {
 
       input2Value.value = (rate_input2 * input1Value.value) / rate_input1
@@ -100,18 +94,13 @@ async function convertion() {
     input1Value.addEventListener('input', input1ConversionHandler)
   }
 
-  function hystoryDirect() {
-
-    history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
-  }
-
-  function hystoryIndirect() {
-
-    history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
-  }
-
   userchoice_one.addEventListener("change", recoverInput1)
   userchoice_two.addEventListener("change", recoverInput1)
+}
+
+function hystoryDirect() {
+
+  history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
 }
 
 convertion()
