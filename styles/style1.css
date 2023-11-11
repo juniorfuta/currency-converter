@@ -259,7 +259,7 @@ h3 {
     border-radius: 10px;
 }
 
-#keys .btn {
+#keys .btn, .btn0  {
     width: 100%;
     background: none;
     padding: 5px;
