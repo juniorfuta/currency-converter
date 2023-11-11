@@ -281,6 +281,8 @@ h3 {
 
 .btn-clear,
 .btn-backspace {
+    font-weight: bold;
+    color: #196fa8;
     grid-column: 4/6;
 }
 
@@ -291,7 +293,7 @@ h3 {
 .btn-generate,
 .btn-copyHistory {
     border: solid 1px;
-    color: rgba(52, 152, 219, 0.7);
+    color: #196fa8;
     font-weight: bold;
     grid-column: 4/6;
     width: 100%;
