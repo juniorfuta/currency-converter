@@ -70,6 +70,18 @@ function cleanInput() {
   }
 }
 
+function clearInput() {
+  
+  getInputValue = getElementById('input1')
+  
+  currentValue = getInputValue.value;
+
+  if (currentValue==='NaN')
+  {
+    getInputValue.value = ''
+  }
+}
+
 function backSpace() {
 
   const nameInput = getInput()
