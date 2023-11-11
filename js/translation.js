@@ -141,7 +141,7 @@ function translateFrench() {
   buttonCopy1Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
   keybordTranslation.innerHTML = " Clavier"
-  historyTranslate.innerHTML = "Historique"
+  historyTranslate.innerHTML = '<i class="fa-solid fa-clock-rotate-left"></i> Historique'
   footerTranslate.innerHTML = "Profils de Devises"
   dolarUsaTranslate.innerHTML = "US-Dolar American"
   australianDollarTranslate.innerHTML = "AUD-Dolar Australian"
