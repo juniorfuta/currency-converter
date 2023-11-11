@@ -212,7 +212,7 @@ function translateEnglish() {
   headingTranslate.innerHTML = "Currency Converter";
   buttonCopy1Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
-  keybordTranslation.innerHTML = "Keybord"
+  keybordTranslation.innerHTML = " Keybord"
   historyTranslate.innerHTML = "History"
   footerTranslate.innerHTML = "Profils Divises"
   dolarUsaTranslate.innerHTML = "US-USA Dollar"
