@@ -13,6 +13,12 @@ let currencyList1 = document.getElementById('select--1')
 
 let currencyList2 = document.getElementById('select--2')
 
+let history = document.getElementById('historyContent')
+
+let input1Value = document.getElementById('input1')
+
+let input2Value = document.getElementById('input2')
+
 // Function to treate the name currencies 
 
 async function currenciesNames() {
@@ -61,12 +67,6 @@ async function convertion() {
 
   let userchoice_two = document.getElementById('select--2')
 
-  let input1Value = document.getElementById('input1')
-
-  let input2Value = document.getElementById('input2')
-
-  let history = document.getElementById('historyContent')
-
   const ratesCurrencies = currenciesRatesObject.eur
 
   function recoverInput1() {
@@ -100,7 +100,7 @@ async function convertion() {
 
 function hystoryDirect() {
 
-  history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
+  history.innerHTML += '<p>""</p>'   
 }
 
 convertion()
