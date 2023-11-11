@@ -71,13 +71,12 @@ function cleanInput() {
 }
 
 function clearInput() {
-  
+
   getInputValue = getElementById('input1')
-  
+
   currentValue = getInputValue.value;
 
-  if (currentValue==='NaN')
-  {
+  if (currentValue === 'NaN') {
     getInputValue.value = ''
   }
 }
@@ -90,23 +89,7 @@ function backSpace() {
 
     const currentValue = input1.value
 
-    let convertToArray = Array.from(String(currentValue), Number);
-
-    let getArraylength = convertToArray.length
-
-    let getTheLastTermIndex = getArraylength - 1
-
-    convertToArray[getTheLastTermIndex] =''
-
-    let number = parseInt(convertToArray.join(''), 10)
-
-    input1.value = number
-
-  } else {
-
-    const currentValue = input2.value
-
-    let convertToArray = Array.from(String(currentValue), Number);
+    let convertToArray = Array.from(String(currentValue), String);
 
     let getArraylength = convertToArray.length
 
@@ -114,7 +97,23 @@ function backSpace() {
 
     convertToArray[getTheLastTermIndex] = ''
 
-    let number = parseInt(convertToArray.join(''), 10)
+    number = convertToArray.join('') 
+
+    input1.value = number
+
+  } else {
+
+    const currentValue = input2.value
+
+    let convertToArray = Array.from(String(currentValue), String);
+
+    let getArraylength = convertToArray.length
+
+    let getTheLastTermIndex = getArraylength - 1
+
+    convertToArray[getTheLastTermIndex] = ''
+
+    let number = convertToArray.join('')
 
     input2.value = number
 

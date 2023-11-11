@@ -60,6 +60,8 @@ Things to do:
 
  #TODO: Improve keyboard  #DOING 09/10/2023
 
+ -The current result returned in the input when used backspace is a string and not number 
+
  #TODO: choose the input to insert the number with the keyboard 
 
  #TODO: improve the translation of "select your currency" 

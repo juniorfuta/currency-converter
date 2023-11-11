@@ -259,7 +259,11 @@ h3 {
     border-radius: 10px;
 }
 
-#keys button {
+#keys .btn,
+.btn0,
+.btn-comma,
+.btn-backspace,
+.btn-clear {
     width: 100%;
     background: none;
     padding: 5px;
@@ -277,11 +281,27 @@ h3 {
 
 .btn-clear,
 .btn-backspace {
+    font-weight: bold;
+    color: #196fa8;
     grid-column: 4/6;
 }
 
 .btn0 {
     grid-column: 1/3;
+}
+
+.btn-generate,
+.btn-copyHistory {
+    border: solid 1px;
+    color: #196fa8;
+    font-weight: bold;
+    grid-column: 4/6;
+    width: 100%;
+    background: none;
+    padding: 5px;
+    border-color: var(--buttonBorderColor);
+    border-radius: 5px;
+    transition: box-shadow 0.1s ease;
 }
 
 #headingKeybord {
