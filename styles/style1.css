@@ -262,7 +262,8 @@ h3 {
 #keys .btn,
 .btn0,
 .btn-comma,
-.btn-backspace {
+.btn-backspace,
+.btn-clear {
     width: 100%;
     background: none;
     padding: 5px;
