@@ -28,7 +28,7 @@ async function currenciesNames() {
 
   const currenciesnames = Object.values(currenciesNameObject)
 
-  currencyList1.innerHTML = '<option id="select1" value="tttt">Select your currency</option>'
+  currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
 
   currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
 
