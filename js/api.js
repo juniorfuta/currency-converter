@@ -84,12 +84,6 @@ async function convertion() {
 
       history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
     }
-  
-
-    function hystoryIndirect() {
-
-      history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
-    }
 
     function input1ConversionHandler () {
 
@@ -104,6 +98,16 @@ async function convertion() {
 
     input2Value.addEventListener('input', input2ConversionHandler)
     input1Value.addEventListener('input', input1ConversionHandler)
+  }
+
+  function hystoryDirect() {
+
+    history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
+  }
+
+  function hystoryIndirect() {
+
+    history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
   }
 
   userchoice_one.addEventListener("change", recoverInput1)
