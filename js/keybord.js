@@ -105,7 +105,7 @@ function backSpace() {
 
     const currentValue = input2.value
 
-    let convertToArray = Array.from(String(currentValue), Number);
+    let convertToArray = Array.from(String(currentValue), String);
 
     let getArraylength = convertToArray.length
 
