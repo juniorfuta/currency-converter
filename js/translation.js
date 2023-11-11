@@ -54,6 +54,8 @@ function translatePortuguese() {
   let madeTranslate = document.getElementById("footer3");
   let selectTranslate = document.getElementById("select1");
   let select1Translate = document.getElementById("select2");
+  let buttongenerate = document.getElementById("btn-generate");
+  let buttoncopyhistory = document.getElementById("btn-copyHistory");
 
   //Translation Sidenav
 
@@ -68,8 +70,8 @@ function translatePortuguese() {
   headingTranslate.innerHTML = "Conversor de Moedas";
   buttonCopy1Translate.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
-  keybordTranslation.innerHTML = "Teclado"
-  historyTranslate.innerHTML = "Histórico"
+  keybordTranslation.innerHTML = " Teclado"
+  historyTranslate.innerHTML = '<i class="fa-solid fa-clock-rotate-left"></i> Histórico'
   footerTranslate.innerHTML = "Perfis de Divísas"
   dolarUsaTranslate.innerHTML = "US-Dólar Americano"
   australianDollarTranslate.innerHTML = "AUD-Dólar Australiano"
@@ -94,6 +96,8 @@ function translatePortuguese() {
   selectTranslate.innerHTML="Selecione a Moeda"
   select1Translate.innerHTML="Selecione a Moeda"
   aboutcontainerTranslate.innerHTML = "O conversor de moeda da PalancaTech permite que você verifique as últimas taxas de câmbio médias de compra/venda e converter tudas principais moedas mundiais. As taxas PalancaTech são taxas de câmbio compiladas das principais fontes de dados do mercado."
+  buttongenerate.innerHTML = "Gerar Histórico"
+  buttoncopyhistory.innerHTML = "Copiar Histórico"
 
   if (aboutUsPageTranslate) {
     aboutUsPageTranslate.innerHTML = "Acerca de Nós"
@@ -127,6 +131,8 @@ function translateFrench() {
   let madeTranslate = document.getElementById("footer3");
   let selectTranslate = document.getElementById("select1");
   let select1Translate = document.getElementById("select2");
+  let buttongenerate = document.getElementById("btn-generate");
+  let buttoncopyhistory = document.getElementById("btn-copyHistory");
 
   //Translation Sidenav
 
@@ -140,8 +146,8 @@ function translateFrench() {
   headingTranslate.innerHTML = "Convertisseur de Devises";
   buttonCopy1Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = 'COPIER <i class ="fa-solid fa-copy"></i>'
-  keybordTranslation.innerHTML = "Clavier"
-  historyTranslate.innerHTML = "Historique"
+  keybordTranslation.innerHTML = " Clavier"
+  historyTranslate.innerHTML = '<i class="fa-solid fa-clock-rotate-left"></i> Historique'
   footerTranslate.innerHTML = "Profils de Devises"
   dolarUsaTranslate.innerHTML = "US-Dolar American"
   australianDollarTranslate.innerHTML = "AUD-Dolar Australian"
@@ -166,6 +172,8 @@ function translateFrench() {
   selectTranslate.innerHTML="Veuillez Selectioner la Divise"
   select1Translate.innerHTML="Veuillez Selectioner la Divise"
   aboutcontainerTranslate.innerHTML = "Le convertisseur de devises de PalancaTech vous permet de vérifier les derniers taux de change moyens acheteur/vendeur et convertir toutes principales monnaies mondiales. Les taux PalancaTech sont des taux de change compilés à partir des principales sources de données du marché."
+  buttongenerate.innerHTML = "Générer l'Historique"
+  buttoncopyhistory.innerHTML = "Copier l'Historique"
 
   if (aboutUsPageTranslate) {
     aboutUsPageTranslate.innerHTML = "À Propos De Nous"
@@ -199,6 +207,8 @@ function translateEnglish() {
   let madeTranslate = document.getElementById("footer3");
   let selectTranslate = document.getElementById("select1");
   let select1Translate = document.getElementById("select2");
+  let buttongenerate = document.getElementById("btn-generate");
+  let buttoncopyhistory = document.getElementById("btn-copyHistory");
 
   //Translation Sidenav
 
@@ -212,8 +222,8 @@ function translateEnglish() {
   headingTranslate.innerHTML = "Currency Converter";
   buttonCopy1Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = 'COPY <i class ="fa-solid fa-copy"></i>'
-  keybordTranslation.innerHTML = "Keybord"
-  historyTranslate.innerHTML = "History"
+  keybordTranslation.innerHTML = " Keybord"
+  historyTranslate.innerHTML = '<i class="fa-solid fa-clock-rotate-left"></i> History'
   footerTranslate.innerHTML = "Profils Divises"
   dolarUsaTranslate.innerHTML = "US-USA Dollar"
   australianDollarTranslate.innerHTML = "AUD-Australain Dollar"
@@ -238,6 +248,8 @@ function translateEnglish() {
   selectTranslate.innerHTML="Select your currency"
   select1Translate.innerHTML="Select your currency"
   aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
+  buttongenerate.innerHTML = "Generate History"
+  buttoncopyhistory.innerHTML = "Copy History"
 
   if (aboutUsPageTranslate) {
     aboutUsPageTranslate.innerHTML = "About Us"
