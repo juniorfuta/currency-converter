@@ -207,6 +207,8 @@ function translateEnglish() {
   let madeTranslate = document.getElementById("footer3");
   let selectTranslate = document.getElementById("select1");
   let select1Translate = document.getElementById("select2");
+  let buttongenerate = document.getElementById("btn-generate");
+  let buttoncopyhistory = document.getElementById("btn-copyHistory");
 
   //Translation Sidenav
 
