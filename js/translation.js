@@ -69,7 +69,7 @@ function translatePortuguese() {
   buttonCopy1Translate.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
   buttonCopy2Translate.innerHTML = 'COPIAR <i class ="fa-solid fa-copy"></i>'
   keybordTranslation.innerHTML = " Teclado"
-  historyTranslate.innerHTML = "Histórico"
+  historyTranslate.innerHTML = '<i class="fa-solid fa-clock-rotate-left"></i> Histórico'
   footerTranslate.innerHTML = "Perfis de Divísas"
   dolarUsaTranslate.innerHTML = "US-Dólar Americano"
   australianDollarTranslate.innerHTML = "AUD-Dólar Australiano"
