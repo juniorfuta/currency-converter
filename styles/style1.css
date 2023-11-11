@@ -285,6 +285,8 @@ h3 {
 }
 
 .btn-generate, .btn-copyHistory {
+    border: solid 2px  rgba(52, 152, 219, 0.7);
+    color: rgba(52, 152, 219, 0.7);
     font-weight: bold;
     grid-column: 4/6;
 }
