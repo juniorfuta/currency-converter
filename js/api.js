@@ -44,10 +44,9 @@ async function currenciesNames() {
 
   } else if (getCurrentLanguage==="pt") {
 
-    currencyList1.innerHTML = '<option id="select1" value="">Selecione a moeda</option>'
+    currencyList1.innerHTML = '<option id="select1" value="">Selecione a Moeda</option>'
 
-    currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
-
+    currencyList2.innerHTML = '<option id="select2" value="">Selecione a Moeda</option>'
   }
 
   for (let i = 0; i < 537; i++) {
