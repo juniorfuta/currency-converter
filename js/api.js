@@ -13,6 +13,12 @@ let currencyList1 = document.getElementById('select--1')
 
 let currencyList2 = document.getElementById('select--2')
 
+let history = document.getElementById('historyContent')
+
+let input1Value = document.getElementById('input1')
+
+let input2Value = document.getElementById('input2')
+
 // Function to treate the name currencies 
 
 async function currenciesNames() {
@@ -28,9 +34,26 @@ async function currenciesNames() {
 
   const currenciesnames = Object.values(currenciesNameObject)
 
-  currencyList1.innerHTML = '<option id="select1" value="tttt">Select your currency</option>'
+  let getCurrentLanguage = localStorage.getItem("locale")
 
-  currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
+  if (getCurrentLanguage === "en") {
+
+    currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
+
+    currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
+
+  } else if (getCurrentLanguage === "pt") {
+
+    currencyList1.innerHTML = '<option id="select1" value="">Selecione a Moeda</option>'
+
+    currencyList2.innerHTML = '<option id="select2" value="">Selecione a Moeda</option>'
+
+  } else {
+
+    currencyList1.innerHTML = '<option id="select1" value="">Veuillez Selectioner la Divise</option>'
+
+    currencyList2.innerHTML = '<option id="select2" value="">Veuillez Selectioner la Divise</option>'
+  }
 
   for (let i = 0; i < 537; i++) {
 
@@ -61,49 +84,27 @@ async function convertion() {
 
   let userchoice_two = document.getElementById('select--2')
 
-  let input1Value = document.getElementById('input1')
-
-  let input2Value = document.getElementById('input2')
-
-  let history = document.getElementById('historyContent')
-
   const ratesCurrencies = currenciesRatesObject.eur
 
   function recoverInput1() {
-    
+
     const userchoiceValue1 = userchoice_one.value
 
     const userchoiceValue2 = userchoice_two.value
-  
+
     let rate_input1 = ratesCurrencies[userchoiceValue1]
-  
+
     let rate_input2 = ratesCurrencies[userchoiceValue2]
 
-
-    function hystoryDirect() {
-
-      history.innerHTML += "<p>" + input1Value.value + "=" + input2Value.value + "</p>"
-    }
-  
-
-    function hystoryIndirect() {
-
-      history.innerHTML += "<p>" + input2Value.value + "=" + input1Value.value + "</p>"
-    }
-
-    function input1ConversionHandler () {
+    function input1ConversionHandler() {
 
       input2Value.value = (rate_input2 * input1Value.value) / rate_input1
 
-      //setTimeout( hystoryDirect, 5000)
-
     }
 
-    function input2ConversionHandler () {
+    function input2ConversionHandler() {
 
       input1Value.value = (rate_input1 * (input2Value.value)) / rate_input2
-
-      //setTimeout(hystoryIndirect, 5000)
     }
 
     input2Value.addEventListener('input', input2ConversionHandler)
@@ -113,6 +114,12 @@ async function convertion() {
   userchoice_one.addEventListener("change", recoverInput1)
   userchoice_two.addEventListener("change", recoverInput1)
 }
+
+function hystoryDirect() {
+
+  history.innerHTML += '<p>' + input1Value.value + '=' + input2Value.value + '</p>' 
+}
+
 
 convertion()
 
