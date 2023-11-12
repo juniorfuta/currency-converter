@@ -46,12 +46,12 @@ function generateInputEvent() {
   if (nameInput === 'input1') {
 
     var inputElement = document.getElementById('input1');
-    
+
   } else {
 
+    var inputElement = document.getElementById('input2');      
   }
  
-
   inputElement.dispatchEvent(inputEvent);
 }
 
