@@ -62,7 +62,7 @@ Things to do:
 
  -The current result returned in the input when used backspace is a string and not number 
 
- #TODO: choose the input to insert the number with the keyboard 
+ #TODO: choose the input to insert the number with the keyboard  #SOLVED #DONE 12/11/2023
 
  #TODO: improve the translation of "select your currency"  #SOLVED #DONE 11/11/2023
 
