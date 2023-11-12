@@ -333,6 +333,13 @@ h3 {
     font-size: 14px;
 }
 
+.divisesNames {
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
 
 .profils-divises span {
     padding-top: 14px;
