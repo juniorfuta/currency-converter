@@ -122,6 +122,8 @@ function backSpace() {
 
     input1.value = number
 
+    generateInputOneEvent()
+
   } else {
 
     const currentValue = input2.value
