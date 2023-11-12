@@ -34,15 +34,15 @@ async function currenciesNames() {
 
   const currenciesnames = Object.values(currenciesNameObject)
 
-  let getCurrentLanguage= localStorage.getItem ("locale")
+  let getCurrentLanguage = localStorage.getItem("locale")
 
-  if (getCurrentLanguage==="en"){
+  if (getCurrentLanguage === "en") {
 
     currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
 
     currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
 
-  } else if (getCurrentLanguage==="pt") {
+  } else if (getCurrentLanguage === "pt") {
 
     currencyList1.innerHTML = '<option id="select1" value="">Selecione a Moeda</option>'
 
@@ -87,22 +87,22 @@ async function convertion() {
   const ratesCurrencies = currenciesRatesObject.eur
 
   function recoverInput1() {
-    
+
     const userchoiceValue1 = userchoice_one.value
 
     const userchoiceValue2 = userchoice_two.value
-  
+
     let rate_input1 = ratesCurrencies[userchoiceValue1]
-  
+
     let rate_input2 = ratesCurrencies[userchoiceValue2]
 
-    function input1ConversionHandler () {
+    function input1ConversionHandler() {
 
       input2Value.value = (rate_input2 * input1Value.value) / rate_input1
 
     }
 
-    function input2ConversionHandler () {
+    function input2ConversionHandler() {
 
       input1Value.value = (rate_input1 * (input2Value.value)) / rate_input2
     }
