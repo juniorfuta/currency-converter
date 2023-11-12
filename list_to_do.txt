@@ -64,5 +64,5 @@ Things to do:
 
  #TODO: choose the input to insert the number with the keyboard 
 
- #TODO: improve the translation of "select your currency" 
+ #TODO: improve the translation of "select your currency"  #SOLVED #DONE 11/11/2023
 
