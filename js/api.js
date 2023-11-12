@@ -133,9 +133,9 @@ function hystoryDirect() {
 
   inputvl2 = input2Value.value
 
-  history.innerHTML += '<p>' + inputvl1.toFixed(2) + ' ' + inputselect1 +
+  // history.innerHTML += '<p>' + inputvl1.toFixed(2) + ' ' + inputselect1 +
 
-    ' = ' + inputvl2.toFixed(2) + ' ' + inputselect2 + '</p>'
+  //   ' = ' + inputvl2.toFixed(2) + ' ' + inputselect2 + '</p>'
 }
 
 
