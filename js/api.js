@@ -129,7 +129,7 @@ function hystoryDirect() {
 
   inputselect2 = input2Select.toUpperCase()
 
-  history.innerHTML += '<p>' + input1Value.value + ' ' + inputselect1 + ' = ' + inputselect2 + ' ' + input2Value.value + '</p>'
+  history.innerHTML += '<p>' + input1Value.value + ' ' + inputselect1 + ' = ' +input2Value.value + ' ' + inputselect2 + '</p>'
 }
 
 
