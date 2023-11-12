@@ -117,7 +117,11 @@ async function convertion() {
 
 function hystoryDirect() {
 
-  history.innerHTML += '<p>' + input1Value.value + '=' + input2Value.value + '</p>' 
+  let userchoice_one = document.getElementById('select--1')
+
+  let userchoice_two = document.getElementById('select--2')
+
+  history.innerHTML += '<p>' + userchoice_one + input1Value.value + '=' + userchoice_two + input2Value.value + '</p>' 
   
 }
 
