@@ -92,6 +92,8 @@ function cleanInput() {
 
     input1.value = ''
 
+    generateInputOneEvent()
+
   } else {
 
     input2.value = ''
