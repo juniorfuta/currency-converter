@@ -34,6 +34,30 @@ function getInput() {
   return currentSide
 }
 
+function generateInputOneEvent() {
+
+  var inputEvent = new Event('input', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('input1');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
+function generateInputTwoEvent() {
+
+  var inputEvent = new Event('input', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('input2');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
 function writeInput(value) {
 
   const nameInput = getInput()
@@ -46,6 +70,8 @@ function writeInput(value) {
 
     input1.value = newValue
 
+    generateInputOneEvent()
+
   } else {
 
     const currentValue = input2.value
@@ -53,6 +79,8 @@ function writeInput(value) {
     const newValue = currentValue + value
 
     input2.value = newValue
+
+    generateInputTwoEvent()
   }
 }
 
@@ -64,20 +92,13 @@ function cleanInput() {
 
     input1.value = ''
 
+    generateInputOneEvent()
+
   } else {
 
     input2.value = ''
-  }
-}
 
-function clearInput() {
-
-  getInputValue = getElementById('input1')
-
-  currentValue = getInputValue.value;
-
-  if (currentValue === 'NaN') {
-    getInputValue.value = ''
+    generateInputTwoEvent()
   }
 }
 
@@ -97,9 +118,11 @@ function backSpace() {
 
     convertToArray[getTheLastTermIndex] = ''
 
-    number = convertToArray.join('') 
+    number = convertToArray.join('')
 
     input1.value = number
+
+    generateInputOneEvent()
 
   } else {
 
@@ -116,6 +139,8 @@ function backSpace() {
     let number = convertToArray.join('')
 
     input2.value = number
+
+    generateInputTwoEvent()
 
   }
 }
