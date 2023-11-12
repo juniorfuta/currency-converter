@@ -321,7 +321,7 @@ h3 {
 }
 
 #historyContent{
-    width: 50%;
+    width: auto;
 }
 
 #historyContent p {
