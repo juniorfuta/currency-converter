@@ -92,6 +92,8 @@ async function convertion() {
 
     const userchoiceValue2 = userchoice_two.value
 
+    let value1storage= localStorage.setItem("valueSelectOne", userchoiceValue1)
+
     let rate_input1 = ratesCurrencies[userchoiceValue1]
 
     let rate_input2 = ratesCurrencies[userchoiceValue2]
