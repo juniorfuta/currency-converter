@@ -135,9 +135,13 @@ function hystoryDirect() {
 
   inputvl10 = Math.round(inputvl1)
 
+  inputvl100=  inputvl10.toLocaleString('pt-BR')
+
   inputvl2 = input2Value.value
 
   inputvl20 = Math.round(inputvl2)
+
+  inputvl200=  inputvl20.toLocaleString('pt-BR')
 
   if (input1Select != '' && input2Select != '') {
     history.innerHTML += '<p>' + inputvl10 + ' ' + '<span class ="divisesNames">' + inputselect1 + '</span>' +
