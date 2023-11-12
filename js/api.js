@@ -135,17 +135,17 @@ function hystoryDirect() {
 
   inputvl10 = Math.round(inputvl1)
 
-  inputvl100=  inputvl10.toLocaleString('pt-BR')
+  inputvl100=  inputvl10.toLocaleString()
 
   inputvl2 = input2Value.value
 
   inputvl20 = Math.round(inputvl2)
 
-  inputvl200=  inputvl20.toLocaleString('pt-BR')
+  inputvl200=  inputvl20.toLocaleString()
 
   if (input1Select != '' && input2Select != '') {
-    history.innerHTML += '<p>' + inputvl10 + ' ' + '<span class ="divisesNames">' + inputselect1 + '</span>' +
-      ' = ' + inputvl20 + ' ' + '<span class ="divisesNames">' + inputselect2 + '</span>' + '</p>'
+    history.innerHTML += '<p>' + inputvl100 + ' ' + '<span class ="divisesNames">' + inputselect1 + '</span>' +
+      ' = ' + inputvl200 + ' ' + '<span class ="divisesNames">' + inputselect2 + '</span>' + '</p>'
   }
 
 }
