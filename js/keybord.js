@@ -97,6 +97,8 @@ function cleanInput() {
   } else {
 
     input2.value = ''
+
+    generateInputTwoEvent()
   }
 }
 
