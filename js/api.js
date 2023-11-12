@@ -121,6 +121,10 @@ async function convertion() {
 
 function hystoryDirect() {
 
+  input1Select= localStorage.getItem('valueSelectTwo')
+
+  input1Select= localStorage.getItem('valueSelectTwo')
+
   history.innerHTML += '<p>' + input1Value.value + '=' + input2Value.value + '</p>' 
 }
 
