@@ -123,7 +123,11 @@ function hystoryDirect() {
 
   input1Select= localStorage.getItem('valueSelectTwo')
 
-  input1Select= localStorage.getItem('valueSelectTwo')
+  input2Select= localStorage.getItem('valueSelectTwo')
+
+  inputselect1= input1Select.toUpperCase()
+
+  inputselect2= input2Select.toUpperCase()
 
   history.innerHTML += '<p>' + input1Value.value + '=' + input2Value.value + '</p>' 
 }
