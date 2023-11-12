@@ -137,8 +137,8 @@ function hystoryDirect() {
 
   inputvl20 = Math.round(inputvl2)
 
-  history.innerHTML += '<p>' + inputvl10 + ' ' + inputselect1 + 
-  ' = ' + inputvl20 + ' ' + inputselect2 + '</p>'
+  history.innerHTML += '<p>' + inputvl10 + ' ' + '<span class ="divisesNames">' + inputselect1 + '</span>' + 
+  ' = ' + inputvl20 + ' ' +'<span class ="divisesNames">' + inputselect2 + '</span>' + '</p>'
 }
 
 
