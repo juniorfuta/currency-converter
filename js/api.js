@@ -34,9 +34,21 @@ async function currenciesNames() {
 
   const currenciesnames = Object.values(currenciesNameObject)
 
-  currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
+  let getCurrentLanguage= localStorage.getItem ("locale")
 
-  currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
+  if (getCurrentLanguage==="en"){
+
+    currencyList1.innerHTML = '<option id="select1" value="">Select your currency</option>'
+
+    currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
+
+  } else if (getCurrentLanguage==="pt") {
+
+    currencyList1.innerHTML = '<option id="select1" value="">Selecione a moeda</option>'
+
+    currencyList2.innerHTML = '<option id="select2" value="">Select your currency</option>'
+
+  }
 
   for (let i = 0; i < 537; i++) {
 
@@ -98,10 +110,10 @@ async function convertion() {
   userchoice_two.addEventListener("change", recoverInput1)
 }
 
-function hystoryDirect() {
+// function hystoryDirect() {
 
-  history.innerHTML += '<p>""</p>'   
-}
+//   history.innerHTML +="<p>"input1Value.value"</p>"  
+// }
 
 convertion()
 
