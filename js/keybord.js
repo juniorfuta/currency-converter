@@ -140,5 +140,7 @@ function backSpace() {
 
     input2.value = number
 
+    generateInputTwoEvent()
+
   }
 }
