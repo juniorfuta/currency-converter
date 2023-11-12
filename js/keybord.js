@@ -70,6 +70,8 @@ function writeInput(value) {
 
     input1.value = newValue
 
+    generateInputOneEvent()
+
   } else {
 
     const currentValue = input2.value
@@ -77,6 +79,8 @@ function writeInput(value) {
     const newValue = currentValue + value
 
     input2.value = newValue
+
+    generateInputTwoEvent()
   }
 }
 
