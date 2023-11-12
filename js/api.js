@@ -50,7 +50,7 @@ async function currenciesNames() {
 
   } else {
 
-    currencyList1.innerHTML = '<option id="select1" value="">Veuillez Selectioner la Disvise</option>'
+    currencyList1.innerHTML = '<option id="select1" value="">Veuillez Selectioner la Divise</option>'
 
     currencyList2.innerHTML = '<option id="select2" value="">Veuillez Selectioner la Disvise</option>'
   }
