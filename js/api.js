@@ -121,7 +121,7 @@ async function convertion() {
 
 function hystoryDirect() {
 
-  input1Select = localStorage.getItem('valueSelectTwo')
+  input1Select = localStorage.getItem('valueSelectOne')
 
   input2Select = localStorage.getItem('valueSelectTwo')
 
@@ -129,7 +129,7 @@ function hystoryDirect() {
 
   inputselect2 = input2Select.toUpperCase()
 
-  history.innerHTML += '<p>' + inputselect1 +' '+ input1Value.value + ' = ' + inputselect2 +' '+ input2Value.value + '</p>'
+  history.innerHTML += '<p>' + input1Value.value + ' ' + inputselect1 + ' = ' + inputselect2 + ' ' + input2Value.value + '</p>'
 }
 
 
