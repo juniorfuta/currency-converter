@@ -320,6 +320,11 @@ h3 {
     padding: 8px;
 }
 
+#historyContent p {
+    background-color: red;
+    text-align: center;
+}
+
 
 .profils-divises span {
     padding-top: 14px;
