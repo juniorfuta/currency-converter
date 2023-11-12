@@ -34,7 +34,7 @@ function getInput() {
   return currentSide
 }
 
-function generateInputEvent() {
+function generateInputOneEvent() {
 
   var inputEvent = new Event('input', {
     bubbles: true,
@@ -58,8 +58,6 @@ function writeInput(value) {
 
     input1.value = newValue
 
-    generateInputEvent()
-
   } else {
 
     const currentValue = input2.value
@@ -67,8 +65,6 @@ function writeInput(value) {
     const newValue = currentValue + value
 
     input2.value = newValue
-
-    generateInputEvent()
   }
 }
 
