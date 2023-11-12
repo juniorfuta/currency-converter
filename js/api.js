@@ -92,6 +92,10 @@ async function convertion() {
 
     const userchoiceValue2 = userchoice_two.value
 
+    let value1storage = localStorage.setItem("valueSelectOne", userchoiceValue1)
+
+    let value2storage = localStorage.setItem("valueSelectTwo", userchoiceValue2)
+
     let rate_input1 = ratesCurrencies[userchoiceValue1]
 
     let rate_input2 = ratesCurrencies[userchoiceValue2]
@@ -117,7 +121,21 @@ async function convertion() {
 
 function hystoryDirect() {
 
-  history.innerHTML += '<p>' + input1Value.value + '=' + input2Value.value + '</p>' 
+  input1Select = localStorage.getItem('valueSelectOne')
+
+  input2Select = localStorage.getItem('valueSelectTwo')
+
+  inputselect1 = input1Select.toUpperCase()
+
+  inputselect2 = input2Select.toUpperCase()
+
+  inputvl1 = input1Value.value
+
+  inputvl2 = input2Value.value
+
+  // history.innerHTML += '<p>' + inputvl1.toFixed(2) + ' ' + inputselect1 +
+
+  //   ' = ' + inputvl2.toFixed(2) + ' ' + inputselect2 + '</p>'
 }
 
 

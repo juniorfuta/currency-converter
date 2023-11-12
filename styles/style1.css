@@ -320,6 +320,19 @@ h3 {
     padding: 8px;
 }
 
+#historyContent{
+    width: 50%;
+}
+
+#historyContent p {
+    border: 1px solid;
+    border-color: var(--historyBorderColor); 
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
 
 .profils-divises span {
     padding-top: 14px;
