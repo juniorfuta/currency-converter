@@ -34,6 +34,18 @@ function getInput() {
   return currentSide
 }
 
+function generateInputEvent() {
+
+  var inputEvent = new Event('input', {
+    bubbles: true,  
+    cancelable: true 
+  });
+  
+  var inputElement = document.getElementById('input1');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
 function writeInput(value) {
 
   const nameInput = getInput()
@@ -97,7 +109,7 @@ function backSpace() {
 
     convertToArray[getTheLastTermIndex] = ''
 
-    number = convertToArray.join('') 
+    number = convertToArray.join('')
 
     input1.value = number
 
