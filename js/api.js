@@ -5,6 +5,8 @@
 
 //Integrating API
 
+clearLocalStorage()
+
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
@@ -133,14 +135,27 @@ function hystoryDirect() {
 
   inputvl10 = Math.round(inputvl1)
 
+  inputvl100=  inputvl10.toLocaleString()
+
   inputvl2 = input2Value.value
 
   inputvl20 = Math.round(inputvl2)
 
-  history.innerHTML += '<p>' + inputvl10 + ' ' + inputselect1 + 
-  ' = ' + inputvl20 + ' ' + inputselect2 + '</p>'
+  inputvl200=  inputvl20.toLocaleString()
+
+  if (input1Select != '' && input2Select != '') {
+    history.innerHTML += '<p>' + inputvl100 + ' ' + '<span class ="divisesNames">' + inputselect1 + '</span>' +
+      ' = ' + inputvl200 + ' ' + '<span class ="divisesNames">' + inputselect2 + '</span>' + '</p>'
+  }
+
 }
 
+function clearLocalStorage() {
+
+  const value1storage = localStorage.setItem("valueSelectOne", '')
+
+  const value2storage = localStorage.setItem("valueSelectTwo", '')
+}
 
 convertion()
 
