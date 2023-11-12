@@ -37,10 +37,10 @@ function getInput() {
 function generateInputEvent() {
 
   var inputEvent = new Event('input', {
-    bubbles: true,  
-    cancelable: true 
+    bubbles: true,
+    cancelable: true
   });
-  
+
   var inputElement = document.getElementById('input1');
 
   inputElement.dispatchEvent(inputEvent);
@@ -57,6 +57,8 @@ function writeInput(value) {
     const newValue = currentValue + value
 
     input1.value = newValue
+
+    generateInputEvent()
 
   } else {
 
