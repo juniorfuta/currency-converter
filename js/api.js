@@ -131,11 +131,14 @@ function hystoryDirect() {
 
   inputvl1 = input1Value.value
 
+  inputvl10 = Math.round(inputvl1)
+
   inputvl2 = input2Value.value
 
-  // history.innerHTML += '<p>' + inputvl1.toFixed(2) + ' ' + inputselect1 +
+  inputvl20 = Math.round(inputvl2)
 
-  //   ' = ' + inputvl2.toFixed(2) + ' ' + inputselect2 + '</p>'
+  history.innerHTML += '<p>' + inputvl10 + ' ' + inputselect1 + 
+  ' = ' + inputvl20 + ' ' + inputselect2 + '</p>'
 }
 
 
