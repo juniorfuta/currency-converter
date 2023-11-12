@@ -66,5 +66,7 @@ Things to do:
 
  #TODO: improve the translation of "select your currency"  #SOLVED #DONE 11/11/2023
 
-#TODO: Function copy History
+ #TODO: Function copy History
+
+ #TODO: generate an erreor message when user input numbers without select the currencies 
 
