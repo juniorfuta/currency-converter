@@ -139,7 +139,7 @@ function hystoryDirect() {
 
   inputvl20 = Math.round(inputvl2)
 
-  if (input1Select !='' && input1Select !='' ){
+  if (input1Select !='' && input2Select !='' ){
     history.innerHTML += '<p>' + inputvl10 + ' ' + '<span class ="divisesNames">' + inputselect1 + '</span>' + 
     ' = ' + inputvl20 + ' ' +'<span class ="divisesNames">' + inputselect2 + '</span>' + '</p>'
   }
