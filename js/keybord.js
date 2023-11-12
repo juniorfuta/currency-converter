@@ -41,17 +41,8 @@ function generateInputEvent() {
     cancelable: true
   });
 
-  const nameInput = getInput()
+  var inputElement = document.getElementById('input1');
 
-  if (nameInput === 'input1') {
-
-    var inputElement = document.getElementById('input1');
-
-  } else {
-
-    var inputElement = document.getElementById('input2');      
-  }
- 
   inputElement.dispatchEvent(inputEvent);
 }
 
