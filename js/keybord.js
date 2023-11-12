@@ -46,6 +46,18 @@ function generateInputOneEvent() {
   inputElement.dispatchEvent(inputEvent);
 }
 
+function generateInputOneEvent() {
+
+  var inputEvent = new Event('input', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('input1');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
 function writeInput(value) {
 
   const nameInput = getInput()
