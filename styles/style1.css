@@ -331,6 +331,7 @@ h3 {
     padding: 5px;
     text-align: center;
     font-size: 14px;
+    width: auto;
 }
 
 .divisesNames {
