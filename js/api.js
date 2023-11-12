@@ -115,10 +115,12 @@ async function convertion() {
   userchoice_two.addEventListener("change", recoverInput1)
 }
 
-// function hystoryDirect() {
+function hystoryDirect() {
 
-//   history.innerHTML +="<p>"input1Value.value"</p>"  
-// }
+  history.innerHTML += '<p>' + input1Value.value + '=' + input2Value.value + '</p>' 
+  
+}
+
 
 convertion()
 
