@@ -231,7 +231,7 @@ function translateEnglish() {
   bulagrianLevTranslate.innerHTML = "BGN-Bulgarian Lev"
   indianRupeTranslate.innerHTML = "INR-Indian Rupee"
   japaneseYenTranslate.innerHTML = "JPY-Japanese Yen"
-  newzealandDollarTranslate.innerHTML = "NZD-New Zealand Dollar"
+  newzealandDollarTranslate.innerHTML = "AOA-Angolan kwanza"
   russianDollarTranslate.innerHTML = "RUB-Russian Ruble"
   southAfricanRandTranslate.innerHTML = "ZAR-South African Rand"
   swissFrancTranalate.innerHTML = "CHF-Swiss Franc"
