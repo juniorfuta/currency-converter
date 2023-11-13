@@ -7,8 +7,6 @@
 
 clearLocalStorage()
 
-
-
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
@@ -94,7 +92,7 @@ async function currenciesNames() {
       ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
   }
-
+  keepUserCurrencyChoice()
 }
 
 currenciesNames()
@@ -116,7 +114,7 @@ async function convertion() {
 
   const ratesCurrencies = currenciesRatesObject.eur
 
-  function recoverInput1() {
+  function retriveRate() {
 
     const userchoiceValue1 = userchoice_one.value
 
@@ -149,8 +147,8 @@ async function convertion() {
     input1Value.addEventListener('input', input1ConversionHandler)
   }
 
-  userchoice_one.addEventListener("change", recoverInput1)
-  userchoice_two.addEventListener("change", recoverInput1)
+  userchoice_one.addEventListener("change", retriveRate)
+  userchoice_two.addEventListener("change", retriveRate)
 }
 
 function hystoryDirect() {
@@ -190,9 +188,9 @@ function clearLocalStorage() {
 
 function keepUserCurrencyChoice() {
 
-  let choice1 = localStorage.getItem("valueSelectOne");
+  let choice1 = localStorage.getItem("valueSelectOne")
 
-  let choice2 = localStorage.getItem("valueSelectTwo");
+  let choice2 = localStorage.getItem("valueSelectTwo")
 
   currencyList1.value = choice1
 
