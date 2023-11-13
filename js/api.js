@@ -7,6 +7,8 @@
 
 clearLocalStorage()
 
+
+
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
@@ -24,6 +26,19 @@ let input2Value = document.getElementById('input2')
 // Function to treate the name currencies 
 
 async function currenciesNames() {
+
+  keepUserCurrencyChoice
+  
+  function keepUserCurrencyChoice () {
+
+    let choice1 = localStorage.getItem("valueSelectOne");
+    
+    let choice2 = localStorage.getItem("valueSelectTwo");
+    
+    currencyList1.value = choice1
+    
+    currencyList2.value = choice2
+    }
 
   const currencisJSON = await fetch(API_CURRENCIES_URL)
 
@@ -92,9 +107,12 @@ currencyList2.innerHTML += '<option id="' + currenciesISOcodes[23] +
       ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
   }
+
 }
 
 currenciesNames()
+
+
 
 async function convertion() {
 
@@ -121,6 +139,10 @@ async function convertion() {
     let value1storage = localStorage.setItem("valueSelectOne", userchoiceValue1)
 
     let value2storage = localStorage.setItem("valueSelectTwo", userchoiceValue2)
+
+    let value10storage = localStorage.setItem("valueSelectOne0", userchoiceValue1)
+
+    let value20storage = localStorage.setItem("valueSelectTwo0", userchoiceValue2)
 
     let rate_input1 = ratesCurrencies[userchoiceValue1]
 
@@ -178,6 +200,17 @@ function clearLocalStorage() {
   const value1storage = localStorage.setItem("valueSelectOne", '')
 
   const value2storage = localStorage.setItem("valueSelectTwo", '')
+}
+
+function keepUserCurrencyChoice () {
+
+let choice1 = localStorage.getItem("valueSelectOne");
+
+let choice2 = localStorage.getItem("valueSelectTwo");
+
+currencyList1.value = choice1
+
+currencyList2.value = choice2
 }
 
 convertion()
