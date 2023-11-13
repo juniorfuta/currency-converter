@@ -116,7 +116,7 @@ async function convertion() {
 
   const ratesCurrencies = currenciesRatesObject.eur
 
-  function recoverInput1() {
+  function retriveRate() {
 
     const userchoiceValue1 = userchoice_one.value
 
@@ -149,8 +149,8 @@ async function convertion() {
     input1Value.addEventListener('input', input1ConversionHandler)
   }
 
-  userchoice_one.addEventListener("change", recoverInput1)
-  userchoice_two.addEventListener("change", recoverInput1)
+  userchoice_one.addEventListener("change", retriveRate)
+  userchoice_two.addEventListener("change", retriveRate)
 }
 
 function hystoryDirect() {
