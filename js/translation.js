@@ -79,7 +79,7 @@ function translatePortuguese() {
   bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgariano"
   indianRupeTranslate.innerHTML = "INR-Rupia Indiana"
   japaneseYenTranslate.innerHTML = "JPY-Yen Japonês"
-  newzealandDollarTranslate.innerHTML = "NZD-Dólar da Nova Zelândia"
+  newzealandDollarTranslate.innerHTML = "AOA-Kwanza Angolano"
   russianDollarTranslate.innerHTML = "RUB-Rublo Russo"
   southAfricanRandTranslate.innerHTML = "ZAR-Rand Sul-Africano"
   swissFrancTranalate.innerHTML = "CHF-Franco Suíço"
@@ -155,7 +155,7 @@ function translateFrench() {
   bulagrianLevTranslate.innerHTML = "BGN=Lev Bulgarian"
   indianRupeTranslate.innerHTML = "INR-Rupie Indienne"
   japaneseYenTranslate.innerHTML = "JPY-Yen Japonais"
-  newzealandDollarTranslate.innerHTML = "NZD-Dollar Néo-Zélandais"
+  newzealandDollarTranslate.innerHTML = "AOA-Kwanza Angolais"
   russianDollarTranslate.innerHTML = "RUB-Rouble Russe"
   southAfricanRandTranslate.innerHTML = "ZAR-Rand Sud-Africain"
   swissFrancTranalate.innerHTML = "CHF-Franc Suisse"
@@ -231,7 +231,7 @@ function translateEnglish() {
   bulagrianLevTranslate.innerHTML = "BGN-Bulgarian Lev"
   indianRupeTranslate.innerHTML = "INR-Indian Rupee"
   japaneseYenTranslate.innerHTML = "JPY-Japanese Yen"
-  newzealandDollarTranslate.innerHTML = "NZD-New Zealand Dollar"
+  newzealandDollarTranslate.innerHTML = "AOA-Angolan kwanza"
   russianDollarTranslate.innerHTML = "RUB-Russian Ruble"
   southAfricanRandTranslate.innerHTML = "ZAR-South African Rand"
   swissFrancTranalate.innerHTML = "CHF-Swiss Franc"
@@ -250,6 +250,7 @@ function translateEnglish() {
   aboutcontainerTranslate.innerHTML = "PalancaTech's currency converter allows you to check the latest average bid/ask exchange rates and convert all major world currencies. PalancaTech Rates are compiled exchange rates from major market data sources"
   buttongenerate.innerHTML = "Generate History"
   buttoncopyhistory.innerHTML = "Copy History"
+
 
   if (aboutUsPageTranslate) {
     aboutUsPageTranslate.innerHTML = "About Us"

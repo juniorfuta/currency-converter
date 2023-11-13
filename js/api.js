@@ -7,6 +7,8 @@
 
 clearLocalStorage()
 
+
+
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
@@ -57,6 +59,30 @@ async function currenciesNames() {
     currencyList2.innerHTML = '<option id="select2" value="">Veuillez Selectioner la Divise</option>'
   }
 
+  currencyList1.innerHTML += '<option id="' + currenciesISOcodes[23] +
+    '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
+    ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
+
+  currencyList1.innerHTML += '<option id="' + currenciesISOcodes[153] +
+    '"' + ' value="' + currenciesISOcodes[153] + '">' + currenciesnames[153] +
+    ' (' + currenciesISOcodes[153].toUpperCase() + ')' + '</option>'
+
+  currencyList1.innerHTML += '<option id="' + currenciesISOcodes[474] +
+    '"' + ' value="' + currenciesISOcodes[474] + '">' + currenciesnames[474] +
+    ' (' + currenciesISOcodes[474].toUpperCase() + ')' + '</option>'
+
+  currencyList2.innerHTML += '<option id="' + currenciesISOcodes[23] +
+    '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
+    ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
+
+  currencyList2.innerHTML += '<option id="' + currenciesISOcodes[153] +
+    '"' + ' value="' + currenciesISOcodes[153] + '">' + currenciesnames[153] +
+    ' (' + currenciesISOcodes[153].toUpperCase() + ')' + '</option>'
+
+  currencyList2.innerHTML += '<option id="' + currenciesISOcodes[474] +
+    '"' + ' value="' + currenciesISOcodes[474] + '">' + currenciesnames[474] +
+    ' (' + currenciesISOcodes[474].toUpperCase() + ')' + '</option>'
+
   for (let i = 0; i < 537; i++) {
 
     currencyList1.innerHTML += '<option id="' + currenciesISOcodes[i] +
@@ -68,9 +94,11 @@ async function currenciesNames() {
       ' (' + currenciesISOcodes[i].toUpperCase() + ')' + '</option>'
 
   }
+
 }
 
 currenciesNames()
+
 
 async function convertion() {
 
@@ -97,6 +125,10 @@ async function convertion() {
     let value1storage = localStorage.setItem("valueSelectOne", userchoiceValue1)
 
     let value2storage = localStorage.setItem("valueSelectTwo", userchoiceValue2)
+
+    let value10storage = localStorage.setItem("valueSelectOne0", userchoiceValue1)
+
+    let value20storage = localStorage.setItem("valueSelectTwo0", userchoiceValue2)
 
     let rate_input1 = ratesCurrencies[userchoiceValue1]
 
@@ -154,6 +186,17 @@ function clearLocalStorage() {
   const value1storage = localStorage.setItem("valueSelectOne", '')
 
   const value2storage = localStorage.setItem("valueSelectTwo", '')
+}
+
+function keepUserCurrencyChoice() {
+
+  let choice1 = localStorage.getItem("valueSelectOne");
+
+  let choice2 = localStorage.getItem("valueSelectTwo");
+
+  currencyList1.value = choice1
+
+  currencyList2.value = choice2
 }
 
 convertion()
