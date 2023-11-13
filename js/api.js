@@ -28,17 +28,17 @@ let input2Value = document.getElementById('input2')
 async function currenciesNames() {
 
   keepUserCurrencyChoice
-  
-  function keepUserCurrencyChoice () {
+
+  function keepUserCurrencyChoice() {
 
     let choice1 = localStorage.getItem("valueSelectOne");
-    
+
     let choice2 = localStorage.getItem("valueSelectTwo");
-    
+
     currencyList1.value = choice1
-    
+
     currencyList2.value = choice2
-    }
+  }
 
   const currencisJSON = await fetch(API_CURRENCIES_URL)
 
@@ -73,28 +73,28 @@ async function currenciesNames() {
   }
 
   currencyList1.innerHTML += '<option id="' + currenciesISOcodes[23] +
-  '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
-  ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
+    '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
+    ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
 
   currencyList1.innerHTML += '<option id="' + currenciesISOcodes[153] +
-  '"' + ' value="' + currenciesISOcodes[153] + '">' + currenciesnames[153] +
-  ' (' + currenciesISOcodes[153].toUpperCase() + ')' + '</option>'
+    '"' + ' value="' + currenciesISOcodes[153] + '">' + currenciesnames[153] +
+    ' (' + currenciesISOcodes[153].toUpperCase() + ')' + '</option>'
 
   currencyList1.innerHTML += '<option id="' + currenciesISOcodes[474] +
-  '"' + ' value="' + currenciesISOcodes[474] + '">' + currenciesnames[474] +
-  ' (' + currenciesISOcodes[474].toUpperCase() + ')' + '</option>'
+    '"' + ' value="' + currenciesISOcodes[474] + '">' + currenciesnames[474] +
+    ' (' + currenciesISOcodes[474].toUpperCase() + ')' + '</option>'
 
-currencyList2.innerHTML += '<option id="' + currenciesISOcodes[23] +
-  '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
-  ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
+  currencyList2.innerHTML += '<option id="' + currenciesISOcodes[23] +
+    '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
+    ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
 
   currencyList2.innerHTML += '<option id="' + currenciesISOcodes[153] +
-  '"' + ' value="' + currenciesISOcodes[153] + '">' + currenciesnames[153] +
-  ' (' + currenciesISOcodes[153].toUpperCase() + ')' + '</option>'
+    '"' + ' value="' + currenciesISOcodes[153] + '">' + currenciesnames[153] +
+    ' (' + currenciesISOcodes[153].toUpperCase() + ')' + '</option>'
 
   currencyList2.innerHTML += '<option id="' + currenciesISOcodes[474] +
-  '"' + ' value="' + currenciesISOcodes[474] + '">' + currenciesnames[474] +
-  ' (' + currenciesISOcodes[474].toUpperCase() + ')' + '</option>'
+    '"' + ' value="' + currenciesISOcodes[474] + '">' + currenciesnames[474] +
+    ' (' + currenciesISOcodes[474].toUpperCase() + ')' + '</option>'
 
   for (let i = 0; i < 537; i++) {
 
@@ -202,15 +202,15 @@ function clearLocalStorage() {
   const value2storage = localStorage.setItem("valueSelectTwo", '')
 }
 
-function keepUserCurrencyChoice () {
+function keepUserCurrencyChoice() {
 
-let choice1 = localStorage.getItem("valueSelectOne");
+  let choice1 = localStorage.getItem("valueSelectOne");
 
-let choice2 = localStorage.getItem("valueSelectTwo");
+  let choice2 = localStorage.getItem("valueSelectTwo");
 
-currencyList1.value = choice1
+  currencyList1.value = choice1
 
-currencyList2.value = choice2
+  currencyList2.value = choice2
 }
 
 convertion()
