@@ -57,6 +57,18 @@ async function currenciesNames() {
     currencyList2.innerHTML = '<option id="select2" value="">Veuillez Selectioner la Divise</option>'
   }
 
+  currencyList1.innerHTML += '<option id="' + currenciesISOcodes[23] +
+  '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
+  ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
+
+  currencyList1.innerHTML += '<option id="' + currenciesISOcodes[100] +
+  '"' + ' value="' + currenciesISOcodes[100] + '">' + currenciesnames[100] +
+  ' (' + currenciesISOcodes[100].toUpperCase() + ')' + '</option>'
+
+currencyList2.innerHTML += '<option id="' + currenciesISOcodes[23] +
+  '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
+  ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
+
   for (let i = 0; i < 537; i++) {
 
     currencyList1.innerHTML += '<option id="' + currenciesISOcodes[i] +
