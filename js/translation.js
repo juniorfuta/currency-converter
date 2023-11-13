@@ -251,6 +251,7 @@ function translateEnglish() {
   buttongenerate.innerHTML = "Generate History"
   buttoncopyhistory.innerHTML = "Copy History"
 
+
   if (aboutUsPageTranslate) {
     aboutUsPageTranslate.innerHTML = "About Us"
   }
