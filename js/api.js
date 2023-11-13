@@ -73,6 +73,14 @@ currencyList2.innerHTML += '<option id="' + currenciesISOcodes[23] +
   '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
   ' (' + currenciesISOcodes[23].toUpperCase() + ')' + '</option>'
 
+  currencyList2.innerHTML += '<option id="' + currenciesISOcodes[153] +
+  '"' + ' value="' + currenciesISOcodes[153] + '">' + currenciesnames[153] +
+  ' (' + currenciesISOcodes[153].toUpperCase() + ')' + '</option>'
+
+  currencyList2.innerHTML += '<option id="' + currenciesISOcodes[474] +
+  '"' + ' value="' + currenciesISOcodes[474] + '">' + currenciesnames[474] +
+  ' (' + currenciesISOcodes[474].toUpperCase() + ')' + '</option>'
+
   for (let i = 0; i < 537; i++) {
 
     currencyList1.innerHTML += '<option id="' + currenciesISOcodes[i] +
