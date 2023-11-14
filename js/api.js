@@ -7,6 +7,29 @@
 
 clearLocalStorage()
 
+function generateInputOneEvent() {
+
+  var inputEvent = new Event('change', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('select--1');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
+function generateInputTwoEvent() {
+
+  var inputEvent = new Event('change', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('select--2');
+
+  inputElement.dispatchEvent(inputEvent);
+}
 
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
@@ -97,8 +120,6 @@ async function currenciesNames() {
 }
 
 currenciesNames()
-
-
 
 
 async function convertion() {
