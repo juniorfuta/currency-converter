@@ -191,9 +191,13 @@ function clearLocalStorage() {
 
 function keepUserCurrencyChoice() {
 
-  let choice1 = localStorage.getItem("valueSelectOne")
+  let choice1 = localStorage.getItem('valueSelectOne0')
 
-  let  choice2 = localStorage.getItem("valueSelectTwo")
+  let  choice2 = localStorage.getItem('valueSelectTwo0')
+
+  console.log(choice1)
+
+  console.log(choice2)
 
   currencyList1.value = choice1
 
