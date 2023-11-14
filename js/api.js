@@ -189,6 +189,19 @@ function clearLocalStorage() {
   const value2storage = localStorage.setItem("valueSelectTwo", '')
 }
 
+
+function generateInputOneEvent() {
+
+  var inputEvent = new Event('change', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('select--1');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
 function keepUserCurrencyChoice() {
 
   let choice1 = localStorage.getItem('valueSelectOne0')
@@ -199,6 +212,8 @@ function keepUserCurrencyChoice() {
 
   currencyList2.value = choice2
 }
+
+
 
 convertion()
 
