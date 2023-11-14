@@ -202,7 +202,7 @@ function generateInputOneEvent() {
   inputElement.dispatchEvent(inputEvent);
 }
 
-function generateInputOneEvent() {
+function generateInputTwoEvent() {
 
   var inputEvent = new Event('change', {
     bubbles: true,
