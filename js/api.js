@@ -202,6 +202,18 @@ function generateInputOneEvent() {
   inputElement.dispatchEvent(inputEvent);
 }
 
+function generateInputOneEvent() {
+
+  var inputEvent = new Event('change', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('select--2');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
 function keepUserCurrencyChoice() {
 
   let choice1 = localStorage.getItem('valueSelectOne0')
