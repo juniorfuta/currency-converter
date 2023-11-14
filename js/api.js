@@ -195,10 +195,6 @@ function keepUserCurrencyChoice() {
 
   let  choice2 = localStorage.getItem('valueSelectTwo0')
 
-  console.log(choice1)
-
-  console.log(choice2)
-
   currencyList1.value = choice1
 
   currencyList2.value = choice2
