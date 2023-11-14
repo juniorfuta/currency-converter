@@ -225,6 +225,8 @@ function keepUserCurrencyChoice() {
   currencyList2.value = choice2
 
   generateInputOneEvent()
+
+  generateInputTwoEvent()
 }
 
 
