@@ -96,7 +96,7 @@ function writeInput(value) {
     input1.value = newValue
 
     generateInputOneEvent()
-    // generateInputO()
+    generateInputO()
 
   } else {
 
@@ -107,7 +107,7 @@ function writeInput(value) {
     input2.value = newValue
 
     generateInputTwoEvent()
-    // generateInput1()
+    generateInput1()
   }
 }
 
