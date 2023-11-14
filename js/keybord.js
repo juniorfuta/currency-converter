@@ -58,6 +58,31 @@ function generateInputTwoEvent() {
   inputElement.dispatchEvent(inputEvent);
 }
 
+
+function generateInputO() {
+
+  var inputEvent = new Event('change', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('select--1');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
+function generateInput1() {
+
+  var inputEvent = new Event('change', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('select--2');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
 function writeInput(value) {
 
   const nameInput = getInput()
@@ -71,6 +96,7 @@ function writeInput(value) {
     input1.value = newValue
 
     generateInputOneEvent()
+    generateInputO()
 
   } else {
 
@@ -81,6 +107,7 @@ function writeInput(value) {
     input2.value = newValue
 
     generateInputTwoEvent()
+    generateInput1()
   }
 }
 

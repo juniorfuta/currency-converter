@@ -7,6 +7,7 @@
 
 clearLocalStorage()
 
+
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
@@ -186,16 +187,44 @@ function clearLocalStorage() {
   const value2storage = localStorage.setItem("valueSelectTwo", '')
 }
 
+
+function generateInputO() {
+
+  var inputEvent = new Event('change', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('select--1');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
+function generateInput1() {
+
+  var inputEvent = new Event('change', {
+    bubbles: true,
+    cancelable: true
+  });
+
+  var inputElement = document.getElementById('select--2');
+
+  inputElement.dispatchEvent(inputEvent);
+}
+
 function keepUserCurrencyChoice() {
 
-  let choice1 = localStorage.getItem("valueSelectOne")
+  let choice1 = localStorage.getItem('valueSelectOne0')
 
-  let choice2 = localStorage.getItem("valueSelectTwo")
+  let  choice2 = localStorage.getItem('valueSelectTwo0')
 
   currencyList1.value = choice1
 
   currencyList2.value = choice2
+
 }
+
+
 
 convertion()
 
