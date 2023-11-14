@@ -7,6 +7,7 @@
 
 clearLocalStorage()
 
+
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
 
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
@@ -96,6 +97,8 @@ async function currenciesNames() {
 }
 
 currenciesNames()
+
+
 
 
 async function convertion() {
@@ -190,7 +193,7 @@ function keepUserCurrencyChoice() {
 
   let choice1 = localStorage.getItem("valueSelectOne")
 
-  let choice2 = localStorage.getItem("valueSelectTwo")
+  let  choice2 = localStorage.getItem("valueSelectTwo")
 
   currencyList1.value = choice1
 
