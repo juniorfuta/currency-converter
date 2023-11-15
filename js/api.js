@@ -218,9 +218,12 @@ function keepUserCurrencyChoice() {
 
   let  choice2 = localStorage.getItem('valueSelectTwo0')
 
-  currencyList1.value = choice1
+  if(choice1!='' && choice2!=''){
 
-  currencyList2.value = choice2
+    currencyList1.value = choice1
+
+    currencyList2.value = choice2
+  }
 
 }
 
