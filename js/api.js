@@ -223,7 +223,6 @@ function keepUserCurrencyChoice() {
     currencyList1.value = choice1
 
     currencyList2.value = choice2
-  
   }
 
 }
