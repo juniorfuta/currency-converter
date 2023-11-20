@@ -310,8 +310,6 @@ function PolicyTranslate(language) {
   let concentHeadingTranslate = document.getElementById("concentHeading");
   let concentContentTranslate = document.getElementById("consentPolicyContent");
 
-  //iconButtonCopy=document.getElementById("i2");
-
   if (language === "pt") {
     policyHeadingTranslate.innerHTML = "Políticas de Privacidade"
     cookiesContentTranslate.innerHTML = "No nosso website não recolhemos quaisquer dados pessoais apenas ideias do que procura."
