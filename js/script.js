@@ -85,8 +85,6 @@ function changeIcon(x) {
 
 }
 
-//function to count the clicks and open the sidenav
-
 let clickCounter = 0;
 
 let button = document.getElementById("container");
