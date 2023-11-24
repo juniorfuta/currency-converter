@@ -116,8 +116,3 @@ function deleteLastElement() {
   let currentValue = document.getElementById('input1').value;
   console.log(currentValue);
 }
-
-/*!
- * Copyright © 2023  PalacancaTechnologies as represented by Júnior FUTA
- * All Rights Reserved.
- */
