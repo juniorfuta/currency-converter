@@ -13,8 +13,6 @@ let input1Value = document.getElementById('input1')
 
 let input2Value = document.getElementById('input2')
 
-currenciesNames()
-
 async function convertion() {
 
   const currencisJSON = await fetch(API_RATES_URL)
@@ -122,21 +120,6 @@ function generateInput1() {
   var inputElement = document.getElementById('select--2');
 
   inputElement.dispatchEvent(inputEvent);
-}
-
-function keepUserCurrencyChoice() {
-
-  let choice1 = localStorage.getItem('valueSelectOne0')
-
-  let  choice2 = localStorage.getItem('valueSelectTwo0')
-
-  if(choice1!='' && choice2!=''){
-
-    currencyList1.value = choice1
-
-    currencyList2.value = choice2
-  }
-
 }
 
 convertion()
