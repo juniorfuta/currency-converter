@@ -57,6 +57,7 @@ function validateInput2() {
   let x = document.getElementById("input2").value
  
   let warnigText = document.getElementById("output2");
+  
   if (isNaN(x)) {
 
     warnigText.innerHTML = "Invalid format. Please enter a number";
