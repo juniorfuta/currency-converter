@@ -69,3 +69,5 @@ Things to do:
  #TODO: Function copy History
 
  #TODO: generate an error message when user input numbers without select the currencies 
+
+ #TODO:translate the message error input
