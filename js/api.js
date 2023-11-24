@@ -15,10 +15,7 @@ let input2Value = document.getElementById('input2')
 
 currenciesNames()
 
-
 async function convertion() {
-
-  //Recovering currencies Rates
 
   const currencisJSON = await fetch(API_RATES_URL)
 
