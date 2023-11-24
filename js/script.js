@@ -109,9 +109,6 @@ button.addEventListener("click", function () {
   }
 });
 
-
-//Function delete
-
 function deleteLastElement() {
   let currentValue = document.getElementById('input1').value;
   console.log(currentValue);
