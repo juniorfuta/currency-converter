@@ -1,3 +1,7 @@
+/*
+ * Copyright © 2023  PalacancaTechnologies as represented by Júnior FUTA
+ * All Rights Reserved.
+*/
 const API_CURRENCIES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json'
 
 let currencyList1 = document.getElementById('select--1')
