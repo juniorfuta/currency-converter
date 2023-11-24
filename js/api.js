@@ -1,4 +1,4 @@
-/*!
+/*
  * Copyright © 2023  PalacancaTechnologies as represented by Júnior FUTA
  * All Rights Reserved.
 */
