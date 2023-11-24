@@ -3,12 +3,15 @@
  * All Rights Reserved.
  */
 
-//Integrating API
-
 clearLocalStorage()
 
-
 const API_RATES_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json'
+
+let history = document.getElementById('historyContent')
+
+let input1Value = document.getElementById('input1')
+
+let input2Value = document.getElementById('input2')
 
 currenciesNames()
 
