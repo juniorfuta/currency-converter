@@ -4,7 +4,6 @@ let currencyList1 = document.getElementById('select--1')
 
 let currencyList2 = document.getElementById('select--2')
 
-
 async function fillSelectorHandler() {
 
   const currencisJSON = await fetch(API_CURRENCIES_URL)
