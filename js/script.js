@@ -29,7 +29,7 @@ valueInput1.addEventListener('input', validateInput1);
 function validateInput1() {
 
   let x = document.getElementById("input1").value;
-  
+
   let warnigText = document.getElementById("output1");
 
   if (isNaN(x)) {
@@ -47,9 +47,9 @@ valueInput2 = document.getElementById('input2');
 valueInput2.addEventListener('input', validateInput2);
 
 function validateInput2() {
-  
+
   let x = document.getElementById("input2").value
- 
+
   let warnigText = document.getElementById("output2");
 
   if (isNaN(x)) {
