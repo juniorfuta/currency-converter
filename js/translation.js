@@ -8,7 +8,6 @@
 resetLanguge();
 
 function resetLocalStorage() {
-  
   localStorage.setItem("locale", "en")
 }
 
