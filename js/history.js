@@ -1,3 +1,7 @@
+/*
+ * Copyright © 2023  PalacancaTechnologies as represented by Júnior FUTA
+ * All Rights Reserved.
+*/
 function hystoryHandler() {
 
   input1Select = localStorage.getItem('valueSelectOne')
