@@ -21,8 +21,6 @@ async function convertion() {
 
   const currenciesRatesObject = await currencisJSON.json()
 
-  //Recovering user's choice
-
   let userchoice_one = document.getElementById('select--1')
 
   let userchoice_two = document.getElementById('select--2')
