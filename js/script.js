@@ -3,12 +3,9 @@
  * All Rights Reserved.
  */
 
-//function to open the dropdown of languages 
-
 function dropdownOpenHandler() {
 
   document.getElementById("myDropdown").classList.toggle("show");
-
 }
 
 // function to close the dropdown of language if the user clicks outside of it
