@@ -11,14 +11,14 @@ let history = document.getElementById('historyContent')
 let input1Value = document.getElementById('input1')
 
 let input2Value = document.getElementById('input2')
- 
+
 
 async function fillSelectorHandler() {
 
   const currencisJSON = await fetch(API_CURRENCIES_URL)
 
   const currenciesNameObject = await currencisJSON.json()
- 
+
   const currenciesISOcodes = Object.getOwnPropertyNames(currenciesNameObject)
 
   const currenciesnames = Object.values(currenciesNameObject)
