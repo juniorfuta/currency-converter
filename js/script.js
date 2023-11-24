@@ -1,16 +1,12 @@
-/*!
+/*
  * Copyright © 2023  PalacancaTechnologies as represented by Júnior FUTA
  * All Rights Reserved.
- */
+*/
 
-//function to open the dropdown of languages 
-
-function myFunction() {
+function dropdownOpenHandler() {
 
   document.getElementById("myDropdown").classList.toggle("show");
-
 }
-
 
 // function to close the dropdown of language if the user clicks outside of it
 window.onclick = function (event) {
@@ -26,15 +22,14 @@ window.onclick = function (event) {
   }
 }
 
-//input number validation1
 valueInput1 = document.getElementById('input1');
 
 valueInput1.addEventListener('input', validateInput1);
 
 function validateInput1() {
-  // Get the value of the input field
+
   let x = document.getElementById("input1").value;
-  //test input
+
   let warnigText = document.getElementById("output1");
 
   if (isNaN(x)) {
@@ -47,16 +42,16 @@ function validateInput1() {
   }
 }
 
-//input number validation2
 valueInput2 = document.getElementById('input2');
 
 valueInput2.addEventListener('input', validateInput2);
 
 function validateInput2() {
-  // Get the value of the input field
+
   let x = document.getElementById("input2").value
-  //test input
+
   let warnigText = document.getElementById("output2");
+
   if (isNaN(x)) {
 
     warnigText.innerHTML = "Invalid format. Please enter a number";
@@ -85,8 +80,6 @@ function changeIcon(x) {
 
 }
 
-//function to count the clicks and open the sidenav
-
 let clickCounter = 0;
 
 let button = document.getElementById("container");
@@ -109,26 +102,7 @@ button.addEventListener("click", function () {
   }
 });
 
-
-
-
-//function for the button copy when clicked out 
-
-function changeButtonCopy() {
-
-}
-
-
-
-
-//Function delete
-
 function deleteLastElement() {
   let currentValue = document.getElementById('input1').value;
   console.log(currentValue);
 }
-
-/*!
- * Copyright © 2023  PalacancaTechnologies as represented by Júnior FUTA
- * All Rights Reserved.
- */
