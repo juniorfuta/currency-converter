@@ -110,17 +110,6 @@ button.addEventListener("click", function () {
 });
 
 
-
-
-//function for the button copy when clicked out 
-
-function changeButtonCopy() {
-
-}
-
-
-
-
 //Function delete
 
 function deleteLastElement() {
