@@ -74,3 +74,18 @@ async function fillSelectorHandler() {
 }
 
 fillSelectorHandler()
+
+
+function keepUserCurrencyChoice() {
+
+  let choice1 = localStorage.getItem('valueSelectOne0')
+
+  let  choice2 = localStorage.getItem('valueSelectTwo0')
+
+  if(choice1!='' && choice2!=''){
+
+    currencyList1.value = choice1
+
+    currencyList2.value = choice2
+  }
+}
