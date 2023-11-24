@@ -63,25 +63,11 @@ async function convertion() {
 }
 
 
-
 function clearLocalStorage() {
 
   const value1storage = localStorage.setItem("valueSelectOne", '')
 
   const value2storage = localStorage.setItem("valueSelectTwo", '')
-}
-
-
-function generateInputO() {
-
-  var inputEvent = new Event('change', {
-    bubbles: true,
-    cancelable: true
-  });
-
-  var inputElement = document.getElementById('select--1');
-
-  inputElement.dispatchEvent(inputEvent);
 }
 
 function generateInput1() {
