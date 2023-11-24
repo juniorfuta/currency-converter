@@ -55,7 +55,7 @@ valueInput2.addEventListener('input', validateInput2);
 function validateInput2() {
   // Get the value of the input field
   let x = document.getElementById("input2").value
-  //test input
+ 
   let warnigText = document.getElementById("output2");
   if (isNaN(x)) {
 
