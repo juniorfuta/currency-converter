@@ -62,24 +62,11 @@ async function convertion() {
   userchoice_two.addEventListener("change", retriveRate)
 }
 
-
 function clearLocalStorage() {
 
   const value1storage = localStorage.setItem("valueSelectOne", '')
 
   const value2storage = localStorage.setItem("valueSelectTwo", '')
-}
-
-function generateInput1() {
-
-  var inputEvent = new Event('change', {
-    bubbles: true,
-    cancelable: true
-  });
-
-  var inputElement = document.getElementById('select--2');
-
-  inputElement.dispatchEvent(inputEvent);
 }
 
 convertion()
