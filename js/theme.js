@@ -3,8 +3,6 @@
  * All Rights Reserved.
  */
 
-//Change background color 
-
 retrieveTheme(); 
 
 function setDarkTheme() {
