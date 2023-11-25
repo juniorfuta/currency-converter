@@ -277,8 +277,6 @@ function Translate(language) {
   }
 }
 
-
-
 function termsTranslate(language) {
 
   let termsHeadingTranslate = document.getElementById("termsHeading");
