@@ -276,4 +276,3 @@ function Translate(language) {
     localStorage.setItem("locale", "en")
   }
 }
-
