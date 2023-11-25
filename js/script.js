@@ -77,7 +77,6 @@ function closeNav() {
 function changeIcon(x) {
 
   x.classList.toggle("change");
-
 }
 
 let clickCounter = 0;
