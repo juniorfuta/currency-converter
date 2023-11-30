@@ -47,9 +47,9 @@ async function fillSelectorHandler() {
     '"' + ' value="' + currenciesISOcodes[153] + '">' + currenciesnames[153] +
     ' (' + currenciesISOcodes[153].toUpperCase() + ')' + '</option>'
 
-  currencyList1.innerHTML += '<option id="' + currenciesISOcodes[475] +
-    '"' + ' value="' + currenciesISOcodes[475] + '">' + currenciesnames[475] +
-    ' (' + currenciesISOcodes[475].toUpperCase() + ')' + '</option>'
+  currencyList1.innerHTML += '<option id="' + currenciesISOcodes[474] +
+    '"' + ' value="' + currenciesISOcodes[475] + '">' + currenciesnames[474] +
+    ' (' + currenciesISOcodes[474].toUpperCase() + ')' + '</option>'
 
   currencyList2.innerHTML += '<option id="' + currenciesISOcodes[23] +
     '"' + ' value="' + currenciesISOcodes[23] + '">' + currenciesnames[23] +
